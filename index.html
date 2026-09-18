@@ -188,6 +188,12 @@
     <div class="dir">
       <select id="selCiclo" aria-label="Ciclo"></select>
       <input type="search" id="busca" placeholder="buscar tarefa" aria-label="Buscar tarefa">
+      <select id="modoSetas" aria-label="Exibição das setas">
+        <option value="todas">setas: todas</option>
+        <option value="frente">setas: da liberação</option>
+        <option value="nenhuma">setas: nenhuma</option>
+      </select>
+      <button class="btn" id="modoColunas" title="Cada fase ocupa várias colunas ou uma só">Agrupar fases</button>
       <button class="btn" id="btnFit">Ajustar</button>
       <button class="btn" id="btnDados">Dados</button>
       <span class="atualizado" id="atualizado"></span>
@@ -2207,8 +2213,17 @@ const ST={
   "—":{f:"#e6eef1",b:"#95b2bf",w:1.3,t:"#395c6a",c:"#95b2bf"}
 };
 const PRONTO = s => s==="Concluído"||s==="Não se aplica";
+/* Progresso. A tarefa marcada como "não se aplica" sai da conta inteira:
+   não conta como feita nem como pendente, porque ela não existe naquela unidade. */
+function progresso(itens){
+  const base=itens.filter(n=>n.status!=="Não se aplica");
+  const feitas=base.filter(n=>n.status==="Concluído").length;
+  return {feitas, total:base.length, pc: base.length?Math.round(feitas/base.length*100):100};
+}
 
 let REGRAS=[], PAINEL=[], CICLOS=[], ciclo=null, G=null, sel=null, busca="";
+let colunasExpandidas=true;   // fases largas (várias colunas) ou empilhadas numa só
+let modoSetas="todas";        // todas | frente | nenhuma
 
 function indexar(){
   CICLOS=[];
@@ -2297,6 +2312,12 @@ function grafoDe(regras, status, extra){
   const colunas=[];
   fases.forEach((f,i)=>{
     const itens=regras.filter(r=>r.fase===f).map(r=>nos[r.tarefa]);
+    if(!colunasExpandidas){            // modo compacto: a fase inteira numa coluna só
+      colunas.push({rotulo:f,fase:f,tipo:"fase",itens});
+      const pts=Object.values(nos).filter(n=>n.tipo==="portao"&&n.ordem===i+0.5);
+      if(pts.length) colunas.push({rotulo:"",fase:f,tipo:"portao",itens:pts});
+      return;
+    }
     const dentro=new Set(itens.map(n=>n.id));
     const prof={};
     const calc=(id,caminho)=>{
@@ -2393,9 +2414,9 @@ function desenhar(){
     if(i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:G.H-4,rx:10,fill:"#eef7fb"},fundo);
     el("text",{x:f.x0,y:30,fill:"#28505f","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},fundo)
       .textContent=corta(f.rotulo.replace("Gravações · ",""),40);
-    const tf=f.itens.filter(n=>n.tipo==="tarefa");
+    const pr=progresso(f.itens.filter(n=>n.tipo==="tarefa"));
     el("text",{x:f.x1,y:30,"text-anchor":"end",fill:"#577b8a","font-family":"Archivo Narrow","font-size":"11.5"},fundo)
-      .textContent=tf.filter(n=>PRONTO(n.status)).length+"/"+tf.length;
+      .textContent=pr.feitas+"/"+pr.total;
   });
 
   G.arestas.forEach(([a,b])=>{
@@ -2427,6 +2448,15 @@ function desenhar(){
   pintar(); enquadrar();
 }
 
+/* "frente": só as setas que explicam o que está liberado agora — origem já pronta
+   (concluída ou não se aplica) e destino recém-liberado. */
+function setaDaFrente(g,a,b){
+  const B=g.nos[b];
+  if(!B||B.tipo!=="tarefa") return false;
+  if(B.status!=="Liberado"&&B.status!=="Em andamento") return false;
+  return prontoNo(g,a);
+}
+
 function combina(n){
   if(!busca) return true;
   const b=semAcento(busca);
@@ -2456,6 +2486,12 @@ function pintar(){
   cArestas.querySelectorAll("path").forEach(p=>{
     const de=p.dataset.de,para=p.dataset.para;
     let c="#9dc0d0",w=1.3,op=.9,mk="p",brilho=false;
+    const naCadeiaSel = sel && ((acima.has(de)||de===sel)&&(acima.has(para)||para===sel)
+                             || (abaixo.has(para)||para===sel)&&(abaixo.has(de)||de===sel));
+    if(!naCadeiaSel){
+      if(modoSetas==="nenhuma"){ p.setAttribute("opacity",0); p.removeAttribute("filter"); return; }
+      if(modoSetas==="frente" && !setaDaFrente(G,de,para)){ p.setAttribute("opacity",0); p.removeAttribute("filter"); return; }
+    }
     if(sel){
       const up=(acima.has(de)||de===sel)&&(acima.has(para)||para===sel);
       const dn=(abaixo.has(para)||para===sel)&&(abaixo.has(de)||de===sel);
@@ -2513,9 +2549,8 @@ function faixaFases(){
   const box=document.getElementById("faixaFases"); box.innerHTML="";
   G.faixas.forEach(f=>{
     const c={rotulo:f.rotulo, itens:f.itens.filter(n=>n.tipo==="tarefa")};
-    const prontas=c.itens.filter(n=>PRONTO(n.status)).length;
+    const pr=progresso(c.itens), pc=pr.pc;
     const lib=c.itens.filter(n=>n.status==="Liberado"||n.status==="Em andamento").length;
-    const pc=Math.round(prontas/Math.max(1,c.itens.length)*100);
     const b=document.createElement("button");
     b.className="fase-chip";
     b.innerHTML=`<span class="n">${c.rotulo}</span><span class="v">${pc}%${lib?` <span style="font-size:11px;color:var(--azul-medio);font-weight:600">· ${lib} livre${lib>1?"s":""}</span>`:""}</span>
@@ -2599,12 +2634,11 @@ function desenharMapa(){
     fases.forEach(f=>{
       const its=doC.filter(p=>(p.fase||faseDaTarefa(p.tarefa))===f);
       if(!its.length){ h+=`<td><span class="cel na"><span class="pc">—</span></span></td>`; return; }
-      const pr=its.filter(p=>PRONTO(p.status)).length;
+      const pg=progresso(its), pc=pg.pc;
       const lib=its.filter(p=>p.status==="Liberado"||p.status==="Em andamento").length;
-      const pc=Math.round(pr/its.length*100);
       const alpha=(pc/100*.66+.05).toFixed(2);
       h+=`<td><button class="cel" data-ciclo="${escapa(c.chave)}" style="background:rgba(8,168,126,${alpha})">
-          <span class="pc">${pc}%</span>${lib?`<span class="lib">${lib} livre${lib>1?"s":""}</span>`:`<span class="lib" style="color:var(--texto-3)">${its.length} tarefas</span>`}</button></td>`;
+          <span class="pc">${pc}%</span>${lib?`<span class="lib">${lib} livre${lib>1?"s":""}</span>`:`<span class="lib" style="color:var(--texto-3)">${pg.total} tarefas</span>`}</button></td>`;
     });
     h+=`</tr>`;
   });
@@ -2823,6 +2857,10 @@ function pintarSim(sim){
       : `${n.tarefa}\n${n.resp} · ${n.status}`;
   });
   Object.entries(sim.linhas).forEach(([k,o])=>{
+    const [de,para]=k.split("→");
+    if(modoSetas==="nenhuma" || (modoSetas==="frente" && !setaDaFrente(g,de,para))){
+      o.el.setAttribute("opacity",0); o.el.removeAttribute("filter"); return;
+    }
     const on=sim.ativadas.has(k);
     o.el.setAttribute("stroke", on?"#79d3f2":"#9dc0d0");
     o.el.setAttribute("stroke-width", on?2:1.3);
@@ -2952,6 +2990,17 @@ document.getElementById("logFit").onclick=ajustarL;
 document.getElementById("logReset").onclick=()=>SIMS.forEach(s=>{
   s.marcas={}; s.destaque=null; recalcular(s); s.ativadas=trilha(s); pintarSim(s); });
 
+/* refaz os dois ciclos preservando o que já foi marcado na simulação */
+function refazerLogica(){
+  const salvo={}; SIMS.forEach(s=>{ salvo[s.tipo]={...s.marcas}; });
+  logicaPronta=false;
+  abrirLogica();
+  SIMS.forEach(s=>{
+    if(!salvo[s.tipo]) return;
+    s.marcas=salvo[s.tipo]; recalcular(s); s.ativadas=trilha(s); pintarSim(s);
+  });
+}
+
 function abrirLogica(){
   if(logicaPronta){ vbL(); aplicarL(); return; }
   svgL.innerHTML=""; SIMS.length=0;
@@ -2993,6 +3042,9 @@ function mostrar(v){
   document.getElementById("abrirPainel").style.display = (v==="ciclo"&&!painelVisivel)?"block":"none";
   document.getElementById("selCiclo").style.display = v==="ciclo"?"":"none";
   document.getElementById("busca").style.display = v==="ciclo"?"":"none";
+  const mostraSetas = (v==="ciclo"||v==="logica")?"":"none";
+  document.getElementById("modoSetas").style.display = mostraSetas;
+  document.getElementById("modoColunas").style.display = mostraSetas;
   fecharMenu();
   if(v==="mapa") desenharMapa();
   if(v==="pessoas") desenharPessoas();
@@ -3012,6 +3064,17 @@ document.getElementById("abrirPainel").onclick=()=>alternarPainel(true);
 document.getElementById("btnFit").onclick=()=>enquadrar();
 document.getElementById("selCiclo").onchange=e=>trocarCiclo(e.target.value);
 document.getElementById("busca").oninput=e=>{busca=e.target.value.trim();if(G)pintar();};
+document.getElementById("modoSetas").onchange=e=>{
+  modoSetas=e.target.value;
+  if(G) pintar();
+  if(logicaPronta) SIMS.forEach(pintarSim);
+};
+document.getElementById("modoColunas").onclick=()=>{
+  colunasExpandidas=!colunasExpandidas;
+  document.getElementById("modoColunas").textContent = colunasExpandidas?"Agrupar fases":"Expandir fases";
+  if(ciclo) trocarCiclo(ciclo);
+  if(logicaPronta) refazerLogica();
+};
 
 function carregar(csvRegras, csvPainel, rotulo){
   const aviso=document.getElementById("aviso");
