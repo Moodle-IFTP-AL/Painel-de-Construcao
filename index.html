@@ -12,8 +12,9 @@
     --azul-claro:#beeffc; --azul:#79d3f2; --azul-escuro:#0a3442; --azul-medio:#008CC7;
     --rosa:#f04770; --rosa-claro:#fdf0f3; --amarelo:#fec43e; --amarelo-claro:#fefce8;
     --verde:#06d7a0; --verde-claro:#f0fdf4;
-    --papel:#ffffff; --papel-2:#f7fcfe; --borda:#dbeaf1; --borda-2:#c2dde8;
-    --texto:#0a3442; --texto-2:#5b7d8a; --texto-3:#8ea8b2;
+    --papel:#ffffff; --papel-2:#f4fafd; --borda:#c8dfe8; --borda-2:#9dc0cf;
+    --texto:#0a3442; --texto-2:#3c6272; --texto-3:#5f8290;
+    --linha:#a9c8d6;
     --sans:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
     --narrow:"Archivo Narrow","Archivo",system-ui,sans-serif;
   }
@@ -64,9 +65,9 @@
   .quem{font-family:var(--narrow);font-size:12px;color:var(--texto-2);margin:14px 0 5px;padding-bottom:4px;border-bottom:1px solid var(--borda)}
   .item{display:block;width:100%;text-align:left;border:0;background:none;color:var(--texto);font-size:12.5px;line-height:1.3;padding:6px 0 6px 14px;cursor:pointer;position:relative}
   .item:hover{color:var(--azul-medio)}
-  .item::before{content:"";position:absolute;left:2px;top:11px;width:6px;height:6px;border-radius:50%;background:var(--verde)}
+  .item::before{content:"";position:absolute;left:2px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--azul-medio)}
   .item.trava::before{background:var(--rosa)}
-  .item.destrava::before{background:var(--azul-medio)}
+  .item.destrava::before{background:var(--verde)}
   .item i{display:block;font-style:normal;color:var(--texto-3);font-size:11.5px}
   dl{margin:0 0 14px;display:grid;grid-template-columns:82px 1fr;gap:5px 10px;font-size:12.5px}
   dt{color:var(--texto-2);font-family:var(--narrow)}
@@ -88,7 +89,7 @@
   .cel{display:block;width:100%;border:1px solid var(--borda);border-radius:6px;padding:7px 8px;margin:2px;cursor:pointer;background:var(--papel);text-align:left;position:relative}
   .cel:hover{border-color:var(--azul-medio)}
   .cel .pc{font-size:12px;font-weight:600}
-  .cel .lib{font-size:10.5px;color:var(--verde);font-family:var(--narrow)}
+  .cel .lib{font-size:10.5px;color:var(--azul-medio);font-weight:600;font-family:var(--narrow)}
   .cel.na{opacity:.4}
 
   /* pessoas */
@@ -96,6 +97,32 @@
   .cartao{border:1px solid var(--borda);border-radius:12px;padding:14px 16px;background:var(--papel)}
   .cartao h3{margin:0 0 2px;font-size:13.5px}
   .cartao .tot{color:var(--texto-3);font-size:11.5px;font-family:var(--narrow);margin:0 0 8px}
+
+  /* simulador de lógica */
+  .simwrap{flex:1;overflow:auto;background:var(--papel);cursor:grab}
+  .simwrap.arrastando{cursor:grabbing}
+  .simbloco{padding:16px 0 28px}
+  .simbloco+.simbloco{border-top:1px solid var(--borda)}
+  .simtopo{position:sticky;left:0;display:block;max-width:760px;padding:0 20px 12px}
+  .simtopo h3{margin:0 0 3px;font-size:15px;font-weight:600}
+  .simtopo p{margin:0 0 9px;font-size:12.5px;color:var(--texto-2)}
+  .simbarra{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--texto-2)}
+  .conta{display:inline-flex;align-items:center;gap:6px}
+  .conta i{width:11px;height:11px;border-radius:3px;display:inline-block;border:1px solid rgba(10,52,66,.18)}
+  .conta b{color:var(--texto);font-weight:600}
+  .simcont{padding:0 20px}
+  .faisca{animation:correr 1.05s ease-out forwards}
+  @keyframes correr{to{stroke-dashoffset:var(--fim)}}
+  .menu{position:fixed;z-index:60;background:#fff;border:1px solid var(--borda-2);border-radius:11px;
+        box-shadow:0 10px 30px rgba(10,52,66,.20);padding:6px;min-width:232px;max-width:300px}
+  .menu .cab{padding:7px 10px 9px;font-size:12px;font-weight:600;border-bottom:1px solid var(--borda);margin-bottom:4px;line-height:1.3}
+  .menu button{display:block;width:100%;text-align:left;border:0;background:none;padding:9px 10px;border-radius:7px;
+               font-size:12.5px;cursor:pointer;color:var(--texto)}
+  .menu button:hover{background:#eaf7fc}
+  .menu button.neutro{color:var(--texto-2)}
+  .menu .nota{padding:2px 10px 8px;font-size:11.5px;color:var(--texto-2);line-height:1.35}
+  .menu .nota b{color:var(--texto)}
+  @media (prefers-reduced-motion:reduce){.faisca{animation:none;opacity:0}}
 
   dialog{border:1px solid var(--borda-2);border-radius:14px;padding:22px;width:min(660px,92vw);color:var(--texto)}
   dialog::backdrop{background:rgba(10,52,66,.34)}
@@ -122,6 +149,7 @@
       <button class="aba" role="tab" aria-selected="true" data-vista="ciclo">Ciclo</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="mapa">Mapa</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="pessoas">Agora</button>
+      <button class="aba" role="tab" aria-selected="false" data-vista="logica">Lógica</button>
     </div>
     <div class="dir">
       <select id="selCiclo" aria-label="Ciclo"></select>
@@ -141,6 +169,7 @@
     </div>
     <div class="vista" id="v-mapa"><div class="mapa" id="mapa"></div></div>
     <div class="vista" id="v-pessoas"><div class="pessoas" id="pessoas"></div></div>
+    <div class="vista" id="v-logica"><div class="simwrap" id="simwrap"></div></div>
   </div>
 </div>
 
@@ -2056,12 +2085,13 @@ function comCabecalho(linhas, chaves){
 
 function lerRegras(txt){
   const {linhas,col}=comCabecalho(parseCSV(txt),["tarefa","libera quando"]);
-  const cF=col("fase"), cT=col("tarefa"), cR=col("responsavel"), cL=col("libera quando");
+  const cF=col("fase"), cT=col("tarefa"), cR=col("responsavel"), cL=col("libera quando"), cN=col("sozinha");
   const out=[];
   linhas.forEach(l=>{
     const tarefa=(l[cT]||"").trim();
     if(!tarefa) return;
-    out.push({fase:(l[cF]||"").trim(), tarefa, resp:(l[cR]||"—").trim(), libera:(l[cL]||"").trim()});
+    out.push({fase:(l[cF]||"").trim(), tarefa, resp:(l[cR]||"—").trim(),
+              libera:(l[cL]||"").trim(), naoAplica: cN>=0?(l[cN]||"").trim():""});
   });
   // herdar a fase de cima quando a célula vem mesclada/vazia
   let ult="";
@@ -2101,13 +2131,13 @@ function trilhaDe(t){
   return achou.length===1 ? achou[0] : "GERAL";
 }
 const ST={
-  "Liberado":{f:"#f0fdf4",b:"#06d7a0",w:2,t:"#0a3442",c:"#06d7a0"},
-  "Em andamento":{f:"#ffffff",b:"#008CC7",w:2,t:"#0a3442",c:"#008CC7"},
-  "Aguardando liberação":{f:"#fefce8",b:"#fec43e",w:1.6,t:"#6b5310",c:"#fec43e"},
-  "Concluído":{f:"#ffffff",b:"#cfe6ee",w:1,t:"#8ea8b2",c:"#beeffc"},
-  "Bloqueado":{f:"#ffffff",b:"#dbeaf1",w:1,d:"3 3",t:"#9ab3bc",c:"#dbeaf1"},
-  "Não se aplica":{f:"#fbfdfd",b:"#e8f1f4",w:1,d:"2 3",t:"#bccfd6",c:"#eef5f7"},
-  "—":{f:"#ffffff",b:"#dbeaf1",w:1,d:"3 3",t:"#9ab3bc",c:"#dbeaf1"}
+  "Concluído":{f:"#06d7a0",b:"#04ab7f",w:1.4,t:"#042e25",c:"#06d7a0"},
+  "Liberado":{f:"#beeffc",b:"#008CC7",w:2.2,t:"#0a3442",c:"#008CC7"},
+  "Em andamento":{f:"#ffffff",b:"#008CC7",w:2.2,d:"6 3",t:"#0a3442",c:"#008CC7"},
+  "Aguardando liberação":{f:"#fefce8",b:"#fec43e",w:2,t:"#5a4506",c:"#fec43e"},
+  "Bloqueado":{f:"#eaf1f4",b:"#a8c1cb",w:1.2,t:"#3f606d",c:"#a8c1cb"},
+  "Não se aplica":{f:"#ffffff",b:"#dde7ea",w:1,d:"2 3",t:"#9fb4bc",c:"#e6eef1",op:.5},
+  "—":{f:"#eaf1f4",b:"#a8c1cb",w:1.2,t:"#3f606d",c:"#a8c1cb"}
 };
 const PRONTO = s => s==="Concluído"||s==="Não se aplica";
 
@@ -2122,14 +2152,10 @@ function indexar(){
   });
 }
 
-/* monta o grafo de um ciclo: tarefas das Regras que existem no Painel daquele ciclo */
-function montar(chave){
-  const doCiclo = PAINEL.filter(p=>p.modulo+" · "+p.unidade===chave);
-  const status={}, extra={};
-  doCiclo.forEach(p=>{ status[p.tarefa]=p.status||"—"; extra[p.tarefa]=p; });
-
-  const usadas = REGRAS.filter(r=>status.hasOwnProperty(r.tarefa));
-  const regras = usadas.length ? usadas : REGRAS.filter(()=>false);
+/* constrói o grafo a partir de um conjunto de regras e de um mapa de status.
+   Serve tanto para um ciclo real da planilha quanto para o simulador da aba Lógica. */
+function grafoDe(regras, status, extra){
+  extra = extra || {};
   const nomes = new Set(regras.map(r=>r.tarefa));
 
   const fases=[]; regras.forEach(r=>{ if(!fases.includes(r.fase)) fases.push(r.fase); });
@@ -2219,9 +2245,18 @@ function montar(chave){
     x += w + (c.tipo==="portao"?46:52);
   });
 
-  G={nos,arestas,colunas,W:x+16,H,NH,chave,
-     total:regras.length,
-     semRegra: doCiclo.filter(p=>!nomes.has(p.tarefa)).length};
+  return {nos,arestas,colunas,W:x+16,H,NH,nomes,regras,total:regras.length};
+}
+
+/* monta o grafo de um ciclo real: tarefas das Regras que existem no Painel daquele ciclo */
+function montar(chave){
+  const doCiclo = PAINEL.filter(p=>p.modulo+" · "+p.unidade===chave);
+  const status={}, extra={};
+  doCiclo.forEach(p=>{ status[p.tarefa]=p.status||"—"; extra[p.tarefa]=p; });
+  const usadas = REGRAS.filter(r=>status.hasOwnProperty(r.tarefa));
+  G = grafoDe(usadas, status, extra);
+  G.chave = chave;
+  G.semRegra = doCiclo.filter(p=>!G.nomes.has(p.tarefa)).length;
   return G;
 }
 
@@ -2240,7 +2275,7 @@ const corta=(s,n)=>s.length>n?s.slice(0,n-1)+"…":s;
 function desenhar(){
   svg.innerHTML="";
   const defs=el("defs",{},svg);
-  [["p","#c2dde8"],["p-trava","#f04770"],["p-destrava","#008CC7"]].forEach(([id,c])=>{
+  [["p","#a9c8d6"],["p-trava","#f04770"],["p-destrava","#008CC7"]].forEach(([id,c])=>{
     const m=el("marker",{id,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
     el("path",{d:"M0,1 L9,5 L0,9 z",fill:c},m);
   });
@@ -2251,10 +2286,10 @@ function desenhar(){
 
   G.colunas.forEach((c,i)=>{
     if(c.tipo==="fase"){
-      if(i%2===1) el("rect",{x:c.x-14,y:10,width:c.w+28,height:G.H-4,rx:10,fill:"#f7fcfe"},fundo);
-      el("text",{x:c.x,y:30,fill:"#5b7d8a","font-family":"Archivo Narrow","font-size":"12.5"},fundo)
+      if(i%2===1) el("rect",{x:c.x-14,y:10,width:c.w+28,height:G.H-4,rx:10,fill:"#f1f8fb"},fundo);
+      el("text",{x:c.x,y:30,fill:"#2e5566","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},fundo)
         .textContent=corta(c.rotulo,26);
-      el("text",{x:c.x+c.w,y:30,"text-anchor":"end",fill:"#8ea8b2","font-family":"Archivo Narrow","font-size":"11.5"},fundo)
+      el("text",{x:c.x+c.w,y:30,"text-anchor":"end",fill:"#5f8290","font-family":"Archivo Narrow","font-size":"11.5"},fundo)
         .textContent=c.itens.filter(n=>PRONTO(n.status)).length+"/"+c.itens.length;
     }
   });
@@ -2263,7 +2298,7 @@ function desenhar(){
     const A=G.nos[a],B=G.nos[b];
     const x1=A.x+A.w,y1=A.y,x2=B.x,y2=B.y,dx=Math.max(34,(x2-x1)/2);
     const p=el("path",{d:`M${x1},${y1} C${x1+dx},${y1} ${x2-dx},${y2} ${x2},${y2}`,fill:"none",
-      stroke:"#c2dde8","stroke-width":1.2,"marker-end":"url(#p)"},cArestas);
+      stroke:"#a9c8d6","stroke-width":1.3,"marker-end":"url(#p)"},cArestas);
     p.dataset.de=a; p.dataset.para=b;
   });
 
@@ -2272,9 +2307,9 @@ function desenhar(){
       "aria-label":`${n.tarefa}${n.tipo==="tarefa"?", "+n.resp+", "+n.status:""}`},cNos);
     g.dataset.id=n.id;
     n.rect=el("rect",{x:0,y:0,width:n.w,height:G.NH,rx:7},g);
-    if(n.tipo==="tarefa") n.fita=el("rect",{x:0,y:7,width:3,height:G.NH-14,rx:2,fill:COR_TRILHA[n.trilha]},g);
-    n.t1=el("text",{x:11,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},g);
-    n.t2=el("text",{x:11,y:26,"font-family":"Archivo Narrow","font-size":"10.5"},g);
+    if(n.tipo==="tarefa") n.fita=el("rect",{x:0,y:6,width:4,height:G.NH-12,rx:2,fill:COR_TRILHA[n.trilha]},g);
+    n.t1=el("text",{x:13,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},g);
+    n.t2=el("text",{x:13,y:26,"font-family":"Archivo Narrow","font-size":"10.5"},g);
     n.t1.textContent=corta(n.tarefa, n.tipo==="portao"?21:32);
     n.t2.textContent=n.tipo==="portao"
       ? n.alvo.filter(t=>PRONTO(G.nos[t].status)).length+" de "+n.alvo.length+" prontas"
@@ -2298,7 +2333,7 @@ function pintar(){
   const acima = sel?subir(sel):null, abaixo = sel?descer(sel):null;
   Object.values(G.nos).forEach(n=>{
     const e = n.tipo==="portao"
-      ? {f:"#f4fbfd",b:"#beeffc",w:1.4,t:"#0a3442",c:"#beeffc"}
+      ? {f:"#eaf7fc",b:"#79d3f2",w:1.8,t:"#0a3442",c:"#79d3f2"}
       : (ST[n.status]||ST["—"]);
     const marcado = n.id===sel;
     n.rect.setAttribute("fill",e.f);
@@ -2307,7 +2342,7 @@ function pintar(){
     n.rect.setAttribute("stroke-dasharray", marcado?"":(e.d||""));
     n.t1.setAttribute("fill", n.tipo==="portao"?"#0a3442":e.t);
     n.t2.setAttribute("fill", n.tipo==="portao"?"#5b7d8a":e.t);
-    let op = combina(n)?1:.14;
+    let op = (combina(n)?1:.14) * (e.op||1);
     if(sel){
       const naCadeia = marcado||acima.has(n.id)||abaixo.has(n.id);
       op = naCadeia ? (combina(n)?1:.4) : .12;
@@ -2316,7 +2351,7 @@ function pintar(){
   });
   cArestas.querySelectorAll("path").forEach(p=>{
     const de=p.dataset.de,para=p.dataset.para;
-    let c="#c2dde8",w=1.2,op=.85,mk="p";
+    let c="#a9c8d6",w=1.3,op=.9,mk="p";
     if(sel){
       const up=(acima.has(de)||de===sel)&&(acima.has(para)||para===sel);
       const dn=(abaixo.has(para)||para===sel)&&(abaixo.has(de)||de===sel);
@@ -2367,7 +2402,7 @@ function faixaFases(){
     const pc=Math.round(prontas/Math.max(1,c.itens.length)*100);
     const b=document.createElement("button");
     b.className="fase-chip";
-    b.innerHTML=`<span class="n">${c.rotulo}</span><span class="v">${pc}%${lib?` <span style="font-size:11px;color:var(--verde);font-weight:500">· ${lib} livre${lib>1?"s":""}</span>`:""}</span>
+    b.innerHTML=`<span class="n">${c.rotulo}</span><span class="v">${pc}%${lib?` <span style="font-size:11px;color:var(--azul-medio);font-weight:600">· ${lib} livre${lib>1?"s":""}</span>`:""}</span>
       <span class="tr"><i style="width:${pc}%"></i></span>`;
     b.onclick=()=>{ const alvo=c.itens.find(n=>n.status==="Liberado")||c.itens[0]; if(alvo) selecionar(alvo.id); };
     box.appendChild(b);
@@ -2376,12 +2411,13 @@ function faixaFases(){
 
 function legenda(){
   return `<div class="legenda">
-    <div><span class="sw" style="background:#f0fdf4;border-color:#06d7a0;border-width:2px"></span>liberado — dá para pegar</div>
-    <div><span class="sw" style="background:#fff;border-color:#008CC7;border-width:2px"></span>em andamento</div>
+    <div><span class="sw" style="background:#06d7a0;border-color:#04ab7f"></span>concluído</div>
+    <div><span class="sw" style="background:#beeffc;border-color:#008CC7;border-width:2px"></span>liberado — dá para pegar</div>
+    <div><span class="sw" style="background:#fff;border-color:#008CC7;border-width:2px;border-style:dashed"></span>em andamento</div>
     <div><span class="sw" style="background:#fefce8;border-color:#fec43e"></span>aguardando template da Dani</div>
-    <div><span class="sw" style="background:#fff;border-color:#cfe6ee"></span>concluído</div>
-    <div><span class="sw" style="background:#fff;border-style:dashed"></span>bloqueado</div>
-    <div><span class="sw" style="background:#f4fbfd;border-color:#beeffc"></span>portão: junta várias tarefas numa condição só</div>
+    <div><span class="sw" style="background:#eaf1f4;border-color:#a8c1cb"></span>bloqueado</div>
+    <div><span class="sw" style="background:#fff;border-color:#dde7ea;border-style:dotted;opacity:.5"></span>não se aplica</div>
+    <div><span class="sw" style="background:#eaf7fc;border-color:#79d3f2"></span>portão: junta várias tarefas numa condição só</div>
     <div style="margin-top:9px"><span class="sw" style="height:2px;background:#f04770;border:0"></span>o que trava a tarefa escolhida</div>
     <div><span class="sw" style="height:2px;background:#008CC7;border:0"></span>o que ela destrava</div>
   </div>`;
@@ -2450,8 +2486,8 @@ function desenharMapa(){
       const pr=its.filter(p=>PRONTO(p.status)).length;
       const lib=its.filter(p=>p.status==="Liberado"||p.status==="Em andamento").length;
       const pc=Math.round(pr/its.length*100);
-      const alpha=(pc/100*.5+.06).toFixed(2);
-      h+=`<td><button class="cel" data-ciclo="${escapa(c.chave)}" style="background:rgba(0,140,199,${alpha})">
+      const alpha=(pc/100*.62+.05).toFixed(2);
+      h+=`<td><button class="cel" data-ciclo="${escapa(c.chave)}" style="background:rgba(6,215,160,${alpha})">
           <span class="pc">${pc}%</span>${lib?`<span class="lib">${lib} livre${lib>1?"s":""}</span>`:`<span class="lib" style="color:var(--texto-3)">${its.length} tarefas</span>`}</button></td>`;
     });
     h+=`</tr>`;
@@ -2485,6 +2521,272 @@ let MAPA_RESP=null;
 function respDaTarefa(t){ if(!MAPA_RESP){MAPA_RESP={};REGRAS.forEach(r=>MAPA_RESP[r.tarefa]=r.resp);} return MAPA_RESP[t]; }
 
 /* ===========================================================
+   5b. Simulador de lógica (aba Lógica)
+   =========================================================== */
+const SIMS=[];
+let logicaPronta=false;
+
+const ehGravacao = r => semAcento(r.fase).startsWith("gravacoes");
+
+function estadoInicial(regras){
+  const st={};
+  regras.forEach(r=>{
+    const t=(r.libera||"").trim();
+    if(!t||t.startsWith("—"))
+      st[r.tarefa] = /nasce liberada|nao depende/.test(semAcento(t)) ? "Liberado" : "Aguardando liberação";
+    else st[r.tarefa]="Bloqueado";
+  });
+  return st;
+}
+const prontoNo = (g,id) => {
+  const n=g.nos[id];
+  return n.tipo==="portao" ? n.alvo.every(t=>PRONTO(g.nos[t].status)) : PRONTO(n.status);
+};
+
+function criarSim(tipo,titulo,texto){
+  const regras=REGRAS.filter(r=>tipo==="gravacoes"?ehGravacao(r):!ehGravacao(r));
+  if(!regras.length) return null;
+  const inicial=estadoInicial(regras);
+  const g=grafoDe(regras,{...inicial},{});
+  // resolve a coluna "Vira Não se aplica sozinha quando"
+  const nomesOrd=[...g.nomes].sort((a,b)=>b.length-a.length);
+  regras.forEach(r=>{
+    const txt=r.naoAplica||"";
+    if(!/nao se aplica/.test(semAcento(txt))) return;
+    const achado=nomesOrd.find(n=>txt.includes(n));
+    if(achado&&achado!==r.tarefa) g.nos[r.tarefa].naoAplicaSe=achado;
+  });
+  Object.values(g.nos).forEach(n=>{ if(n.tipo==="tarefa") n.inicial=inicial[n.id]; });
+  return {tipo,titulo,texto,g,marcas:{},ativadas:new Set(),caminhos:{}};
+}
+
+function recalcular(sim){
+  const g=sim.g;
+  Object.values(g.nos).forEach(n=>{ if(n.tipo==="tarefa") n.status = sim.marcas[n.id] || n.inicial; });
+  for(let passo=0;passo<40;passo++){
+    let mudou=false;
+    Object.values(g.nos).forEach(n=>{
+      if(n.tipo!=="tarefa"||sim.marcas[n.id]) return;
+      if(n.naoAplicaSe && g.nos[n.naoAplicaSe] && g.nos[n.naoAplicaSe].status==="Não se aplica"){
+        if(n.status!=="Não se aplica"){n.status="Não se aplica";mudou=true;}
+        return;
+      }
+      if(!n.pais.length) return;                       // espera ação manual (template da Dani)
+      const novo = n.pais.every(p=>prontoNo(g,p)) ? "Liberado" : "Bloqueado";
+      if(novo!==n.status){n.status=novo;mudou=true;}
+    });
+    if(!mudou) break;
+  }
+}
+
+function marcar(sim,id,valor){
+  const antes={}; Object.values(sim.g.nos).forEach(n=>antes[n.id]=n.status);
+  if(valor===null) delete sim.marcas[id]; else sim.marcas[id]=valor;
+  recalcular(sim);
+  const novas=Object.values(sim.g.nos).filter(n=>n.tipo==="tarefa"
+      && antes[n.id]!==n.status && (n.status==="Liberado"||n.status==="Não se aplica"));
+  const acesas=[];
+  novas.forEach(n=>n.pais.forEach(pi=>{
+    if(!prontoNo(sim.g,pi)) return;
+    const k=pi+"→"+n.id;
+    if(valor!==null) sim.ativadas.add(k);
+    acesas.push(k);
+    if(sim.g.nos[pi].tipo==="portao")
+      sim.g.nos[pi].alvo.forEach(t=>{ const kk=t+"→"+pi; if(valor!==null) sim.ativadas.add(kk); acesas.push(kk); });
+  }));
+  if(valor===null) sim.ativadas.clear();
+  pintarSim(sim);
+  if(valor!==null) faiscar(sim,acesas);
+  return novas.length;
+}
+
+function desenharSim(sim){
+  const svgE=sim.svg, g=sim.g;
+  svgE.innerHTML="";
+  svgE.setAttribute("viewBox",`0 0 ${g.W} ${g.H}`);
+  svgE.setAttribute("width",g.W); svgE.setAttribute("height",g.H);
+  const defs=el("defs",{},svgE);
+  const fl=el("filter",{id:"brilho-"+sim.tipo,x:"-30%",y:"-300%",width:"160%",height:"700%"},defs);
+  el("feGaussianBlur",{stdDeviation:"2.6",result:"b"},fl);
+  const mg=el("feMerge",{},fl); el("feMergeNode",{in:"b"},mg); el("feMergeNode",{in:"SourceGraphic"},mg);
+  [["s","#a9c8d6"],["s-on","#06d7a0"]].forEach(([id,c])=>{
+    const m=el("marker",{id:id+"-"+sim.tipo,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
+    el("path",{d:"M0,1 L9,5 L0,9 z",fill:c},m);
+  });
+  const fundo=el("g",{},svgE);
+  sim.cAr=el("g",{},svgE); sim.cFa=el("g",{},svgE); sim.cNo=el("g",{},svgE);
+
+  g.colunas.forEach((c,i)=>{
+    if(c.tipo!=="fase") return;
+    if(i%2===1) el("rect",{x:c.x-14,y:10,width:c.w+28,height:g.H-4,rx:10,fill:"#f1f8fb"},fundo);
+    el("text",{x:c.x,y:30,fill:"#2e5566","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},fundo)
+      .textContent=corta(c.rotulo.replace("Gravações · ",""),26);
+  });
+
+  sim.linhas={};
+  g.arestas.forEach(([a,b])=>{
+    const A=g.nos[a],B=g.nos[b];
+    const x1=A.x+A.w,y1=A.y,x2=B.x,y2=B.y,dx=Math.max(34,(x2-x1)/2);
+    const d=`M${x1},${y1} C${x1+dx},${y1} ${x2-dx},${y2} ${x2},${y2}`;
+    const p=el("path",{d,fill:"none",stroke:"#a9c8d6","stroke-width":1.3,
+      "marker-end":`url(#s-${sim.tipo})`},sim.cAr);
+    sim.linhas[a+"→"+b]={el:p,d};
+  });
+
+  Object.values(g.nos).forEach(n=>{
+    const no=el("g",{transform:`translate(${n.x},${n.y-g.NH/2})`,tabindex:"0",role:"button",style:"cursor:pointer",
+      "aria-label":n.tarefa},sim.cNo);
+    n.rect=el("rect",{x:0,y:0,width:n.w,height:g.NH,rx:7},no);
+    if(n.tipo==="tarefa") el("rect",{x:0,y:6,width:4,height:g.NH-12,rx:2,fill:COR_TRILHA[n.trilha]},no);
+    n.t1=el("text",{x:13,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},no);
+    n.t2=el("text",{x:13,y:26,"font-family":"Archivo Narrow","font-size":"10.5"},no);
+    n.t1.textContent=corta(n.tarefa,n.tipo==="portao"?21:32);
+    el("title",{},no).textContent=n.tarefa;
+    n.no=no;
+    no.addEventListener("click",ev=>{ev.stopPropagation();abrirMenu(sim,n.id,ev.currentTarget);});
+    no.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();abrirMenu(sim,n.id,ev.currentTarget);}});
+  });
+  pintarSim(sim);
+}
+
+function pintarSim(sim){
+  const g=sim.g;
+  Object.values(g.nos).forEach(n=>{
+    const e = n.tipo==="portao"
+      ? (n.alvo.every(t=>PRONTO(g.nos[t].status))
+          ? {f:"#beeffc",b:"#008CC7",w:2,t:"#0a3442"}
+          : {f:"#eaf7fc",b:"#79d3f2",w:1.8,t:"#2e5566"})
+      : (ST[n.status]||ST["—"]);
+    n.rect.setAttribute("fill",e.f);
+    n.rect.setAttribute("stroke",e.b);
+    n.rect.setAttribute("stroke-width",e.w);
+    n.rect.setAttribute("stroke-dasharray",e.d||"");
+    n.t1.setAttribute("fill",e.t); n.t2.setAttribute("fill",e.t);
+    n.no.setAttribute("opacity",e.op||1);
+    if(n.tipo==="portao")
+      n.t2.textContent=n.alvo.filter(t=>PRONTO(g.nos[t].status)).length+" de "+n.alvo.length+" prontas";
+    else
+      n.t2.textContent=corta(n.resp,14)+"  ·  "+n.status.toLowerCase();
+  });
+  Object.entries(sim.linhas).forEach(([k,o])=>{
+    const on=sim.ativadas.has(k);
+    o.el.setAttribute("stroke", on?"#06d7a0":"#a9c8d6");
+    o.el.setAttribute("stroke-width", on?2.2:1.3);
+    o.el.setAttribute("opacity", on?1:.85);
+    o.el.setAttribute("marker-end",`url(#s${on?"-on":""}-${sim.tipo})`);
+    if(on) o.el.setAttribute("filter",`url(#brilho-${sim.tipo})`); else o.el.removeAttribute("filter");
+  });
+  contarSim(sim);
+}
+
+function faiscar(sim,chaves){
+  [...new Set(chaves)].forEach(k=>{
+    const o=sim.linhas[k]; if(!o) return;
+    const f=el("path",{d:o.d,fill:"none",stroke:"#ffffff","stroke-width":3.4,"stroke-linecap":"round",
+      filter:`url(#brilho-${sim.tipo})`,class:"faisca"},sim.cFa);
+    const L=f.getTotalLength();
+    f.style.strokeDasharray=`24 ${L+60}`;
+    f.style.strokeDashoffset="24px";
+    f.style.setProperty("--fim", (-L)+"px");
+    f.addEventListener("animationend",()=>f.remove());
+    setTimeout(()=>f.remove(),2200);
+  });
+}
+
+function contarSim(sim){
+  const n=Object.values(sim.g.nos).filter(x=>x.tipo==="tarefa");
+  const c=t=>n.filter(x=>x.status===t).length;
+  sim.barra.innerHTML=
+    `<span class="conta"><i style="background:#06d7a0"></i><b>${c("Concluído")}</b> concluídas</span>
+     <span class="conta"><i style="background:#beeffc;border-color:#008CC7"></i><b>${c("Liberado")}</b> liberadas</span>
+     <span class="conta"><i style="background:#fefce8;border-color:#fec43e"></i><b>${c("Aguardando liberação")}</b> aguardando a Dani</span>
+     <span class="conta"><i style="background:#eaf1f4"></i><b>${c("Bloqueado")}</b> bloqueadas</span>
+     <span class="conta"><i style="background:#fff"></i><b>${c("Não se aplica")}</b> não se aplicam</span>`;
+  sim.barra.appendChild(sim.btnReset);
+}
+
+/* menu de três opções */
+let menuAberto=null;
+function fecharMenu(){ if(menuAberto){menuAberto.remove();menuAberto=null;} }
+document.addEventListener("click",fecharMenu);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") fecharMenu(); });
+
+function abrirMenu(sim,id,alvoEl){
+  fecharMenu();
+  const g=sim.g, n=g.nos[id];
+  const m=document.createElement("div");
+  m.className="menu"; m.addEventListener("click",e=>e.stopPropagation());
+  let h=`<p class="cab">${n.tarefa}</p>`;
+
+  if(n.tipo==="portao"){
+    const faltam=n.alvo.filter(t=>!PRONTO(g.nos[t].status));
+    h+=`<p class="nota">Condição agregada: abre quando as ${n.alvo.length} tarefas estiverem concluídas ou marcadas como não se aplica. Faltam <b>${faltam.length}</b>.</p>`;
+  }else if(sim.marcas[id]){
+    h+=`<p class="nota">Você marcou como <b>${sim.marcas[id].toLowerCase()}</b>.</p>
+        <button data-op="desfazer">Desfazer marcação</button>`;
+  }else if(n.status==="Liberado"||n.status==="Aguardando liberação"){
+    h+=`<button data-op="Concluído">Marcar como concluído</button>
+        <button data-op="Não se aplica">Marcar como não se aplica</button>`;
+  }else if(n.status==="Não se aplica"){
+    h+=`<p class="nota">Ficou como não se aplica sozinha, porque <b>${n.naoAplicaSe||"a tarefa anterior"}</b> não se aplica.</p>`;
+  }else{
+    const travam=n.pais.map(p=>g.nos[p]).filter(x=>!prontoNo(g,x.id));
+    h+=`<p class="nota">Bloqueada. Está esperando:<br>${travam.map(x=>"• "+x.tarefa).join("<br>")||"—"}</p>`;
+  }
+  h+=`<button class="neutro" data-op="cancelar">Cancelar</button>`;
+  m.innerHTML=h;
+  document.body.appendChild(m);
+
+  const r=alvoEl.getBoundingClientRect();
+  const larg=m.offsetWidth, alt=m.offsetHeight;
+  m.style.left=Math.min(window.innerWidth-larg-10, Math.max(8,r.left))+"px";
+  m.style.top=(r.bottom+8+alt>window.innerHeight ? Math.max(8,r.top-alt-8) : r.bottom+8)+"px";
+  menuAberto=m;
+
+  m.querySelectorAll("[data-op]").forEach(b=>b.onclick=()=>{
+    const op=b.dataset.op;
+    fecharMenu();
+    if(op==="cancelar") return;
+    marcar(sim,id, op==="desfazer"?null:op);
+  });
+  const primeiro=m.querySelector("button"); if(primeiro) primeiro.focus();
+}
+
+function abrirLogica(){
+  if(logicaPronta) return;
+  const wrap=document.getElementById("simwrap");
+  wrap.innerHTML="";
+  SIMS.length=0;
+  [["unidade","Ciclo de uma unidade",
+    "Clique numa tarefa para marcá-la como concluída ou como não se aplica e veja o que isso libera. As linhas que acenderem são as condições que dispararam — o rastro fica aceso para você acompanhar o caminho."],
+   ["gravacoes","Ciclo de uma gravação de encontro síncrono",
+    "Mesma lógica, aplicada ao ciclo das gravações. Arraste para os lados para seguir o fluxo até o fechamento."]
+  ].forEach(([tipo,titulo,texto])=>{
+    const sim=criarSim(tipo,titulo,texto);
+    if(!sim) return;
+    recalcular(sim);
+    const bloco=document.createElement("div"); bloco.className="simbloco";
+    bloco.innerHTML=`<div class="simtopo"><h3>${titulo}</h3><p>${texto}</p><div class="simbarra"></div></div>
+                     <div class="simcont"><svg class="sim-svg"></svg></div>`;
+    wrap.appendChild(bloco);
+    sim.svg=bloco.querySelector("svg");
+    sim.barra=bloco.querySelector(".simbarra");
+    sim.btnReset=document.createElement("button");
+    sim.btnReset.className="btn"; sim.btnReset.textContent="Reiniciar";
+    sim.btnReset.onclick=()=>{ sim.marcas={}; sim.ativadas.clear(); recalcular(sim); pintarSim(sim); };
+    desenharSim(sim);
+    SIMS.push(sim);
+  });
+  // arrastar para navegar
+  let a=null;
+  wrap.onpointerdown=e=>{ if(e.target.closest("g[role=button]")||e.target.closest(".btn")) return;
+    a={x:e.clientX,y:e.clientY,l:wrap.scrollLeft,t:wrap.scrollTop}; wrap.classList.add("arrastando"); };
+  wrap.onpointermove=e=>{ if(!a)return; wrap.scrollLeft=a.l-(e.clientX-a.x); wrap.scrollTop=a.t-(e.clientY-a.y); };
+  ["pointerup","pointerleave","pointercancel"].forEach(ev=>wrap.addEventListener(ev,()=>{a=null;wrap.classList.remove("arrastando");}));
+  logicaPronta=true;
+}
+
+/* ===========================================================
    6. Aplicação
    =========================================================== */
 function trocarCiclo(chave){
@@ -2496,8 +2798,10 @@ function mostrar(v){
   document.querySelectorAll(".aba").forEach(b=>b.setAttribute("aria-selected", b.dataset.vista===v));
   document.querySelectorAll(".vista").forEach(d=>d.classList.toggle("on", d.id==="v-"+v));
   document.getElementById("faixaFases").style.display = v==="ciclo"?"flex":"none";
+  fecharMenu();
   if(v==="mapa") desenharMapa();
   if(v==="pessoas") desenharPessoas();
+  if(v==="logica") abrirLogica();
   if(v==="ciclo"&&G) setTimeout(()=>{vb();aplicarCam();},0);
 }
 document.querySelectorAll(".aba").forEach(b=>b.onclick=()=>mostrar(b.dataset.vista));
@@ -2512,7 +2816,7 @@ function carregar(csvRegras, csvPainel, rotulo){
     if(csvPainel!=null) PAINEL=lerPainel(csvPainel);
     if(!REGRAS.length) throw new Error("nenhuma regra lida");
     if(!PAINEL.length) throw new Error("nenhuma tarefa lida no painel");
-    MAPA_FASE=null; MAPA_RESP=null;
+    MAPA_FASE=null; MAPA_RESP=null; logicaPronta=false;
     indexar();
     const s=document.getElementById("selCiclo");
     s.innerHTML=CICLOS.map(c=>`<option value="${escapa(c.chave)}">${c.chave}</option>`).join("");
