@@ -2387,12 +2387,18 @@ function zoom(f,cx,cy){ const r=tela.getBoundingClientRect(); const k2=Math.min(
   cam.x=cx-(cx-cam.x)*(k2/cam.k); cam.y=cy-(cy-cam.y)*(k2/cam.k); cam.k=k2; aplicarCam(); }
 tela.addEventListener("wheel",e=>{e.preventDefault();const r=tela.getBoundingClientRect();
   zoom(e.deltaY<0?1.12:1/1.12,e.clientX-r.left,e.clientY-r.top);},{passive:false});
+/* Sem setPointerCapture: capturar o ponteiro faz o navegador redirecionar o clique
+   para o elemento que capturou, e os cliques nos cards nunca chegavam neles. */
 let arr=null;
-tela.addEventListener("pointerdown",e=>{arr={x:e.clientX,y:e.clientY,cx:cam.x,cy:cam.y};moveu=false;
-  tela.classList.add("arrastando");tela.setPointerCapture(e.pointerId);});
-tela.addEventListener("pointermove",e=>{if(!arr)return;const dx=e.clientX-arr.x,dy=e.clientY-arr.y;
-  if(Math.abs(dx)+Math.abs(dy)>4)moveu=true;cam.x=arr.cx+dx;cam.y=arr.cy+dy;aplicarCam();});
-["pointerup","pointercancel"].forEach(ev=>tela.addEventListener(ev,()=>{arr=null;tela.classList.remove("arrastando");}));
+function mover(e){ if(!arr)return; const dx=e.clientX-arr.x,dy=e.clientY-arr.y;
+  if(Math.abs(dx)+Math.abs(dy)>4)moveu=true; cam.x=arr.cx+dx; cam.y=arr.cy+dy; aplicarCam(); }
+function soltar(){ arr=null; tela.classList.remove("arrastando");
+  window.removeEventListener("pointermove",mover); }
+tela.addEventListener("pointerdown",e=>{ if(e.button)return;
+  arr={x:e.clientX,y:e.clientY,cx:cam.x,cy:cam.y}; moveu=false; tela.classList.add("arrastando");
+  window.addEventListener("pointermove",mover);
+  window.addEventListener("pointerup",soltar,{once:true});
+  window.addEventListener("pointercancel",soltar,{once:true}); });
 tela.addEventListener("click",e=>{if(!moveu&&(e.target===svg||e.target===tela))selecionar(null);});
 window.addEventListener("resize",()=>{if(G)vb();});
 
@@ -2777,12 +2783,15 @@ function zoomL(f,cx,cy){ const r=telaL.getBoundingClientRect(); const k2=Math.mi
 telaL.addEventListener("wheel",e=>{e.preventDefault();const r=telaL.getBoundingClientRect();
   zoomL(e.deltaY<0?1.12:1/1.12,e.clientX-r.left,e.clientY-r.top);},{passive:false});
 let arrL=null;
-telaL.addEventListener("pointerdown",e=>{arrL={x:e.clientX,y:e.clientY,cx:camL.x,cy:camL.y};moveuL=false;
-  telaL.classList.add("arrastando");telaL.setPointerCapture(e.pointerId);});
-telaL.addEventListener("pointermove",e=>{if(!arrL)return;const dx=e.clientX-arrL.x,dy=e.clientY-arrL.y;
-  if(Math.abs(dx)+Math.abs(dy)>4)moveuL=true;camL.x=arrL.cx+dx;camL.y=arrL.cy+dy;aplicarL();});
-["pointerup","pointercancel"].forEach(ev=>telaL.addEventListener(ev,()=>{arrL=null;telaL.classList.remove("arrastando");
-  setTimeout(()=>{moveuL=false;},60);}));
+function moverL(e){ if(!arrL)return; const dx=e.clientX-arrL.x,dy=e.clientY-arrL.y;
+  if(Math.abs(dx)+Math.abs(dy)>4)moveuL=true; camL.x=arrL.cx+dx; camL.y=arrL.cy+dy; aplicarL(); }
+function soltarL(){ arrL=null; telaL.classList.remove("arrastando");
+  window.removeEventListener("pointermove",moverL); setTimeout(()=>{moveuL=false;},80); }
+telaL.addEventListener("pointerdown",e=>{ if(e.button)return;
+  arrL={x:e.clientX,y:e.clientY,cx:camL.x,cy:camL.y}; moveuL=false; telaL.classList.add("arrastando");
+  window.addEventListener("pointermove",moverL);
+  window.addEventListener("pointerup",soltarL,{once:true});
+  window.addEventListener("pointercancel",soltarL,{once:true}); });
 document.getElementById("logIn").onclick=()=>zoomL(1.2);
 document.getElementById("logOut").onclick=()=>zoomL(1/1.2);
 document.getElementById("logFit").onclick=ajustarL;
