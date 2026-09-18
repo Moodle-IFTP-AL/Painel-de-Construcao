@@ -99,18 +99,15 @@
   .cartao .tot{color:var(--texto-3);font-size:11.5px;font-family:var(--narrow);margin:0 0 8px}
 
   /* simulador de lógica */
-  .simwrap{flex:1;overflow:auto;background:var(--papel);cursor:grab}
-  .simwrap.arrastando{cursor:grabbing}
-  .simbloco{padding:16px 0 28px}
-  .simbloco+.simbloco{border-top:1px solid var(--borda)}
-  .simtopo{position:sticky;left:0;display:block;max-width:760px;padding:0 20px 12px}
-  .simtopo h3{margin:0 0 3px;font-size:15px;font-weight:600}
-  .simtopo p{margin:0 0 9px;font-size:12.5px;color:var(--texto-2)}
-  .simbarra{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--texto-2)}
-  .conta{display:inline-flex;align-items:center;gap:6px}
-  .conta i{width:11px;height:11px;border-radius:3px;display:inline-block;border:1px solid rgba(10,52,66,.18)}
-  .conta b{color:var(--texto);font-weight:600}
-  .simcont{padding:0 20px}
+  #v-logica{flex-direction:column}
+  .logtopo{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 20px;
+           border-bottom:1px solid var(--borda);background:var(--papel-2)}
+  .logtopo p{margin:0;font-size:12.5px;color:var(--texto-2);max-width:660px;flex:1;min-width:260px}
+  .logbtn{display:flex;gap:6px}
+  .logbtn .btn{padding:6px 11px}
+  .telaL{flex:1;min-height:0;position:relative;overflow:hidden;background:var(--papel);cursor:grab}
+  .telaL.arrastando{cursor:grabbing}
+  .telaL svg{display:block;width:100%;height:100%;touch-action:none}
   .faisca{animation:correr 1.05s ease-out forwards}
   @keyframes correr{to{stroke-dashoffset:var(--fim)}}
   .menu{position:fixed;z-index:60;background:#fff;border:1px solid var(--borda-2);border-radius:11px;
@@ -154,6 +151,7 @@
     <div class="dir">
       <select id="selCiclo" aria-label="Ciclo"></select>
       <input type="search" id="busca" placeholder="buscar tarefa" aria-label="Buscar tarefa">
+      <button class="btn" id="btnPainel">Ocultar painel</button>
       <button class="btn" id="btnFit">Ajustar</button>
       <button class="btn" id="btnDados">Dados</button>
       <span class="atualizado" id="atualizado"></span>
@@ -169,7 +167,18 @@
     </div>
     <div class="vista" id="v-mapa"><div class="mapa" id="mapa"></div></div>
     <div class="vista" id="v-pessoas"><div class="pessoas" id="pessoas"></div></div>
-    <div class="vista" id="v-logica"><div class="simwrap" id="simwrap"></div></div>
+    <div class="vista" id="v-logica">
+      <div class="logtopo">
+        <p>Clique numa tarefa para marcá-la como concluída ou como não se aplica e acompanhe o que isso libera. Arraste para mover, role para aproximar. O ciclo das gravações está logo abaixo do da unidade.</p>
+        <div class="logbtn">
+          <button class="btn" id="logReset">Reiniciar</button>
+          <button class="btn" id="logOut" aria-label="Diminuir zoom">−</button>
+          <button class="btn" id="logIn" aria-label="Aumentar zoom">+</button>
+          <button class="btn" id="logFit">Ajustar</button>
+        </div>
+      </div>
+      <div class="telaL" id="telaL"><svg id="svgL" role="img" aria-label="Simulador da lógica de liberação"></svg></div>
+    </div>
   </div>
 </div>
 
@@ -2275,7 +2284,10 @@ const corta=(s,n)=>s.length>n?s.slice(0,n-1)+"…":s;
 function desenhar(){
   svg.innerHTML="";
   const defs=el("defs",{},svg);
-  [["p","#a9c8d6"],["p-trava","#f04770"],["p-destrava","#008CC7"]].forEach(([id,c])=>{
+  const flt=el("filter",{id:"brilhoP",x:"-40%",y:"-400%",width:"180%",height:"900%"},defs);
+  el("feGaussianBlur",{stdDeviation:"2.4",result:"b"},flt);
+  const mrg=el("feMerge",{},flt); el("feMergeNode",{in:"b"},mrg); el("feMergeNode",{in:"SourceGraphic"},mrg);
+  [["p","#a9c8d6"],["p-trava","#f04770"],["p-destrava","#79d3f2"]].forEach(([id,c])=>{
     const m=el("marker",{id,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
     el("path",{d:"M0,1 L9,5 L0,9 z",fill:c},m);
   });
@@ -2351,16 +2363,17 @@ function pintar(){
   });
   cArestas.querySelectorAll("path").forEach(p=>{
     const de=p.dataset.de,para=p.dataset.para;
-    let c="#a9c8d6",w=1.3,op=.9,mk="p";
+    let c="#a9c8d6",w=1.3,op=.9,mk="p",brilho=false;
     if(sel){
       const up=(acima.has(de)||de===sel)&&(acima.has(para)||para===sel);
       const dn=(abaixo.has(para)||para===sel)&&(abaixo.has(de)||de===sel);
-      if(up){c="#f04770";w=1.8;op=1;mk="p-trava";}
-      else if(dn){c="#008CC7";w=1.8;op=1;mk="p-destrava";}
+      if(up){c="#f04770";w=2;op=.72;mk="p-trava";brilho=true;}
+      else if(dn){c="#79d3f2";w=2.2;op=1;mk="p-destrava";brilho=true;}
       else op=.08;
     }
     p.setAttribute("stroke",c);p.setAttribute("stroke-width",w);
     p.setAttribute("opacity",op);p.setAttribute("marker-end",`url(#${mk})`);
+    if(brilho) p.setAttribute("filter","url(#brilhoP)"); else p.removeAttribute("filter");
   });
   faixaFases(); painel();
 }
@@ -2418,8 +2431,8 @@ function legenda(){
     <div><span class="sw" style="background:#eaf1f4;border-color:#a8c1cb"></span>bloqueado</div>
     <div><span class="sw" style="background:#fff;border-color:#dde7ea;border-style:dotted;opacity:.5"></span>não se aplica</div>
     <div><span class="sw" style="background:#eaf7fc;border-color:#79d3f2"></span>portão: junta várias tarefas numa condição só</div>
-    <div style="margin-top:9px"><span class="sw" style="height:2px;background:#f04770;border:0"></span>o que trava a tarefa escolhida</div>
-    <div><span class="sw" style="height:2px;background:#008CC7;border:0"></span>o que ela destrava</div>
+    <div style="margin-top:9px"><span class="sw" style="height:3px;background:#f04770;opacity:.72;border:0"></span>o que trava a tarefa escolhida</div>
+    <div><span class="sw" style="height:3px;background:#79d3f2;border:0"></span>o que ela destrava</div>
   </div>`;
 }
 
@@ -2600,25 +2613,36 @@ function marcar(sim,id,valor){
   return novas.length;
 }
 
-function desenharSim(sim){
-  const svgE=sim.svg, g=sim.g;
-  svgE.innerHTML="";
-  svgE.setAttribute("viewBox",`0 0 ${g.W} ${g.H}`);
-  svgE.setAttribute("width",g.W); svgE.setAttribute("height",g.H);
-  const defs=el("defs",{},svgE);
-  const fl=el("filter",{id:"brilho-"+sim.tipo,x:"-30%",y:"-300%",width:"160%",height:"700%"},defs);
-  el("feGaussianBlur",{stdDeviation:"2.6",result:"b"},fl);
+/* --- desenho: os dois ciclos vivem numa tela só, com câmera livre --- */
+const svgL=document.getElementById("svgL"), telaL=document.getElementById("telaL");
+let raizL=null, camL={x:0,y:0,k:1}, moveuL=false, cenaW=0, cenaH=0;
+
+function defsLogica(pai){
+  const defs=el("defs",{},pai);
+  const fl=el("filter",{id:"brilhoL",x:"-40%",y:"-400%",width:"180%",height:"900%"},defs);
+  el("feGaussianBlur",{stdDeviation:"2.8",result:"b"},fl);
   const mg=el("feMerge",{},fl); el("feMergeNode",{in:"b"},mg); el("feMergeNode",{in:"SourceGraphic"},mg);
-  [["s","#a9c8d6"],["s-on","#06d7a0"]].forEach(([id,c])=>{
-    const m=el("marker",{id:id+"-"+sim.tipo,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
+  [["sl","#a9c8d6"],["sl-on","#79d3f2"]].forEach(([id,c])=>{
+    const m=el("marker",{id,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
     el("path",{d:"M0,1 L9,5 L0,9 z",fill:c},m);
   });
-  const fundo=el("g",{},svgE);
-  sim.cAr=el("g",{},svgE); sim.cFa=el("g",{},svgE); sim.cNo=el("g",{},svgE);
+}
 
+function desenharSim(sim, offY){
+  const g=sim.g;
+  const cena=el("g",{transform:`translate(0,${offY})`},raizL);
+  sim.offY=offY;
+  el("text",{x:24,y:-34,fill:"#0a3442","font-family":"Archivo","font-size":"16","font-weight":"600"},cena)
+    .textContent=sim.titulo;
+  sim.contaTxt=el("text",{x:24,y:-14,fill:"#3c6272","font-family":"Archivo Narrow","font-size":"12.5"},cena);
+
+  const fundo=el("g",{},cena);
+  sim.cAr=el("g",{},cena); sim.cFa=el("g",{},cena); sim.cNo=el("g",{},cena);
+
+  el("rect",{x:8,y:2,width:g.W-16,height:g.H-8,rx:14,fill:"none",stroke:"#dfeef4"},fundo);
   g.colunas.forEach((c,i)=>{
     if(c.tipo!=="fase") return;
-    if(i%2===1) el("rect",{x:c.x-14,y:10,width:c.w+28,height:g.H-4,rx:10,fill:"#f1f8fb"},fundo);
+    if(i%2===1) el("rect",{x:c.x-14,y:10,width:c.w+28,height:g.H-24,rx:10,fill:"#f1f8fb"},fundo);
     el("text",{x:c.x,y:30,fill:"#2e5566","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},fundo)
       .textContent=corta(c.rotulo.replace("Gravações · ",""),26);
   });
@@ -2628,14 +2652,13 @@ function desenharSim(sim){
     const A=g.nos[a],B=g.nos[b];
     const x1=A.x+A.w,y1=A.y,x2=B.x,y2=B.y,dx=Math.max(34,(x2-x1)/2);
     const d=`M${x1},${y1} C${x1+dx},${y1} ${x2-dx},${y2} ${x2},${y2}`;
-    const p=el("path",{d,fill:"none",stroke:"#a9c8d6","stroke-width":1.3,
-      "marker-end":`url(#s-${sim.tipo})`},sim.cAr);
-    sim.linhas[a+"→"+b]={el:p,d};
+    const path=el("path",{d,fill:"none",stroke:"#a9c8d6","stroke-width":1.3,"marker-end":"url(#sl)"},sim.cAr);
+    sim.linhas[a+"→"+b]={el:path,d};
   });
 
   Object.values(g.nos).forEach(n=>{
-    const no=el("g",{transform:`translate(${n.x},${n.y-g.NH/2})`,tabindex:"0",role:"button",style:"cursor:pointer",
-      "aria-label":n.tarefa},sim.cNo);
+    const no=el("g",{transform:`translate(${n.x},${n.y-g.NH/2})`,tabindex:"0",role:"button",
+      style:"cursor:pointer","aria-label":n.tarefa},sim.cNo);
     n.rect=el("rect",{x:0,y:0,width:n.w,height:g.NH,rx:7},no);
     if(n.tipo==="tarefa") el("rect",{x:0,y:6,width:4,height:g.NH-12,rx:2,fill:COR_TRILHA[n.trilha]},no);
     n.t1=el("text",{x:13,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},no);
@@ -2643,7 +2666,7 @@ function desenharSim(sim){
     n.t1.textContent=corta(n.tarefa,n.tipo==="portao"?21:32);
     el("title",{},no).textContent=n.tarefa;
     n.no=no;
-    no.addEventListener("click",ev=>{ev.stopPropagation();abrirMenu(sim,n.id,ev.currentTarget);});
+    no.addEventListener("click",ev=>{ev.stopPropagation();if(!moveuL)abrirMenu(sim,n.id,ev.currentTarget);});
     no.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();abrirMenu(sim,n.id,ev.currentTarget);}});
   });
   pintarSim(sim);
@@ -2663,18 +2686,17 @@ function pintarSim(sim){
     n.rect.setAttribute("stroke-dasharray",e.d||"");
     n.t1.setAttribute("fill",e.t); n.t2.setAttribute("fill",e.t);
     n.no.setAttribute("opacity",e.op||1);
-    if(n.tipo==="portao")
-      n.t2.textContent=n.alvo.filter(t=>PRONTO(g.nos[t].status)).length+" de "+n.alvo.length+" prontas";
-    else
-      n.t2.textContent=corta(n.resp,14)+"  ·  "+n.status.toLowerCase();
+    n.t2.textContent = n.tipo==="portao"
+      ? n.alvo.filter(t=>PRONTO(g.nos[t].status)).length+" de "+n.alvo.length+" prontas"
+      : corta(n.resp,14)+"  ·  "+n.status.toLowerCase();
   });
   Object.entries(sim.linhas).forEach(([k,o])=>{
     const on=sim.ativadas.has(k);
-    o.el.setAttribute("stroke", on?"#06d7a0":"#a9c8d6");
-    o.el.setAttribute("stroke-width", on?2.2:1.3);
+    o.el.setAttribute("stroke", on?"#79d3f2":"#a9c8d6");
+    o.el.setAttribute("stroke-width", on?2:1.3);
     o.el.setAttribute("opacity", on?1:.85);
-    o.el.setAttribute("marker-end",`url(#s${on?"-on":""}-${sim.tipo})`);
-    if(on) o.el.setAttribute("filter",`url(#brilho-${sim.tipo})`); else o.el.removeAttribute("filter");
+    o.el.setAttribute("marker-end", on?"url(#sl-on)":"url(#sl)");
+    if(on) o.el.setAttribute("filter","url(#brilhoL)"); else o.el.removeAttribute("filter");
   });
   contarSim(sim);
 }
@@ -2682,27 +2704,24 @@ function pintarSim(sim){
 function faiscar(sim,chaves){
   [...new Set(chaves)].forEach(k=>{
     const o=sim.linhas[k]; if(!o) return;
-    const f=el("path",{d:o.d,fill:"none",stroke:"#ffffff","stroke-width":3.4,"stroke-linecap":"round",
-      filter:`url(#brilho-${sim.tipo})`,class:"faisca"},sim.cFa);
+    const f=el("path",{d:o.d,fill:"none",stroke:"#008CC7","stroke-width":3,"stroke-linecap":"round",
+      filter:"url(#brilhoL)",class:"faisca"},sim.cFa);
     const L=f.getTotalLength();
     f.style.strokeDasharray=`24 ${L+60}`;
     f.style.strokeDashoffset="24px";
-    f.style.setProperty("--fim", (-L)+"px");
+    f.style.setProperty("--fim",(-L)+"px");
     f.addEventListener("animationend",()=>f.remove());
-    setTimeout(()=>f.remove(),2200);
+    setTimeout(()=>{ if(f.parentNode) f.remove(); },2400);
   });
 }
 
 function contarSim(sim){
+  if(!sim.contaTxt) return;
   const n=Object.values(sim.g.nos).filter(x=>x.tipo==="tarefa");
   const c=t=>n.filter(x=>x.status===t).length;
-  sim.barra.innerHTML=
-    `<span class="conta"><i style="background:#06d7a0"></i><b>${c("Concluído")}</b> concluídas</span>
-     <span class="conta"><i style="background:#beeffc;border-color:#008CC7"></i><b>${c("Liberado")}</b> liberadas</span>
-     <span class="conta"><i style="background:#fefce8;border-color:#fec43e"></i><b>${c("Aguardando liberação")}</b> aguardando a Dani</span>
-     <span class="conta"><i style="background:#eaf1f4"></i><b>${c("Bloqueado")}</b> bloqueadas</span>
-     <span class="conta"><i style="background:#fff"></i><b>${c("Não se aplica")}</b> não se aplicam</span>`;
-  sim.barra.appendChild(sim.btnReset);
+  sim.contaTxt.textContent =
+    `${c("Concluído")} concluídas · ${c("Liberado")} liberadas · ${c("Aguardando liberação")} aguardando a Dani · `+
+    `${c("Bloqueado")} bloqueadas · ${c("Não se aplica")} não se aplicam`;
 }
 
 /* menu de três opções */
@@ -2717,7 +2736,6 @@ function abrirMenu(sim,id,alvoEl){
   const m=document.createElement("div");
   m.className="menu"; m.addEventListener("click",e=>e.stopPropagation());
   let h=`<p class="cab">${n.tarefa}</p>`;
-
   if(n.tipo==="portao"){
     const faltam=n.alvo.filter(t=>!PRONTO(g.nos[t].status));
     h+=`<p class="nota">Condição agregada: abre quando as ${n.alvo.length} tarefas estiverem concluídas ou marcadas como não se aplica. Faltam <b>${faltam.length}</b>.</p>`;
@@ -2730,60 +2748,69 @@ function abrirMenu(sim,id,alvoEl){
   }else if(n.status==="Não se aplica"){
     h+=`<p class="nota">Ficou como não se aplica sozinha, porque <b>${n.naoAplicaSe||"a tarefa anterior"}</b> não se aplica.</p>`;
   }else{
-    const travam=n.pais.map(p=>g.nos[p]).filter(x=>!prontoNo(g,x.id));
+    const travam=n.pais.map(pp=>g.nos[pp]).filter(x=>!prontoNo(g,x.id));
     h+=`<p class="nota">Bloqueada. Está esperando:<br>${travam.map(x=>"• "+x.tarefa).join("<br>")||"—"}</p>`;
   }
   h+=`<button class="neutro" data-op="cancelar">Cancelar</button>`;
   m.innerHTML=h;
   document.body.appendChild(m);
-
-  const r=alvoEl.getBoundingClientRect();
-  const larg=m.offsetWidth, alt=m.offsetHeight;
-  m.style.left=Math.min(window.innerWidth-larg-10, Math.max(8,r.left))+"px";
+  const r=alvoEl.getBoundingClientRect(), larg=m.offsetWidth, alt=m.offsetHeight;
+  m.style.left=Math.min(window.innerWidth-larg-10,Math.max(8,r.left))+"px";
   m.style.top=(r.bottom+8+alt>window.innerHeight ? Math.max(8,r.top-alt-8) : r.bottom+8)+"px";
   menuAberto=m;
-
   m.querySelectorAll("[data-op]").forEach(b=>b.onclick=()=>{
-    const op=b.dataset.op;
-    fecharMenu();
+    const op=b.dataset.op; fecharMenu();
     if(op==="cancelar") return;
     marcar(sim,id, op==="desfazer"?null:op);
   });
   const primeiro=m.querySelector("button"); if(primeiro) primeiro.focus();
 }
 
+/* --- câmera da aba Lógica --- */
+function aplicarL(){ if(raizL) raizL.setAttribute("transform",`translate(${camL.x},${camL.y}) scale(${camL.k})`); }
+function vbL(){ const r=telaL.getBoundingClientRect(); svgL.setAttribute("viewBox",`0 0 ${r.width} ${r.height}`); return r; }
+function ajustarL(){ const r=vbL(); camL.k=Math.max(.12,Math.min(r.width/(cenaW+60), r.height/(cenaH+60), 1.1));
+  camL.x=(r.width-cenaW*camL.k)/2; camL.y=24; aplicarL(); }
+function zoomL(f,cx,cy){ const r=telaL.getBoundingClientRect(); const k2=Math.min(2.6,Math.max(.1,camL.k*f));
+  cx=cx??r.width/2; cy=cy??r.height/2;
+  camL.x=cx-(cx-camL.x)*(k2/camL.k); camL.y=cy-(cy-camL.y)*(k2/camL.k); camL.k=k2; aplicarL(); }
+telaL.addEventListener("wheel",e=>{e.preventDefault();const r=telaL.getBoundingClientRect();
+  zoomL(e.deltaY<0?1.12:1/1.12,e.clientX-r.left,e.clientY-r.top);},{passive:false});
+let arrL=null;
+telaL.addEventListener("pointerdown",e=>{arrL={x:e.clientX,y:e.clientY,cx:camL.x,cy:camL.y};moveuL=false;
+  telaL.classList.add("arrastando");telaL.setPointerCapture(e.pointerId);});
+telaL.addEventListener("pointermove",e=>{if(!arrL)return;const dx=e.clientX-arrL.x,dy=e.clientY-arrL.y;
+  if(Math.abs(dx)+Math.abs(dy)>4)moveuL=true;camL.x=arrL.cx+dx;camL.y=arrL.cy+dy;aplicarL();});
+["pointerup","pointercancel"].forEach(ev=>telaL.addEventListener(ev,()=>{arrL=null;telaL.classList.remove("arrastando");
+  setTimeout(()=>{moveuL=false;},60);}));
+document.getElementById("logIn").onclick=()=>zoomL(1.2);
+document.getElementById("logOut").onclick=()=>zoomL(1/1.2);
+document.getElementById("logFit").onclick=ajustarL;
+document.getElementById("logReset").onclick=()=>SIMS.forEach(s=>{
+  s.marcas={}; s.ativadas.clear(); recalcular(s); pintarSim(s); });
+
 function abrirLogica(){
-  if(logicaPronta) return;
-  const wrap=document.getElementById("simwrap");
-  wrap.innerHTML="";
-  SIMS.length=0;
-  [["unidade","Ciclo de uma unidade",
-    "Clique numa tarefa para marcá-la como concluída ou como não se aplica e veja o que isso libera. As linhas que acenderem são as condições que dispararam — o rastro fica aceso para você acompanhar o caminho."],
-   ["gravacoes","Ciclo de uma gravação de encontro síncrono",
-    "Mesma lógica, aplicada ao ciclo das gravações. Arraste para os lados para seguir o fluxo até o fechamento."]
-  ].forEach(([tipo,titulo,texto])=>{
-    const sim=criarSim(tipo,titulo,texto);
+  if(logicaPronta){ vbL(); aplicarL(); return; }
+  svgL.innerHTML=""; SIMS.length=0;
+  defsLogica(svgL);
+  raizL=el("g",{},svgL);
+  let y=70; cenaW=0;
+  [["unidade","Ciclo de uma unidade"],["gravacoes","Ciclo de uma gravação de encontro síncrono"]]
+  .forEach(([tipo,titulo])=>{
+    const sim=criarSim(tipo,titulo,"");
     if(!sim) return;
     recalcular(sim);
-    const bloco=document.createElement("div"); bloco.className="simbloco";
-    bloco.innerHTML=`<div class="simtopo"><h3>${titulo}</h3><p>${texto}</p><div class="simbarra"></div></div>
-                     <div class="simcont"><svg class="sim-svg"></svg></div>`;
-    wrap.appendChild(bloco);
-    sim.svg=bloco.querySelector("svg");
-    sim.barra=bloco.querySelector(".simbarra");
-    sim.btnReset=document.createElement("button");
-    sim.btnReset.className="btn"; sim.btnReset.textContent="Reiniciar";
-    sim.btnReset.onclick=()=>{ sim.marcas={}; sim.ativadas.clear(); recalcular(sim); pintarSim(sim); };
-    desenharSim(sim);
+    desenharSim(sim,y);
     SIMS.push(sim);
+    cenaW=Math.max(cenaW,sim.g.W);
+    y += sim.g.H + 120;
   });
-  // arrastar para navegar
-  let a=null;
-  wrap.onpointerdown=e=>{ if(e.target.closest("g[role=button]")||e.target.closest(".btn")) return;
-    a={x:e.clientX,y:e.clientY,l:wrap.scrollLeft,t:wrap.scrollTop}; wrap.classList.add("arrastando"); };
-  wrap.onpointermove=e=>{ if(!a)return; wrap.scrollLeft=a.l-(e.clientX-a.x); wrap.scrollTop=a.t-(e.clientY-a.y); };
-  ["pointerup","pointerleave","pointercancel"].forEach(ev=>wrap.addEventListener(ev,()=>{a=null;wrap.classList.remove("arrastando");}));
+  cenaH=y;
   logicaPronta=true;
+  // abre legível, no começo do ciclo da unidade; "Ajustar" mostra a cena inteira
+  const r=vbL(), h1=SIMS.length?SIMS[0].g.H:900;
+  camL.k=Math.max(.7, Math.min(r.height/(h1+150), 1.05));
+  camL.x=16; camL.y=16; aplicarL();
 }
 
 /* ===========================================================
@@ -2798,6 +2825,10 @@ function mostrar(v){
   document.querySelectorAll(".aba").forEach(b=>b.setAttribute("aria-selected", b.dataset.vista===v));
   document.querySelectorAll(".vista").forEach(d=>d.classList.toggle("on", d.id==="v-"+v));
   document.getElementById("faixaFases").style.display = v==="ciclo"?"flex":"none";
+  document.getElementById("btnPainel").style.display = v==="ciclo"?"":"none";
+  document.getElementById("btnFit").style.display = v==="ciclo"?"":"none";
+  document.getElementById("selCiclo").style.display = v==="ciclo"?"":"none";
+  document.getElementById("busca").style.display = v==="ciclo"?"":"none";
   fecharMenu();
   if(v==="mapa") desenharMapa();
   if(v==="pessoas") desenharPessoas();
@@ -2805,6 +2836,13 @@ function mostrar(v){
   if(v==="ciclo"&&G) setTimeout(()=>{vb();aplicarCam();},0);
 }
 document.querySelectorAll(".aba").forEach(b=>b.onclick=()=>mostrar(b.dataset.vista));
+let painelVisivel=true;
+document.getElementById("btnPainel").onclick=()=>{
+  painelVisivel=!painelVisivel;
+  document.getElementById("painel").style.display = painelVisivel?"":"none";
+  document.getElementById("btnPainel").textContent = painelVisivel?"Ocultar painel":"Mostrar painel";
+  setTimeout(()=>{ if(G){vb();aplicarCam();} },0);
+};
 document.getElementById("btnFit").onclick=()=>enquadrar();
 document.getElementById("selCiclo").onchange=e=>trocarCiclo(e.target.value);
 document.getElementById("busca").oninput=e=>{busca=e.target.value.trim();if(G)pintar();};
