@@ -193,7 +193,6 @@
         <option value="frente">setas: da liberação</option>
         <option value="nenhuma">setas: nenhuma</option>
       </select>
-      <button class="btn" id="modoColunas" title="Cada fase ocupa várias colunas ou uma só">Agrupar fases</button>
       <button class="btn" id="btnFit">Ajustar</button>
       <button class="btn" id="btnDados">Dados</button>
       <span class="atualizado" id="atualizado"></span>
@@ -2222,7 +2221,7 @@ function progresso(itens){
 }
 
 let REGRAS=[], PAINEL=[], CICLOS=[], ciclo=null, G=null, sel=null, busca="";
-let colunasExpandidas=true;   // fases largas (várias colunas) ou empilhadas numa só
+const fasesExpandidas=new Set();  // fases repartidas em várias colunas (padrão: nenhuma)
 let modoSetas="todas";        // todas | frente | nenhuma
 
 function indexar(){
@@ -2310,11 +2309,12 @@ function grafoDe(regras, status, extra){
      setas continuam sempre indo da esquerda para a direita e o desenho fica mais baixo. */
   const MAXCOL=8;
   const colunas=[];
+  const portoesDe=i=>Object.values(nos).filter(n=>n.tipo==="portao"&&n.ordem===i+0.5);
   fases.forEach((f,i)=>{
     const itens=regras.filter(r=>r.fase===f).map(r=>nos[r.tarefa]);
-    if(!colunasExpandidas){            // modo compacto: a fase inteira numa coluna só
+    if(!fasesExpandidas.has(f)){       // padrão: a fase inteira numa coluna só
       colunas.push({rotulo:f,fase:f,tipo:"fase",itens});
-      const pts=Object.values(nos).filter(n=>n.tipo==="portao"&&n.ordem===i+0.5);
+      const pts=portoesDe(i);
       if(pts.length) colunas.push({rotulo:"",fase:f,tipo:"portao",itens:pts});
       return;
     }
@@ -2401,7 +2401,7 @@ function desenhar(){
   const flt=el("filter",{id:"brilhoP",x:"-40%",y:"-400%",width:"180%",height:"900%"},defs);
   el("feGaussianBlur",{stdDeviation:"2.4",result:"b"},flt);
   const mrg=el("feMerge",{},flt); el("feMergeNode",{in:"b"},mrg); el("feMergeNode",{in:"SourceGraphic"},mrg);
-  [["p","#9dc0d0"],["p-trava","#f04770"],["p-destrava","#79d3f2"]].forEach(([id,c])=>{
+  [["p","#9dc0d0"],["p-trava","#f04770"],["p-destrava","#79d3f2"],["p-feito","#0079ad"]].forEach(([id,c])=>{
     const m=el("marker",{id,viewBox:"0 0 10 10",refX:"9",refY:"5",markerWidth:"5.5",markerHeight:"5.5",orient:"auto-start-reverse"},defs);
     el("path",{d:"M0,1 L9,5 L0,9 z",fill:c},m);
   });
@@ -2412,8 +2412,13 @@ function desenhar(){
 
   G.faixas.forEach((f,i)=>{
     if(i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:G.H-4,rx:10,fill:"#eef7fb"},fundo);
-    el("text",{x:f.x0,y:30,fill:"#28505f","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},fundo)
-      .textContent=corta(f.rotulo.replace("Gravações · ",""),40);
+    const cab=el("g",{tabindex:"0",role:"button",style:"cursor:pointer"},fundo);
+    el("rect",{x:f.x0-8,y:13,width:f.x1-f.x0+16,height:25,rx:6,fill:"none","pointer-events":"all"},cab);
+    el("text",{x:f.x0,y:30,fill:"#28505f","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},cab)
+      .textContent=corta(f.rotulo.replace("Gravações · ",""),40)+"  ▾";
+    el("title",{},cab).textContent="Opções desta fase";
+    cab.addEventListener("click",ev=>{ev.stopPropagation(); if(!moveu) menuFase(f.fase,ev.currentTarget,null);});
+    cab.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();menuFase(f.fase,ev.currentTarget,null);}});
     const pr=progresso(f.itens.filter(n=>n.tipo==="tarefa"));
     el("text",{x:f.x1,y:30,"text-anchor":"end",fill:"#577b8a","font-family":"Archivo Narrow","font-size":"11.5"},fundo)
       .textContent=pr.feitas+"/"+pr.total;
@@ -2495,7 +2500,11 @@ function pintar(){
     if(sel){
       const up=(acima.has(de)||de===sel)&&(acima.has(para)||para===sel);
       const dn=(abaixo.has(para)||para===sel)&&(abaixo.has(de)||de===sel);
-      if(up){c="#f04770";w=2;op=.72;mk="p-trava";brilho=true;}
+      if(up){
+        const cumprida=prontoNo(G,de);   // origem já concluída ou não se aplica
+        c=cumprida?"#0079ad":"#f04770"; w=2; op=cumprida?1:.72;
+        mk=cumprida?"p-feito":"p-trava"; brilho=true;
+      }
       else if(dn){c="#79d3f2";w=2.2;op=1;mk="p-destrava";brilho=true;}
       else op=.08;
     }
@@ -2569,7 +2578,8 @@ function legenda(){
     <div><span class="sw" style="background:#e6eef1;border-color:#95b2bf"></span>bloqueado</div>
     <div><span class="sw" style="background:#fff;border-color:#d5e2e7;border-style:dotted;opacity:.55"></span>não se aplica</div>
     <div><span class="sw" style="background:#eaf7fd;border-color:#79d3f2"></span>portão: junta várias tarefas numa condição só</div>
-    <div style="margin-top:9px"><span class="sw" style="height:3px;background:#f04770;opacity:.72;border:0"></span>o que trava a tarefa escolhida</div>
+    <div style="margin-top:9px"><span class="sw" style="height:3px;background:#f04770;opacity:.72;border:0"></span>dependência que ainda trava</div>
+    <div><span class="sw" style="height:3px;background:#0079ad;border:0"></span>dependência já cumprida</div>
     <div><span class="sw" style="height:3px;background:#79d3f2;border:0"></span>o que ela destrava</div>
   </div>`;
 }
@@ -2801,12 +2811,10 @@ function desenharSim(sim, offY){
     el("rect",{x:f.x0-8,y:13,width:f.x1-f.x0+16,height:25,rx:6,fill:"none","pointer-events":"all"},cab);
     const rot=corta(f.rotulo.replace("Gravações · ",""),40);
     el("text",{x:f.x0,y:30,fill:"#28505f","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},cab)
-      .textContent=rot;
-    el("text",{x:f.x0+rot.length*6.3+12,y:30,fill:"#0079ad","font-family":"Archivo Narrow","font-size":"11.5"},cab)
-      .textContent="· concluir fase";
-    el("title",{},cab).textContent="Concluir esta fase inteira, e junto tudo de que ela ainda depende";
-    cab.addEventListener("click",ev=>{ev.stopPropagation(); if(!moveuL) concluirFase(sim,f.fase);});
-    cab.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();concluirFase(sim,f.fase);}});
+      .textContent=rot+"  ▾";
+    el("title",{},cab).textContent="Opções desta fase";
+    cab.addEventListener("click",ev=>{ev.stopPropagation(); if(!moveuL) menuFase(f.fase,ev.currentTarget,sim);});
+    cab.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();menuFase(f.fase,ev.currentTarget,sim);}});
   });
 
   sim.linhas={};
@@ -2916,6 +2924,46 @@ function fecharMenu(){ if(menuAberto){menuAberto.remove();menuAberto=null;} }
 document.addEventListener("click",fecharMenu);
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") fecharMenu(); });
 
+function posicionarMenu(m,alvoEl){
+  const r=alvoEl.getBoundingClientRect(), larg=m.offsetWidth, alt=m.offsetHeight;
+  m.style.left=Math.min(window.innerWidth-larg-10,Math.max(8,r.left))+"px";
+  m.style.top=(r.bottom+8+alt>window.innerHeight ? Math.max(8,r.top-alt-8) : r.bottom+8)+"px";
+}
+
+/* menu do título da fase: expandir/agrupar colunas e, no simulador, concluir a fase */
+function menuFase(fase,alvoEl,sim){
+  fecharMenu();
+  const g = sim ? sim.g : G;
+  if(!g) return;
+  const fx=g.faixas.find(f=>f.fase===fase);
+  const nT=fx?fx.itens.filter(n=>n.tipo==="tarefa").length:0;
+  const m=document.createElement("div"); m.className="menu";
+  m.addEventListener("click",e=>e.stopPropagation());
+  let h=`<p class="cab">${fase.replace("Gravações · ","")}</p>`;
+  if(sim) h+=`<button data-fop="concluir">Concluir esta fase e o que falta antes dela</button>`;
+  if(nT>8){
+    h+= fasesExpandidas.has(fase)
+      ? `<button data-fop="agrupar">Agrupar numa coluna só</button>`
+      : `<button data-fop="expandir">Expandir em várias colunas</button>`;
+  }else{
+    h+=`<p class="nota">${nT} tarefa${nT===1?"":"s"} — já cabe numa coluna só.</p>`;
+  }
+  h+=`<button class="neutro" data-fop="cancelar">Cancelar</button>`;
+  m.innerHTML=h;
+  document.body.appendChild(m);
+  posicionarMenu(m,alvoEl);
+  menuAberto=m;
+  m.querySelectorAll("[data-fop]").forEach(b=>b.onclick=()=>{
+    const op=b.dataset.fop; fecharMenu();
+    if(op==="cancelar") return;
+    if(op==="concluir"){ concluirFase(sim,fase); return; }
+    if(op==="expandir") fasesExpandidas.add(fase); else fasesExpandidas.delete(fase);
+    if(ciclo) trocarCiclo(ciclo);
+    if(logicaPronta) refazerLogica();
+  });
+  const b1=m.querySelector("button"); if(b1) b1.focus();
+}
+
 function abrirMenu(sim,id,alvoEl){
   fecharMenu();
   const g=sim.g, n=g.nos[id];
@@ -2949,9 +2997,7 @@ function abrirMenu(sim,id,alvoEl){
   h+=`<button class="neutro" data-op="cancelar">Cancelar</button>`;
   m.innerHTML=h;
   document.body.appendChild(m);
-  const r=alvoEl.getBoundingClientRect(), larg=m.offsetWidth, alt=m.offsetHeight;
-  m.style.left=Math.min(window.innerWidth-larg-10,Math.max(8,r.left))+"px";
-  m.style.top=(r.bottom+8+alt>window.innerHeight ? Math.max(8,r.top-alt-8) : r.bottom+8)+"px";
+  posicionarMenu(m,alvoEl);
   menuAberto=m;
   m.querySelectorAll("[data-op]").forEach(b=>b.onclick=()=>{
     const op=b.dataset.op; fecharMenu();
@@ -3042,9 +3088,7 @@ function mostrar(v){
   document.getElementById("abrirPainel").style.display = (v==="ciclo"&&!painelVisivel)?"block":"none";
   document.getElementById("selCiclo").style.display = v==="ciclo"?"":"none";
   document.getElementById("busca").style.display = v==="ciclo"?"":"none";
-  const mostraSetas = (v==="ciclo"||v==="logica")?"":"none";
-  document.getElementById("modoSetas").style.display = mostraSetas;
-  document.getElementById("modoColunas").style.display = mostraSetas;
+  document.getElementById("modoSetas").style.display = (v==="ciclo"||v==="logica")?"":"none";
   fecharMenu();
   if(v==="mapa") desenharMapa();
   if(v==="pessoas") desenharPessoas();
@@ -3069,12 +3113,7 @@ document.getElementById("modoSetas").onchange=e=>{
   if(G) pintar();
   if(logicaPronta) SIMS.forEach(pintarSim);
 };
-document.getElementById("modoColunas").onclick=()=>{
-  colunasExpandidas=!colunasExpandidas;
-  document.getElementById("modoColunas").textContent = colunasExpandidas?"Agrupar fases":"Expandir fases";
-  if(ciclo) trocarCiclo(ciclo);
-  if(logicaPronta) refazerLogica();
-};
+
 
 function carregar(csvRegras, csvPainel, rotulo){
   const aviso=document.getElementById("aviso");
