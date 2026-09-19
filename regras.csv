@@ -1,3 +1,11 @@
+"Como a esteira funciona (abas M2, M3 e M4)",,,,
+,,,,
+"• Você preenche apenas as células amarelas: ""Concluído em"" e ""Marcação"" (e Responsável/Observação se quiser). Datas da unidade vêm do Cronograma de liberação.",,,,
+"• Status é fórmula. Prioridade: 1) data em Concluído em → Concluído; 2) Marcação ""Não se aplica"" ou regra automática → Não se aplica; 3) pré-requisitos cumpridos → Liberado (ou Em andamento, se marcado); 4) senão → Bloqueado.",,,,
+"• ""Não se aplica"" conta como etapa cumprida. Template de trilha que não existe no Cronograma Dani vira ""Não se aplica"" sozinho.",,,,
+"• Templates nunca liberam sozinhos: ficam em ""Aguardando liberação"" (ou ""Atrasado"", se a previsão já passou) até você registrar a data real em ""Concluído em"". É essa data que destrava as tarefas seguintes.",,,,
+"• Liberado em: nos templates, é a previsão de liberação da trilha (Dani); nas demais tarefas, a conclusão mais recente entre os pré-requisitos.",,,,
+"• Para desfazer uma conclusão, apague a data em ""Concluído em"". Para desfazer uma marcação, escolha ""(em branco)"" na lista da coluna Marcação (ou apague a célula).",,,,
 Fase,Tarefa,Responsável,Libera quando estiver Concluído / Não se aplica,"Vira ""Não se aplica"" sozinha quando"
 Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,"— (manual: registre em ""Concluído em"" a data em que a Dani liberou)",Trilha ausente no Cronograma Dani
 Template,PI - (Planejamento Integrado) - validado e revisado,Dani,"— (manual: registre em ""Concluído em"" a data em que a Dani liberou)",Trilha ausente no Cronograma Dani
@@ -71,9 +79,9 @@ Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),Alline
 Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - GIM (Gestão Imobiliária) + HTML de PET - GIM (Gestão Imobiliária)",
 Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - TI (Tecnologia da Informação) + HTML de PET - TI (Tecnologia da Informação)",
 Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - TEV (Turismo e Eventos) + HTML de PET - TEV (Turismo e Eventos)",
-Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,As 8 revisões finais,
-Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,As 8 revisões finais,
-Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,As 8 revisões finais + Mapear as atividades certificáveis de MET + Mapear as atividades certificáveis de PI + Mapear as atividades certificáveis de RP + Mapear as atividades certificáveis de PET,
+Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,As 9 revisões finais,
+Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,As 9 revisões finais,
+Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,As 9 revisões finais + Mapear as atividades certificáveis de MET + Mapear as atividades certificáveis de PI + Mapear as atividades certificáveis de RP + Mapear as atividades certificáveis de PET,
 Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Alline,Aplicar a restrição de acesso da unidade + Inserir os requisitos de acesso à certificação,
 Liberação,Liberar a unidade,Marcelo,"Aplicar os ajustes apontados na revisão final + Aplicar a restrição de acesso da unidade + Inserir os requisitos de acesso à certificação + Revisar configurações: restrições, certificados, visibilidade",
 Gravações · Entrada (Dani),Vídeos das gravações no Drive,Dani,— (manual: Dani libera até 2 dias úteis após o encontro),
