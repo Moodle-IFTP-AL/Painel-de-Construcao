@@ -45,6 +45,8 @@
   select{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:6px 10px;font-size:12.5px;color:var(--texto)}
   input[type=search],input[type=url]{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:6px 11px;font-size:12.5px;color:var(--texto);min-width:190px}
   .atualizado{font-size:11.5px;color:var(--texto-3);font-family:var(--narrow)}
+  .atualizado.alerta{color:var(--rosa);font-weight:600;background:var(--rosa-claro);
+                     border:1px solid var(--rosa);border-radius:999px;padding:3px 10px}
 
   /* faixa de fases */
   .fases{display:flex;gap:0;padding:0 20px;border-bottom:1px solid var(--borda);overflow-x:auto}
@@ -89,6 +91,15 @@
   .item.destrava::before{background:var(--verde-borda)}
   .item i{display:block;font-style:normal;color:var(--texto-3);font-size:11.5px}
   .item .pz{display:block;font-family:var(--narrow);font-size:11px;font-weight:600;color:var(--texto-2)}
+  .item .pz.atraso,.atr{color:var(--rosa)}
+  .item.atrasada::before{background:var(--rosa)}
+  .est.atrasada{box-shadow:inset 0 0 0 1px var(--rosa)}
+  .est .prz.atraso{color:var(--rosa)}
+  .est .qt .atr{font-weight:600}
+  .selo-atraso{background:var(--rosa-claro);border:1px solid var(--rosa);color:var(--rosa);
+               border-radius:999px;padding:3px 11px;font-size:12px;font-weight:600}
+  .dt.atraso,.dtc.atraso,td.przc.atraso{color:var(--rosa);font-weight:600}
+  .legenda .atr{font-weight:600}
   dl{margin:0 0 14px;display:grid;grid-template-columns:82px 1fr;gap:5px 10px;font-size:12.5px}
   dt{color:var(--texto-2);font-family:var(--narrow)}
   dd{margin:0}
@@ -101,7 +112,7 @@
   .legenda .sw{width:20px;height:13px;border-radius:3px;flex:0 0 20px;border:1px solid var(--borda-2)}
 
   /* mapa */
-  .mapa{flex:1;overflow:auto;padding:18px 20px 40px}
+  .mapa{overflow:auto;padding:4px 14px 18px;max-height:62vh}
   table{border-collapse:separate;border-spacing:0;font-size:12px;width:100%}
   th,td{padding:0;text-align:left}
   thead th{position:sticky;top:0;background:var(--papel);z-index:2;font-family:var(--narrow);font-weight:500;color:var(--texto-2);font-size:11.5px;padding:0 6px 8px;vertical-align:bottom}
@@ -115,7 +126,8 @@
   .cel.na{opacity:.4}
 
   /* pessoas */
-  .pessoas{flex:1;overflow:auto;padding:18px 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;align-content:start}
+  .pessoas{overflow:auto;padding:4px 14px 18px;max-height:62vh;display:grid;
+           grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-content:start}
   .cartao{border:1px solid var(--borda);border-radius:12px;padding:14px 16px;background:var(--papel)}
   .cartao h3{margin:0 0 2px;font-size:13.5px}
   .cartao .tot{color:var(--texto-3);font-size:11.5px;font-family:var(--narrow);margin:0 0 8px}
@@ -185,6 +197,15 @@
   .pl .pt{width:12px;height:12px;border-radius:50%;border:1px solid var(--cinza-borda);margin:0 auto}
   .pl .dt{font-family:var(--narrow);font-size:11.5px;color:var(--texto-3);text-align:right}
   .plcab{font-family:var(--narrow);font-size:11px;color:var(--texto-3);padding:0 8px 4px}
+  .bloco{margin-top:18px;border:1px solid var(--borda);border-radius:12px;background:var(--papel)}
+  .bloco>summary{cursor:pointer;padding:12px 16px;font-size:12.5px;font-weight:600;color:var(--texto-2);
+                 list-style:none;display:flex;align-items:center;gap:8px}
+  .bloco>summary::before{content:"▸";color:var(--texto-3);font-size:11px}
+  .bloco[open]>summary::before{content:"▾"}
+  .bloco>summary:hover{color:var(--azul-borda)}
+  .bloco>summary::-webkit-details-marker{display:none}
+  .bloco .panorama{padding:0 10px 14px}
+  .bloco .panorama h3{display:none}
 
   /* simulador de lógica */
   #v-logica{flex-direction:column}
@@ -242,7 +263,51 @@
     .logtopo{padding:10px 14px}
     .pessoas,.mapa{padding:14px}
   }
+  /* celular: as duas esteiras deixam de ser uma grade larga e viram blocos empilhados */
+  @media (max-width:680px){
+    header{padding:9px 12px;gap:8px}
+    .marca{font-size:15px}
+    .dir{gap:6px}
+    .btn,select{padding:5px 9px;font-size:12px}
+    input[type=search]{min-width:110px}
+    .resumo{padding:14px 12px 32px}
+    .rsTopo h2{font-size:17px}
+    .esteiras{overflow:visible}
+    .grade{grid-template-columns:1fr 1fr!important;min-width:0;gap:7px}
+    .gcab{display:none}
+    .gnome{grid-column:1/-1;padding:10px 0 0;flex-direction:row;align-items:baseline;gap:8px}
+    .est.vazia{display:none}
+    .est{min-height:0;padding:8px}
+    .est::before{content:attr(data-fase);font-family:var(--narrow);font-size:10.5px;
+                 color:var(--texto-2);line-height:1.2;display:block}
+    .fecho{grid-column:1/-1;grid-row:auto!important;flex-direction:row;align-items:center;gap:10px}
+    .fecho .est{flex:1}
+    .pl,.plcab{grid-template-columns:1fr 46px 46px 14px 40px 60px!important;gap:6px!important;font-size:11.5px}
+    .pl .dt{font-size:10.5px}
+    .mapa,.pessoas{max-height:none;padding:4px 8px 14px}
+    .rsCard{padding:12px 13px}
+  }
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+  /* impressão: sai só o Resumo, em página branca, sem controles */
+  @media print{
+    @page{size:A4 landscape;margin:12mm}
+    body{background:#fff}
+    .app{height:auto;display:block}
+    header,.fases,.dir,.abas,aside,.abaLateral,.logtopo,.telaL{display:none!important}
+    .corpo{display:block;height:auto}
+    .vista{display:none!important}
+    .vista#v-resumo{display:block!important}
+    .resumo{overflow:visible;padding:0}
+    .esteiras{overflow:visible}
+    .grade{min-width:0}
+    .mapa,.pessoas{max-height:none;overflow:visible}
+    .bloco{break-inside:avoid;border-color:#bbb}
+    .bloco>summary{font-weight:700}
+    .rsCard,.est,.pl{break-inside:avoid}
+    .rsCartoes{grid-template-columns:repeat(2,1fr)}
+    .cartao{break-inside:avoid}
+  }
 </style>
 </head>
 <body>
@@ -252,8 +317,6 @@
     <div class="abas" role="tablist">
       <button class="aba" role="tab" aria-selected="true" data-vista="resumo">Resumo</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="ciclo">Ciclo</button>
-      <button class="aba" role="tab" aria-selected="false" data-vista="mapa">Mapa</button>
-      <button class="aba" role="tab" aria-selected="false" data-vista="pessoas">Agora</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="logica">Lógica</button>
     </div>
     <div class="dir">
@@ -265,6 +328,8 @@
         <option value="todas">setas: todas</option>
       </select>
       <button class="btn" id="btnFit">Ajustar</button>
+      <button class="btn" id="btnCopiar">Copiar resumo</button>
+      <button class="btn" id="btnImprimir">Imprimir</button>
       <button class="btn" id="btnDados">Dados</button>
       <span class="atualizado" id="atualizado"></span>
     </div>
@@ -285,8 +350,6 @@
         <div class="lateralCorpo" id="painel"></div>
       </aside>
     </div>
-    <div class="vista" id="v-mapa"><div class="mapa" id="mapa"></div></div>
-    <div class="vista" id="v-pessoas"><div class="pessoas" id="pessoas"></div></div>
     <div class="vista" id="v-logica">
       <div class="logtopo">
         <p>Clique numa tarefa para marcá-la como concluída ou como não se aplica e acompanhe o que isso libera. Arraste para mover, role para aproximar. O ciclo das gravações está logo abaixo do da unidade.</p>
@@ -301,6 +364,7 @@
         <span><i style="background:#f0fdf4;border-color:#06d7a0;border-width:2px"></i>concluído</span>
         <span><i style="background:#beeffc;border-color:#008CC7"></i>liberado</span>
         <span><i style="background:#fefce8;border-color:#fec43e"></i>aguardando a Dani</span>
+        <span><i style="background:#fdf0f3;border-color:#f04770"></i>atrasado</span>
         <span><i style="background:#e7edef;border-color:#b4c6cd"></i>bloqueado</span>
         <span><i style="background:#fff;border-color:#dfe8eb;opacity:.55"></i>não se aplica</span>
         <span><i style="background:#f2fbfe;border-color:#79d3f2"></i>portão</span>
@@ -2287,11 +2351,41 @@ const ST={
   "Liberado":{f:"#beeffc",b:"#008CC7",w:2.4,t:"#0a3442",c:"#008CC7"},
   "Em andamento":{f:"#ffffff",b:"#008CC7",w:2.4,d:"6 3",t:"#0a3442",c:"#008CC7"},
   "Aguardando liberação":{f:"#fefce8",b:"#fec43e",w:2.2,t:"#0a3442",c:"#fec43e"},
+  "Atrasado":{f:"#fdf0f3",b:"#f04770",w:2.4,t:"#0a3442",c:"#f04770"},
   "Bloqueado":{f:"#e7edef",b:"#b4c6cd",w:1.3,t:"#3f6270",c:"#b4c6cd"},
   "Não se aplica":{f:"#ffffff",b:"#dfe8eb",w:1,d:"2 3",t:"#93aab4",c:"#e7edef",op:.55},
   "—":{f:"#e7edef",b:"#b4c6cd",w:1.3,t:"#3f6270",c:"#b4c6cd"}
 };
 const PRONTO = s => s==="Concluído"||s==="Não se aplica";
+
+/* Atraso: o painel não recebe esse estado da planilha, ele compara o prazo com hoje.
+   Vale para qualquer tarefa que ainda não fechou, inclusive bloqueada — se a data
+   passou e ela não está concluída nem dispensada, a cadeia escorregou. */
+const HOJE = (()=>{ const d=new Date();
+  return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate(); })();
+function atrasada(status,prazo){
+  if(status==="Atrasado") return true;   // a própria planilha já declarou o atraso
+  if(!prazo||PRONTO(status)) return false;
+  const v=ordData(prazo);
+  return v<9e9 && v<HOJE;
+}
+const atrasadas = itens => itens.filter(p=>atrasada(p.status,p.prazo)).length;
+
+/* Responsável tem duas fontes: a aba Regras guarda um padrão fixo e o Painel é
+   fórmula, puxada das abas do módulo. O Painel manda. Para a aba Lógica, que não é
+   de nenhuma unidade específica, vale o responsável mais frequente no Painel. */
+let RESP_PAINEL={};
+function indexarResponsaveis(){
+  const cont={};
+  PAINEL.forEach(p=>{
+    if(!p.resp) return;
+    (cont[p.tarefa]=cont[p.tarefa]||{})[p.resp]=(cont[p.tarefa][p.resp]||0)+1;
+  });
+  RESP_PAINEL={};
+  Object.keys(cont).forEach(t=>{
+    RESP_PAINEL[t]=Object.entries(cont[t]).sort((a,b)=>b[1]-a[1])[0][0];
+  });
+}
 /* Progresso. A tarefa marcada como "não se aplica" sai da conta inteira:
    não conta como feita nem como pendente, porque ela não existe naquela unidade. */
 function progresso(itens){
@@ -2581,8 +2675,10 @@ function desenhar(){
     n.t2.textContent=n.tipo==="portao"
       ? n.alvo.filter(t=>PRONTO(G.nos[t].status)).length+" de "+n.alvo.length+" prontas"
       : corta(n.resp,16)+(n.prazo?"  ·  "+n.prazo:"");
+    n.alerta=el("rect",{x:n.w-10,y:4,width:6,height:6,rx:1.5,fill:"#f04770",opacity:0},g);
     el("title",{},g).textContent=n.tipo==="portao"
-      ? n.tarefa : `${n.tarefa}\n${n.resp} · ${n.status}${n.prazo?" · prazo "+n.prazo:""}`;
+      ? n.tarefa : `${n.tarefa}\n${n.resp} · ${n.status}${n.prazo?" · prazo "+n.prazo:""}${
+          atrasada(n.status,n.prazo)?" · ATRASADA":""}`;
     g.addEventListener("click",e=>{e.stopPropagation();selecionar(n.id);});
     g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selecionar(n.id);}});
     n.g=g;
@@ -2612,9 +2708,11 @@ function pintar(){
       ? {f:"#f2fbfe",b:"#79d3f2",w:1.8,t:"#0a3442",c:"#79d3f2"}
       : (ST[n.status]||ST["—"]);
     const marcado = n.id===sel;
+    const atras = n.tipo==="tarefa" && atrasada(n.status,n.prazo);
+    if(n.alerta) n.alerta.setAttribute("opacity", atras?1:0);
     n.rect.setAttribute("fill",e.f);
-    n.rect.setAttribute("stroke", marcado?"#0a3442":e.b);
-    n.rect.setAttribute("stroke-width", marcado?2.4:e.w);
+    n.rect.setAttribute("stroke", marcado?"#0a3442":(atras?"#f04770":e.b));
+    n.rect.setAttribute("stroke-width", marcado?2.4:(atras?2.4:e.w));
     n.rect.setAttribute("stroke-dasharray", marcado?"":(e.d||""));
     n.t1.setAttribute("fill", n.tipo==="portao"?"#0a3442":e.t);
     n.t2.setAttribute("fill", n.tipo==="portao"?"#5b7d8a":e.t);
@@ -2702,8 +2800,8 @@ function faixaFases(){
     const lib=c.itens.filter(n=>n.status==="Liberado"||n.status==="Em andamento").length;
     const b=document.createElement("button");
     b.className="fase-chip";
-    const pz=prazoDe(c.itens);
-    b.innerHTML=`<span class="n">${c.rotulo}${pz?` · <b style="font-weight:600;color:var(--texto-2)">${pz}</b>`:""}</span>
+    const pz=prazoDe(c.itens), at=atrasadas(c.itens);
+    b.innerHTML=`<span class="n">${c.rotulo}${pz?` · <b style="font-weight:600;color:${at?"var(--rosa)":"var(--texto-2)"}">${pz}</b>`:""}</span>
       <span class="v">${pc}%${lib?` <span style="font-size:11px;color:var(--azul-medio);font-weight:600">· ${lib} livre${lib>1?"s":""}</span>`:""}</span>
       <span class="tr"><i style="width:${pc}%"></i></span>`;
     b.onclick=()=>{ const alvo=c.itens.find(n=>n.status==="Liberado")||c.itens[0]; if(alvo) selecionar(alvo.id); };
@@ -2717,6 +2815,7 @@ function legenda(){
     <div><span class="sw" style="background:#beeffc;border-color:#008CC7;border-width:2px"></span>liberado — dá para pegar</div>
     <div><span class="sw" style="background:#eaf7fd;border-color:#0079ad;border-width:2px;border-style:dashed"></span>em andamento</div>
     <div><span class="sw" style="background:#fefce8;border-color:#fec43e"></span>aguardando template da Dani</div>
+    <div><span class="sw" style="background:#fdf0f3;border-color:#f04770"></span>atrasado</div>
     <div><span class="sw" style="background:#e7edef;border-color:#b4c6cd"></span>bloqueado</div>
     <div><span class="sw" style="background:#fff;border-color:#dfe8eb;border-style:dotted;opacity:.55"></span>não se aplica</div>
     <div><span class="sw" style="background:#f2fbfe;border-color:#79d3f2"></span>portão: junta várias tarefas numa condição só</div>
@@ -2736,7 +2835,11 @@ function painel(){
     Object.keys(porResp).sort().forEach(r=>{
       h+=`<p class="quem">${r} · ${porResp[r].length}</p>`;
       porResp[r].sort((a,b)=>ordData(a.prazo)-ordData(b.prazo));
-      porResp[r].forEach(n=>h+=`<button class="item" data-ir="${escapa(n.id)}">${n.tarefa}<i>${n.fase}</i><b class="pz">${n.prazo?"prazo "+n.prazo:"sem prazo"}</b></button>`);
+      porResp[r].forEach(n=>{
+        const at=atrasada(n.status,n.prazo);
+        h+=`<button class="item${at?" atrasada":""}" data-ir="${escapa(n.id)}">${n.tarefa}<i>${n.fase}</i>`+
+           `<b class="pz${at?" atraso":""}">${n.prazo?(at?"atrasada desde ":"prazo ")+n.prazo:"sem prazo"}</b></button>`;
+      });
     });
     if(G.semRegra) h+=`<p class="vazio" style="margin-top:16px">${G.semRegra} tarefa(s) deste ciclo ainda não têm regra cadastrada na aba <b>Regras automáticas</b> e por isso não aparecem no grafo.</p>`;
     p.innerHTML=h+legenda();
@@ -2793,11 +2896,11 @@ function desenharMapa(){
       const alpha=(pc/100*.66+.05).toFixed(2);
       h+=`<td><button class="cel" data-ciclo="${escapa(c.chave)}" style="background:rgba(6,215,160,${alpha})">
           <span class="pc">${pc}%</span>${lib?`<span class="lib">${lib} livre${lib>1?"s":""}</span>`:`<span class="lib" style="color:var(--texto-3)">${pg.total} tarefas</span>`}
-          <span class="dtc">${pz||""}</span></button></td>`;
+          <span class="dtc${atrasadas(its)?" atraso":""}">${pz||""}</span></button></td>`;
     });
     const fim=doC.find(p=>semAcento(p.tarefa).startsWith("liberar a unidade"))
             || doC.find(p=>semAcento(p.tarefa).includes("analise final"));
-    h+=`<td class="przc">${fim&&fim.prazo?fim.prazo:"—"}</td></tr>`;
+    h+=`<td class="przc${atrasadas(doC)?" atraso":""}">${fim&&fim.prazo?fim.prazo:"—"}</td></tr>`;
   });
   alvo.innerHTML=h+`</tbody></table>`;
   alvo.querySelectorAll("[data-ciclo]").forEach(b=>b.onclick=()=>{ mostrar("ciclo"); trocarCiclo(b.dataset.ciclo); });
@@ -2817,9 +2920,12 @@ function desenharPessoas(){
   if(!nomes.length){ alvo.innerHTML=`<p class="vazio">Nenhuma tarefa liberada no momento.</p>`; return; }
   alvo.innerHTML=nomes.map(n=>{
     const its=por[n];
-    const prox=its.map(p=>p.prazo).filter(Boolean)[0];
-    return `<div class="cartao"><h3>${n}</h3><p class="tot">${its.length} tarefa(s) para pegar agora${prox?` · primeiro prazo ${prox}`:""}</p>`+
-      its.slice(0,14).map(p=>`<button class="item" data-abrir="${escapa(p.modulo+" · "+p.unidade)}" data-tar="${escapa(p.tarefa)}">${p.tarefa}<i>${p.modulo} · ${p.unidade}</i><b class="pz">${p.prazo?"prazo "+p.prazo:"sem prazo"}</b></button>`).join("")+
+    const prox=its.map(p=>p.prazo).filter(Boolean)[0], at=atrasadas(its);
+    return `<div class="cartao"><h3>${n}</h3><p class="tot">${its.length} tarefa(s) para pegar agora${prox?` · primeiro prazo ${prox}`:""}${
+        at?` · <span class="atr">${at} atrasada${at>1?"s":""}</span>`:""}</p>`+
+      its.slice(0,14).map(p=>{ const a=atrasada(p.status,p.prazo);
+        return `<button class="item${a?" atrasada":""}" data-abrir="${escapa(p.modulo+" · "+p.unidade)}" data-tar="${escapa(p.tarefa)}">${p.tarefa}<i>${p.modulo} · ${p.unidade}</i>`+
+        `<b class="pz${a?" atraso":""}">${p.prazo?(a?"atrasada desde ":"prazo ")+p.prazo:"sem prazo"}</b></button>`; }).join("")+
       (its.length>14?`<p class="vazio">… e mais ${its.length-14}.</p>`:"")+`</div>`;
   }).join("");
   alvo.querySelectorAll("[data-abrir]").forEach(b=>b.onclick=()=>{
@@ -2865,7 +2971,11 @@ function criarSim(tipo,titulo){
     const achado=nomesOrd.find(n=>txt.includes(n));
     if(achado&&achado!==r.tarefa) g.nos[r.tarefa].naoAplicaSe=achado;
   });
-  Object.values(g.nos).forEach(n=>{ if(n.tipo==="tarefa") n.inicial=inicial[n.id]; });
+  Object.values(g.nos).forEach(n=>{
+    if(n.tipo!=="tarefa") return;
+    n.inicial=inicial[n.id];
+    if(RESP_PAINEL[n.id]) n.resp=RESP_PAINEL[n.id];   // o Painel é a fonte viva
+  });
   return {tipo,titulo,g,marcas:{},ativadas:new Set()};
 }
 
@@ -3109,6 +3219,7 @@ function menuFase(fase,alvoEl,sim){
     if(op==="cancelar") return;
     if(op==="concluir"){ concluirFase(sim,fase); return; }
     if(op==="expandir") fasesExpandidas.add(fase); else fasesExpandidas.delete(fase);
+    salvarPref();
     if(ciclo) trocarCiclo(ciclo);
     if(logicaPronta) refazerLogica();
   });
@@ -3267,7 +3378,7 @@ function estadoDe(itens){
   if(!itens.length) return {vazia:true};
   const fe=base.filter(p=>p.status==="Concluído");
   const livres=base.filter(p=>p.status==="Liberado"||p.status==="Em andamento");
-  const esp=base.filter(p=>p.status==="Aguardando liberação");
+  const esp=base.filter(p=>p.status==="Aguardando liberação"||p.status==="Atrasado");
   const pc=base.length?Math.round(fe.length/base.length*100):100;
   let est="travada";
   if(!base.length||fe.length===base.length) est="feita";
@@ -3287,21 +3398,23 @@ function celulaEixos(itens){
     const e = p.status==="Concluído" ? {b:"#f0fdf4",c:"#0a3442",bd:"#06d7a0"}
             : p.status==="Liberado"||p.status==="Em andamento" ? {b:"#beeffc",c:"#0a3442",bd:"#008CC7"}
             : p.status==="Aguardando liberação" ? {b:"#fefce8",c:"#0a3442",bd:"#fec43e"}
+            : p.status==="Atrasado" ? {b:"#fdf0f3",c:"#0a3442",bd:"#f04770"}
             : p.status==="Não se aplica" ? {b:"#fff",c:"#a8bcc4",bd:"#e7eef0"}
             : {b:"#e7edef",c:"#3f6270",bd:"#b4c6cd"};
     return `<span style="background:${e.b};color:${e.c};border-color:${e.bd}" title="${escapa(cods[i])}: ${p.status}">${cods[i]}</span>`;
   }).join("")+`</div>`;
 }
 
-function cartaoEstacao(itens){
+function cartaoEstacao(itens,rotulo){
   const e=estadoDe(itens);
   if(e.vazia) return `<div class="est vazia"></div>`;
-  const grade=celulaEixos(itens), prz=prazoDe(itens);
-  return `<div class="est ${e.est}">
-    <div class="qt"><b>${e.pc}%</b><span>${e.feitas}/${e.total}${e.na?` · ${e.na} n/a`:""}</span></div>
+  const fase=(rotulo||"").replace("Gravações · ","");
+  const grade=celulaEixos(itens), prz=prazoDe(itens), at=atrasadas(itens);
+  return `<div class="est ${e.est}${at?" atrasada":""}" data-fase="${escapa(fase)}">
+    <div class="qt"><b>${e.pc}%</b><span>${at?`<span class="atr">${at} atrasada${at>1?"s":""}</span>`:`${e.feitas}/${e.total}${e.na?` · ${e.na} n/a`:""}`}</span></div>
     ${grade || `<div class="bar"><i style="width:${e.pc}%;background:${COR_EST[e.est]}"></i></div>`}
     <div class="quem"><span>${e.est==="feita"?"concluída":(e.quem||"bloqueada")}</span>
-      <span class="prz">${prz?"prazo "+prz:""}</span></div>
+      <span class="prz${at?" atraso":""}">${prz?prz:""}</span></div>
   </div>`;
 }
 
@@ -3340,6 +3453,41 @@ function diagnostico(R){
   return partes.join("; ").replace(/^./,c=>c.toUpperCase())+".";
 }
 
+/* Avanço por semana, a partir da coluna "Conclusão real" da planilha.
+   Barras = tarefas concluídas na semana; linha = acumulado. */
+function curvaAvanco(){
+  const feitos=PAINEL.filter(p=>p.feito&&ordData(p.feito)<9e9);
+  if(feitos.length<1) return `<div class="rsCard"><h3>Avanço por semana</h3>
+    <p><em>Ainda não há conclusões registradas na coluna "Conclusão real".</em></p></div>`;
+  const semanas={};
+  feitos.forEach(p=>{
+    const m=p.feito.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+    const d=new Date(+m[3],+m[2]-1,+m[1]);
+    d.setDate(d.getDate()-((d.getDay()+6)%7));           // segunda-feira daquela semana
+    const k=d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();
+    (semanas[k]=semanas[k]||{n:0,rot:("0"+d.getDate()).slice(-2)+"/"+("0"+(d.getMonth()+1)).slice(-2)}).n++;
+  });
+  const chaves=Object.keys(semanas).map(Number).sort((a,b)=>a-b);
+  const max=Math.max(...chaves.map(k=>semanas[k].n));
+  const L=56, W=Math.max(200, chaves.length*38), passo=W/chaves.length;
+  let acum=0; const pts=[];
+  const barras=chaves.map((k,i)=>{
+    const v=semanas[k].n; acum+=v;
+    const alt=Math.max(3, v/max*L);
+    pts.push([i*passo+passo/2, L-(acum/feitos.length)*L]);
+    return `<rect x="${i*passo+passo*0.22}" y="${L-alt}" width="${passo*0.56}" height="${alt}" rx="2" fill="#06d7a0"/>`;
+  }).join("");
+  const linha=`<polyline fill="none" stroke="#008CC7" stroke-width="1.6" points="${pts.map(p=>p.join(",")).join(" ")}"/>`;
+  const rotulos=chaves.map((k,i)=>
+    `<text x="${i*passo+passo/2}" y="${L+12}" text-anchor="middle" font-family="Archivo Narrow" font-size="9.5" fill="#68899a">${semanas[k].rot}</text>`).join("");
+  const ult=semanas[chaves[chaves.length-1]].n;
+  return `<div class="rsCard"><h3>Avanço por semana</h3>
+    <svg viewBox="0 0 ${W} ${L+18}" style="width:100%;height:82px" role="img" aria-label="Tarefas concluídas por semana">
+      ${barras}${linha}${rotulos}</svg>
+    <div class="linha2"><span>concluídas na última semana</span><b>${ult}</b></div>
+    <div class="linha2"><span>total concluído até aqui</span><b>${feitos.length}</b></div></div>`;
+}
+
 function desenharResumo(){
   const alvo=document.getElementById("resumo");
   const R=montarResumo(ciclo);
@@ -3347,8 +3495,10 @@ function desenharResumo(){
   const geral=estadoDe(R.its);
   const nc=R.colunas.length;
 
+  const atrCiclo=atrasadas(R.its);
   let h=`<div class="rsTopo"><h2>${R.chave}</h2>
-    <span class="rsPct">${geral.pc}%<small>${geral.feitas} de ${geral.total} tarefas${geral.na?` · ${geral.na} não se aplicam`:""}</small></span></div>
+    <span class="rsPct">${geral.pc}%<small>${geral.feitas} de ${geral.total} tarefas${geral.na?` · ${geral.na} não se aplicam`:""}</small></span>
+    ${atrCiclo?`<span class="selo-atraso">${atrCiclo} tarefa${atrCiclo>1?"s":""} atrasada${atrCiclo>1?"s":""}</span>`:""}</div>
     <p class="rsDiag">${diagnostico(R)}</p>`;
 
   h+=`<div class="esteiras"><div class="grade" style="grid-template-columns:132px repeat(${nc},minmax(126px,1fr)) 178px">`;
@@ -3359,12 +3509,12 @@ function desenharResumo(){
   }).join("")+`<div class="gcab">Fechamento${prazoDe(R.fecho)?`<span class="gprz">prazo ${prazoDe(R.fecho)}</span>`:""}</div>`;
   R.faixas.forEach((fx,i)=>{
     h+=`<div class="gnome"><b>${fx.nome}</b><span>${fx.sub}</span></div>`;
-    h+=R.celulas[i].map(cartaoEstacao).join("");
+    h+=R.celulas[i].map((cel,j)=>cartaoEstacao(cel,R.colunas[j])).join("");
     if(i===0){
       const f=estadoDe(R.fecho);
       h+=`<div class="fecho" style="grid-row:span ${R.faixas.length}">
         <div class="tit">${R.fecho.length} tarefa(s) que esperam as duas esteiras</div>
-        ${cartaoEstacao(R.fecho)}
+        ${cartaoEstacao(R.fecho,"Fechamento")}
         <div class="tit">${f.est==="feita"?"unidade liberada":"liberação pendente"}</div></div>`;
     }
   });
@@ -3376,10 +3526,11 @@ function desenharResumo(){
     const r=p.resp||"—";
     const o=livresTodos[r]=livresTodos[r]||{n:0,prazo:""};
     o.n++;
+    if(atrasada(p.status,p.prazo)) o.at=(o.at||0)+1;
     if(p.prazo&&(!o.prazo||ordData(p.prazo)<ordData(o.prazo))) o.prazo=p.prazo;
   });
   const pessoas=Object.entries(livresTodos).sort((a,b)=>b[1].n-a[1].n).slice(0,6);
-  const espera=R.its.filter(p=>p.status==="Aguardando liberação").length;
+  const espera=R.its.filter(p=>p.status==="Aguardando liberação"||p.status==="Atrasado").length;
 
   const prox=CICLOS.map(c=>{
     const its=PAINEL.filter(p=>p.modulo+" · "+p.unidade===c.chave);
@@ -3396,37 +3547,66 @@ function desenharResumo(){
         return `<div class="linha2"><span>${fx.nome}</span><b>${f?R.colunas[f.j].replace("Gravações · ",""):"concluída"}${
           f&&f.e.quem?` <em>${f.e.quem}</em>`:""}</b></div>`;
       }).join("")
-    }<div class="linha2"><span>esperando a Dani</span><b>${espera} tarefa(s)</b></div></div>
+    }<div class="linha2"><span>esperando a Dani</span><b>${espera} tarefa(s)</b></div>
+      <div class="linha2"><span>atrasadas</span><b${atrCiclo?' class="atr"':''}>${atrCiclo}</b></div></div>
     <div class="rsCard"><h3>Tarefas liberadas para fazer</h3>${
-      pessoas.length?pessoas.map(([r,o])=>`<div class="linha2"><span>${r}</span><b>${o.n} <em>${o.prazo?"até "+o.prazo:""}</em></b></div>`).join("")
+      pessoas.length?pessoas.map(([r,o])=>`<div class="linha2"><span>${r}${o.at?` <span class="atr">${o.at} atrasada${o.at>1?"s":""}</span>`:""}</span><b>${o.n} <em>${o.prazo?"até "+o.prazo:""}</em></b></div>`).join("")
                     :`<p><em>Nada liberado no momento.</em></p>`
     }</div>
+    ${curvaAvanco()}
     <div class="rsCard"><h3>Próximas liberações</h3>
       <div class="linha2 chv"><span>ciclo</span><span>prazo</span></div>${
       prox.length?prox.map(x=>`<div class="linha2"><span>${x.chave} <em>${x.e.pc}%</em></span><b>${x.data}</b></div>`).join("")
                  :`<p><em>Sem datas previstas.</em></p>`
     }</div></div>`;
 
-  // panorama das unidades
-  h+=`<div class="panorama"><h3>As ${CICLOS.length} frentes</h3>
-    <div class="plcab" style="display:grid;grid-template-columns:118px 1fr 1fr 58px 52px 86px;gap:10px">
+  // panorama: separa o que está andando do que ainda espera template
+  const cab=`<div class="plcab" style="display:grid;grid-template-columns:118px 1fr 1fr 58px 52px 86px;gap:10px">
       <span></span><span>esteira comum</span><span>esteira de Práticas</span><span style="text-align:center">fecho</span><span style="text-align:right">total</span><span style="text-align:right">liberação</span></div>`;
-  CICLOS.forEach(c=>{
-    const r=montarResumo(c.chave); if(!r) return;
+  const linha=c=>{
+    const r=montarResumo(c.chave); if(!r) return "";
     const bars=r.faixas.map((fx,i)=>estadoDe([].concat(...r.celulas[i])));
     const f=estadoDe(r.fecho), g=estadoDe(r.its);
     const fim=r.its.find(p=>semAcento(p.tarefa).startsWith("liberar a unidade"))
             || r.its.find(p=>semAcento(p.tarefa).includes("analise final"));
     const b=(x)=>`<span class="mb"><i style="width:${x?x.pc:0}%;background:${x?COR_EST[x.est]:"#e2ecf0"}"></i></span>`;
-    h+=`<button class="pl${c.chave===ciclo?" atual":""}" data-ir-ciclo="${escapa(c.chave)}">
+    return `<button class="pl${c.chave===ciclo?" atual":""}" data-ir-ciclo="${escapa(c.chave)}">
       <span>${c.chave}</span>${b(bars[0])}${b(bars[1])}
       <span class="pt" style="background:${COR_EST[f.est]};border-color:${COR_EST[f.est]}"></span>
       <span style="text-align:right;font-weight:600">${g.pc}%</span>
-      <span class="dt">${fim&&fim.prazo?fim.prazo:"—"}</span></button>`;
+      <span class="dt${atrasadas(r.its)?" atraso":""}">${fim&&fim.prazo?fim.prazo:"—"}</span></button>`;
+  };
+  const anda=[], fila=[];
+  CICLOS.forEach(c=>{
+    const its=PAINEL.filter(p=>p.modulo+" · "+p.unidade===c.chave);
+    const ativo=its.some(p=>p.status==="Liberado"||p.status==="Em andamento"||p.status==="Concluído");
+    (ativo?anda:fila).push(c);
   });
-  h+=`</div>`;
+  h+=`<div class="panorama"><h3>Em andamento · ${anda.length} frente${anda.length===1?"":"s"}</h3>${cab}`;
+  h+=anda.map(linha).join("")+`</div>`;
+  if(fila.length){
+    h+=`<details class="bloco"><summary>Na fila · ${fila.length} frentes ainda sem nada liberado</summary>
+      <div class="panorama">${cab}${fila.map(linha).join("")}</div></details>`;
+  }
+  // Mapa e "tarefas por pessoa" passaram a viver aqui dentro, recolhidos.
+  // São desenhados só quando alguém abre, para não pesar o carregamento.
+  h+=`<details class="bloco" id="blocoPessoas"><summary>Tarefas liberadas, por pessoa</summary>
+        <div class="pessoas" id="pessoas"></div></details>
+      <details class="bloco" id="blocoMapa"><summary>Mapa por fase — todas as frentes, coluna a coluna</summary>
+        <div class="mapa" id="mapa"></div></details>`;
   alvo.innerHTML=h;
   alvo.querySelectorAll("[data-ir-ciclo]").forEach(b=>b.onclick=()=>trocarCiclo(b.dataset.irCiclo));
+  ligarBloco("blocoPessoas", desenharPessoas);
+  ligarBloco("blocoMapa", desenharMapa);
+}
+/* o Resumo se redesenha quando muda o ciclo, e isso fechava os blocos abertos.
+   Guarda o estado de cada um e devolve depois do redesenho. */
+const blocosAbertos={};
+function ligarBloco(id, desenhar){
+  const d=document.getElementById(id);
+  if(!d) return;
+  if(blocosAbertos[id]){ d.open=true; desenhar(); }
+  d.addEventListener("toggle",()=>{ blocosAbertos[id]=d.open; if(d.open) desenhar(); });
 }
 function ordData(d){ const m=(d||"").match(/(\d{2})\/(\d{2})\/(\d{4})/); return m?+(m[3]+m[2]+m[1]):9e9; }
 
@@ -3434,14 +3614,35 @@ function ordData(d){ const m=(d||"").match(/(\d{2})\/(\d{2})\/(\d{4})/); return 
    6. Aplicação
    =========================================================== */
 function trocarCiclo(chave){
-  ciclo=chave; sel=null;
+  ciclo=chave; sel=null; salvarPref();
   document.getElementById("selCiclo").value=chave;
   montar(chave); desenhar();
   if(vistaAtual==="resumo") desenharResumo();
 }
 let vistaAtual="resumo";
+
+/* o que cada pessoa escolhe fica no navegador dela, para não reconfigurar toda vez */
+const PREF="esteira.pref";
+let prefPronta=false;
+function salvarPref(){
+  if(!prefPronta) return;
+  try{ localStorage.setItem(PREF, JSON.stringify({
+    fases:[...fasesExpandidas], setas:modoSetas, painel:painelVisivel,
+    ciclo, vista:vistaAtual })); }catch(e){}
+}
+function aplicarPref(){
+  let pref=null;
+  try{ pref=JSON.parse(localStorage.getItem(PREF)||"null"); }catch(e){}
+  if(!pref) { prefPronta=true; return null; }
+  if(Array.isArray(pref.fases)){ fasesExpandidas.clear(); pref.fases.forEach(f=>fasesExpandidas.add(f)); }
+  if(pref.setas){ modoSetas=pref.setas; document.getElementById("modoSetas").value=pref.setas; }
+  if(pref.painel===false) alternarPainel(false);
+  prefPronta=true;
+  return pref;
+}
+
 function mostrar(v){
-  vistaAtual=v;
+  vistaAtual=v; salvarPref();
   document.querySelectorAll(".aba").forEach(b=>b.setAttribute("aria-selected", b.dataset.vista===v));
   document.querySelectorAll(".vista").forEach(d=>d.classList.toggle("on", d.id==="v-"+v));
   document.getElementById("faixaFases").style.display = v==="ciclo"?"flex":"none";
@@ -3450,17 +3651,18 @@ function mostrar(v){
   document.getElementById("selCiclo").style.display = (v==="ciclo"||v==="resumo")?"":"none";
   document.getElementById("busca").style.display = v==="ciclo"?"":"none";
   document.getElementById("modoSetas").style.display = (v==="ciclo"||v==="logica")?"":"none";
+  const soResumo = v==="resumo"?"":"none";
+  document.getElementById("btnCopiar").style.display = soResumo;
+  document.getElementById("btnImprimir").style.display = soResumo;
   fecharMenu();
   if(v==="resumo") desenharResumo();
-  if(v==="mapa") desenharMapa();
-  if(v==="pessoas") desenharPessoas();
   if(v==="logica") abrirLogica();
   if(v==="ciclo"&&G) setTimeout(()=>{ if(precisaEnquadrar) enquadrar(); else {vb();aplicarCam();} },0);
 }
 document.querySelectorAll(".aba").forEach(b=>b.onclick=()=>mostrar(b.dataset.vista));
 let painelVisivel=true;
 function alternarPainel(v){
-  painelVisivel=v;
+  painelVisivel=v; salvarPref();
   document.getElementById("lateral").style.display = v?"":"none";
   document.getElementById("abrirPainel").style.display = v?"none":"block";
   setTimeout(()=>{ if(G){vb();aplicarCam();} },0);
@@ -3471,7 +3673,7 @@ document.getElementById("btnFit").onclick=()=>enquadrar();
 document.getElementById("selCiclo").onchange=e=>trocarCiclo(e.target.value);
 document.getElementById("busca").oninput=e=>{busca=e.target.value.trim();if(G)pintar();};
 document.getElementById("modoSetas").onchange=e=>{
-  modoSetas=e.target.value;
+  modoSetas=e.target.value; salvarPref();
   if(G) pintar();
   if(logicaPronta) SIMS.forEach(pintarSim);
 };
@@ -3485,12 +3687,22 @@ function carregar(csvRegras, csvPainel, rotulo){
     if(!REGRAS.length) throw new Error("nenhuma regra lida");
     if(!PAINEL.length) throw new Error("nenhuma tarefa lida no painel");
     MAPA_FASE=null; MAPA_RESP=null; logicaPronta=false;
+    indexarResponsaveis();
     indexar();
     const s=document.getElementById("selCiclo");
     s.innerHTML=CICLOS.map(c=>`<option value="${escapa(c.chave)}">${c.chave}</option>`).join("");
-    const preferido = CICLOS.find(c=>PAINEL.some(p=>p.modulo+" · "+p.unidade===c.chave&&(p.status==="Liberado"||p.status==="Em andamento"))) || CICLOS[0];
-    document.getElementById("atualizado").textContent=rotulo;
-    trocarCiclo(preferido.chave);
+    const pref=aplicarPref();
+    const guardado = pref && CICLOS.some(c=>c.chave===pref.ciclo) ? pref.ciclo : null;
+    const preferido = guardado ||
+      (CICLOS.find(c=>PAINEL.some(p=>p.modulo+" · "+p.unidade===c.chave&&(p.status==="Liberado"||p.status==="Em andamento"))) || CICLOS[0]).chave;
+    const av=document.getElementById("atualizado");
+    av.textContent=rotulo;
+    // instantâneo embutido, ou dados parados há mais de um dia: avisa em vez de sussurrar
+    const velho = rotulo.indexOf("instantâneo")===0 || (idadeHoras!==null && idadeHoras>=30);
+    av.className = velho ? "atualizado alerta" : "atualizado";
+    av.title = velho ? "Os dados podem estar desatualizados. Publique a planilha de novo." : "";
+    if(pref&&pref.vista) vistaAtual=pref.vista;
+    trocarCiclo(preferido);
     mostrar(vistaAtual);
     aviso.textContent="";
     if(document.getElementById("dlg").open) document.getElementById("dlg").close();
@@ -3498,6 +3710,44 @@ function carregar(csvRegras, csvPainel, rotulo){
 }
 
 /* diálogo de dados */
+/* texto para colar em e-mail ou mensagem, sem precisar de captura de tela */
+function resumoEmTexto(){
+  const R=montarResumo(ciclo); if(!R) return "";
+  const g=estadoDe(R.its), at=atrasadas(R.its);
+  const linhas=[`${R.chave} — ${g.pc}% (${g.feitas} de ${g.total} tarefas)`,
+                `Prazo do ciclo: ${prazoDe(R.its)||"—"}`];
+  if(at) linhas.push(`ATENÇÃO: ${at} tarefa(s) atrasada(s)`);
+  linhas.push("", diagnostico(R).replace(/<\/?b>/g,""), "", "Por etapa:");
+  R.colunas.forEach((c,j)=>{
+    const todas=[].concat(...R.faixas.map((fx,i)=>R.celulas[i][j]));
+    if(!todas.length) return;
+    const e=estadoDe(todas);
+    linhas.push(`  ${c.replace("Gravações · ","")}: ${e.pc}% (${e.feitas}/${e.total})`+
+                (prazoDe(todas)?` — prazo ${prazoDe(todas)}`:""));
+  });
+  const f=estadoDe(R.fecho);
+  linhas.push(`  Fechamento: ${f.pc}% (${f.feitas}/${f.total})`);
+  const livres=R.its.filter(p=>p.status==="Liberado"||p.status==="Em andamento");
+  if(livres.length){
+    linhas.push("", "Liberado agora:");
+    const porR={}; livres.forEach(p=>(porR[p.resp]=porR[p.resp]||[]).push(p));
+    Object.keys(porR).sort().forEach(r=>linhas.push(`  ${r}: ${porR[r].length} tarefa(s)`));
+  }
+  return linhas.join("\n");
+}
+document.getElementById("btnCopiar").onclick=async()=>{
+  const b=document.getElementById("btnCopiar"), antes=b.textContent;
+  try{ await navigator.clipboard.writeText(resumoEmTexto()); b.textContent="Copiado"; }
+  catch(e){ b.textContent="Não deu para copiar"; }
+  setTimeout(()=>{b.textContent=antes;},1800);
+};
+document.getElementById("btnImprimir").onclick=()=>{
+  const m=document.getElementById("blocoMapa"), pp=document.getElementById("blocoPessoas");
+  if(m&&!m.open){ m.open=true; desenharMapa(); }
+  if(pp&&!pp.open){ pp.open=true; desenharPessoas(); }
+  setTimeout(()=>window.print(),120);
+};
+
 const dlg=document.getElementById("dlg");
 document.getElementById("btnDados").onclick=()=>{document.getElementById("aviso").textContent="";dlg.showModal();};
 document.getElementById("btnFechar").onclick=()=>dlg.close();
@@ -3535,10 +3785,23 @@ async function tentarLocais(){
   try{
     const [r,p]=await Promise.all([fetch("regras.csv"),fetch("painel.csv")]);
     if(!r.ok||!p.ok) return false;
-    carregar(await r.text(), await p.text(), "arquivos do repositório");
+    // o servidor diz quando o arquivo foi gravado: é assim que sabemos a idade dos dados
+    const lm=p.headers.get("last-modified");
+    carregar(await r.text(), await p.text(), rotuloIdade(lm?new Date(lm):null));
     return true;
-  }catch{ return false; }
+  }catch(e){ return false; }
 }
+
+function rotuloIdade(quando){
+  if(!quando||isNaN(quando)) return "arquivos do repositório";
+  const horas=Math.floor((Date.now()-quando.getTime())/36e5);
+  const texto = horas<1 ? "agora há pouco"
+              : horas<24 ? `há ${horas} hora${horas>1?"s":""}`
+              : `há ${Math.floor(horas/24)} dia${Math.floor(horas/24)>1?"s":""}`;
+  idadeHoras=horas;
+  return "atualizado "+texto;
+}
+let idadeHoras=null;
 
 (async function inicio(){
   carregar(CSV_REGRAS,CSV_PAINEL,"instantâneo de "+INSTANTANEO);
