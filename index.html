@@ -238,6 +238,40 @@
   .bloco .panorama{padding:0 10px 14px}
   .bloco .panorama h3{display:none}
 
+  /* alertas */
+  .alertas{flex:1;overflow:auto;padding:18px 20px 40px}
+  .alTopo h2{margin:0 0 3px;font-size:20px;font-weight:600}
+  .alTopo p{margin:0 0 18px;font-size:13px;color:var(--texto-2)}
+  .alGrade{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;align-items:start}
+  .al{border:1px solid var(--borda);border-radius:12px;padding:14px 16px;background:var(--papel)}
+  .al.grave{border-color:var(--rosa);background:var(--rosa-claro)}
+  .al.aviso{border-color:var(--amarelo-borda);background:var(--amarelo-fundo)}
+  .al h3{margin:0 0 4px;font-size:14.5px;font-weight:600}
+  .al p{margin:0 0 10px;font-size:12.5px;color:var(--texto-2)}
+  .al .ref{padding-left:20px}
+  .al .linha2{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:6px 0;
+              border-bottom:1px solid var(--borda)}
+  .al .linha2 b{font-weight:600}
+  .al .linha2 em{font-style:normal;color:var(--texto-3);font-family:var(--narrow);font-size:12px}
+  .al .nota{font-size:12.5px;color:var(--texto-3);margin:6px 0 0}
+  .barraCap{display:grid;grid-template-columns:1fr 90px auto;gap:8px;align-items:center;
+            padding:7px 0;border-bottom:1px solid var(--borda);font-size:13.5px}
+  .barraCap em{grid-column:1/-1;font-style:normal;color:var(--texto-2);font-family:var(--narrow);font-size:12px;margin-top:-4px}
+  .bcap{height:8px;border-radius:4px;background:var(--rosa);overflow:hidden;display:block}
+  .bcap i{display:block;height:100%;background:var(--verde-borda)}
+  .tcab{margin:0 0 10px;font-size:12.5px;font-family:var(--narrow);color:var(--texto-2);
+        text-transform:uppercase;letter-spacing:.03em;font-weight:500}
+  .tcarga{border-collapse:collapse;font-size:13px;width:100%}
+  .tcarga th,.tcarga td{padding:6px 8px;text-align:center;border:1px solid var(--borda)}
+  .tcarga thead th{background:var(--papel-2);font-family:var(--narrow);font-weight:500;
+                   color:var(--texto-2);font-size:12px}
+  .tcarga tbody th{text-align:left;font-weight:600;white-space:nowrap}
+  .tcarga td.cap{color:var(--texto-2);font-family:var(--narrow)}
+  .tcarga td.z{color:var(--texto-3)}
+  .tcarga td.ok{background:var(--verde-fundo)}
+  .tcarga td.x1{background:var(--amarelo-fundo);font-weight:600}
+  .tcarga td.x2{background:var(--rosa-claro);color:var(--rosa);font-weight:700}
+
   /* simulador de lógica */
   #v-logica{flex-direction:column}
   .logtopo{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 20px;
@@ -347,6 +381,7 @@
     <p class="marca">Esteira da Formação <em>· IFTP</em></p>
     <div class="abas" role="tablist">
       <button class="aba" role="tab" aria-selected="true" data-vista="resumo">Resumo</button>
+      <button class="aba" role="tab" aria-selected="false" data-vista="alerta">Alertas</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="ciclo">Ciclo</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="logica">Lógica</button>
     </div>
@@ -370,6 +405,7 @@
 
   <div class="corpo">
     <div class="vista on" id="v-resumo"><div class="resumo" id="resumo"></div></div>
+    <div class="vista" id="v-alerta"><div class="alertas" id="alertas"></div></div>
     <div class="vista" id="v-ciclo" style="flex:1;min-width:0">
       <div class="tela" id="tela"><svg id="svg" role="img" aria-label="Grafo de dependências do ciclo"></svg></div>
       <button class="abaLateral" id="abrirPainel" aria-label="Mostrar painel" title="Mostrar painel">Painel ‹</button>
@@ -2290,6 +2326,17 @@ M4,8ª gravação,Gravações · Revisão,"(TI) Revisão dos 2 HTMLs, materiais,
 M4,8ª gravação,Gravações · Revisão,"(TEV) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,30/11/2026,02/12/2026,30/11/2026,,,,,0.333
 M4,8ª gravação,Gravações · Fechamento,Inserir presença dos encontros síncronos dos cursistas nos 9 eixos,Alline,Bloqueado,24/11/2026,27/11/2026,23/11/2026,,,,,0.0
 M4,8ª gravação,Gravações · Fechamento,Análise final de configuração e liberação,Marcelo,Bloqueado,02/12/2026,02/12/2026,30/11/2026,,,,,0.083`;
+const CSV_CAPACIDADE = `Responsável,Horas/semana
+Dani,
+Marcelo,17.0
+Lucas,30.0
+Isabela,
+Alline,16.0
+Gustavo,10.0
+Anna Paula,10.0
+Marquito,4.0
+Thony,4.0
+Maria Eduarda,40.0`;
 const INSTANTANEO = "19/09/2026";
 
 /* ===========================================================
@@ -2349,6 +2396,7 @@ function lerPainel(txt){
   // a data de conclusão já apareceu com nomes diferentes, e a coluna de entrada costuma
   // vir vazia neste painel: usa a primeira candidata que tiver valor na linha
   const cDatas=["concluido em","conclusao real","lancar aqui"].map(col).filter(i=>i>=0);
+  const cH=col("h");   // estimativa de horas por tarefa
   const out=[];
   linhas.forEach(l=>{
     const tarefa=(l[cT]||"").trim(), uni=(l[cU]||"").trim();
@@ -2358,7 +2406,8 @@ function lerPainel(txt){
       fase: cF>=0?(l[cF]||"").trim():"", resp: cR>=0?(l[cR]||"").trim():"",
       status:(l[cS]||"").trim(),
       prazo: cP>=0?(l[cP]||"").trim():"", inicio: cI>=0?(l[cI]||"").trim():"",
-      feito: (cDatas.map(i=>(l[i]||"").trim()).find(Boolean)||"")
+      feito: (cDatas.map(i=>(l[i]||"").trim()).find(Boolean)||""),
+      horas: cH>=0 ? (parseFloat(String(l[cH]||"").replace(",",".")) || 0) : 0
     });
   });
   return out;
@@ -2406,6 +2455,19 @@ const atrasadas = itens => itens.filter(p=>atrasada(p.status,p.prazo)).length;
    fórmula, puxada das abas do módulo. O Painel manda. Para a aba Lógica, que não é
    de nenhuma unidade específica, vale o responsável mais frequente no Painel. */
 let RESP_PAINEL={};
+let CAPACIDADE={};   // horas por semana de cada pessoa
+function lerCapacidade(txt){
+  CAPACIDADE={};
+  try{
+    const {linhas,col}=comCabecalho(parseCSV(txt),["responsavel","horas"]);
+    const cR=col("responsavel"), cH=col("horas");
+    linhas.forEach(l=>{
+      const n=(l[cR]||"").trim(); if(!n) return;
+      const h=parseFloat(String(l[cH]||"").replace(",","."));
+      if(h>0) CAPACIDADE[n]=h;
+    });
+  }catch(e){}
+}
 function indexarResponsaveis(){
   const cont={};
   PAINEL.forEach(p=>{
@@ -3724,6 +3786,156 @@ function ligarBloco(id, desenhar){
 function ordData(d){ const m=(d||"").match(/(\d{2})\/(\d{2})\/(\d{4})/); return m?+(m[3]+m[2]+m[1]):9e9; }
 
 /* ===========================================================
+   5d. Alertas — o que a semana exige, em horas, contra o que cabe
+   =========================================================== */
+function segundaDe(txt){
+  const m=(txt||"").match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  if(!m) return null;
+  const d=new Date(+m[3],+m[2]-1,+m[1]);
+  d.setDate(d.getDate()-((d.getDay()+6)%7));
+  return d;
+}
+const chaveSem = d => d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();
+const rotuloSem = d => ("0"+d.getDate()).slice(-2)+"/"+("0"+(d.getMonth()+1)).slice(-2);
+function semanaAtual(){ const d=new Date(); d.setDate(d.getDate()-((d.getDay()+6)%7)); d.setHours(0,0,0,0); return d; }
+
+/* carga: horas pendentes por pessoa e por semana de prazo */
+function carga(){
+  const m={};
+  PAINEL.forEach(p=>{
+    if(PRONTO(p.status)) return;
+    const seg=segundaDe(p.prazo); if(!seg) return;
+    const k=chaveSem(seg), r=p.resp||"—";
+    ((m[r]=m[r]||{})[k]=m[r][k]||{h:0,n:0,itens:[]});
+    m[r][k].h+=p.horas||0; m[r][k].n++; m[r][k].itens.push(p);
+  });
+  return m;
+}
+
+/* o que está liberado e destrava mais coisa adiante */
+function gargalos(){
+  const fora=[];
+  CICLOS.forEach(c=>{
+    const its=PAINEL.filter(p=>p.modulo+" · "+p.unidade===c.chave);
+    if(!its.some(p=>p.status==="Liberado"||p.status==="Em andamento")) return;
+    const antes=ciclo; const g=montar(c.chave); ciclo=antes;
+    Object.values(g.nos).forEach(n=>{
+      if(n.tipo!=="tarefa"||(n.status!=="Liberado"&&n.status!=="Em andamento")) return;
+      const v=new Set();
+      (function desce(id){ g.nos[id].filhos.forEach(f=>{ if(!v.has(f)){v.add(f);desce(f);} }); })(n.id);
+      const dep=[...v].filter(x=>g.nos[x].tipo==="tarefa").length;
+      if(dep) fora.push({chave:c.chave, tarefa:n.tarefa, resp:n.resp, prazo:n.prazo, dep});
+    });
+  });
+  return fora.sort((a,b)=>b.dep-a.dep).slice(0,5);
+}
+
+function linhaTarefa(p,classe){
+  const a=atrasada(p.status,p.prazo);
+  return `<button class="ref ${classe||""}${a?" atraso":""}" data-abrir="${escapa(p.modulo+" · "+p.unidade)}" data-tar="${escapa(p.tarefa)}">
+    ${p.tarefa}<i>${p.modulo} · ${p.unidade} · ${p.resp}${p.prazo?" · "+(a?"atrasada desde ":"prazo ")+curta(p.prazo):""}${
+      p.horas?" · "+numH(p.horas)+" h":""}</i></button>`;
+}
+const numH = h => (Math.round(h*100)/100).toString().replace(".",",");
+
+function desenharAlertas(){
+  const alvo=document.getElementById("alertas");
+  const seg=semanaAtual(), fim=new Date(seg); fim.setDate(fim.getDate()+6);
+  const C=carga(), kAtual=chaveSem(seg);
+  const cards=[];
+
+  // 1. atrasadas
+  const atr=PAINEL.filter(p=>atrasada(p.status,p.prazo)).sort((a,b)=>ordData(a.prazo)-ordData(b.prazo));
+  if(atr.length) cards.push(`<div class="al grave"><h3>${atr.length} tarefa${atr.length>1?"s":""} atrasada${atr.length>1?"s":""}</h3>
+    <p>O prazo já passou e elas não foram concluídas nem dispensadas.</p>
+    ${atr.slice(0,10).map(p=>linhaTarefa(p,"falta")).join("")}
+    ${atr.length>10?`<p class="nota">… e mais ${atr.length-10}.</p>`:""}</div>`);
+
+  // 2. sobrecarga: as piores semanas das próximas oito
+  const estouro=[];
+  const proximas=[]; for(let i=0;i<8;i++){ const d=new Date(seg); d.setDate(d.getDate()+i*7); proximas.push(d); }
+  Object.keys(C).forEach(r=>{
+    const cap=CAPACIDADE[r]; if(!cap) return;
+    proximas.forEach(d=>{
+      const s=C[r][chaveSem(d)];
+      if(s&&s.h>cap) estouro.push({r,cap,h:s.h,n:s.n,quando:rotuloSem(d),raz:s.h/cap});
+    });
+  });
+  estouro.sort((a,b)=>b.raz-a.raz);
+  if(estouro.length) cards.push(`<div class="al grave"><h3>Semanas que não cabem · ${estouro.length}</h3>
+    <p>Horas estimadas das tarefas com prazo naquela semana, contra a capacidade declarada na aba Carga por semana.</p>
+    ${estouro.slice(0,7).map(e=>`<div class="barraCap"><span>${e.r} <em style="display:inline">semana de ${e.quando}</em></span>
+      <span class="bcap"><i style="width:${Math.min(100,e.cap/e.h*100)}%"></i></span>
+      <b class="atr">${e.raz.toFixed(1)}×</b>
+      <em>${numH(e.h)} h de trabalho em ${e.n} tarefa(s), para ${numH(e.cap)} h disponíveis</em></div>`).join("")}
+    ${estouro.length>7?`<p class="nota">… e mais ${estouro.length-7} semana(s) estouradas.</p>`:""}</div>`);
+
+  // 3. o que vence nos próximos 7 dias
+  const hj=new Date(); hj.setHours(0,0,0,0);
+  const ate=new Date(hj); ate.setDate(ate.getDate()+7);
+  const limite=chaveSem(ate);
+  const daSemana=PAINEL.filter(p=>!PRONTO(p.status)&&p.prazo&&ordData(p.prazo)<=limite&&!atrasada(p.status,p.prazo));
+  const porR={}; daSemana.forEach(p=>(porR[p.resp]=porR[p.resp]||[]).push(p));
+  Object.values(porR).forEach(l=>l.sort((a,b)=>ordData(a.prazo)-ordData(b.prazo)));
+  const nomes=Object.keys(porR).sort((a,b)=>ordData(porR[a][0].prazo)-ordData(porR[b][0].prazo));
+  cards.push(`<div class="al"><h3>Vence nos próximos 7 dias · ${daSemana.length} tarefa(s)</h3>
+    ${daSemana.length?nomes.map(r=>{
+      const h=porR[r].reduce((t,p)=>t+(p.horas||0),0), cap=CAPACIDADE[r];
+      return `<div class="linha2"><span>${r}</span><b>${porR[r].length} <em>${numH(h)} h${cap?" de "+numH(cap)+" h/semana":""}</em></b></div>`+
+        porR[r].map(p=>linhaTarefa(p)).join("");
+    }).join(""):`<p class="nota">Nada vence até ${rotuloSem(ate)}.</p>`}</div>`);
+
+  // 4. gargalos
+  const g=gargalos();
+  if(g.length) cards.push(`<div class="al"><h3>Destravam mais coisa adiante</h3>
+    <p>Entre o que está liberado agora, estas são as que mais abrem caminho.</p>
+    ${g.map(x=>`<button class="ref falta" data-abrir="${escapa(x.chave)}" data-tar="${escapa(x.tarefa)}">
+      ${x.tarefa}<i>${x.chave} · ${x.resp}${x.prazo?" · prazo "+curta(x.prazo):""} — destrava ${x.dep} tarefa(s)</i></button>`).join("")}</div>`);
+
+  // 5. templates da Dani nas próximas duas semanas
+  const lim=new Date(seg); lim.setDate(lim.getDate()+21);
+  const daDani=PAINEL.filter(p=>(p.status==="Aguardando liberação"||p.status==="Atrasado")&&p.prazo&&
+      ordData(p.prazo)<=chaveSem(lim)).sort((a,b)=>ordData(a.prazo)-ordData(b.prazo));
+  if(daDani.length){
+    const porData={}; daDani.forEach(p=>(porData[p.prazo]=porData[p.prazo]||[]).push(p));
+    cards.push(`<div class="al aviso"><h3>Templates esperados nas próximas 3 semanas · ${daDani.length}</h3>
+      <p>Se não chegarem na data, a planilha passa a marcá-los como atrasados e a esteira inteira escorrega.</p>
+      ${Object.keys(porData).sort((a,b)=>ordData(a)-ordData(b)).slice(0,8).map(d=>{
+        const l=porData[d];
+        return `<div class="linha2"><span>${curta(d)}</span><b>${l.length} template(s) <em>${
+          [...new Set(l.map(p=>p.modulo+" "+p.unidade))].join(", ")}</em></b></div>`;
+      }).join("")}</div>`);
+  }
+
+  // tabela de carga das próximas semanas
+  const semanas=[]; for(let i=0;i<8;i++){ const d=new Date(seg); d.setDate(d.getDate()+i*7); semanas.push(d); }
+  const pessoas=Object.keys(C).filter(r=>semanas.some(d=>C[r][chaveSem(d)])).sort();
+  let tab=`<table class="tcarga"><thead><tr><th>pessoa</th><th>cabe</th>${
+    semanas.map(d=>`<th>${rotuloSem(d)}</th>`).join("")}</tr></thead><tbody>`;
+  pessoas.forEach(r=>{
+    const cap=CAPACIDADE[r];
+    tab+=`<tr><th>${r}</th><td class="cap">${cap?numH(cap)+" h":"—"}</td>`;
+    semanas.forEach(d=>{
+      const s=C[r][chaveSem(d)];
+      if(!s){ tab+=`<td class="z">·</td>`; return; }
+      const raz=cap?s.h/cap:0;
+      const cls=!cap?"":raz>1.5?"x2":raz>1?"x1":"ok";
+      tab+=`<td class="${cls}" title="${s.n} tarefa(s)">${numH(s.h)}</td>`;
+    });
+    tab+=`</tr>`;
+  });
+  tab+=`</tbody></table>`;
+
+  alvo.innerHTML=`<div class="alTopo"><h2>Semana de ${rotuloSem(seg)} a ${rotuloSem(fim)}</h2>
+      <p>Horas estimadas vêm da coluna <b>h</b> da planilha; a capacidade, da aba <b>Carga por semana</b>.</p></div>
+    <div class="alGrade">${cards.join("")}</div>
+    <div class="bloco secao" style="margin-top:22px"><div style="padding:14px 16px">
+      <h3 class="tcab">Carga das próximas 8 semanas, em horas</h3>${tab}
+      <p class="nota">Amarelo passa da capacidade; rosa passa de uma vez e meia.</p></div></div>`;
+  ligarAtalhos(alvo);
+}
+
+/* ===========================================================
    6. Aplicação
    =========================================================== */
 function trocarCiclo(chave){
@@ -3764,11 +3976,13 @@ function mostrar(v){
   document.getElementById("selCiclo").style.display = (v==="ciclo"||v==="resumo")?"":"none";
   document.getElementById("busca").style.display = v==="ciclo"?"":"none";
   document.getElementById("modoSetas").style.display = (v==="ciclo"||v==="logica")?"":"none";
+  document.getElementById("alertas").style.display="";
   const soResumo = v==="resumo"?"":"none";
   document.getElementById("btnCopiar").style.display = soResumo;
   document.getElementById("btnImprimir").style.display = soResumo;
   fecharMenu();
   if(v==="resumo") desenharResumo();
+  if(v==="alerta") desenharAlertas();
   if(v==="logica") abrirLogica();
   if(v==="ciclo"&&G) setTimeout(()=>{ if(precisaEnquadrar) enquadrar(); else {vb();aplicarCam();} },0);
 }
@@ -3792,7 +4006,7 @@ document.getElementById("modoSetas").onchange=e=>{
 };
 
 
-function carregar(csvRegras, csvPainel, rotulo){
+function carregar(csvRegras, csvPainel, rotulo, csvCapacidade){
   const aviso=document.getElementById("aviso");
   try{
     if(csvRegras!=null) REGRAS=lerRegras(csvRegras);
@@ -3801,6 +4015,7 @@ function carregar(csvRegras, csvPainel, rotulo){
     if(!PAINEL.length) throw new Error("nenhuma tarefa lida no painel");
     MAPA_FASE=null; MAPA_RESP=null; logicaPronta=false;
     indexarResponsaveis();
+    lerCapacidade(csvCapacidade!=null ? csvCapacidade : CSV_CAPACIDADE);
     indexar();
     const s=document.getElementById("selCiclo");
     s.innerHTML=CICLOS.map(c=>`<option value="${escapa(c.chave)}">${c.chave}</option>`).join("");
@@ -3864,7 +4079,7 @@ document.getElementById("btnImprimir").onclick=()=>{
 const dlg=document.getElementById("dlg");
 document.getElementById("btnDados").onclick=()=>{document.getElementById("aviso").textContent="";dlg.showModal();};
 document.getElementById("btnFechar").onclick=()=>dlg.close();
-document.getElementById("btnEmbutido").onclick=()=>carregar(CSV_REGRAS,CSV_PAINEL,"instantâneo de "+INSTANTANEO);
+document.getElementById("btnEmbutido").onclick=()=>carregar(CSV_REGRAS,CSV_PAINEL,"instantâneo de "+INSTANTANEO,CSV_CAPACIDADE);
 document.getElementById("btnCola").onclick=()=>{
   const q=document.getElementById("qualCola").value, t=document.getElementById("cola").value;
   carregar(q==="regras"?t:null, q==="painel"?t:null, "colado agora");
@@ -3896,11 +4111,13 @@ async function tentarSalvos(){
 /* arquivos ao lado da página (se existirem no repositório) */
 async function tentarLocais(){
   try{
-    const [r,p]=await Promise.all([fetch("regras.csv"),fetch("painel.csv")]);
+    const [r,p,c]=await Promise.all([fetch("regras.csv"),fetch("painel.csv"),
+                                     fetch("capacidade.csv").catch(()=>null)]);
     if(!r.ok||!p.ok) return false;
     // o servidor diz quando o arquivo foi gravado: é assim que sabemos a idade dos dados
     const lm=p.headers.get("last-modified");
-    carregar(await r.text(), await p.text(), rotuloIdade(lm?new Date(lm):null));
+    const cap = (c&&c.ok) ? await c.text() : null;   // capacidade é opcional
+    carregar(await r.text(), await p.text(), rotuloIdade(lm?new Date(lm):null), cap);
     return true;
   }catch(e){ return false; }
 }
