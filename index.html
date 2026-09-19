@@ -2310,6 +2310,7 @@ function indexar(){
 function grafoDe(regras, status, extra){
   extra = extra || {};
   const nomes = new Set(regras.map(r=>r.tarefa));
+  const grav = regras.some(r=>semAcento(r.fase).startsWith("gravacoes"));
 
   const fases=[]; regras.forEach(r=>{ if(!fases.includes(r.fase)) fases.push(r.fase); });
 
@@ -2418,19 +2419,50 @@ function grafoDe(regras, status, extra){
     if(ports.length) colunas.push({rotulo:"",fase:f,tipo:"portao",itens:ports});
   });
 
-  // posições
-  const NW=212,NH=32,GAP=8,PW=136;
-  const maxN=Math.max(1,...colunas.map(c=>c.itens.length));
-  const H=Math.max(340, maxN*(NH+GAP)+64);
-  let x=24;
+  /* Posições em duas esteiras paralelas que só se encontram no fim:
+     em cima as trilhas comuns (MET, PI, RP), embaixo Práticas eixo a eixo,
+     e as tarefas do fechamento centradas entre as duas. */
+  const NW=212,NH=32,GAP=8,PW=136,GAPB=56,TOPO=66;
+  const GUT = grav ? 24 : 152;   // canhoto para os rótulos das duas esteiras
+  const fechoFases = grav ? [] : FECHO_UNIDADE;
+  function faixaDe(n){
+    if(n.tipo==="portao"){
+      const b=n.alvo.filter(t=>faixaDe(nos[t])==="b").length;
+      return b*2>=n.alvo.length ? "b" : "a";
+    }
+    if(fechoFases.includes(n.fase)) return "c";
+    if(grav) return "a";
+    return daPraticas(n) ? "b" : "a";
+  }
+  let maxA=1,maxB=0;
+  colunas.forEach(c=>{
+    c.a=c.itens.filter(n=>faixaDe(n)==="a");
+    c.b=c.itens.filter(n=>faixaDe(n)==="b");
+    c.f=c.itens.filter(n=>faixaDe(n)==="c");
+    maxA=Math.max(maxA,c.a.length); maxB=Math.max(maxB,c.b.length);
+  });
+  const HA=maxA*(NH+GAP)-GAP, HB=maxB?maxB*(NH+GAP)-GAP:0;
+  const H=Math.max(340, TOPO+HA+(HB?GAPB+HB:0)+28);
+  const topA=TOPO, topB=TOPO+HA+GAPB, altTotal=HA+(HB?GAPB+HB:0);
+  let x=GUT, xFecho=0;
   colunas.forEach(c=>{
     const w = c.tipo==="portao"?PW:NW;
-    const n=c.itens.length, altura=n*(NH+GAP)-GAP;
-    let y=(H-altura)/2+NH/2;
     c.x=x; c.w=w;
-    c.itens.forEach(it=>{ it.x=x; it.w=w; it.y=y; y+=NH+GAP; });
+    const poe=(lista,topo,alt)=>{
+      if(!lista.length) return;
+      let y=topo+(alt-(lista.length*(NH+GAP)-GAP))/2+NH/2;
+      lista.forEach(it=>{ it.x=x; it.w=w; it.y=y; y+=NH+GAP; });
+    };
+    poe(c.a,topA,HA);
+    if(HB) poe(c.b,topB,HB);
+    if(c.f.length){ poe(c.f,TOPO,altTotal); if(!xFecho) xFecho=x-24; }
     x += w + (c.tipo==="portao"?42:46);
   });
+  const bandas = HB ? [
+    {nome:"Comum",   sub:"MET · PI · RP",     y0:topA-18, y1:topA+HA+14},
+    {nome:"Práticas",sub:"PET, eixo a eixo",  y0:topB-18, y1:topB+HB+14}
+  ] : [];
+  const xBanda = xFecho || x;
 
   // faixas: uma por fase, abrangendo todas as suas colunas
   const faixas=[];
@@ -2440,7 +2472,7 @@ function grafoDe(regras, status, extra){
     else faixas.push({fase:c.fase,rotulo:c.fase,x0:c.x,x1:c.x+c.w,itens:c.itens.slice()});
   });
 
-  return {nos,arestas,colunas,faixas,W:x+16,H,NH,nomes,regras,total:regras.length};
+  return {nos,arestas,colunas,faixas,bandas,xBanda,gut:GUT,W:x+16,H,NH,nomes,regras,total:regras.length};
 }
 
 /* monta o grafo de um ciclo real: tarefas das Regras que existem no Painel daquele ciclo */
@@ -2467,6 +2499,29 @@ let raiz,cArestas,cNos,cam={x:0,y:0,k:1},moveu=false;
 const el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
 const corta=(s,n)=>s.length>n?s.slice(0,n-1)+"…":s;
 
+  /* duas esteiras: uma faixa horizontal para cada, e a área de fechamento onde elas se encontram */
+  const CORBANDA={a:"#f2fbfe",b:"#fdf0f3"};
+  function desenharBandas(g,alvo,W){
+    if(!g.bandas.length) return false;
+    g.bandas.forEach((bd,i)=>{
+      const k=i===0?"a":"b";
+      el("rect",{x:g.gut-24,y:bd.y0,width:g.xBanda-g.gut+24,height:bd.y1-bd.y0,rx:14,
+                 fill:CORBANDA[k],stroke:i===0?"#d8eef6":"#f7d9e1"},alvo);
+      el("text",{x:14,y:bd.y0+24,fill:"#0a3442","font-family":"Archivo","font-size":"13","font-weight":"600"},alvo)
+        .textContent=bd.nome;
+      el("text",{x:14,y:bd.y0+40,fill:"#3a6273","font-family":"Archivo Narrow","font-size":"11.5"},alvo)
+        .textContent=bd.sub;
+    });
+    const y0=g.bandas[0].y0, y1=g.bandas[g.bandas.length-1].y1;
+    el("rect",{x:g.xBanda+10,y:y0,width:Math.max(60,W-g.xBanda-26),height:y1-y0,rx:14,
+               fill:"#f0fdf4",stroke:"#bdeedd","stroke-dasharray":"5 4"},alvo);
+    el("text",{x:g.xBanda+24,y:y0+24,fill:"#0a3442","font-family":"Archivo","font-size":"13","font-weight":"600"},alvo)
+      .textContent="Fechamento";
+    el("text",{x:g.xBanda+24,y:y0+40,fill:"#3a6273","font-family":"Archivo Narrow","font-size":"11.5"},alvo)
+      .textContent="onde as duas se encontram";
+    return true;
+  }
+
 function desenhar(){
   svg.innerHTML="";
   const defs=el("defs",{},svg);
@@ -2482,8 +2537,10 @@ function desenhar(){
   cArestas=el("g",{},raiz);
   cNos=el("g",{},raiz);
 
+  const comBandas=desenharBandas(G,fundo,G.W);
   G.faixas.forEach((f,i)=>{
-    if(i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:G.H-4,rx:10,fill:"#f2fbfe"},fundo);
+    if(!comBandas && i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:G.H-4,rx:10,fill:"#f2fbfe"},fundo);
+    if(comBandas && i>0) el("line",{x1:f.x0-24,y1:44,x2:f.x0-24,y2:G.H-12,stroke:"rgba(10,52,66,.07)"},fundo);
     const cab=el("g",{tabindex:"0",role:"button",style:"cursor:pointer"},fundo);
     el("rect",{x:f.x0-8,y:13,width:f.x1-f.x0+16,height:25,rx:6,fill:"none","pointer-events":"all"},cab);
     el("text",{x:f.x0,y:30,fill:"#28505f","font-family":"Archivo Narrow","font-size":"12.5","font-weight":"600"},cab)
@@ -2889,8 +2946,10 @@ function desenharSim(sim, offY){
   sim.cAr=el("g",{},cena); sim.cFa=el("g",{},cena); sim.cNo=el("g",{},cena);
 
   el("rect",{x:8,y:2,width:g.W-16,height:g.H-8,rx:14,fill:"none",stroke:"#dfeef4"},fundo);
+  const comBandas=desenharBandas(g,fundo,g.W);
   g.faixas.forEach((f,i)=>{
-    if(i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:g.H-24,rx:10,fill:"#f2fbfe"},fundo);
+    if(!comBandas && i%2===1) el("rect",{x:f.x0-14,y:10,width:f.x1-f.x0+28,height:g.H-24,rx:10,fill:"#f2fbfe"},fundo);
+    if(comBandas && i>0) el("line",{x1:f.x0-24,y1:44,x2:f.x0-24,y2:g.H-16,stroke:"rgba(10,52,66,.07)"},fundo);
     const cab=el("g",{tabindex:"0",role:"button",style:"cursor:pointer"},fundo);
     el("rect",{x:f.x0-8,y:13,width:f.x1-f.x0+16,height:25,rx:6,fill:"none","pointer-events":"all"},cab);
     const rot=corta(f.rotulo.replace("Gravações · ",""),40);
