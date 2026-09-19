@@ -27,24 +27,24 @@
   }
   *{box-sizing:border-box}
   html,body{height:100%}
-  body{margin:0;background:var(--papel);color:var(--texto);font-family:var(--sans);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+  body{margin:0;background:var(--papel);color:var(--texto);font-family:var(--sans);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
   .app{display:flex;flex-direction:column;height:100vh}
   button,select,input{font-family:inherit}
   :focus-visible{outline:2px solid var(--azul-medio);outline-offset:2px}
 
   /* topo */
   header{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px 20px;border-bottom:1px solid var(--borda)}
-  .marca{font-size:16px;font-weight:600;letter-spacing:-.01em;margin:0}
+  .marca{font-size:17px;font-weight:600;letter-spacing:-.01em;margin:0}
   .marca em{font-style:normal;color:var(--texto-3);font-weight:400}
   .abas{display:flex;gap:2px;background:var(--papel-2);border:1px solid var(--borda);border-radius:9px;padding:3px}
-  .aba{border:0;background:transparent;color:var(--texto-2);padding:6px 14px;border-radius:7px;cursor:pointer;font-size:13px}
+  .aba{border:0;background:transparent;color:var(--texto-2);padding:7px 15px;border-radius:7px;cursor:pointer;font-size:14px}
   .aba[aria-selected="true"]{background:var(--azul-escuro);color:#fff}
   .dir{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  .btn{background:var(--papel);border:1px solid var(--borda-2);color:var(--texto);border-radius:8px;padding:6px 11px;font-size:12.5px;cursor:pointer}
+  .btn{background:var(--papel);border:1px solid var(--borda-2);color:var(--texto);border-radius:8px;padding:7px 12px;font-size:13.5px;cursor:pointer}
   .btn:hover{border-color:var(--azul-medio)}
-  select{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:6px 10px;font-size:12.5px;color:var(--texto)}
-  input[type=search],input[type=url]{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:6px 11px;font-size:12.5px;color:var(--texto);min-width:190px}
-  .atualizado{font-size:11.5px;color:var(--texto-3);font-family:var(--narrow)}
+  select{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:7px 11px;font-size:13.5px;color:var(--texto)}
+  input[type=search],input[type=url]{background:var(--papel);border:1px solid var(--borda-2);border-radius:8px;padding:7px 12px;font-size:13.5px;color:var(--texto);min-width:190px}
+  .atualizado{font-size:12.5px;color:var(--texto-3);font-family:var(--narrow)}
   .atualizado.alerta{color:var(--rosa);font-weight:600;background:var(--rosa-claro);
                      border:1px solid var(--rosa);border-radius:999px;padding:3px 10px}
 
@@ -53,8 +53,8 @@
   .fase-chip{flex:1;min-width:104px;padding:9px 12px 10px;border-right:1px solid var(--borda);cursor:pointer;background:none;border-top:0;border-bottom:0;border-left:0;text-align:left}
   .fase-chip:last-child{border-right:0}
   .fase-chip:hover{background:var(--papel-2)}
-  .fase-chip .n{display:block;font-family:var(--narrow);font-size:11.5px;color:var(--texto-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .fase-chip .v{display:block;font-size:14px;font-weight:600;margin-top:1px}
+  .fase-chip .n{display:block;font-family:var(--narrow);font-size:12.5px;color:var(--texto-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fase-chip .v{display:block;font-size:15.5px;font-weight:600;margin-top:1px}
   .fase-chip .tr{display:block;height:3px;border-radius:2px;background:var(--borda);margin-top:5px;overflow:hidden}
   .fase-chip .tr i{display:block;height:100%;background:var(--verde-borda)}
 
@@ -81,16 +81,16 @@
               background:var(--papel-2);color:var(--texto-2);cursor:pointer;font-family:var(--sans);
               font-size:12px;letter-spacing:.04em;writing-mode:vertical-rl;text-orientation:mixed;padding:12px 0}
   .abaLateral:hover{background:var(--azul-fundo);color:var(--azul-borda)}
-  aside h2{margin:0 0 2px;font-size:13.5px;font-weight:600}
-  aside .sub{margin:0 0 14px;color:var(--texto-2);font-size:12px}
-  .quem{font-family:var(--narrow);font-size:12px;color:var(--texto-2);margin:14px 0 5px;padding-bottom:4px;border-bottom:1px solid var(--borda)}
-  .item{display:block;width:100%;text-align:left;border:0;background:none;color:var(--texto);font-size:12.5px;line-height:1.3;padding:6px 0 6px 14px;cursor:pointer;position:relative}
+  aside h2{margin:0 0 2px;font-size:15px;font-weight:600}
+  aside .sub{margin:0 0 14px;color:var(--texto-2);font-size:13px}
+  .quem{font-family:var(--narrow);font-size:13px;color:var(--texto-2);margin:14px 0 5px;padding-bottom:4px;border-bottom:1px solid var(--borda)}
+  .item{display:block;width:100%;text-align:left;border:0;background:none;color:var(--texto);font-size:13.5px;line-height:1.35;padding:7px 0 7px 15px;cursor:pointer;position:relative}
   .item:hover{color:var(--azul-borda)}
   .item::before{content:"";position:absolute;left:2px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--azul-medio)}
   .item.trava::before{background:var(--rosa)}
   .item.destrava::before{background:var(--verde-borda)}
-  .item i{display:block;font-style:normal;color:var(--texto-3);font-size:11.5px}
-  .item .pz{display:block;font-family:var(--narrow);font-size:11px;font-weight:600;color:var(--texto-2)}
+  .item i{display:block;font-style:normal;color:var(--texto-3);font-size:12.5px}
+  .item .pz{display:block;font-family:var(--narrow);font-size:12px;font-weight:600;color:var(--texto-2)}
   .item .pz.atraso,.atr{color:var(--rosa)}
   .item.atrasada::before{background:var(--rosa)}
   .est.atrasada{box-shadow:inset 0 0 0 1px var(--rosa)}
@@ -100,62 +100,79 @@
                border-radius:999px;padding:3px 11px;font-size:12px;font-weight:600}
   .dt.atraso,.dtc.atraso,td.przc.atraso{color:var(--rosa);font-weight:600}
   .legenda .atr{font-weight:600}
-  dl{margin:0 0 14px;display:grid;grid-template-columns:82px 1fr;gap:5px 10px;font-size:12.5px}
+  dl{margin:0 0 14px;display:grid;grid-template-columns:88px 1fr;gap:6px 10px;font-size:13.5px}
   dt{color:var(--texto-2);font-family:var(--narrow)}
   dd{margin:0}
-  .selo{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11.5px;border:1px solid}
-  .sec{margin:16px 0 4px;font-size:12px;color:var(--texto-2);display:flex;align-items:center;gap:7px}
+  .selo{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12.5px;border:1px solid}
+  .sec{margin:16px 0 4px;font-size:13px;color:var(--texto-2);display:flex;align-items:center;gap:7px}
   .sec b{color:var(--texto);font-weight:600}
-  .vazio{color:var(--texto-3);font-size:12.5px;margin:2px 0 6px}
-  .legenda{margin-top:22px;padding-top:14px;border-top:1px solid var(--borda);font-size:11.5px;color:var(--texto-2)}
+  .vazio{color:var(--texto-3);font-size:13.5px;margin:2px 0 6px}
+  .legenda{margin-top:22px;padding-top:14px;border-top:1px solid var(--borda);font-size:12.5px;color:var(--texto-2)}
   .legenda div{display:flex;align-items:center;gap:8px;margin-bottom:6px}
   .legenda .sw{width:20px;height:13px;border-radius:3px;flex:0 0 20px;border:1px solid var(--borda-2)}
 
   /* mapa */
   .mapa{overflow:auto;padding:4px 14px 18px;max-height:62vh}
-  table{border-collapse:separate;border-spacing:0;font-size:12px;width:100%}
+  table{border-collapse:separate;border-spacing:0;font-size:13px;width:100%}
   th,td{padding:0;text-align:left}
-  thead th{position:sticky;top:0;background:var(--papel);z-index:2;font-family:var(--narrow);font-weight:500;color:var(--texto-2);font-size:11.5px;padding:0 6px 8px;vertical-align:bottom}
-  tbody th{position:sticky;left:0;background:var(--papel);z-index:1;padding:4px 10px 4px 0;font-weight:600;font-size:12.5px;white-space:nowrap}
+  thead th{position:sticky;top:0;background:var(--papel);z-index:2;font-family:var(--narrow);font-weight:500;color:var(--texto-2);font-size:12.5px;padding:0 6px 8px;vertical-align:bottom}
+  tbody th{position:sticky;left:0;background:var(--papel);z-index:1;padding:4px 10px 4px 0;font-weight:600;font-size:13.5px;white-space:nowrap}
   .cel{display:block;width:100%;border:1px solid var(--borda);border-radius:6px;padding:7px 8px;margin:2px;cursor:pointer;background:var(--papel);text-align:left;position:relative}
   .cel:hover{border-color:var(--azul-medio)}
-  .cel .pc{font-size:12px;font-weight:600}
-  .cel .lib{font-size:10.5px;color:var(--azul-medio);font-weight:600;font-family:var(--narrow)}
-  .cel .dtc{display:block;font-family:var(--narrow);font-size:10px;color:var(--texto-3);margin-top:1px}
-  td.przc{font-family:var(--narrow);font-size:11.5px;color:var(--texto-2);text-align:right;padding:0 4px 0 10px;white-space:nowrap}
+  .cel .pc{font-size:13px;font-weight:600}
+  .cel .lib{font-size:11.5px;color:var(--azul-medio);font-weight:600;font-family:var(--narrow)}
+  .cel .dtc{display:block;font-family:var(--narrow);font-size:11px;color:var(--texto-3);margin-top:1px}
+  td.przc{font-family:var(--narrow);font-size:12.5px;color:var(--texto-2);text-align:right;padding:0 4px 0 10px;white-space:nowrap}
   .cel.na{opacity:.4}
 
   /* pessoas */
   .pessoas{overflow:auto;padding:4px 14px 18px;max-height:62vh;display:grid;
            grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-content:start}
   .cartao{border:1px solid var(--borda);border-radius:12px;padding:14px 16px;background:var(--papel)}
-  .cartao h3{margin:0 0 2px;font-size:13.5px}
-  .cartao .tot{color:var(--texto-3);font-size:11.5px;font-family:var(--narrow);margin:0 0 8px}
+  .cartao h3{margin:0 0 2px;font-size:15px}
+  .cartao .tot{color:var(--texto-3);font-size:12.5px;font-family:var(--narrow);margin:0 0 8px}
+  .cartao .item.extra{display:none}
+  .cartao.aberto .item.extra{display:block}
+  .maisMenos{margin-top:8px;border:0;background:none;color:var(--azul-borda);cursor:pointer;
+             font-family:var(--narrow);font-size:13px;padding:4px 0;text-decoration:underline}
 
   /* resumo */
   .resumo{flex:1;overflow:auto;padding:18px 20px 40px}
   .rsTopo{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;margin-bottom:4px}
-  .rsTopo h2{margin:0;font-size:19px;font-weight:600;letter-spacing:-.01em}
-  .rsPct{font-size:19px;font-weight:600;color:var(--verde-borda)}
-  .rsPct small{font-size:12.5px;color:var(--texto-2);font-weight:400;margin-left:6px}
-  .rsDiag{margin:2px 0 18px;font-size:13px;color:var(--texto-2);max-width:900px}
+  .rsTopo h2{margin:0;font-size:22px;font-weight:600;letter-spacing:-.01em}
+  .rsPct{font-size:22px;font-weight:600;color:var(--verde-borda)}
+  .rsPct small{font-size:13.5px;color:var(--texto-2);font-weight:400;margin-left:6px}
+  .rsDiag{margin:2px 0 18px;font-size:14.5px;color:var(--texto-2);max-width:900px}
   .rsDiag b{color:var(--texto);font-weight:600}
 
   .esteiras{overflow-x:auto;padding-bottom:6px}
   .grade{display:grid;gap:8px;min-width:1120px;align-items:stretch}
-  .gcab{font-family:var(--narrow);font-size:11.5px;color:var(--texto-2);line-height:1.25;
+  .gcab{font-family:var(--narrow);font-size:12.5px;color:var(--texto-2);line-height:1.25;
         padding:0 2px 2px;align-self:end}
   .gnome{display:flex;flex-direction:column;justify-content:center;padding-right:10px}
-  .gnome b{font-size:12.5px}
-  .gnome span{font-family:var(--narrow);font-size:11.5px;color:var(--texto-3)}
+  .gnome b{font-size:14px}
+  .gnome span{font-family:var(--narrow);font-size:12.5px;color:var(--texto-3)}
   .est{border:1px solid var(--borda);border-radius:10px;padding:8px 9px;background:var(--papel);
        display:flex;flex-direction:column;gap:5px;min-height:74px}
   .est.vazia{border-style:dashed;border-color:#e2edf1;background:transparent}
-  .est .qt{font-family:var(--narrow);font-size:11px;color:var(--texto-2);display:flex;justify-content:space-between;gap:6px}
-  .est .qt b{color:var(--texto);font-weight:600;font-size:12px}
+  button.est{font-family:var(--sans);text-align:left;cursor:pointer;color:var(--texto)}
+  button.est:hover{border-color:var(--azul-borda);box-shadow:0 2px 10px rgba(10,52,66,.10)}
+  .menu-est{min-width:330px;max-width:410px;max-height:70vh;overflow-y:auto}
+  .menu-est .cab{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+  .menu-est .cab span{font-weight:400;color:var(--texto-3);font-family:var(--narrow);font-size:12px}
+  .menu .grupo{margin:9px 0 2px;padding:0 11px;font-family:var(--narrow);font-size:11.5px;
+               text-transform:uppercase;letter-spacing:.04em;color:var(--texto-2)}
+  .menu .grupo.feito{color:var(--texto-3)}
+  .menu .ref i{display:block;font-style:normal;font-family:var(--narrow);font-size:12px;color:var(--texto-3)}
+  .menu .ref.falta{color:var(--texto);font-weight:600}
+  .menu .ref.falta.atraso{color:var(--rosa)}
+  .menu .ref.pronta{color:var(--texto-3);font-weight:400;opacity:.7}
+  .menu .ref.pronta::before{content:"✓";color:var(--verde-borda);position:absolute;left:7px}
+  .est .qt{font-family:var(--narrow);font-size:12.5px;color:var(--texto-2);display:flex;justify-content:space-between;gap:6px}
+  .est .qt b{color:var(--texto);font-weight:600;font-size:15px}
   .est .bar{height:5px;border-radius:3px;background:#e2ecf0;overflow:hidden}
   .est .bar i{display:block;height:100%;border-radius:3px}
-  .est .quem{font-family:var(--narrow);font-size:11px;color:var(--texto-3);
+  .est .quem{font-family:var(--narrow);font-size:12px;color:var(--texto-3);
              display:flex;justify-content:space-between;gap:6px;white-space:nowrap}
   .est .quem span:first-child{overflow:hidden;text-overflow:ellipsis}
   .est .quem .prz{color:var(--texto-2);font-weight:600;flex:0 0 auto}
@@ -167,38 +184,52 @@
   .est.dani{background:var(--amarelo-fundo);border-color:var(--amarelo-borda)}
   .est.travada{background:var(--cinza);border-color:var(--cinza-borda)}
   .eixos{display:grid;grid-template-columns:repeat(5,1fr);gap:3px}
-  .eixos span{font-family:var(--narrow);font-size:9px;text-align:center;border-radius:3px;
+  .eixos span{font-family:var(--narrow);font-size:10.5px;text-align:center;border-radius:3px;
               padding:2px 0 3px;border:1px solid transparent;color:var(--texto-2)}
   .fecho{grid-row:span 2;border:1px solid var(--borda);border-radius:10px;padding:10px;
          display:flex;flex-direction:column;gap:8px;justify-content:center;background:var(--papel)}
-  .fecho .tit{font-family:var(--narrow);font-size:11px;color:var(--texto-2)}
+  .fecho .tit{font-family:var(--narrow);font-size:12px;color:var(--texto-2)}
 
-  .rsCartoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:22px 0 4px}
+  .rsCartoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:14px;padding:0 14px 16px}
+  .bloco.secao{margin-top:20px}
+  .bloco.secao .panorama{padding:0 14px 14px}
   .rsCard{border:1px solid var(--borda);border-radius:12px;padding:14px 16px;background:var(--papel-2)}
-  .rsCard h3{margin:0 0 8px;font-size:12px;font-family:var(--narrow);color:var(--texto-2);
+  .rsCard h3{margin:0 0 10px;font-size:12.5px;font-family:var(--narrow);color:var(--texto-2);
              font-weight:500;letter-spacing:.03em;text-transform:uppercase}
-  .rsCard p{margin:0 0 6px;font-size:12.5px}
-  .rsCard .linha2{display:flex;justify-content:space-between;gap:10px;font-size:12.5px;padding:4px 0;
+  .rsCard p{margin:0 0 6px;font-size:13.5px}
+  .rsCard .linha2{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:6px 0;
                   border-bottom:1px solid var(--borda)}
   .rsCard .linha2:last-child{border-bottom:0}
   .rsCard .linha2 b{font-weight:600}
-  .rsCard em{font-style:normal;color:var(--texto-3);font-family:var(--narrow);font-size:11.5px}
+  .rsCard .linha2 b em{display:block;font-style:normal;font-weight:400;color:var(--texto-3);
+                       font-family:var(--narrow);font-size:12.5px}
+  button.linha2.link{width:100%;border:0;background:none;cursor:pointer;font-family:var(--sans);
+                     color:var(--texto);text-align:left;align-items:flex-start;padding:7px 4px;border-radius:7px;
+                     display:flex;justify-content:space-between;gap:10px;font-size:12.5px;
+                     border-bottom:1px solid var(--borda)}
+  button.linha2.link:hover{background:var(--azul-fundo)}
+  button.linha2.link b{text-align:right}
+  .rsCard em{font-style:normal;color:var(--texto-3);font-family:var(--narrow);font-size:12.5px}
+  .rsCard .capt{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:2px 0 10px;
+                font-family:var(--narrow);font-size:11px;color:var(--texto-3)}
+  .rsCard .capt .ch{width:12px;height:9px;border-radius:2px;display:inline-block}
+  .rsCard .capt .ch:not(:first-child){margin-left:8px}
 
   .panorama{margin-top:26px}
-  .panorama h3{margin:0 0 8px;font-size:12px;font-family:var(--narrow);color:var(--texto-2);
+  .panorama h3{margin:0 0 8px;font-size:12.5px;font-family:var(--narrow);color:var(--texto-2);
                font-weight:500;letter-spacing:.03em;text-transform:uppercase}
   .pl{display:grid;grid-template-columns:118px 1fr 1fr 58px 52px 86px;gap:10px;align-items:center;
       padding:6px 8px;border:0;background:none;width:100%;text-align:left;cursor:pointer;border-radius:8px;
-      font-family:var(--sans);color:var(--texto);font-size:12.5px}
+      font-family:var(--sans);color:var(--texto);font-size:13.5px}
   .pl:hover{background:var(--azul-fundo)}
   .pl.atual{background:var(--azul-fundo);box-shadow:inset 0 0 0 1px var(--azul)}
   .pl .mb{height:8px;border-radius:4px;background:#e2ecf0;overflow:hidden}
   .pl .mb i{display:block;height:100%;background:var(--verde-borda)}
   .pl .pt{width:12px;height:12px;border-radius:50%;border:1px solid var(--cinza-borda);margin:0 auto}
-  .pl .dt{font-family:var(--narrow);font-size:11.5px;color:var(--texto-3);text-align:right}
-  .plcab{font-family:var(--narrow);font-size:11px;color:var(--texto-3);padding:0 8px 4px}
+  .pl .dt{font-family:var(--narrow);font-size:12.5px;color:var(--texto-3);text-align:right}
+  .plcab{font-family:var(--narrow);font-size:12px;color:var(--texto-3);padding:0 8px 4px}
   .bloco{margin-top:18px;border:1px solid var(--borda);border-radius:12px;background:var(--papel)}
-  .bloco>summary{cursor:pointer;padding:12px 16px;font-size:12.5px;font-weight:600;color:var(--texto-2);
+  .bloco>summary{cursor:pointer;padding:13px 16px;font-size:14px;font-weight:600;color:var(--texto-2);
                  list-style:none;display:flex;align-items:center;gap:8px}
   .bloco>summary::before{content:"▸";color:var(--texto-3);font-size:11px}
   .bloco[open]>summary::before{content:"▾"}
@@ -211,11 +242,11 @@
   #v-logica{flex-direction:column}
   .logtopo{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 20px;
            border-bottom:1px solid var(--borda);background:var(--papel-2)}
-  .logtopo p{margin:0;font-size:12.5px;color:var(--texto-2);max-width:660px;flex:1;min-width:260px}
+  .logtopo p{margin:0;font-size:13.5px;color:var(--texto-2);max-width:660px;flex:1;min-width:260px}
   .logbtn{display:flex;gap:6px}
   .logbtn .btn{padding:6px 11px}
-  .loglegenda{display:flex;gap:6px 16px;flex-wrap:wrap;align-items:center;padding:8px 20px;
-              border-bottom:1px solid var(--borda);font-size:11.5px;color:var(--texto-2)}
+  .loglegenda{display:flex;gap:6px 16px;flex-wrap:wrap;align-items:center;padding:9px 20px;
+              border-bottom:1px solid var(--borda);font-size:12.5px;color:var(--texto-2)}
   .loglegenda span{display:inline-flex;align-items:center;gap:6px}
   .loglegenda i{width:18px;height:12px;border-radius:3px;border:1px solid;display:inline-block}
   .telaL{flex:1;min-height:0;position:relative;overflow:hidden;background:var(--papel);cursor:grab}
@@ -225,15 +256,15 @@
   @keyframes correr{to{stroke-dashoffset:var(--fim)}}
   .menu{position:fixed;z-index:60;background:#fff;border:1px solid var(--borda-2);border-radius:11px;
         box-shadow:0 10px 30px rgba(10,52,66,.20);padding:6px;min-width:232px;max-width:300px}
-  .menu .cab{padding:7px 10px 9px;font-size:12px;font-weight:600;border-bottom:1px solid var(--borda);margin-bottom:4px;line-height:1.3}
-  .menu button{display:block;width:100%;text-align:left;border:0;background:none;padding:9px 10px;border-radius:7px;
-               font-size:12.5px;cursor:pointer;color:var(--texto)}
+  .menu .cab{padding:8px 11px 10px;font-size:13px;font-weight:600;border-bottom:1px solid var(--borda);margin-bottom:4px;line-height:1.3}
+  .menu button{display:block;width:100%;text-align:left;border:0;background:none;padding:10px 11px;border-radius:7px;
+               font-size:13.5px;cursor:pointer;color:var(--texto)}
   .menu button:hover{background:#eaf7fc}
   .menu button.neutro{color:var(--texto-2)}
-  .menu .nota{padding:2px 10px 8px;font-size:11.5px;color:var(--texto-2);line-height:1.4}
+  .menu .nota{padding:3px 11px 9px;font-size:12.5px;color:var(--texto-2);line-height:1.4}
   .menu .nota b{color:var(--texto)}
   .menu .ref{display:block;width:100%;text-align:left;border:0;background:none;cursor:pointer;
-             font-family:inherit;font-size:11.5px;line-height:1.35;color:var(--azul-borda);
+             font-family:inherit;font-size:13px;line-height:1.35;color:var(--azul-borda);
              padding:5px 10px 5px 20px;border-radius:6px;position:relative}
   .menu .ref::before{content:"›";position:absolute;left:10px;top:4px;font-size:13px;color:var(--azul)}
   .menu .ref:hover{background:var(--azul-fundo);text-decoration:underline}
@@ -2524,7 +2555,7 @@ function grafoDe(regras, status, extra){
   /* Posições em duas esteiras paralelas que só se encontram no fim:
      em cima as trilhas comuns (MET, PI, RP), embaixo Práticas eixo a eixo,
      e as tarefas do fechamento centradas entre as duas. */
-  const NW=212,NH=32,GAP=8,PW=136,GAPB=56,TOPO=66;
+  const NW=222,NH=36,GAP=8,PW=142,GAPB=56,TOPO=66;
   const GUT = grav ? 24 : 152;   // canhoto para os rótulos das duas esteiras
   const fechoFases = grav ? [] : FECHO_UNIDADE;
   function faixaDe(n){
@@ -2669,12 +2700,12 @@ function desenhar(){
     g.dataset.id=n.id;
     n.rect=el("rect",{x:0,y:0,width:n.w,height:G.NH,rx:7},g);
     if(n.tipo==="tarefa") n.fita=el("rect",{x:0,y:6,width:4,height:G.NH-12,rx:2,fill:COR_TRILHA[n.trilha]},g);
-    n.t1=el("text",{x:13,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},g);
-    n.t2=el("text",{x:13,y:26,"font-family":"Archivo Narrow","font-size":"10.5"},g);
+    n.t1=el("text",{x:13,y:16,"font-family":"Archivo","font-size":"12.5","font-weight":"500"},g);
+    n.t2=el("text",{x:13,y:29,"font-family":"Archivo Narrow","font-size":"11.5"},g);
     n.t1.textContent=corta(n.tarefa, n.tipo==="portao"?21:32);
     n.t2.textContent=n.tipo==="portao"
       ? n.alvo.filter(t=>PRONTO(G.nos[t].status)).length+" de "+n.alvo.length+" prontas"
-      : corta(n.resp,16)+(n.prazo?"  ·  "+n.prazo:"");
+      : corta(n.resp,16)+(n.prazo?"  ·  "+curta(n.prazo):"");
     n.alerta=el("rect",{x:n.w-10,y:4,width:6,height:6,rx:1.5,fill:"#f04770",opacity:0},g);
     el("title",{},g).textContent=n.tipo==="portao"
       ? n.tarefa : `${n.tarefa}\n${n.resp} · ${n.status}${n.prazo?" · prazo "+n.prazo:""}${
@@ -2801,7 +2832,7 @@ function faixaFases(){
     const b=document.createElement("button");
     b.className="fase-chip";
     const pz=prazoDe(c.itens), at=atrasadas(c.itens);
-    b.innerHTML=`<span class="n">${c.rotulo}${pz?` · <b style="font-weight:600;color:${at?"var(--rosa)":"var(--texto-2)"}">${pz}</b>`:""}</span>
+    b.innerHTML=`<span class="n">${c.rotulo}${pz?` · <b style="font-weight:600;color:${at?"var(--rosa)":"var(--texto-2)"}">${curta(pz)}</b>`:""}</span>
       <span class="v">${pc}%${lib?` <span style="font-size:11px;color:var(--azul-medio);font-weight:600">· ${lib} livre${lib>1?"s":""}</span>`:""}</span>
       <span class="tr"><i style="width:${pc}%"></i></span>`;
     b.onclick=()=>{ const alvo=c.itens.find(n=>n.status==="Liberado")||c.itens[0]; if(alvo) selecionar(alvo.id); };
@@ -2838,7 +2869,7 @@ function painel(){
       porResp[r].forEach(n=>{
         const at=atrasada(n.status,n.prazo);
         h+=`<button class="item${at?" atrasada":""}" data-ir="${escapa(n.id)}">${n.tarefa}<i>${n.fase}</i>`+
-           `<b class="pz${at?" atraso":""}">${n.prazo?(at?"atrasada desde ":"prazo ")+n.prazo:"sem prazo"}</b></button>`;
+           `<b class="pz${at?" atraso":""}">${n.prazo?(at?"atrasada desde ":"prazo ")+curta(n.prazo):"sem prazo"}</b></button>`;
       });
     });
     if(G.semRegra) h+=`<p class="vazio" style="margin-top:16px">${G.semRegra} tarefa(s) deste ciclo ainda não têm regra cadastrada na aba <b>Regras automáticas</b> e por isso não aparecem no grafo.</p>`;
@@ -2860,7 +2891,7 @@ function painel(){
     let h=`<h2>${n.tarefa}</h2><p class="sub">${n.fase} · ${NOME_TRILHA[n.trilha]}</p>
       <dl><dt>situação</dt><dd><span class="selo" style="border-color:${e.b};color:${n.status==="Bloqueado"?"#5b7d8a":e.t}">${n.status||"—"}</span></dd>
       <dt>responsável</dt><dd>${n.resp}</dd>
-      <dt>prazo</dt><dd>${n.prazo||"—"}</dd>${n.feito?`<dt>concluído em</dt><dd>${n.feito}</dd>`:""}</dl>`;
+      <dt>prazo</dt><dd>${curta(n.prazo)||"—"}</dd>${n.feito?`<dt>concluído em</dt><dd>${n.feito}</dd>`:""}</dl>`;
     h+=`<p class="sec">Está esperando <b>${travam.length}</b></p>`;
     if(!travam.length) h+=`<p class="vazio">Nada. O caminho até aqui está livre.</p>`;
     travam.forEach(x=>h+=`<button class="item trava" data-ir="${escapa(x.id)}">${x.tarefa}<i>${x.tipo==="portao"?"condição agregada":x.resp+" · "+x.status.toLowerCase()}${x.prazo?" · prazo "+x.prazo:""}</i></button>`);
@@ -2896,11 +2927,11 @@ function desenharMapa(){
       const alpha=(pc/100*.66+.05).toFixed(2);
       h+=`<td><button class="cel" data-ciclo="${escapa(c.chave)}" style="background:rgba(6,215,160,${alpha})">
           <span class="pc">${pc}%</span>${lib?`<span class="lib">${lib} livre${lib>1?"s":""}</span>`:`<span class="lib" style="color:var(--texto-3)">${pg.total} tarefas</span>`}
-          <span class="dtc${atrasadas(its)?" atraso":""}">${pz||""}</span></button></td>`;
+          <span class="dtc${atrasadas(its)?" atraso":""}">${curta(pz)||""}</span></button></td>`;
     });
     const fim=doC.find(p=>semAcento(p.tarefa).startsWith("liberar a unidade"))
             || doC.find(p=>semAcento(p.tarefa).includes("analise final"));
-    h+=`<td class="przc${atrasadas(doC)?" atraso":""}">${fim&&fim.prazo?fim.prazo:"—"}</td></tr>`;
+    h+=`<td class="przc${atrasadas(doC)?" atraso":""}">${fim&&fim.prazo?curta(fim.prazo):"—"}</td></tr>`;
   });
   alvo.innerHTML=h+`</tbody></table>`;
   alvo.querySelectorAll("[data-ciclo]").forEach(b=>b.onclick=()=>{ mostrar("ciclo"); trocarCiclo(b.dataset.ciclo); });
@@ -2916,20 +2947,26 @@ function desenharPessoas(){
     (por[r]=por[r]||[]).push(p);
   });
   Object.values(por).forEach(l=>l.sort((a,b)=>ordData(a.prazo)-ordData(b.prazo)));
-  const nomes=Object.keys(por).sort((a,b)=>por[b].length-por[a].length);
+  // quem tem o prazo mais próximo aparece primeiro; empate, quem tem mais tarefas
+  const nomes=Object.keys(por).sort((a,b)=>{
+    const da=ordData(por[a][0].prazo), db=ordData(por[b][0].prazo);
+    return da!==db ? da-db : por[b].length-por[a].length;
+  });
   if(!nomes.length){ alvo.innerHTML=`<p class="vazio">Nenhuma tarefa liberada no momento.</p>`; return; }
   alvo.innerHTML=nomes.map(n=>{
     const its=por[n];
     const prox=its.map(p=>p.prazo).filter(Boolean)[0], at=atrasadas(its);
-    return `<div class="cartao"><h3>${n}</h3><p class="tot">${its.length} tarefa(s) para pegar agora${prox?` · primeiro prazo ${prox}`:""}${
+    return `<div class="cartao"><h3>${n}</h3><p class="tot">${its.length} tarefa(s) para pegar agora${prox?` · primeiro prazo ${curta(prox)}`:""}${
         at?` · <span class="atr">${at} atrasada${at>1?"s":""}</span>`:""}</p>`+
-      its.slice(0,14).map(p=>{ const a=atrasada(p.status,p.prazo);
-        return `<button class="item${a?" atrasada":""}" data-abrir="${escapa(p.modulo+" · "+p.unidade)}" data-tar="${escapa(p.tarefa)}">${p.tarefa}<i>${p.modulo} · ${p.unidade}</i>`+
-        `<b class="pz${a?" atraso":""}">${p.prazo?(a?"atrasada desde ":"prazo ")+p.prazo:"sem prazo"}</b></button>`; }).join("")+
-      (its.length>14?`<p class="vazio">… e mais ${its.length-14}.</p>`:"")+`</div>`;
+      its.map((p,idx)=>{ const a=atrasada(p.status,p.prazo);
+        return `<button class="item${a?" atrasada":""}${idx>=8?" extra":""}" data-abrir="${escapa(p.modulo+" · "+p.unidade)}" data-tar="${escapa(p.tarefa)}">${p.tarefa}<i>${p.modulo} · ${p.unidade}</i>`+
+        `<b class="pz${a?" atraso":""}">${p.prazo?(a?"atrasada desde ":"prazo ")+curta(p.prazo):"sem prazo"}</b></button>`; }).join("")+
+      (its.length>8?`<button class="maisMenos" data-mais="${its.length-8}">ver as outras ${its.length-8}</button>`:"")+`</div>`;
   }).join("");
-  alvo.querySelectorAll("[data-abrir]").forEach(b=>b.onclick=()=>{
-    mostrar("ciclo"); trocarCiclo(b.dataset.abrir); selecionar(b.dataset.tar);
+  ligarAtalhos(alvo);
+  alvo.querySelectorAll(".maisMenos").forEach(b=>b.onclick=()=>{
+    const cartao=b.closest(".cartao"), aberto=cartao.classList.toggle("aberto");
+    b.textContent = aberto ? "resumir" : `ver as outras ${b.dataset.mais}`;
   });
 }
 let MAPA_RESP=null;
@@ -3092,9 +3129,9 @@ function desenharSim(sim, offY){
       style:"cursor:pointer","aria-label":n.tarefa},sim.cNo);
     n.rect=el("rect",{x:0,y:0,width:n.w,height:g.NH,rx:7},no);
     if(n.tipo==="tarefa") el("rect",{x:0,y:6,width:4,height:g.NH-12,rx:2,fill:COR_TRILHA[n.trilha]},no);
-    n.t1=el("text",{x:13,y:15,"font-family":"Archivo","font-size":"11.5","font-weight":"500"},no);
-    n.t2=el("text",{x:13,y:26,"font-family":"Archivo Narrow","font-size":"10.5"},no);
-    n.t1.textContent=corta(n.tarefa,n.tipo==="portao"?21:32);
+    n.t1=el("text",{x:13,y:16,"font-family":"Archivo","font-size":"12.5","font-weight":"500"},no);
+    n.t2=el("text",{x:13,y:29,"font-family":"Archivo Narrow","font-size":"11.5"},no);
+    n.t1.textContent=corta(n.tarefa,n.tipo==="portao"?21:31);
     n.dica=el("title",{},no); n.dica.textContent=n.tarefa;
     n.no=no;
     no.addEventListener("click",ev=>{ev.stopPropagation();if(!moveuL)abrirMenu(sim,n.id,ev.currentTarget);});
@@ -3354,7 +3391,14 @@ function prazoDe(itens){
   if(!ds.length) return "";
   return ds.reduce((a,b)=>ordData(b)>ordData(a)?b:a);
 }
-const curta = d => (d||"").replace(/\/(\d{2})(\d{2})$/,"/$2");
+/* O projeto todo corre dentro do ano corrente, então o ano só polui.
+   Ele volta a aparecer quando a data cai em outro ano. */
+const ANO_BASE=new Date().getFullYear();
+function curta(d){
+  const m=(d||"").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  if(!m) return d||"";
+  return (+m[3]===ANO_BASE) ? m[1]+"/"+m[2] : d;
+}
 
 function montarResumo(chave){
   const its=PAINEL.filter(p=>p.modulo+" · "+p.unidade===chave);
@@ -3405,17 +3449,20 @@ function celulaEixos(itens){
   }).join("")+`</div>`;
 }
 
-function cartaoEstacao(itens,rotulo){
+let ESTACOES={}, seqEst=0;
+function cartaoEstacao(itens,rotulo,chave){
   const e=estadoDe(itens);
-  if(e.vazia) return `<div class="est vazia"></div>`;
+  if(e.vazia) return `<span class="est vazia"></span>`;
   const fase=(rotulo||"").replace("Gravações · ","");
   const grade=celulaEixos(itens), prz=prazoDe(itens), at=atrasadas(itens);
-  return `<div class="est ${e.est}${at?" atrasada":""}" data-fase="${escapa(fase)}">
+  const id="est"+(++seqEst);
+  ESTACOES[id]={itens,fase,chave:chave||ciclo};
+  return `<button class="est ${e.est}${at?" atrasada":""}" data-fase="${escapa(fase)}" data-est="${id}">
     <div class="qt"><b>${e.pc}%</b><span>${at?`<span class="atr">${at} atrasada${at>1?"s":""}</span>`:`${e.feitas}/${e.total}${e.na?` · ${e.na} n/a`:""}`}</span></div>
     ${grade || `<div class="bar"><i style="width:${e.pc}%;background:${COR_EST[e.est]}"></i></div>`}
     <div class="quem"><span>${e.est==="feita"?"concluída":(e.quem||"bloqueada")}</span>
-      <span class="prz${at?" atraso":""}">${prz?prz:""}</span></div>
-  </div>`;
+      <span class="prz${at?" atraso":""}">${prz?curta(prz):""}</span></div>
+  </button>`;
 }
 
 /* Onde a esteira está de fato: a estação mais avançada com tarefa liberada. Se não há
@@ -3482,14 +3529,18 @@ function curvaAvanco(){
     `<text x="${i*passo+passo/2}" y="${L+12}" text-anchor="middle" font-family="Archivo Narrow" font-size="9.5" fill="#68899a">${semanas[k].rot}</text>`).join("");
   const ult=semanas[chaves[chaves.length-1]].n;
   return `<div class="rsCard"><h3>Avanço por semana</h3>
-    <svg viewBox="0 0 ${W} ${L+18}" style="width:100%;height:82px" role="img" aria-label="Tarefas concluídas por semana">
+    <svg viewBox="0 0 ${W} ${L+18}" style="width:100%;height:82px" role="img"
+         aria-label="Barras: tarefas concluídas em cada semana. Linha: total acumulado.">
       ${barras}${linha}${rotulos}</svg>
+    <p class="capt"><span class="ch" style="background:#06d7a0"></span>concluídas na semana
+       <span class="ch" style="background:#008CC7;height:2px"></span>total acumulado</p>
     <div class="linha2"><span>concluídas na última semana</span><b>${ult}</b></div>
     <div class="linha2"><span>total concluído até aqui</span><b>${feitos.length}</b></div></div>`;
 }
 
 function desenharResumo(){
   const alvo=document.getElementById("resumo");
+  ESTACOES={}; seqEst=0;
   const R=montarResumo(ciclo);
   if(!R){ alvo.innerHTML=`<p class="vazio">Sem dados para este ciclo.</p>`; return; }
   const geral=estadoDe(R.its);
@@ -3505,16 +3556,16 @@ function desenharResumo(){
   h+=`<div></div>`+R.colunas.map((c,j)=>{
     const todas=[].concat(...R.faixas.map((fx,i)=>R.celulas[i][j]));
     const pz=prazoDe(todas);
-    return `<div class="gcab">${c.replace("Gravações · ","")}${pz?`<span class="gprz">prazo ${pz}</span>`:""}</div>`;
-  }).join("")+`<div class="gcab">Fechamento${prazoDe(R.fecho)?`<span class="gprz">prazo ${prazoDe(R.fecho)}</span>`:""}</div>`;
+    return `<div class="gcab">${c.replace("Gravações · ","")}${pz?`<span class="gprz">prazo ${curta(pz)}</span>`:""}</div>`;
+  }).join("")+`<div class="gcab">Fechamento${prazoDe(R.fecho)?`<span class="gprz">prazo ${curta(prazoDe(R.fecho))}</span>`:""}</div>`;
   R.faixas.forEach((fx,i)=>{
     h+=`<div class="gnome"><b>${fx.nome}</b><span>${fx.sub}</span></div>`;
-    h+=R.celulas[i].map((cel,j)=>cartaoEstacao(cel,R.colunas[j])).join("");
+    h+=R.celulas[i].map((cel,j)=>cartaoEstacao(cel,R.colunas[j],R.chave)).join("");
     if(i===0){
       const f=estadoDe(R.fecho);
       h+=`<div class="fecho" style="grid-row:span ${R.faixas.length}">
         <div class="tit">${R.fecho.length} tarefa(s) que esperam as duas esteiras</div>
-        ${cartaoEstacao(R.fecho,"Fechamento")}
+        ${cartaoEstacao(R.fecho,"Fechamento",R.chave)}
         <div class="tit">${f.est==="feita"?"unidade liberada":"liberação pendente"}</div></div>`;
     }
   });
@@ -3540,25 +3591,33 @@ function desenharResumo(){
   }).filter(x=>x.data&&x.e.pc<100)
     .sort((a,b)=>ordData(a.data)-ordData(b.data)).slice(0,6);
 
-  h+=`<div class="rsCartoes">
-    <div class="rsCard"><h3>Frente de trabalho · prazo do ciclo ${prazoDe(R.its)||"—"}</h3>${
+  h+=`<details class="bloco secao" id="blocoLeituras"${aberto("blocoLeituras")}>
+    <summary>Leituras rápidas</summary><div class="rsCartoes">
+    <div class="rsCard"><h3>Frente de trabalho · prazo do ciclo ${curta(prazoDe(R.its))||"—"}</h3>${
       R.faixas.map((fx,i)=>{
         const f=frenteDa(R,i);
-        return `<div class="linha2"><span>${fx.nome}</span><b>${f?R.colunas[f.j].replace("Gravações · ",""):"concluída"}${
-          f&&f.e.quem?` <em>${f.e.quem}</em>`:""}</b></div>`;
+        if(!f) return `<div class="linha2"><span>${fx.nome}</span><b>concluída</b></div>`;
+        const cel=R.celulas[i][f.j];
+        const alvo = cel.find(p=>p.status==="Liberado"||p.status==="Em andamento")
+                  || cel.find(p=>!PRONTO(p.status)) || cel[0];
+        const pz=prazoDe(cel);
+        return `<button class="linha2 link" data-abrir="${escapa(R.chave)}" data-tar="${escapa(alvo.tarefa)}">
+          <span>${fx.nome}</span>
+          <b>${R.colunas[f.j].replace("Gravações · ","")}
+            <em>${R.chave.replace(" · "," ")} · ${f.e.quem||alvo.resp}${pz?" · prazo "+curta(pz):""}</em></b></button>`;
       }).join("")
     }<div class="linha2"><span>esperando a Dani</span><b>${espera} tarefa(s)</b></div>
       <div class="linha2"><span>atrasadas</span><b${atrCiclo?' class="atr"':''}>${atrCiclo}</b></div></div>
     <div class="rsCard"><h3>Tarefas liberadas para fazer</h3>${
-      pessoas.length?pessoas.map(([r,o])=>`<div class="linha2"><span>${r}${o.at?` <span class="atr">${o.at} atrasada${o.at>1?"s":""}</span>`:""}</span><b>${o.n} <em>${o.prazo?"até "+o.prazo:""}</em></b></div>`).join("")
+      pessoas.length?pessoas.map(([r,o])=>`<div class="linha2"><span>${r}${o.at?` <span class="atr">${o.at} atrasada${o.at>1?"s":""}</span>`:""}</span><b>${o.n} <em>${o.prazo?"até "+curta(o.prazo):""}</em></b></div>`).join("")
                     :`<p><em>Nada liberado no momento.</em></p>`
     }</div>
     ${curvaAvanco()}
     <div class="rsCard"><h3>Próximas liberações</h3>
       <div class="linha2 chv"><span>ciclo</span><span>prazo</span></div>${
-      prox.length?prox.map(x=>`<div class="linha2"><span>${x.chave} <em>${x.e.pc}%</em></span><b>${x.data}</b></div>`).join("")
+      prox.length?prox.map(x=>`<div class="linha2"><span>${x.chave} <em>${x.e.pc}%</em></span><b>${curta(x.data)}</b></div>`).join("")
                  :`<p><em>Sem datas previstas.</em></p>`
-    }</div></div>`;
+    }</div></div></div></details>`;
 
   // panorama: separa o que está andando do que ainda espera template
   const cab=`<div class="plcab" style="display:grid;grid-template-columns:118px 1fr 1fr 58px 52px 86px;gap:10px">
@@ -3574,7 +3633,7 @@ function desenharResumo(){
       <span>${c.chave}</span>${b(bars[0])}${b(bars[1])}
       <span class="pt" style="background:${COR_EST[f.est]};border-color:${COR_EST[f.est]}"></span>
       <span style="text-align:right;font-weight:600">${g.pc}%</span>
-      <span class="dt${atrasadas(r.its)?" atraso":""}">${fim&&fim.prazo?fim.prazo:"—"}</span></button>`;
+      <span class="dt${atrasadas(r.its)?" atraso":""}">${fim&&fim.prazo?curta(fim.prazo):"—"}</span></button>`;
   };
   const anda=[], fila=[];
   CICLOS.forEach(c=>{
@@ -3582,8 +3641,9 @@ function desenharResumo(){
     const ativo=its.some(p=>p.status==="Liberado"||p.status==="Em andamento"||p.status==="Concluído");
     (ativo?anda:fila).push(c);
   });
-  h+=`<div class="panorama"><h3>Em andamento · ${anda.length} frente${anda.length===1?"":"s"}</h3>${cab}`;
-  h+=anda.map(linha).join("")+`</div>`;
+  h+=`<details class="bloco secao" id="blocoAndamento"${aberto("blocoAndamento")}>
+    <summary>Em andamento · ${anda.length} frente${anda.length===1?"":"s"}</summary>
+    <div class="panorama">${cab}${anda.map(linha).join("")}</div></details>`;
   if(fila.length){
     h+=`<details class="bloco"><summary>Na fila · ${fila.length} frentes ainda sem nada liberado</summary>
       <div class="panorama">${cab}${fila.map(linha).join("")}</div></details>`;
@@ -3596,12 +3656,65 @@ function desenharResumo(){
         <div class="mapa" id="mapa"></div></details>`;
   alvo.innerHTML=h;
   alvo.querySelectorAll("[data-ir-ciclo]").forEach(b=>b.onclick=()=>trocarCiclo(b.dataset.irCiclo));
+  ligarAtalhos(alvo);
+  alvo.querySelectorAll("[data-est]").forEach(b=>b.onclick=ev=>{
+    ev.stopPropagation(); menuEstacao(b.dataset.est, b);
+  });
+  ligarSecao("blocoLeituras"); ligarSecao("blocoAndamento");
   ligarBloco("blocoPessoas", desenharPessoas);
   ligarBloco("blocoMapa", desenharMapa);
 }
 /* o Resumo se redesenha quando muda o ciclo, e isso fechava os blocos abertos.
    Guarda o estado de cada um e devolve depois do redesenho. */
 const blocosAbertos={};
+/* detalhe de uma estação: o que falta em destaque, o que já foi em tom apagado */
+function menuEstacao(id, alvoEl){
+  fecharMenu();
+  const E=ESTACOES[id]; if(!E) return;
+  const falta=E.itens.filter(p=>!PRONTO(p.status));
+  const prontas=E.itens.filter(p=>PRONTO(p.status));
+  const m=document.createElement("div");
+  m.className="menu menu-est";
+  m.addEventListener("click",e=>e.stopPropagation());
+  let h=`<p class="cab">${E.fase}<span>${E.chave}</span></p>`;
+  if(falta.length){
+    h+=`<p class="grupo">A fazer · ${falta.length}</p>`;
+    h+=falta.map(p=>{
+      const a=atrasada(p.status,p.prazo);
+      return `<button class="ref falta${a?" atraso":""}" data-abrir="${escapa(E.chave)}" data-tar="${escapa(p.tarefa)}">
+        ${p.tarefa}<i>${p.resp} · ${p.status.toLowerCase()}${p.prazo?" · "+(a?"atrasada desde ":"prazo ")+curta(p.prazo):""}</i></button>`;
+    }).join("");
+  }else{
+    h+=`<p class="nota">Tudo pronto nesta etapa.</p>`;
+  }
+  if(prontas.length){
+    h+=`<p class="grupo feito">Já feito · ${prontas.length}</p>`;
+    h+=prontas.map(p=>`<button class="ref pronta" data-abrir="${escapa(E.chave)}" data-tar="${escapa(p.tarefa)}">
+        ${p.tarefa}<i>${p.status==="Não se aplica"?"não se aplica":"concluída"+(p.feito?" em "+curta(p.feito):"")}</i></button>`).join("");
+  }
+  h+=`<button class="neutro" data-op="cancelar">Fechar</button>`;
+  m.innerHTML=h;
+  document.body.appendChild(m);
+  posicionarMenu(m,alvoEl);
+  menuAberto=m;
+  m.querySelectorAll("[data-op]").forEach(b=>b.onclick=()=>fecharMenu());
+  m.querySelectorAll("[data-abrir]").forEach(b=>b.onclick=()=>{
+    fecharMenu(); mostrar("ciclo"); trocarCiclo(b.dataset.abrir); selecionar(b.dataset.tar);
+  });
+}
+
+/* qualquer menção a uma tarefa abre ela na aba Ciclo, já selecionada */
+function ligarAtalhos(raiz){
+  raiz.querySelectorAll("[data-abrir]").forEach(b=>b.onclick=()=>{
+    mostrar("ciclo"); trocarCiclo(b.dataset.abrir); selecionar(b.dataset.tar);
+  });
+}
+/* as seções abertas por padrão; o estado de cada uma fica guardado entre redesenhos */
+const aberto = id => (blocosAbertos[id]===false ? "" : " open");
+function ligarSecao(id){
+  const d=document.getElementById(id);
+  if(d) d.addEventListener("toggle",()=>{ blocosAbertos[id]=d.open; });
+}
 function ligarBloco(id, desenhar){
   const d=document.getElementById(id);
   if(!d) return;
@@ -3715,7 +3828,7 @@ function resumoEmTexto(){
   const R=montarResumo(ciclo); if(!R) return "";
   const g=estadoDe(R.its), at=atrasadas(R.its);
   const linhas=[`${R.chave} — ${g.pc}% (${g.feitas} de ${g.total} tarefas)`,
-                `Prazo do ciclo: ${prazoDe(R.its)||"—"}`];
+                `Prazo do ciclo: ${curta(prazoDe(R.its))||"—"}`];
   if(at) linhas.push(`ATENÇÃO: ${at} tarefa(s) atrasada(s)`);
   linhas.push("", diagnostico(R).replace(/<\/?b>/g,""), "", "Por etapa:");
   R.colunas.forEach((c,j)=>{
@@ -3723,7 +3836,7 @@ function resumoEmTexto(){
     if(!todas.length) return;
     const e=estadoDe(todas);
     linhas.push(`  ${c.replace("Gravações · ","")}: ${e.pc}% (${e.feitas}/${e.total})`+
-                (prazoDe(todas)?` — prazo ${prazoDe(todas)}`:""));
+                (prazoDe(todas)?` — prazo ${curta(prazoDe(todas))}`:""));
   });
   const f=estadoDe(R.fecho);
   linhas.push(`  Fechamento: ${f.pc}% (${f.feitas}/${f.total})`);
