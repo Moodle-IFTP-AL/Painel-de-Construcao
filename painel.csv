@@ -14,15 +14,6 @@ M2,U6,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Conc
 M2,U6,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,21/09,21/09,21/09,18/09,21/09/2026,18/09/2026,-,0
 M2,U6,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,21/09,21/09,21/09,18/09,21/09/2026,18/09/2026,-,0
 M2,U6,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,21/09,21/09,21/09,18/09,21/09/2026,18/09/2026,-,0
-M2,U6,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
-M2,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,#ERROR!,#ERROR!,#ERROR!,#ERROR!,,#ERROR!,#ERROR!,-,
 M2,U6,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Não se aplica,15/09,17/09,14/09,,,,Não se aplica,"0,2"
 M2,U6,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Não se aplica,15/09,16/09,14/09,,,,Não se aplica,"0,2"
 M2,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,15/09,17/09,14/09,,,,Não se aplica,"0,2"
@@ -254,6 +245,42 @@ M3,U1,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U1,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
 M3,U1,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
 M3,U1,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
+M3,U1,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ADM) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(AGS) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(COM) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(CDC) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ECS) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GOP) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GIM) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TI) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TEV) Montar o check point de início de módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ADM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(AGS) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(COM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(CDC) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ECS) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GOP) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GIM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TI) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TEV) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ADM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(AGS) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(COM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(CDC) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(ECS) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GOP) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(GIM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TI) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
+M3,U1,Pré-base,(TEV) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,23/09,30/09,28/09,,,,-,"0,33"
 M3,U1,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,"0,2"
 M3,U1,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,"0,2"
 M3,U1,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -331,6 +358,15 @@ M3,U2,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U2,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U2,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U2,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
+M3,U2,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U2,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
 M3,U2,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U2,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U2,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
@@ -408,6 +444,15 @@ M3,U3,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U3,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U3,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U3,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
+M3,U3,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U3,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
 M3,U3,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U3,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U3,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -485,6 +530,15 @@ M3,U4,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U4,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U4,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
 M3,U4,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0
+M3,U4,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U4,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
 M3,U4,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U4,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
 M3,U4,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,13/10,13/10,12/10,,,,-,"0,2"
@@ -562,6 +616,15 @@ M3,U5,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U5,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
 M3,U5,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
 M3,U5,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
+M3,U5,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
+M3,U5,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,30/09,07/10,05/10,,,,-,"0,33"
 M3,U5,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,13/10,15/10,12/10,,,,-,"0,2"
 M3,U5,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,19/10,19/10,19/10,,,,-,"0,2"
 M3,U5,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -639,6 +702,15 @@ M3,U6,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U6,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
 M3,U6,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
 M3,U6,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,20/10,20/10,19/10,,20/10/2026,,-,0
+M3,U6,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
 M3,U6,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,19/10,20/10,19/10,,,,-,"0,2"
 M3,U6,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,19/10,19/10,19/10,,,,-,"0,2"
 M3,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,19/10,19/10,19/10,,,,-,"0,2"
@@ -716,6 +788,15 @@ M3,U7,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U7,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
 M3,U7,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
 M3,U7,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
+M3,U7,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
 M3,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,19/10,22/10,19/10,,,,-,"0,2"
 M3,U7,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,19/10,20/10,19/10,,,,-,"0,2"
 M3,U7,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -793,6 +874,15 @@ M3,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M3,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
 M3,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
 M3,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,27/10,27/10,26/10,,27/10/2026,,-,0
+M3,U8,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
+M3,U8,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,07/10,14/10,12/10,,,,-,"0,33"
 M3,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,19/10,22/10,19/10,,,,-,"0,2"
 M3,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M3,U8,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -870,6 +960,42 @@ M4,U1,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U1,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
 M4,U1,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
 M4,U1,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
+M4,U1,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ADM) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(AGS) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(COM) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(CDC) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ECS) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GOP) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GIM) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TI) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ADM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(AGS) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(COM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(CDC) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ECS) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GOP) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(GIM) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TI) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(ADM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(AGS) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(COM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(CDC) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(ECS) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(GOP) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(GIM) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(TI) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
 M4,U1,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U1,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U1,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -947,6 +1073,15 @@ M4,U2,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U2,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
 M4,U2,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
 M4,U2,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,26/10,26/10,26/10,,26/10/2026,,-,0
+M4,U2,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
 M4,U2,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U2,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U2,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
@@ -1024,6 +1159,15 @@ M4,U3,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U3,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
 M4,U3,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
 M4,U3,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
+M4,U3,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
 M4,U3,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,28/10,26/10,,,,-,"0,2"
 M4,U3,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
 M4,U3,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1101,6 +1245,15 @@ M4,U4,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U4,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
 M4,U4,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
 M4,U4,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,03/11,03/11,02/11,,03/11/2026,,-,0
+M4,U4,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
 M4,U4,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,28/10,26/10,,,,-,"0,2"
 M4,U4,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
 M4,U4,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
@@ -1178,6 +1331,15 @@ M4,U5,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U5,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
 M4,U5,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
 M4,U5,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
+M4,U5,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
 M4,U5,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,03/11,05/11,02/11,,,,-,"0,2"
 M4,U5,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,04/11,02/11,,,,-,"0,2"
 M4,U5,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1255,6 +1417,15 @@ M4,U6,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U6,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
 M4,U6,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
 M4,U6,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0
+M4,U6,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
 M4,U6,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,03/11,05/11,02/11,,,,-,"0,2"
 M4,U6,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,09/11,09/11,09/11,,,,-,"0,2"
 M4,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,09/11,09/11,09/11,,,,-,"0,2"
@@ -1332,6 +1503,15 @@ M4,U7,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U7,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
 M4,U7,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
 M4,U7,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
+M4,U7,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
 M4,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,09/11,12/11,09/11,,,,-,"0,2"
 M4,U7,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,09/11,10/11,09/11,,,,-,"0,2"
 M4,U7,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1409,6 +1589,15 @@ M4,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Agua
 M4,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
 M4,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
 M4,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0
+M4,U8,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(CDC) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
 M4,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,09/11,12/11,09/11,,,,-,"0,2"
 M4,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,04/11,02/11,,,,-,"0,2"
 M4,U8,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
