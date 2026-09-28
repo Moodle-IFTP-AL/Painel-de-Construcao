@@ -75,7 +75,7 @@ M2,U6,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),A
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
 M2,U6,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Em andamento,25/09,28/09,28/09,,23/09/2026,,Em andamento,4
-M2,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Liberado,25/09,28/09,28/09,,23/09/2026,,-,2
+M2,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Concluído,25/09,28/09,28/09,28/09,23/09/2026,28/09/2026,-,2
 M2,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,25/09,28/09,28/09,,23/09/2026,,-,2
 M2,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Gustavo,Bloqueado,28/09,28/09,28/09,,,,-,1
 M2,U6,Liberação,Liberar a unidade,Marcelo,Bloqueado,29/09,29/09,28/09,,,,-,"0,5"
@@ -106,26 +106,26 @@ M2,U7,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,05/10,05
 M2,U7,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Bloqueado,28/09,30/09,28/09,,,,-,2
 M2,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,2
 M2,U7,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Não se aplica,,,,,,,-,2
-M2,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Liberado,05/10,05/10,05/10,,22/09/2026,,-,6
+M2,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Concluído,05/10,05/10,05/10,28/09,22/09/2026,28/09/2026,-,6
 M2,U7,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,28/09,30/09,28/09,,,,-,2
 M2,U7,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Concluído,05/10,05/10,05/10,25/09,22/09/2026,25/09/2026,-,2
 M2,U7,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,28/09,06/10,05/10,,,,-,2
 M2,U7,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Liberado,28/09,06/10,05/10,,27/09/2026,,-,2
 M2,U7,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Não se aplica,,,,,,,-,2
-M2,U7,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Em andamento,05/10,06/10,05/10,,22/09/2026,,Em andamento,2
+M2,U7,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Concluído,05/10,06/10,05/10,,22/09/2026,28/09/2026,-,2
 M2,U7,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,2
 M2,U7,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,30/09,02/10,28/09,,,,-,"0,5"
-M2,U7,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marquito,Liberado,05/10,05/10,05/10,,25/09/2026,,-,"0,5"
+M2,U7,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Concluído,05/10,05/10,05/10,,25/09/2026,28/09/2026,-,"0,5"
 M2,U7,Base,HTML base - Metodologia Pedagógica,Gustavo,Bloqueado,28/09,30/09,28/09,,,,-,1
-M2,U7,Base,HTML base ADM - Prática do Ensino Técnico,Gustavo,Liberado,05/10,05/10,05/10,,22/09/2026,,-,1
+M2,U7,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Concluído,05/10,05/10,05/10,,22/09/2026,28/09/2026,-,1
 M2,U7,Base,HTML base - Planejamento Integrado (se houver),Gustavo,Liberado,28/09,29/09,28/09,,27/09/2026,,-,1
 M2,U7,Base,HTML base - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,1
 M2,U7,Rev. base,Revisão do HTML base - Metodologia,Maria Eduarda,Bloqueado,30/09,02/10,28/09,,,,-,1
-M2,U7,Rev. base,Revisão do HTML base - PET (ADM),Maria Eduarda,Bloqueado,05/10,05/10,05/10,,,,-,1
+M2,U7,Rev. base,Revisão do HTML base - PET (ADM),Maria Eduarda,Liberado,05/10,05/10,05/10,,28/09/2026,,-,1
 M2,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,1
 M2,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M2,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
-M2,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
+M2,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
 M2,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
 M2,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M2,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
@@ -968,7 +968,7 @@ M4,U1,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U1,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U1,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(ADM) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(AGS) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(COM) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
@@ -977,7 +977,7 @@ M4,U1,Pré-base,(ECS) Montar o check point de início de módulo,Maria Eduarda,C
 M4,U1,Pré-base,(GOP) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(GIM) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(TI) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U1,Pré-base,(TEV) Montar o check point de início de módulo,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar o check point de início de módulo,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(ADM) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(AGS) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(COM) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
@@ -986,7 +986,7 @@ M4,U1,Pré-base,(ECS) Montar a seção da certificação intermediária,Maria Ed
 M4,U1,Pré-base,(GOP) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(GIM) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(TI) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U1,Pré-base,(TEV) Montar a seção da certificação intermediária,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a seção da certificação intermediária,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(ADM) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(AGS) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(COM) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
@@ -995,7 +995,7 @@ M4,U1,Pré-base,(ECS) Montar a seção da lista de presença do módulo,Maria Ed
 M4,U1,Pré-base,(GOP) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(GIM) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,(TI) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
-M4,U1,Pré-base,(TEV) Montar a seção da lista de presença do módulo,Maria Eduarda,Liberado,04/11,11/11,09/11,,,,-,"0,33"
+M4,U1,Pré-base,(TEV) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,04/11,11/11,09/11,28/09,,28/09/2026,-,"0,33"
 M4,U1,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U1,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U1,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1081,7 +1081,7 @@ M4,U2,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U2,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U2,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U2,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U2,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U2,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U2,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U2,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
 M4,U2,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,26/10,26/10,26/10,,,,-,"0,2"
@@ -1167,7 +1167,7 @@ M4,U3,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U3,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U3,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U3,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U3,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U3,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U3,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,28/10,26/10,,,,-,"0,2"
 M4,U3,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
 M4,U3,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1253,7 +1253,7 @@ M4,U4,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U4,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U4,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U4,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
-M4,U4,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,14/10,21/10,19/10,,,,-,"0,33"
+M4,U4,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,14/10,21/10,19/10,28/09,,28/09/2026,-,"0,33"
 M4,U4,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,26/10,28/10,26/10,,,,-,"0,2"
 M4,U4,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
 M4,U4,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,03/11,03/11,02/11,,,,-,"0,2"
@@ -1339,7 +1339,7 @@ M4,U5,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U5,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U5,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U5,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
-M4,U5,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U5,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U5,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,03/11,05/11,02/11,,,,-,"0,2"
 M4,U5,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,04/11,02/11,,,,-,"0,2"
 M4,U5,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1425,7 +1425,7 @@ M4,U6,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U6,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U6,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U6,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
-M4,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U6,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,03/11,05/11,02/11,,,,-,"0,2"
 M4,U6,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,09/11,09/11,09/11,,,,-,"0,2"
 M4,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,09/11,09/11,09/11,,,,-,"0,2"
@@ -1511,7 +1511,7 @@ M4,U7,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U7,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33"
 M4,U7,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33"
 M4,U7,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33"
-M4,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,28/10,04/11,02/11,,,,-,"0,33"
+M4,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33"
 M4,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,09/11,12/11,09/11,,,,-,"0,2"
 M4,U7,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,09/11,10/11,09/11,,,,-,"0,2"
 M4,U7,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
@@ -1597,7 +1597,7 @@ M4,U8,Pré-base,(ECS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U8,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U8,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U8,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
-M4,U8,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Liberado,21/10,28/10,26/10,,,,-,"0,33"
+M4,U8,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33"
 M4,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,09/11,12/11,09/11,,,,-,"0,2"
 M4,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,03/11,04/11,02/11,,,,-,"0,2"
 M4,U8,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
