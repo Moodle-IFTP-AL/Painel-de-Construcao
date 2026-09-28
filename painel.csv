@@ -157,21 +157,21 @@ M2,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paul
 M2,U7,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,09/10,09/10,05/10,,,,-,1
 M2,U7,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M2,U8,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,28/09,28/09,28/09,,28/09/2026,,-,0
-M2,U8,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,28/09,28/09,28/09,,28/09/2026,,-,0
+M2,U8,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,28/09,28/09,28/09,27/09,28/09/2026,27/09/2026,-,0
 M2,U8,Template,RP - Residência Pedagógica - validado e revisado,Dani,Não se aplica,,,,,,,-,0
-M2,U8,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
-M2,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0
+M2,U8,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
+M2,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
 M2,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Bloqueado,28/09,30/09,28/09,,,,-,"0,2"
-M2,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,28/09,29/09,28/09,,,,-,"0,2"
+M2,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,"0,2"
 M2,U8,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
-M2,U8,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,"0,2"
+M2,U8,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,05/10,05/10,05/10,,27/09/2026,,-,"0,2"
 M2,U8,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,30/09,02/10,28/09,,,,-,2
 M2,U8,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,29/09,02/10,28/09,,,,-,4
 M2,U8,Pré-base,Criar os vídeos de RP,Lucas,Não se aplica,,,,,,,-,4
@@ -181,21 +181,21 @@ M2,U8,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,02/10,05/
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - RP,Lucas,Não se aplica,,,,,,,-,1
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,4
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Bloqueado,28/09,30/09,28/09,,,,-,2
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Bloqueado,28/09,29/09,28/09,,,,-,2
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,2
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Não se aplica,,,,,,,-,2
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Maria Eduarda,Bloqueado,05/10,05/10,05/10,,,,-,6
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Maria Eduarda,Liberado,05/10,05/10,05/10,,27/09/2026,,-,6
 M2,U8,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,28/09,30/09,28/09,,,,-,2
-M2,U8,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,2
+M2,U8,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Liberado,05/10,05/10,05/10,,27/09/2026,,-,2
 M2,U8,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,28/09,06/10,05/10,,,,-,2
-M2,U8,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,28/09,06/10,05/10,,,,-,2
+M2,U8,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Liberado,28/09,06/10,05/10,,27/09/2026,,-,2
 M2,U8,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Não se aplica,,,,,,,-,2
-M2,U8,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
+M2,U8,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Liberado,05/10,06/10,05/10,,27/09/2026,,-,2
 M2,U8,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,2
 M2,U8,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,30/09,02/10,28/09,,,,-,"0,5"
 M2,U8,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M2,U8,Base,HTML base - Metodologia Pedagógica,Gustavo,Bloqueado,28/09,30/09,28/09,,,,-,1
-M2,U8,Base,HTML base ADM - Prática do Ensino Técnico,Gustavo,Bloqueado,05/10,05/10,05/10,,,,-,1
-M2,U8,Base,HTML base - Planejamento Integrado (se houver),Gustavo,Bloqueado,28/09,29/09,28/09,,,,-,1
+M2,U8,Base,HTML base ADM - Prática do Ensino Técnico,Gustavo,Liberado,05/10,05/10,05/10,,27/09/2026,,-,1
+M2,U8,Base,HTML base - Planejamento Integrado (se houver),Gustavo,Liberado,28/09,29/09,28/09,,27/09/2026,,-,1
 M2,U8,Base,HTML base - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,1
 M2,U8,Rev. base,Revisão do HTML base - Metodologia,Maria Eduarda,Bloqueado,30/09,02/10,28/09,,,,-,1
 M2,U8,Rev. base,Revisão do HTML base - PET (ADM),Maria Eduarda,Bloqueado,05/10,05/10,05/10,,,,-,1
