@@ -58,14 +58,14 @@ M2,U6,Criar H5P 8 eixos,H5P de PET - GOP (Gestão e Operações),Marquito,Conclu
 M2,U6,Criar H5P 8 eixos,H5P de PET - GIM (Gestão Imobiliária),Marquito,Concluído,22/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,"0,5"
 M2,U6,Criar H5P 8 eixos,H5P de PET - TI (Tecnologia da Informação),Marquito,Concluído,22/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,"0,5"
 M2,U6,Criar H5P 8 eixos,H5P de PET - TEV (Turismo e Eventos),Marquito,Concluído,22/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,"0,5"
-M2,U6,Criar HTML 8 eixos,HTML de PET - AGS (Agro Sustentável),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - COM (Comunicação e Mercado),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - CDC (Criação Digital e Cultural),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - ECS (Economia Social),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - GOP (Gestão e Operações),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - GIM (Gestão Imobiliária),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - TI (Tecnologia da Informação),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
-M2,U6,Criar HTML 8 eixos,HTML de PET - TEV (Turismo e Eventos),Maria Eduarda,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - AGS (Agro Sustentável),Gustavo,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - COM (Comunicação e Mercado),Gustavo,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - CDC (Criação Digital e Cultural),Gustavo,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - ECS (Economia Social),Anna Paula,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - GOP (Gestão e Operações),Anna Paula,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - GIM (Gestão Imobiliária),Anna Paula,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - TI (Tecnologia da Informação),Gustavo,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
+M2,U6,Criar HTML 8 eixos,HTML de PET - TEV (Turismo e Eventos),Anna Paula,Concluído,21/09,22/09,21/09,18/09,18/09/2026,18/09/2026,-,1
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - AGS (Agro Sustentável),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - COM (Comunicação e Mercado),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - CDC (Criação Digital e Cultural),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
@@ -120,10 +120,10 @@ M2,U7,Base,HTML base - Metodologia Pedagógica,Gustavo,Liberado,28/09,30/09,28/0
 M2,U7,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Concluído,05/10,05/10,05/10,,22/09/2026,28/09/2026,-,1
 M2,U7,Base,HTML base - Planejamento Integrado (se houver),Gustavo,Liberado,28/09,29/09,28/09,,27/09/2026,,-,1
 M2,U7,Base,HTML base - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,1
-M2,U7,Rev. base,Revisão do HTML base - Metodologia,Maria Eduarda,Bloqueado,30/09,02/10,28/09,,,,-,1
-M2,U7,Rev. base,Revisão do HTML base - PET (ADM),Maria Eduarda,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,1
-M2,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,1
-M2,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
+M2,U7,Rev. base,Revisão do HTML base - Metodologia,Alline,Bloqueado,30/09,02/10,28/09,,,,-,1
+M2,U7,Rev. base,Revisão do HTML base - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,1
+M2,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,29/09,02/10,28/09,,,,-,1
+M2,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Não se aplica,,,,,,,-,1
 M2,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
 M2,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
 M2,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
@@ -180,10 +180,10 @@ M2,U8,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Bloqueado,02/10,05
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,02/10,05/10,05/10,,,,-,1
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - RP,Lucas,Não se aplica,,,,,,,-,1
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,4
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Liberado,28/09,30/09,28/09,,27/09/2026,,-,2
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,2
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Em andamento,28/09,30/09,28/09,,27/09/2026,,Em andamento,2
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Não se aplica,28/09,29/09,28/09,,,,Não se aplica,2
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Não se aplica,,,,,,,-,2
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Maria Eduarda,Liberado,05/10,05/10,05/10,,27/09/2026,,-,6
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Liberado,05/10,05/10,05/10,,27/09/2026,,-,6
 M2,U8,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,28/09,30/09,28/09,,27/09/2026,,-,2
 M2,U8,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Liberado,05/10,05/10,05/10,,27/09/2026,,-,2
 M2,U8,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Liberado,28/09,06/10,05/10,,27/09/2026,,-,2
@@ -197,10 +197,10 @@ M2,U8,Base,HTML base - Metodologia Pedagógica,Gustavo,Liberado,28/09,30/09,28/0
 M2,U8,Base,HTML base ADM - Prática do Ensino Técnico,Gustavo,Liberado,05/10,05/10,05/10,,27/09/2026,,-,1
 M2,U8,Base,HTML base - Planejamento Integrado (se houver),Gustavo,Liberado,28/09,29/09,28/09,,27/09/2026,,-,1
 M2,U8,Base,HTML base - Residência Pedagógica (se houver),Gustavo,Não se aplica,,,,,,,-,1
-M2,U8,Rev. base,Revisão do HTML base - Metodologia,Maria Eduarda,Bloqueado,30/09,02/10,28/09,,,,-,1
-M2,U8,Rev. base,Revisão do HTML base - PET (ADM),Maria Eduarda,Bloqueado,05/10,05/10,05/10,,,,-,1
-M2,U8,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,1
-M2,U8,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
+M2,U8,Rev. base,Revisão do HTML base - Metodologia,Alline,Bloqueado,30/09,02/10,28/09,,,,-,1
+M2,U8,Rev. base,Revisão do HTML base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,1
+M2,U8,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,29/09,02/10,28/09,,,,-,1
+M2,U8,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Não se aplica,,,,,,,-,1
 M2,U8,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
 M2,U8,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M2,U8,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
