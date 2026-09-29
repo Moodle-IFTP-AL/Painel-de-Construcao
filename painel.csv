@@ -91,8 +91,8 @@ M2,U7,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Conc
 M2,U7,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
 M2,U7,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
 M2,U7,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
-M2,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Liberado,28/09,30/09,28/09,,27/09/2026,,-,"0,2"
-M2,U7,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,"0,2"
+M2,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Em andamento,28/09,30/09,28/09,,27/09/2026,,Em andamento,"0,2"
+M2,U7,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Em andamento,28/09,29/09,28/09,,27/09/2026,,Em andamento,"0,2"
 M2,U7,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
 M2,U7,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Concluído,05/10,05/10,05/10,,22/09/2026,28/09/2026,-,"0,2"
 M2,U7,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,30/09,02/10,28/09,,,,-,2
@@ -168,19 +168,19 @@ M2,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Conc
 M2,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
 M2,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
 M2,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,27/09,05/10/2026,27/09/2026,-,0
-M2,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Liberado,28/09,30/09,28/09,,27/09/2026,,-,"0,2"
-M2,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,28/09,29/09,28/09,,27/09/2026,,-,"0,2"
+M2,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Em andamento,28/09,30/09,28/09,,27/09/2026,,Em andamento,"0,2"
+M2,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Não se aplica,28/09,29/09,28/09,,,,Não se aplica,"0,2"
 M2,U8,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Não se aplica,,,,,,,-,"0,2"
-M2,U8,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,05/10,05/10,05/10,,27/09/2026,,-,"0,2"
+M2,U8,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Não se aplica,05/10,05/10,05/10,,,,Não se aplica,"0,2"
 M2,U8,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,30/09,02/10,28/09,,,,-,2
-M2,U8,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,29/09,02/10,28/09,,,,-,4
+M2,U8,Pré-base,Criar os vídeos de PI,Lucas,Não se aplica,29/09,02/10,28/09,,,,-,4
 M2,U8,Pré-base,Criar os vídeos de RP,Lucas,Não se aplica,,,,,,,-,4
-M2,U8,Pré-base,Criar os vídeos de PET,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,8
+M2,U8,Pré-base,Criar os vídeos de PET,Lucas,Não se aplica,05/10,05/10,05/10,,,,-,8
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Bloqueado,02/10,05/10,05/10,,,,-,1
-M2,U8,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,02/10,05/10,05/10,,,,-,1
+M2,U8,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Não se aplica,02/10,05/10,05/10,,,,-,1
 M2,U8,Pré-base,Formatar nomes e subir no YouTube - RP,Lucas,Não se aplica,,,,,,,-,1
-M2,U8,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,05/10,05/10,05/10,,,,-,4
-M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Em andamento,28/09,30/09,28/09,,27/09/2026,,Em andamento,2
+M2,U8,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Não se aplica,05/10,05/10,05/10,,,,-,4
+M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",Lucas,Concluído,28/09,30/09,28/09,29/09,27/09/2026,29/09/2026,-,2
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Não se aplica,28/09,29/09,28/09,,,,Não se aplica,2
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Não se aplica,,,,,,,-,2
 M2,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Liberado,05/10,05/10,05/10,,27/09/2026,,-,6
