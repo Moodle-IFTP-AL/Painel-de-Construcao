@@ -76,9 +76,9 @@ M2,U6,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informaç�
 M2,U6,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,23/09,25/09,21/09,23/09,18/09/2026,23/09/2026,-,"0,5"
 M2,U6,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Concluído,25/09,28/09,28/09,,23/09/2026,28/09/2026,-,4
 M2,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Concluído,25/09,28/09,28/09,28/09,23/09/2026,28/09/2026,-,2
-M2,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,25/09,28/09,28/09,,23/09/2026,,-,2
-M2,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Gustavo,Bloqueado,28/09,28/09,28/09,,,,-,1
-M2,U6,Liberação,Liberar a unidade,Marcelo,Bloqueado,29/09,29/09,28/09,,,,-,"0,5"
+M2,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Concluído,25/09,28/09,28/09,,23/09/2026,28/09/2026,-,2
+M2,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Gustavo,Concluído,28/09,28/09,28/09,,28/09/2026,28/09/2026,-,1
+M2,U6,Liberação,Liberar a unidade,Marcelo,Concluído,29/09,29/09,28/09,,28/09/2026,28/09/2026,-,"0,5"
 M2,U7,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,28/09,28/09,28/09,27/09,28/09/2026,27/09/2026,-,0
 M2,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,28/09,28/09,28/09,27/09,28/09/2026,27/09/2026,-,0
 M2,U7,Template,RP - Residência Pedagógica - validado e revisado,Dani,Não se aplica,,,,,,,-,0
@@ -127,14 +127,14 @@ M2,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Mari
 M2,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
 M2,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
 M2,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
-M2,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - CDC (Criação Digital e Cultural),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - ECS (Economia Social),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - GOP (Gestão e Operações),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - GIM (Gestão Imobiliária),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - TI (Tecnologia da Informação),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
-M2,U7,Criar H5P 8 eixos,H5P de PET - TEV (Turismo e Eventos),Marquito,Liberado,05/10,05/10,05/10,,28/09/2026,,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - CDC (Criação Digital e Cultural),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - ECS (Economia Social),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - GOP (Gestão e Operações),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - GIM (Gestão Imobiliária),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - TI (Tecnologia da Informação),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
+M2,U7,Criar H5P 8 eixos,H5P de PET - TEV (Turismo e Eventos),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
 M2,U7,Criar HTML 8 eixos,HTML de PET - AGS (Agro Sustentável),Gustavo,Liberado,05/10,05/10,05/10,,28/09/2026,,-,1
 M2,U7,Criar HTML 8 eixos,HTML de PET - COM (Comunicação e Mercado),Gustavo,Liberado,05/10,05/10,05/10,,28/09/2026,,-,1
 M2,U7,Criar HTML 8 eixos,HTML de PET - CDC (Criação Digital e Cultural),Anna Paula,Liberado,05/10,05/10,05/10,,28/09/2026,,-,1
