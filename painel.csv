@@ -126,9 +126,9 @@ M2,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Allin
 M2,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Não se aplica,,,,,,,-,1
 M2,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
 M2,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
-M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Liberado,30/09,02/10,28/09,,29/09/2026,,-,
-M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Não se aplica,29/09,01/10,28/09,,,,-,
-M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Liberado,30/09,02/10,28/09,,29/09/2026,,-,"0,25"
+M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Não se aplica,29/09,01/10,28/09,,,,-,"0,25"
+M2,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M2,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
 M2,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
 M2,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Concluído,05/10,05/10,05/10,,28/09/2026,28/09/2026,-,"0,5"
@@ -154,7 +154,7 @@ M2,U7,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M2,U7,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,06/10,08/10,05/10,,29/09/2026,,-,"0,5"
 M2,U7,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,06/10,08/10,05/10,,29/09/2026,,-,"0,5"
 M2,U7,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,06/10,08/10,05/10,,29/09/2026,,-,"0,5"
-M2,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Liberado,05/10,07/10,05/10,,28/09/2026,,-,
+M2,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Liberado,05/10,07/10,05/10,,28/09/2026,,-,"0,25"
 M2,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,08/10,09/10,05/10,,,,-,4
 M2,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,08/10,09/10,05/10,,,,-,2
 M2,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,08/10,09/10,05/10,,,,-,2
@@ -207,9 +207,9 @@ M2,U8,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Allin
 M2,U8,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1
 M2,U8,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,5"
 M2,U8,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
-M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Liberado,30/09,02/10,28/09,,29/09/2026,,-,
-M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Não se aplica,29/09,01/10,28/09,,,,-,
-M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Liberado,30/09,02/10,28/09,,29/09/2026,,-,"0,25"
+M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Não se aplica,29/09,01/10,28/09,,,,-,"0,25"
+M2,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M2,U8,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
 M2,U8,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M2,U8,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
@@ -235,7 +235,7 @@ M2,U8,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M2,U8,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
 M2,U8,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
 M2,U8,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
-M2,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,
+M2,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
 M2,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,08/10,09/10,05/10,,,,-,4
 M2,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,08/10,09/10,05/10,,,,-,2
 M2,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,08/10,09/10,05/10,,,,-,2
@@ -324,9 +324,9 @@ M3,U1,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U1,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M3,U1,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M3,U1,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
-M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,
-M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,05/10,07/10,05/10,,,,-,
-M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
+M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
+M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M3,U1,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,02/10,05/10,05/10,,,,-,3
 M3,U1,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M3,U1,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
@@ -352,7 +352,7 @@ M3,U1,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U1,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
 M3,U1,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
 M3,U1,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,06/10,08/10,05/10,,,,-,"0,5"
-M3,U1,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,
+M3,U1,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
 M3,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,08/10,09/10,05/10,,,,-,4
 M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,08/10,09/10,05/10,,,,-,2
 M3,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,08/10,09/10,05/10,,,,-,2
@@ -414,9 +414,9 @@ M3,U2,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U2,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,1
 M3,U2,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U2,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
-M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
+M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U2,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U2,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,09/10,13/10,12/10,,,,-,3
 M3,U2,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U2,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
@@ -442,7 +442,7 @@ M3,U2,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U2,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Gustavo,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U2,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Gustavo,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U2,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Gustavo,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
-M3,U2,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
+M3,U2,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U2,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,16/10,19/10,19/10,,,,-,4
 M3,U2,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,16/10,19/10,19/10,,,,-,2
 M3,U2,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,16/10,19/10,19/10,,,,-,2
@@ -504,9 +504,9 @@ M3,U3,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U3,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M3,U3,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U3,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
-M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U3,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M3,U3,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,09/10,13/10,12/10,,,,-,3
 M3,U3,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U3,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
@@ -532,7 +532,7 @@ M3,U3,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U3,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U3,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U3,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
-M3,U3,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
+M3,U3,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U3,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,16/10,19/10,19/10,,,,-,4
 M3,U3,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,16/10,19/10,19/10,,,,-,2
 M3,U3,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,16/10,19/10,19/10,,,,-,2
@@ -594,9 +594,9 @@ M3,U4,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U4,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,1
 M3,U4,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U4,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
-M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
-M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
+M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
+M3,U4,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U4,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,09/10,13/10,12/10,,,,-,3
 M3,U4,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U4,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
@@ -622,7 +622,7 @@ M3,U4,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U4,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U4,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
 M3,U4,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,14/10,16/10,12/10,,,,-,"0,5"
-M3,U4,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,
+M3,U4,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U4,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,16/10,19/10,19/10,,,,-,4
 M3,U4,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,16/10,19/10,19/10,,,,-,2
 M3,U4,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,16/10,19/10,19/10,,,,-,2
@@ -684,9 +684,9 @@ M3,U5,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U5,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M3,U5,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,19/10,20/10,19/10,,,,-,"0,5"
 M3,U5,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,20/10,21/10,19/10,,,,-,"0,5"
-M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,15/10,19/10,19/10,,,,-,
-M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,19/10,21/10,19/10,,,,-,
-M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,15/10,19/10,19/10,,,,-,"0,25"
+M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,19/10,21/10,19/10,,,,-,"0,25"
+M3,U5,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M3,U5,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,20/10,21/10,19/10,,,,-,3
 M3,U5,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,21/10,21/10,19/10,,,,-,"0,5"
 M3,U5,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,21/10,21/10,19/10,,,,-,"0,5"
@@ -712,7 +712,7 @@ M3,U5,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U5,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
 M3,U5,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
 M3,U5,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
-M3,U5,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,
+M3,U5,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,"0,25"
 M3,U5,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,26/10,27/10,26/10,,,,-,4
 M3,U5,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,26/10,27/10,26/10,,,,-,2
 M3,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,26/10,27/10,26/10,,,,-,2
@@ -774,9 +774,9 @@ M3,U6,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U6,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,19/10,21/10,19/10,,,,-,1
 M3,U6,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,21/10,21/10,19/10,,,,-,"0,5"
 M3,U6,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,20/10,21/10,19/10,,,,-,"0,5"
-M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,
-M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,19/10,21/10,19/10,,,,-,
-M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,19/10,21/10,19/10,,,,-,
+M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,"0,25"
+M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,19/10,21/10,19/10,,,,-,"0,25"
+M3,U6,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,19/10,21/10,19/10,,,,-,"0,25"
 M3,U6,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,20/10,21/10,19/10,,,,-,3
 M3,U6,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,21/10,21/10,19/10,,,,-,"0,5"
 M3,U6,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,21/10,21/10,19/10,,,,-,"0,5"
@@ -802,7 +802,7 @@ M3,U6,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U6,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
 M3,U6,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
 M3,U6,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,5"
-M3,U6,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,
+M3,U6,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,20/10,22/10,19/10,,,,-,"0,25"
 M3,U6,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,26/10,27/10,26/10,,,,-,4
 M3,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,26/10,27/10,26/10,,,,-,2
 M3,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,26/10,27/10,26/10,,,,-,2
@@ -864,9 +864,9 @@ M3,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M3,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,26/10,27/10,26/10,,,,-,"0,5"
 M3,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
-M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,22/10,26/10,26/10,,,,-,
-M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,20/10,22/10,19/10,,,,-,
-M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,25"
+M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,20/10,22/10,19/10,,,,-,"0,25"
+M3,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M3,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,26/10,27/10,26/10,,,,-,3
 M3,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
 M3,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
@@ -892,7 +892,7 @@ M3,U7,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U7,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M3,U7,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M3,U7,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
-M3,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,27/10,29/10,26/10,,,,-,
+M3,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,25"
 M3,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,30/10,03/11,02/11,,,,-,4
 M3,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,30/10,03/11,02/11,,,,-,2
 M3,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,30/10,03/11,02/11,,,,-,2
@@ -954,9 +954,9 @@ M3,U8,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M3,U8,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M3,U8,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,26/10,27/10,26/10,,,,-,"0,5"
 M3,U8,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
-M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,22/10,26/10,26/10,,,,-,
-M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,26/10,28/10,26/10,,,,-,
-M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,22/10,26/10,26/10,,,,-,"0,25"
+M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
+M3,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M3,U8,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,26/10,27/10,26/10,,,,-,3
 M3,U8,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
 M3,U8,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,27/10,27/10,26/10,,,,-,"0,5"
@@ -982,7 +982,7 @@ M3,U8,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M3,U8,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M3,U8,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M3,U8,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
-M3,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,27/10,29/10,26/10,,,,-,
+M3,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,25"
 M3,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,30/10,03/11,02/11,,,,-,4
 M3,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,30/10,03/11,02/11,,,,-,2
 M3,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,30/10,03/11,02/11,,,,-,2
@@ -1071,6 +1071,9 @@ M4,U1,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U1,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M4,U1,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U1,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
+M4,U1,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
+M4,U1,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
+M4,U1,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M4,U1,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,23/10,26/10,26/10,,,,-,3
 M4,U1,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U1,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
@@ -1096,6 +1099,7 @@ M4,U1,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U1,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
 M4,U1,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
 M4,U1,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
+M4,U1,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
 M4,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,29/10,30/10,26/10,,,,-,4
 M4,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,29/10,30/10,26/10,,,,-,2
 M4,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,29/10,30/10,26/10,,,,-,2
@@ -1157,6 +1161,9 @@ M4,U2,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U2,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,26/10,26/10,26/10,,,,-,1
 M4,U2,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U2,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
+M4,U2,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
+M4,U2,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
+M4,U2,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
 M4,U2,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Bloqueado,23/10,26/10,26/10,,,,-,3
 M4,U2,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U2,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
@@ -1182,6 +1189,7 @@ M4,U2,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U2,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
 M4,U2,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
 M4,U2,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,27/10,29/10,26/10,,,,-,"0,5"
+M4,U2,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
 M4,U2,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,29/10,30/10,26/10,,,,-,4
 M4,U2,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,29/10,30/10,26/10,,,,-,2
 M4,U2,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,29/10,30/10,26/10,,,,-,2
@@ -1243,6 +1251,9 @@ M4,U3,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U3,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M4,U3,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,30/10,03/11,02/11,,,,-,"0,5"
 M4,U3,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,03/11,04/11,02/11,,,,-,"0,5"
+M4,U3,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,25"
+M4,U3,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
+M4,U3,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M4,U3,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,03/11,04/11,02/11,,,,-,3
 M4,U3,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,04/11,04/11,02/11,,,,-,"0,5"
 M4,U3,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,04/11,04/11,02/11,,,,-,"0,5"
@@ -1268,6 +1279,7 @@ M4,U3,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U3,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U3,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U3,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
+M4,U3,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
 M4,U3,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,09/11,10/11,09/11,,,,-,4
 M4,U3,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,09/11,10/11,09/11,,,,-,2
 M4,U3,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,09/11,10/11,09/11,,,,-,2
@@ -1329,9 +1341,9 @@ M4,U4,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U4,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,03/11,04/11,02/11,,,,-,1
 M4,U4,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,30/10,03/11,02/11,,,,-,"0,5"
 M4,U4,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,03/11,04/11,02/11,,,,-,"0,5"
-M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,28/10,30/10,26/10,,,,-,
-M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,03/11,05/11,02/11,,,,-,
-M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,03/11,05/11,02/11,,,,-,
+M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,28/10,30/10,26/10,,,,-,"0,25"
+M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
+M4,U4,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
 M4,U4,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,03/11,04/11,02/11,,,,-,3
 M4,U4,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,04/11,04/11,02/11,,,,-,"0,5"
 M4,U4,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,04/11,04/11,02/11,,,,-,"0,5"
@@ -1357,7 +1369,7 @@ M4,U4,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U4,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Gustavo,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U4,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Gustavo,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U4,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Gustavo,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
-M4,U4,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,03/11,05/11,02/11,,,,-,
+M4,U4,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
 M4,U4,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,09/11,10/11,09/11,,,,-,4
 M4,U4,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,09/11,10/11,09/11,,,,-,2
 M4,U4,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,09/11,10/11,09/11,,,,-,2
@@ -1419,9 +1431,9 @@ M4,U5,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U5,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M4,U5,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,10/11,09/11,,,,-,"0,5"
 M4,U5,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,10/11,11/11,09/11,,,,-,"0,5"
-M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/11,09/11,09/11,,,,-,
-M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,04/11,06/11,02/11,,,,-,
-M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/11,09/11,09/11,,,,-,"0,25"
+M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,04/11,06/11,02/11,,,,-,"0,25"
+M4,U5,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M4,U5,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,09/11,10/11,09/11,,,,-,3
 M4,U5,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
 M4,U5,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
@@ -1447,7 +1459,7 @@ M4,U5,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U5,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U5,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U5,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
-M4,U5,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,
+M4,U5,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,"0,25"
 M4,U5,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,16/11,17/11,16/11,,,,-,4
 M4,U5,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,16/11,17/11,16/11,,,,-,2
 M4,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,16/11,17/11,16/11,,,,-,2
@@ -1509,9 +1521,9 @@ M4,U6,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U6,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,09/11,11/11,09/11,,,,-,1
 M4,U6,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,10/11,09/11,,,,-,"0,5"
 M4,U6,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,10/11,11/11,09/11,,,,-,"0,5"
-M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/11,09/11,09/11,,,,-,
-M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,09/11,11/11,09/11,,,,-,
-M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,09/11,11/11,09/11,,,,-,
+M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/11,09/11,09/11,,,,-,"0,25"
+M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,09/11,11/11,09/11,,,,-,"0,25"
+M4,U6,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Bloqueado,09/11,11/11,09/11,,,,-,"0,25"
 M4,U6,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,10/11,11/11,09/11,,,,-,3
 M4,U6,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
 M4,U6,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
@@ -1537,7 +1549,7 @@ M4,U6,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U6,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U6,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U6,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
-M4,U6,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,
+M4,U6,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,"0,25"
 M4,U6,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,16/11,17/11,16/11,,,,-,4
 M4,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,16/11,17/11,16/11,,,,-,2
 M4,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,16/11,17/11,16/11,,,,-,2
@@ -1599,9 +1611,9 @@ M4,U7,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U7,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M4,U7,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,16/11,17/11,16/11,,,,-,"0,5"
 M4,U7,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
-M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,12/11,16/11,16/11,,,,-,
-M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,10/11,12/11,09/11,,,,-,
-M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,25"
+M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,10/11,12/11,09/11,,,,-,"0,25"
+M4,U7,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M4,U7,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,16/11,17/11,16/11,,,,-,3
 M4,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
 M4,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
@@ -1627,7 +1639,7 @@ M4,U7,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U7,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Maria Eduarda,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
 M4,U7,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Maria Eduarda,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
 M4,U7,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Maria Eduarda,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
-M4,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,
+M4,U7,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,"0,25"
 M4,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,23/11,24/11,23/11,,,,-,4
 M4,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,23/11,24/11,23/11,,,,-,2
 M4,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Anna Paula,Bloqueado,23/11,24/11,23/11,,,,-,2
@@ -1689,9 +1701,9 @@ M4,U8,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Maria
 M4,U8,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Maria Eduarda,Não se aplica,,,,,,,-,1
 M4,U8,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,16/11,17/11,16/11,,,,-,"0,5"
 M4,U8,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
-M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,12/11,16/11,16/11,,,,-,
-M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,04/11,06/11,02/11,,,,-,
-M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,
+M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,12/11,16/11,16/11,,,,-,"0,25"
+M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,04/11,06/11,02/11,,,,-,"0,25"
+M4,U8,Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,Não se aplica,,,,,,,-,"0,25"
 M4,U8,Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Marcelo,Bloqueado,16/11,17/11,16/11,,,,-,3
 M4,U8,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
 M4,U8,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
@@ -1717,7 +1729,7 @@ M4,U8,Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),
 M4,U8,Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
 M4,U8,Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
 M4,U8,Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,18/11,23/11,23/11,,,,-,"0,5"
-M4,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,
+M4,U8,Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,"0,25"
 M4,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Bloqueado,23/11,24/11,23/11,,,,-,4
 M4,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,Bloqueado,23/11,24/11,23/11,,,,-,2
 M4,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Lucas,Bloqueado,23/11,24/11,23/11,,,,-,2
