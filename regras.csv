@@ -90,6 +90,9 @@ Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Lucas,HTML 
 Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),Lucas,HTML base - Residência Pedagógica (se houver),HTML base - Residência Pedagógica (se houver) = Não se aplica
 Rev. base,Revisão das atividades H5P base - Metodologia,Alline,H5P base - trilha de Metodologia,
 Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,H5P base ADM - trilha de Prática do Ensino Técnico,
+Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,"Formatar o ""Para levar para a prática"" - MET","Formatar o ""Para levar para a prática"" - MET = Não se aplica"
+Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,"Formatar o ""Para levar para a prática"" - PI","Formatar o ""Para levar para a prática"" - PI = Não se aplica"
+Rev. base,"Revisão do ""Para levar para a prática"" - RP",Alline,"Formatar o ""Para levar para a prática"" - RP","Formatar o ""Para levar para a prática"" - RP = Não se aplica"
 Replicar base,"Replicação de MET, PI e RP nos 8 eixos",Thony,Revisão do HTML base - Metodologia + Revisão das atividades H5P base - Metodologia + Revisão do HTML base - Planejamento Integrado (se houver) + Revisão do HTML base - Residência Pedagógica (se houver),
 Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Revisão das atividades H5P base - PET (ADM) + PET - AGS (Agro Sustentável) - validado e revisado,
 Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Revisão das atividades H5P base - PET (ADM) + PET - COM (Comunicação e Mercado) - validado e revisado,
@@ -115,7 +118,8 @@ Revisão H5p + HTMLs criados,Revisão final - GOP (Gestão e Operações),Alline
 Revisão H5p + HTMLs criados,Revisão final - GIM (Gestão Imobiliária),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - GIM (Gestão Imobiliária) + HTML de PET - GIM (Gestão Imobiliária)",
 Revisão H5p + HTMLs criados,Revisão final - TI (Tecnologia da Informação),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - TI (Tecnologia da Informação) + HTML de PET - TI (Tecnologia da Informação)",
 Revisão H5p + HTMLs criados,Revisão final - TEV (Turismo e Eventos),Alline,"Formatar nomes e subir no YouTube - PET + Formatar o ""Para levar para a prática"" - PET + H5P de PET - TEV (Turismo e Eventos) + HTML de PET - TEV (Turismo e Eventos)",
-Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,As 9 revisões finais,
+Revisão H5p + HTMLs criados,"Revisão do ""Para levar para a prática"" - PET",Alline,"Formatar o ""Para levar para a prática"" - PET","Formatar o ""Para levar para a prática"" - PET = Não se aplica"
+Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,"As 8 revisões finais + as 4 revisões do ""Para levar para a prática""",
 Ajustes finais,Aplicar a restrição de acesso da unidade,Lucas,As 9 revisões finais,
 Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,As 9 revisões finais + Mapear as atividades certificáveis de MET + Mapear as atividades certificáveis de PI + Mapear as atividades certificáveis de RP + Mapear as atividades certificáveis de PET,
 Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Alline,Aplicar a restrição de acesso da unidade + Inserir os requisitos de acesso à certificação,
