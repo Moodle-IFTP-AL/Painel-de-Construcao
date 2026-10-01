@@ -307,10 +307,6 @@ M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Liberado,05/10,05/10,05/10,,29/09/2026,,-,6
 M3,U1,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,05/10,05/10,05/10,,29/09/2026,,-,2
 M3,U1,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,29/09/2026,01/10/2026,-,2
-M3,U1,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Liberado,05/10,06/10,05/10,,29/09/2026,,-,2
-M3,U1,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
-M3,U1,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M3,U1,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Liberado,05/10,06/10,05/10,,29/09/2026,,-,2
 M3,U1,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M3,U1,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
 M3,U1,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Concluído,05/10,05/10,05/10,01/10,01/10/2026,01/10/2026,-,"0,5"
@@ -355,6 +351,10 @@ M3,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,0
 M3,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
 M3,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,08/10,09/10,05/10,,,,-,4
 M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,08/10,09/10,05/10,,,,-,2
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
 M3,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,08/10,09/10,05/10,,,,-,2
 M3,U1,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,09/10,09/10,05/10,,,,-,1
 M3,U1,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
@@ -397,10 +397,6 @@ M3,U2,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Bloqueado
 M3,U2,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,13/10,13/10,12/10,,,,-,6
 M3,U2,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,13/10,13/10,12/10,,,,-,2
 M3,U2,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,13/10,13/10,12/10,,,,-,2
-M3,U2,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
-M3,U2,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
-M3,U2,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
-M3,U2,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
 M3,U2,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,13/10,13/10,12/10,,,,-,2
 M3,U2,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
 M3,U2,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5"
@@ -445,6 +441,10 @@ M3,U2,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,1
 M3,U2,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,13/10,15/10,12/10,,,,-,"0,25"
 M3,U2,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,16/10,19/10,19/10,,,,-,4
 M3,U2,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,16/10,19/10,19/10,,,,-,2
+M3,U2,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
+M3,U2,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
+M3,U2,Ajustes finais,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
+M3,U2,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,13/10,14/10,12/10,,,,-,2
 M3,U2,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,16/10,19/10,19/10,,,,-,2
 M3,U2,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,19/10,19/10,19/10,,,,-,1
 M3,U2,Liberação,Liberar a unidade,Marcelo,Bloqueado,20/10,20/10,19/10,,,,-,"0,5"
@@ -1054,10 +1054,6 @@ M4,U1,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U1,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,26/10,26/10,26/10,,,,-,6
 M4,U1,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,26/10,26/10,26/10,,,,-,2
 M4,U1,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,26/10,26/10,26/10,,,,-,2
-M4,U1,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
-M4,U1,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
-M4,U1,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M4,U1,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
 M4,U1,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M4,U1,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U1,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
@@ -1102,6 +1098,10 @@ M4,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,2
 M4,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
 M4,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,29/10,30/10,26/10,,,,-,4
 M4,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,29/10,30/10,26/10,,,,-,2
+M4,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
+M4,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
+M4,U1,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M4,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
 M4,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,29/10,30/10,26/10,,,,-,2
 M4,U1,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,30/10,30/10,26/10,,,,-,1
 M4,U1,Liberação,Liberar a unidade,Marcelo,Bloqueado,03/11,03/11,02/11,,,,-,"0,5"
@@ -1144,10 +1144,6 @@ M4,U2,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Bloqueado
 M4,U2,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,26/10,26/10,26/10,,,,-,6
 M4,U2,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,26/10,26/10,26/10,,,,-,2
 M4,U2,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,26/10,26/10,26/10,,,,-,2
-M4,U2,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
-M4,U2,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
-M4,U2,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
-M4,U2,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
 M4,U2,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,26/10,26/10,26/10,,,,-,2
 M4,U2,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
 M4,U2,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,26/10,26/10,26/10,,,,-,"0,5"
@@ -1192,6 +1188,10 @@ M4,U2,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,2
 M4,U2,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,26/10,28/10,26/10,,,,-,"0,25"
 M4,U2,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,29/10,30/10,26/10,,,,-,4
 M4,U2,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,29/10,30/10,26/10,,,,-,2
+M4,U2,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
+M4,U2,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
+M4,U2,Ajustes finais,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
+M4,U2,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,26/10,27/10,26/10,,,,-,2
 M4,U2,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,29/10,30/10,26/10,,,,-,2
 M4,U2,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,30/10,30/10,26/10,,,,-,1
 M4,U2,Liberação,Liberar a unidade,Marcelo,Bloqueado,03/11,03/11,02/11,,,,-,"0,5"
@@ -1234,10 +1234,6 @@ M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,03/11,03/11,02/11,,,,-,6
 M4,U3,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,26/10,28/10,26/10,,,,-,2
 M4,U3,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,03/11,03/11,02/11,,,,-,2
-M4,U3,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,05/11,02/11,,,,-,2
-M4,U3,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
-M4,U3,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M4,U3,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U3,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M4,U3,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M4,U3,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,03/11,03/11,02/11,,,,-,"0,5"
@@ -1282,6 +1278,10 @@ M4,U3,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,0
 M4,U3,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
 M4,U3,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,09/11,10/11,09/11,,,,-,4
 M4,U3,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,09/11,10/11,09/11,,,,-,2
+M4,U3,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,05/11,02/11,,,,-,2
+M4,U3,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
+M4,U3,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M4,U3,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U3,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,09/11,10/11,09/11,,,,-,2
 M4,U3,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,1
 M4,U3,Liberação,Liberar a unidade,Marcelo,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
@@ -1324,10 +1324,6 @@ M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Bloqueado
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,03/11,03/11,02/11,,,,-,6
 M4,U4,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,26/10,28/10,26/10,,,,-,2
 M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,03/11,03/11,02/11,,,,-,2
-M4,U4,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,05/11,02/11,,,,-,2
-M4,U4,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
-M4,U4,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
-M4,U4,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U4,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,03/11,03/11,02/11,,,,-,2
 M4,U4,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,28/10,30/10,26/10,,,,-,"0,5"
 M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,03/11,03/11,02/11,,,,-,"0,5"
@@ -1372,6 +1368,10 @@ M4,U4,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,0
 M4,U4,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,03/11,05/11,02/11,,,,-,"0,25"
 M4,U4,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,09/11,10/11,09/11,,,,-,4
 M4,U4,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,09/11,10/11,09/11,,,,-,2
+M4,U4,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,26/10,05/11,02/11,,,,-,2
+M4,U4,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
+M4,U4,Ajustes finais,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
+M4,U4,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U4,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,09/11,10/11,09/11,,,,-,2
 M4,U4,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,1
 M4,U4,Liberação,Liberar a unidade,Marcelo,Bloqueado,11/11,11/11,09/11,,,,-,"0,5"
@@ -1414,10 +1414,6 @@ M4,U5,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U5,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,10/11,10/11,09/11,,,,-,6
 M4,U5,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U5,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,10/11,10/11,09/11,,,,-,2
-M4,U5,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
-M4,U5,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
-M4,U5,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M4,U5,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,10/11,12/11,09/11,,,,-,2
 M4,U5,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M4,U5,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U5,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,"0,5"
@@ -1462,6 +1458,10 @@ M4,U5,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,1
 M4,U5,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,"0,25"
 M4,U5,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,16/11,17/11,16/11,,,,-,4
 M4,U5,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,16/11,17/11,16/11,,,,-,2
+M4,U5,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
+M4,U5,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
+M4,U5,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M4,U5,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,10/11,12/11,09/11,,,,-,2
 M4,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,16/11,17/11,16/11,,,,-,2
 M4,U5,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,1
 M4,U5,Liberação,Liberar a unidade,Marcelo,Bloqueado,18/11,18/11,16/11,,,,-,"0,5"
@@ -1504,10 +1504,6 @@ M4,U6,Pré-base,"Formatar o ""Para levar para a prática"" - RP",Lucas,Bloqueado
 M4,U6,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,10/11,10/11,09/11,,,,-,6
 M4,U6,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,03/11,05/11,02/11,,,,-,2
 M4,U6,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,10/11,10/11,09/11,,,,-,2
-M4,U6,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
-M4,U6,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,09/11,12/11,09/11,,,,-,2
-M4,U6,Pré-base,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,09/11,12/11,09/11,,,,-,2
-M4,U6,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,10/11,12/11,09/11,,,,-,2
 M4,U6,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,09/11,09/11,09/11,,,,-,2
 M4,U6,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,05/11,09/11,09/11,,,,-,"0,5"
 M4,U6,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,"0,5"
@@ -1552,6 +1548,10 @@ M4,U6,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,1
 M4,U6,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,10/11,12/11,09/11,,,,-,"0,25"
 M4,U6,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,16/11,17/11,16/11,,,,-,4
 M4,U6,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,16/11,17/11,16/11,,,,-,2
+M4,U6,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,03/11,12/11,09/11,,,,-,2
+M4,U6,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,09/11,12/11,09/11,,,,-,2
+M4,U6,Ajustes finais,Mapear as atividades certificáveis de RP,Marcelo,Bloqueado,09/11,12/11,09/11,,,,-,2
+M4,U6,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,10/11,12/11,09/11,,,,-,2
 M4,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,16/11,17/11,16/11,,,,-,2
 M4,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,1
 M4,U6,Liberação,Liberar a unidade,Marcelo,Bloqueado,18/11,18/11,16/11,,,,-,"0,5"
@@ -1594,10 +1594,6 @@ M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,17/11,17/11,16/11,,,,-,6
 M4,U7,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,09/11,12/11,09/11,,,,-,2
 M4,U7,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,17/11,17/11,16/11,,,,-,2
-M4,U7,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
-M4,U7,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
-M4,U7,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M4,U7,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,17/11,18/11,16/11,,,,-,2
 M4,U7,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M4,U7,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U7,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
@@ -1642,6 +1638,10 @@ M4,U7,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,1
 M4,U7,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,"0,25"
 M4,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,23/11,24/11,23/11,,,,-,4
 M4,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,23/11,24/11,23/11,,,,-,2
+M4,U7,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
+M4,U7,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
+M4,U7,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M4,U7,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,17/11,18/11,16/11,,,,-,2
 M4,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,23/11,24/11,23/11,,,,-,2
 M4,U7,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,1
 M4,U7,Liberação,Liberar a unidade,Marcelo,Bloqueado,25/11,25/11,23/11,,,,-,"0,5"
@@ -1684,10 +1684,6 @@ M4,U8,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Bloqueado,17/11,17/11,16/11,,,,-,6
 M4,U8,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Bloqueado,09/11,12/11,09/11,,,,-,2
 M4,U8,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,17/11,17/11,16/11,,,,-,2
-M4,U8,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
-M4,U8,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,18/11,16/11,,,,-,2
-M4,U8,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
-M4,U8,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,17/11,18/11,16/11,,,,-,2
 M4,U8,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M4,U8,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,12/11,16/11,16/11,,,,-,"0,5"
 M4,U8,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,"0,5"
@@ -1732,6 +1728,10 @@ M4,U8,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,1
 M4,U8,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Bloqueado,17/11,19/11,16/11,,,,-,"0,25"
 M4,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,23/11,24/11,23/11,,,,-,4
 M4,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,23/11,24/11,23/11,,,,-,2
+M4,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,09/11,18/11,16/11,,,,-,2
+M4,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,03/11,18/11,16/11,,,,-,2
+M4,U8,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
+M4,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloqueado,17/11,18/11,16/11,,,,-,2
 M4,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,23/11,24/11,23/11,,,,-,2
 M4,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,1
 M4,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,25/11,25/11,23/11,,,,-,"0,5"
