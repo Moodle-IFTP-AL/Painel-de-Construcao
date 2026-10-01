@@ -306,14 +306,14 @@ M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - PI",Lucas,Bloqueado
 M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,-,2
 M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - PET",Lucas,Liberado,05/10,05/10,05/10,,29/09/2026,,-,6
 M3,U1,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,05/10,05/10,05/10,,29/09/2026,,-,2
-M3,U1,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Liberado,05/10,05/10,05/10,,29/09/2026,,-,2
+M3,U1,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Concluído,05/10,05/10,05/10,,29/09/2026,01/10/2026,-,2
 M3,U1,Pré-base,Mapear as atividades certificáveis de MET,Marcelo,Liberado,05/10,06/10,05/10,,29/09/2026,,-,2
 M3,U1,Pré-base,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,2
 M3,U1,Pré-base,Mapear as atividades certificáveis de RP,,Não se aplica,,,,,,,-,2
 M3,U1,Pré-base,Mapear as atividades certificáveis de PET,Marcelo,Liberado,05/10,06/10,05/10,,29/09/2026,,-,2
 M3,U1,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2
 M3,U1,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
-M3,U1,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
+M3,U1,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Concluído,05/10,05/10,05/10,01/10,01/10/2026,01/10/2026,-,"0,5"
 M3,U1,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,05/10,05/10,05/10,,29/09/2026,,-,1
 M3,U1,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Liberado,05/10,05/10,05/10,,29/09/2026,,-,1
 M3,U1,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,05/10,05/10,05/10,,,,-,1
@@ -323,7 +323,7 @@ M3,U1,Rev. base,Revisão do HTML base - PET (ADM),Alline,Bloqueado,05/10,05/10,0
 M3,U1,Rev. base,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,05/10,05/10,05/10,,,,-,1
 M3,U1,Rev. base,Revisão do HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1
 M3,U1,Rev. base,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
-M3,U1,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,05/10,05/10,05/10,,,,-,"0,5"
+M3,U1,Rev. base,Revisão das atividades H5P base - PET (ADM),Alline,Liberado,05/10,05/10,05/10,,01/10/2026,,-,"0,5"
 M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - MET",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
 M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - PI",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,25"
 M3,U1,Rev. base,"Revisão do ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,-,"0,25"
