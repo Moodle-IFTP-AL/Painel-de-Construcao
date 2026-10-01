@@ -2998,7 +2998,7 @@ function grafoDe(regras, status, extra){
       if(i1>=0&&i2>=0){ alvo=regras.filter(r=>{const i=fases.indexOf(r.fase);return i>=i1&&i<=i2;}).map(r=>r.tarefa);
         rotulo="Tudo de "+fases[i1]+" até "+fases[i2]; }
     }else if(/revis(o|õ)es finais/.test(semAcento(frase))||/revisoes finais/.test(semAcento(frase))){
-      const f=fases.find(f=>semAcento(f).includes("revisao h5p"))||fases.find(f=>semAcento(f).includes("revisao"));
+      const f=fases.find(f=>semAcento(f).includes("revisao final"))||fases.find(f=>semAcento(f).includes("revisao h5p"))||fases.find(f=>semAcento(f).includes("revisao"));
       alvo=regras.filter(r=>r.fase===f).map(r=>r.tarefa);
       rotulo="As "+alvo.length+" revisões finais";
     }
@@ -3907,7 +3907,7 @@ function abrirLogica(){
 /* ===========================================================
    5c. Resumo — duas esteiras paralelas que convergem no fechamento
    =========================================================== */
-const FASE_PRATICAS=["Criar H5P 8 eixos","Criar HTML 8 eixos","Revisão H5p + HTMLs criados"];
+const FASE_PRATICAS=["Criar H5P 8 eixos","Criar HTML 8 eixos","Revisão final","Revisão H5p + HTMLs criados"];   // o último é o nome antigo de "Revisão final"
 const FASE_COMUM=["Replicar base"];
 /* Uma tarefa é da esteira de Práticas pelo nome (PET) ou porque a fase inteira é dos 8 eixos —
    "Revisão final - AGS" não diz PET no nome, mas é revisão de Práticas. */
