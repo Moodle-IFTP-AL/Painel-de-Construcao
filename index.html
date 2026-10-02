@@ -2919,6 +2919,14 @@ function atrasada(status,prazo){
   return v<9e9 && v<HOJE;
 }
 const atrasadas = itens => itens.filter(p=>atrasada(p.status,p.prazo)).length;
+/* Em risco: o início previsto já passou, o prazo ainda não, e ninguém começou (segue Bloqueado ou Liberado).
+   É a mesma regra da coluna "Situação do prazo" do Painel de tarefas. */
+function emRisco(p){
+  if(PRONTO(p.status)||!p.prazo||!p.inicio) return false;
+  if(p.status!=="Bloqueado"&&p.status!=="Liberado") return false;
+  const pz=ordData(p.prazo), ini=ordData(p.inicio);
+  return pz<9e9 && ini<9e9 && pz>HOJE && ini<HOJE;
+}
 
 /* Responsável tem duas fontes: a aba Regras guarda um padrão fixo e o Painel é
    fórmula, puxada das abas do módulo. O Painel manda. Para a aba Lógica, que não é
@@ -4331,6 +4339,13 @@ function desenharAlertas(){
     <p>O prazo já passou e elas não foram concluídas nem dispensadas.</p>
     ${atr.slice(0,10).map(p=>linhaTarefa(p,"falta")).join("")}
     ${atr.length>10?`<p class="nota">… e mais ${atr.length-10}.</p>`:""}</div>`);
+
+  // 1b. em risco: deveriam ter começado e estão paradas
+  const ris=PAINEL.filter(emRisco).sort((a,b)=>ordData(a.prazo)-ordData(b.prazo));
+  if(ris.length) cards.push(`<div class="al aviso"><h3>${ris.length} tarefa${ris.length>1?"s":""} em risco</h3>
+    <p>O início previsto já passou e ninguém começou: seguem bloqueadas (algo antes atrasou) ou liberadas e paradas. Se nada mudar, vão atrasar.</p>
+    ${ris.slice(0,10).map(p=>linhaTarefa(p)).join("")}
+    ${ris.length>10?`<p class="nota">… e mais ${ris.length-10}.</p>`:""}</div>`);
 
   // 2. "Semanas que não cabem" saiu daqui para o painel ficar focado;
   //    a sobrecarga continua visível na tabela de carga, no pé da aba.
