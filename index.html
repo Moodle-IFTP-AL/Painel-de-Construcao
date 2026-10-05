@@ -2858,8 +2858,22 @@ function lerRegras(txt){
   out.forEach(r=>{ if(r.fase) ult=r.fase; else r.fase=ult; });
   return out;
 }
+/* Datas sem o ano ("15/09"): a planilha pode mostrar só dia e mês. O ano é o que deixa a data mais perto de hoje
+   (até 6 meses para trás ou para frente), assim 28/12 e 05/01 caem nos anos certos na virada. */
+function comAno(txt){
+  const m=/^(\d{2})\/(\d{2})$/.exec(String(txt||"").trim());
+  if(!m) return txt;
+  const h=new Date(); h.setHours(0,0,0,0);
+  let melhor=null;
+  [h.getFullYear()-1,h.getFullYear(),h.getFullYear()+1].forEach(a=>{
+    const d=new Date(a,+m[2]-1,+m[1]);
+    if(melhor===null||Math.abs(d-h)<Math.abs(melhor-h)) melhor=d;
+  });
+  return m[1]+"/"+m[2]+"/"+melhor.getFullYear();
+}
 function lerPainel(txt){
-  const {linhas,col}=comCabecalho(parseCSV(txt),["unidade","tarefa","status"]);
+  const tab=parseCSV(txt).map(l=>l.map(comAno));
+  const {linhas,col}=comCabecalho(tab,["unidade","tarefa","status"]);
   const cM=col("modulo"), cU=col("unidade"), cT=col("tarefa"), cS=col("status"),
         cP=col("prazo"), cI=col("inicio"), cF=col("fase"), cR=col("responsavel");
   // a data de conclusão já apareceu com nomes diferentes, e a coluna de entrada costuma
