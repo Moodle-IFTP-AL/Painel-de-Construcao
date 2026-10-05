@@ -5021,18 +5021,40 @@ async function tentarSalvos(){
 }
 
 /* arquivos ao lado da página (se existirem no repositório) */
-async function tentarLocais(){
+/* Busca sempre a versão nova dos CSV: o ?v= diferente a cada vez e o no-store pulam o cache do navegador
+   e o da hospedagem (sem isso, o GitHub Pages podia servir uma cópia de até 10 minutos atrás). */
+const semCache = u => fetch(u+"?v="+Date.now(), {cache:"no-store"});
+let ULTIMO_PAINEL=null, ULTIMA_BUSCA=0;
+async function tentarLocais(silencioso){
   try{
-    const [r,p,c]=await Promise.all([fetch("regras.csv"),fetch("painel.csv"),
-                                     fetch("capacidade.csv").catch(()=>null)]);
+    ULTIMA_BUSCA=Date.now();
+    const [r,p,c]=await Promise.all([semCache("regras.csv"),semCache("painel.csv"),
+                                     semCache("capacidade.csv").catch(()=>null)]);
     if(!r.ok||!p.ok) return false;
     // o servidor diz quando o arquivo foi gravado: é assim que sabemos a idade dos dados
     const lm=p.headers.get("last-modified");
+    const txtP=await p.text(), txtR=await r.text();
     const cap = (c&&c.ok) ? await c.text() : null;   // capacidade é opcional
-    carregar(await r.text(), await p.text(), rotuloIdade(lm?new Date(lm):null), cap);
+    if(silencioso && txtP===ULTIMO_PAINEL){            // nada mudou: só atualiza a idade
+      const av=document.getElementById("atualizado"); if(av) av.textContent=rotuloIdade(lm?new Date(lm):null);
+      return true;
+    }
+    ULTIMO_PAINEL=txtP;
+    // mantém a unidade, a aba e a rolagem de quem está olhando
+    const cicloAntes=typeof ciclo!=="undefined"?ciclo:null, rolagem=window.scrollY;
+    carregar(txtR, txtP, rotuloIdade(lm?new Date(lm):null), cap);
+    if(silencioso && cicloAntes && CICLOS.some(x=>x.chave===cicloAntes)){ trocarCiclo(cicloAntes); mostrar(vistaAtual); window.scrollTo(0,rolagem); }
     return true;
   }catch(e){ return false; }
 }
+/* Atualiza sozinho: a cada 5 minutos e quando a aba do navegador volta a ficar visível. */
+function atualizarSozinho(){
+  if(document.hidden) return;
+  if(document.getElementById("dlg") && document.getElementById("dlg").open) return;   // não atrapalha quem está no diálogo
+  tentarLocais(true);
+}
+setInterval(atualizarSozinho, 5*60*1000);
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden && Date.now()-ULTIMA_BUSCA>2*60*1000) atualizarSozinho(); });
 
 function rotuloIdade(quando){
   if(!quando||isNaN(quando)) return "arquivos do repositório";
