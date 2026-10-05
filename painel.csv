@@ -126,7 +126,7 @@ M2,U7,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",Maria 
 M2,U7,Revisão inicial,"Revisão do ""Para levar para a prática"" - PI",,Não se aplica,29/09,30/09,28/09,,,,-,"0,25",
 M2,U7,Revisão inicial,"Revisão do ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,-,"0,25",
 M2,U7,Replicar base,"Replicação das páginas de MET, PI e RP nos 8 eixos",Thony,Liberado,30/09,01/10,28/09,,01/10/2026,,-,2,Atrasada
-M2,U7,Replicar base,"Replicação dos H5P de MET, PI e RP nos 8 eixos",Marquito,Concluído,29/09,30/09,28/09,28/09,,28/09/2026,Não se aplica,1,
+M2,U7,Replicar base,"Replicação dos H5P de MET, PI e RP nos 8 eixos",Maria Eduarda,Concluído,29/09,30/09,28/09,28/09,,28/09/2026,Não se aplica,1,
 M2,U7,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Concluído,07/10,07/10,05/10,28/09,28/09/2026,28/09/2026,-,"0,5",
 M2,U7,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Concluído,07/10,07/10,05/10,28/09,28/09/2026,28/09/2026,-,"0,5",
 M2,U7,Criar H5P 8 eixos,H5P de PET - CDC (Criação Digital e Cultural),Marquito,Concluído,07/10,07/10,05/10,28/09,28/09/2026,28/09/2026,-,"0,5",
@@ -153,7 +153,7 @@ M2,U7,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Con
 M2,U7,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,08/10,09/10,05/10,,29/09/2026,02/10/2026,-,"0,5",
 M2,U7,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,Concluído,08/10,09/10,05/10,,28/09/2026,02/10/2026,-,"0,25",
 M2,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Liberado,09/10,13/10,12/10,,02/10/2026,,-,4,
-M2,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
+M2,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Concluído,09/10,13/10,12/10,05/10,02/10/2026,05/10/2026,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
@@ -249,12 +249,12 @@ M3,U1,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplic
 M3,U1,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
 M3,U1,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
 M3,U1,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
-M3,U1,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
-M3,U1,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
-M3,U1,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
-M3,U1,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
-M3,U1,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
-M3,U1,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
+M3,U1,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
+M3,U1,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
+M3,U1,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
+M3,U1,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
+M3,U1,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
+M3,U1,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,04/10,05/10/2026,04/10/2026,-,0,
 M3,U1,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,23/09,30/09,28/09,24/09,,24/09/2026,-,"0,33",
 M3,U1,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,23/09,30/09,28/09,24/09,,24/09/2026,-,"0,33",
 M3,U1,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,23/09,30/09,28/09,24/09,,24/09/2026,-,"0,33",
