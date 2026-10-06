@@ -244,7 +244,7 @@ M2,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Lib
 M2,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
 M2,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",
 M3,U1,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
-M3,U1,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,05/10,05/10,05/10,,05/10/2026,,-,0,Vence hoje
+M3,U1,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Atrasado,05/10,05/10,05/10,,05/10/2026,,-,0,Atrasada
 M3,U1,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
 M3,U1,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
 M3,U1,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
@@ -292,15 +292,15 @@ M3,U1,Pré-base,(GIM) Montar a seção da lista de presença do módulo,Maria Ed
 M3,U1,Pré-base,(TI) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,23/09,30/09,28/09,25/09,,25/09/2026,-,"0,33",
 M3,U1,Pré-base,(TEV) Montar a seção da lista de presença do módulo,Maria Eduarda,Concluído,23/09,30/09,28/09,25/09,,25/09/2026,-,"0,33",
 M3,U1,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Concluído,05/10,06/10,05/10,02/10,29/09/2026,02/10/2026,-,"0,2",
-M3,U1,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,"0,2",
+M3,U1,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,"0,2",Vence hoje
 M3,U1,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,,,,,,,-,"0,2",
 M3,U1,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Concluído,05/10,08/10,05/10,05/10,29/09/2026,05/10/2026,-,"0,2",
 M3,U1,Pré-base,Criar os vídeos de MET,Lucas,Concluído,05/10,06/10,05/10,02/10,02/10/2026,02/10/2026,-,2,
-M3,U1,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,4,
+M3,U1,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,4,Vence hoje
 M3,U1,Pré-base,Criar os vídeos de RP,,Não se aplica,,,,,,,-,4,
 M3,U1,Pré-base,Criar os vídeos de PET,Lucas,Concluído,05/10,08/10,05/10,05/10,05/10/2026,05/10/2026,-,8,
 M3,U1,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Concluído,05/10,06/10,05/10,02/10,02/10/2026,02/10/2026,-,1,
-M3,U1,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,1,
+M3,U1,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,05/10,06/10,05/10,,,,-,1,Vence hoje
 M3,U1,Pré-base,Formatar nomes e subir no YouTube - RP,,Não se aplica,,,,,,,-,1,
 M3,U1,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Concluído,05/10,08/10,05/10,05/10,05/10/2026,05/10/2026,-,4,
 M3,U1,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplica,05/10,06/10,05/10,,,,Não se aplica,2,
@@ -314,7 +314,7 @@ M3,U1,Base,H5P base - trilha de Metodologia,Marquito,Concluído,05/10,06/10,05/1
 M3,U1,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Concluído,05/10,06/10,05/10,01/10,01/10/2026,01/10/2026,-,"0,5",
 M3,U1,Base,HTML base - Metodologia Pedagógica,Marcelo,Concluído,05/10,06/10,05/10,,29/09/2026,05/10/2026,-,1,
 M3,U1,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Concluído,05/10,06/10,05/10,,29/09/2026,05/10/2026,-,1,
-M3,U1,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,1,
+M3,U1,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,05/10,06/10,05/10,,,,-,1,Vence hoje
 M3,U1,Base,HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
 M3,U1,Revisão inicial,Revisão do HTML base - Metodologia,Maria Eduarda,Liberado,06/10,07/10,05/10,,05/10/2026,,-,1,
 M3,U1,Revisão inicial,Revisão do HTML base - PET (ADM),Maria Eduarda,Liberado,06/10,07/10,05/10,,05/10/2026,,-,1,
@@ -1766,15 +1766,15 @@ M3,6ª gravação,Gravações · HTML 9 eixos,(AGS) Construir os 2 HTML (PET + M
 M4,7ª gravação,Gravações · HTML 9 eixos,(AGS) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
 M4,8ª gravação,Gravações · HTML 9 eixos,(AGS) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,23/11,24/11,23/11,23/09,23/11/2026,23/09/2026,-,"0,333",
 M3,5ª gravação,Gravações · HTML 9 eixos,(CDC) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,28/09,29/09,28/09,23/09,28/09/2026,23/09/2026,-,"0,333",
-M3,5ª gravação,Gravações · Iframe da gravação,(ADM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(AGS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(COM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(CDC) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(ECS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(GOP) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(GIM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(TI) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Iframe da gravação,(TEV) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
+M3,5ª gravação,Gravações · Iframe da gravação,(ADM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(AGS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(COM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(CDC) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(ECS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(GOP) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(GIM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(TI) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Iframe da gravação,(TEV) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
 M3,5ª gravação,Gravações · Fórum,(ADM) Inserir as perguntas no fórum (MET + PET),Maria Eduarda,Concluído,29/09,02/10,28/09,,02/10/2026,05/10/2026,-,"0,167",
 M3,5ª gravação,Gravações · Fórum,(AGS) Inserir as perguntas no fórum (MET + PET),Maria Eduarda,Concluído,29/09,02/10,28/09,,02/10/2026,05/10/2026,-,"0,167",
 M3,5ª gravação,Gravações · Fórum,(COM) Inserir as perguntas no fórum (MET + PET),Maria Eduarda,Concluído,29/09,02/10,28/09,,02/10/2026,05/10/2026,-,"0,167",
@@ -1802,16 +1802,16 @@ M3,5ª gravação,Gravações · PopUp,"(GOP) Inserir o popUp, mas deixar oculto
 M3,5ª gravação,Gravações · PopUp,"(GIM) Inserir o popUp, mas deixar oculto",Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,"0,25",Atrasada
 M3,5ª gravação,Gravações · PopUp,"(TI) Inserir o popUp, mas deixar oculto",Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,"0,25",Atrasada
 M3,5ª gravação,Gravações · PopUp,"(TEV) Inserir o popUp, mas deixar oculto",Maria Eduarda,Bloqueado,29/09,02/10,28/09,,,,-,"0,25",Atrasada
-M3,5ª gravação,Gravações · Revisão,Revisão dos 9 popUps e liberar a visualização na página,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Vence hoje
-M3,5ª gravação,Gravações · Revisão,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(AGS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(COM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(CDC) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(ECS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(GOP) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(GIM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(TI) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
-M3,5ª gravação,Gravações · Revisão,"(TEV) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",
+M3,5ª gravação,Gravações · Revisão,Revisão dos 9 popUps e liberar a visualização na página,Alline,Bloqueado,02/10,05/10,05/10,,,,-,"0,167",Atrasada
+M3,5ª gravação,Gravações · Revisão,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(AGS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(COM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(CDC) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(ECS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(GOP) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(GIM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(TI) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
+M3,5ª gravação,Gravações · Revisão,"(TEV) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Bloqueado,05/10,07/10,05/10,,,,-,"0,333",Em risco
 M3,5ª gravação,Gravações · Fechamento,Inserir presença dos encontros síncronos dos cursistas nos 9 eixos,Alline,Bloqueado,29/09,02/10,28/09,,,,-,0,Atrasada
 M3,5ª gravação,Gravações · Fechamento,Análise final de configuração e liberação,Marcelo,Bloqueado,07/10,07/10,05/10,,,,-,"0,083",
 M3,6ª gravação,Gravações · Entrada (Dani),Vídeos das gravações no Drive,Dani,Aguardando liberação,23/10,23/10,19/10,,23/10/2026,,-,0,
