@@ -402,7 +402,7 @@ M3,U2,Pré-base,Mapear os H5P de referência - Metodologia,Marcelo,Liberado,08/1
 M3,U2,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Concluído,08/10,08/10,05/10,,06/10/2026,06/10/2026,-,2,
 M3,U2,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,13/10,13/10,12/10,,,,-,2,
 M3,U2,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,08/10,08/10,05/10,,,,-,"0,5",Vence hoje
-M3,U2,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Liberado,08/10,08/10,05/10,,06/10/2026,,-,"0,5",Vence hoje
+M3,U2,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Concluído,08/10,08/10,05/10,,06/10/2026,07/10/2026,-,"0,5",
 M3,U2,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,08/10,08/10,05/10,,07/10/2026,,-,1,Vence hoje
 M3,U2,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Liberado,08/10,08/10,05/10,,06/10/2026,,-,1,Vence hoje
 M3,U2,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
@@ -412,20 +412,20 @@ M3,U2,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,08/10,
 M3,U2,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,13/10,13/10,12/10,,,,-,1,
 M3,U2,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Bloqueado,13/10,13/10,12/10,,,,-,1,
 M3,U2,Revisão inicial,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,08/10,08/10,05/10,,,,-,"0,5",Vence hoje
-M3,U2,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,08/10,08/10,05/10,,,,-,"0,5",Vence hoje
+M3,U2,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Maria Eduarda,Concluído,08/10,08/10,05/10,,07/10/2026,07/10/2026,-,"0,5",
 M3,U2,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",,Não se aplica,08/10,09/10,05/10,,,,-,"0,25",
 M3,U2,Revisão inicial,"Revisão do ""Para levar para a prática"" - PI",,Não se aplica,13/10,14/10,12/10,,,,-,"0,25",
 M3,U2,Revisão inicial,"Revisão do ""Para levar para a prática"" - RP",,Não se aplica,13/10,14/10,12/10,,,,-,"0,25",
 M3,U2,Replicar base,"Replicação das páginas de MET, PI e RP nos 8 eixos",Thony,Bloqueado,13/10,14/10,12/10,,,,-,2,
 M3,U2,Replicar base,"Replicação dos H5P de MET, PI e RP nos 8 eixos",Marquito,Bloqueado,13/10,14/10,12/10,,,,-,1,
-M3,U2,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - CDC (Criação Digital e Cultural),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - ECS (Economia Social),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - GOP (Gestão e Operações),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - GIM (Gestão Imobiliária),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - TI (Tecnologia da Informação),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
-M3,U2,Criar H5P 8 eixos,H5P de PET - TEV (Turismo e Eventos),Marquito,Bloqueado,08/10,09/10,05/10,,,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - AGS (Agro Sustentável),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - COM (Comunicação e Mercado),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - CDC (Criação Digital e Cultural),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - ECS (Economia Social),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - GOP (Gestão e Operações),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - GIM (Gestão Imobiliária),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - TI (Tecnologia da Informação),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
+M3,U2,Criar H5P 8 eixos,H5P de PET - TEV (Turismo e Eventos),Marquito,Liberado,08/10,09/10,05/10,,07/10/2026,,-,"0,5",
 M3,U2,Criar HTML 8 eixos,HTML de PET - AGS (Agro Sustentável),Maria Eduarda,Bloqueado,08/10,09/10,05/10,,,,-,1,
 M3,U2,Criar HTML 8 eixos,HTML de PET - COM (Comunicação e Mercado),Maria Eduarda,Bloqueado,08/10,09/10,05/10,,,,-,1,
 M3,U2,Criar HTML 8 eixos,HTML de PET - CDC (Criação Digital e Cultural),Maria Eduarda,Bloqueado,08/10,09/10,05/10,,,,-,1,
