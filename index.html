@@ -453,6 +453,10 @@
   .calCab span{display:block;font-size:11px;letter-spacing:.09em;opacity:.85}
   .calCab b{display:block;font-size:25px;letter-spacing:-.01em;line-height:1.1}
   .calCab.grav{background:var(--amarelo);color:var(--texto)}
+  .calCab b.sem{font-size:16px;letter-spacing:0;line-height:1.25;padding-top:2px}
+  .calChip .calPrev{font-size:11px;margin-top:3px;line-height:1.25;opacity:.95;font-weight:600}
+  .calChip.est-previsto{box-shadow:0 0 0 3px #fff,0 0 0 6px #B0203F}
+  .calTag.prev{background:#B0203F;color:#fff;border-radius:999px;padding:3px 8px;font-size:10px;letter-spacing:.04em}
   .calPilha{display:flex;flex-direction:column;gap:10px;align-self:stretch}
   .calChip{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;border:0;
            border-radius:12px;background:var(--f);color:var(--t);padding:13px 8px 11px;cursor:pointer;
@@ -486,6 +490,7 @@
   .calLegenda .lg{font-style:normal;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
   .calLegenda .lg.ok{width:22px;height:22px;border-radius:50%;border:2px solid var(--verde);color:#0aa77e;font-size:12px}
   .calLegenda .lg.risco{width:22px;height:22px;border-radius:50%;border:2px solid var(--rosa);color:var(--rosa);font-size:13px}
+  .calLegenda .lg.prev{background:#B0203F;color:#fff;border-radius:999px;padding:3px 8px;font-size:10px}
   .calLegenda .lg.atr{background:var(--azul-escuro);color:#fff;border-radius:999px;padding:3px 9px;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
   .calLegenda .lg.hoje{width:3px;height:22px;background:var(--rosa);border-radius:2px}
   .calNota{font-size:12.5px;color:var(--texto-3);margin:14px 0 0;max-width:920px}
@@ -2946,6 +2951,32 @@ function emRisco(p){
    fórmula, puxada das abas do módulo. O Painel manda. Para a aba Lógica, que não é
    de nenhuma unidade específica, vale o responsável mais frequente no Painel. */
 let RESP_PAINEL={};
+/* Chegada dos templates (chegadas.csv, publicado da aba oculta da gestão): data da Dani, margem e atraso
+   previsto de cada unidade. É opcional: sem o arquivo, o calendário funciona como antes. */
+let CHEGADAS={};
+function dataBR(txt){
+  const s=String(txt||"").trim();
+  let m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/); if(m) return new Date(+m[3],+m[2]-1,+m[1]);
+  m=s.match(/^(\d{4})-(\d{2})-(\d{2})/); if(m) return new Date(+m[1],+m[2]-1,+m[3]);
+  return null;
+}
+function lerChegadas(txt){
+  CHEGADAS={};
+  if(!txt) return;
+  const linhas=parseCSV(txt);
+  const iCab=linhas.findIndex(l=>l.map(semAcento).some(c=>c==="unidade")&&l.map(semAcento).some(c=>c==="texto"));
+  if(iCab<0) return;
+  const cab=linhas[iCab].map(semAcento), col=n=>cab.findIndex(c=>c===semAcento(n));
+  const cU=col("Unidade"), cR=col("Regra"), cD=col("Data Dani"), cE=col("Entrega prevista"), cM=col("Margem (d.u.)"),
+        cG=col("Template que define"), cT=col("Texto");
+  for(let i=iCab+1;i<linhas.length;i++){
+    const l=linhas[i], u=(l[cU]||"").trim(), m=u.match(/^(M\d+)\s+(.+)$/);
+    if(!m) continue;
+    const mg=parseInt(String(l[cM]||"").replace(/[^\d-]/g,""),10);
+    CHEGADAS[m[1]+" · "+m[2]]={regra:(l[cR]||"").trim(), dani:dataBR(l[cD]), entrega:dataBR(l[cE]),
+      margem:isNaN(mg)?null:mg, culpa:(l[cG]||"").trim(), texto:(l[cT]||"").trim()};
+  }
+}
 let CAPACIDADE={};   // horas por semana de cada pessoa
 function lerCapacidade(txt){
   CAPACIDADE={};
@@ -4531,6 +4562,7 @@ const ddmm = d => ("0"+d.getDate()).slice(-2)+"/"+("0"+(d.getMonth()+1)).slice(-
 const numDia = d => d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();
 function diasAte(d){ const h=new Date(); h.setHours(0,0,0,0); return Math.round((d-h)/864e5); }
 const diaCurto = d => DIA_SEM[d.getDay()].toLowerCase()+" "+ddmm(d);
+const sextaDe = seg => { const d=new Date(seg); d.setDate(d.getDate()+4); return d; };
 
 /* o que está visível: um módulo ausente do filtro é mostrado */
 const calFiltro={};
@@ -4546,8 +4578,12 @@ function entregasDoCalendario(){
     // a tarefa que fecha o ciclo: o "Liberar a unidade" (ou, na gravação, a última com a data final)
     const entregue=!!fim&&fim.status==="Concluído";
     const pr=progresso(its), atr=atrasadas(its);
-    const estado = entregue ? "entregue" : numDia(d)<HOJE ? "atrasada" : atr ? "risco" : "prazo";
+    const cg = grav ? null : (CHEGADAS[c.chave]||null);
+    const nova = !!cg && cg.regra!=="exceção";
+    const previsto = nova && cg.margem!=null && cg.margem<0;
+    const estado = entregue ? "entregue" : numDia(d)<HOJE ? "atrasada" : previsto ? "previsto" : atr ? "risco" : "prazo";
     out.push({chave:c.chave, modulo:c.modulo, unidade:c.unidade, grav, data:d, prazo, fim, estado,
+      dani: nova ? cg.dani : null, margem: nova ? cg.margem : null, txtPrev: nova ? cg.texto : "",
       quando: entregue&&fim.feito ? fim.feito : "", pc:pr.pc, feitas:pr.feitas, total:pr.total, atr,
       rotulo: grav ? c.unidade : c.modulo+" · "+c.unidade,
       livres: its.filter(p=>p.status==="Liberado"||p.status==="Em andamento")});
@@ -4606,16 +4642,19 @@ function infoEntrega(e){
 
 function chipHTML(e,c){
   const cor=e.grav?COR_GRAV:corMod(e.modulo);
-  const outra = numDia(e.data)!==numDia(c.data) ? diaCurto(e.data) : "";
+  const outra = diaCurto(e.data);
   const tag = e.estado==="entregue" ? `<span class="calTag ok" aria-label="entregue">✓</span>`
             : e.estado==="atrasada" ? `<span class="calTag atr">atrasada</span>`
+            : e.estado==="previsto" ? `<span class="calTag prev" title="${escapa(e.txtPrev)}">+${-e.margem}</span>`
             : e.estado==="risco" ? `<span class="calTag risco" title="${e.atr} tarefa(s) com prazo vencido">!</span>` : "";
+  const prev = e.estado==="entregue" || e.margem==null ? ""
+             : `<span class="calPrev">${e.margem<0 ? "atraso previsto +"+(-e.margem)+" d.u." : "margem "+e.margem+" d.u."}${e.dani?" · Dani "+ddmm(e.dani):""}</span>`;
   const nome = e.grav
     ? `<b>${e.unidade}</b><span class="calMod">${e.modulo}${outra?" · "+outra:""}</span>`
     : `<b>${e.rotulo}</b>${outra?`<span class="calMod">${outra}</span>`:""}`;
   return `<button class="calChip est-${e.estado}" style="--f:${cor.f};--t:${cor.t}" data-chave="${escapa(e.chave)}"
     title="${escapa(e.chave)} · ${escapa(situacao(e))} · ${e.pc}% pronto">${tag}${nome}
-    <span class="calInfo">${infoEntrega(e)}</span><span class="calBar"><i style="width:${e.pc}%"></i></span></button>`;
+    <span class="calInfo">${infoEntrega(e)}</span>${prev}<span class="calBar"><i style="width:${e.pc}%"></i></span></button>`;
 }
 
 function gradeCalendario(M){
@@ -4637,7 +4676,7 @@ function gradeCalendario(M){
   M.colunas.forEach((c,i)=>{
     const col=pos[i];
     g+=`<div class="calCab${c.soGrav?" grav":""}" style="grid-column:${col};grid-row:2">
-          <span>${DIA_SEM[c.data.getDay()]}</span><b>${ddmm(c.data)}</b></div>`;
+          <span>SEMANA</span><b class="sem">${ddmm(c.seg)} a ${ddmm(sextaDe(c.seg))}</b></div>`;
     g+=`<div class="calPilha" style="grid-column:${col};grid-row:3">`+
        (c.unidades.length ? c.unidades.map(e=>chipHTML(e,c)).join("")
                           : `<div class="calVazio">sem unidade<br>nesta data</div>`)+`</div>`;
@@ -4672,10 +4711,12 @@ function desenharCalendario(){
         <span><i class="lg ok">✓</i>entregue</span>
         <span><i class="lg atr">atrasada</i>a data final passou sem liberação</span>
         <span><i class="lg risco">!</i>tem tarefa com prazo vencido</span>
+        <span><i class="lg prev">+1</i>atraso previsto: um template chegou atrasado e a entrega passa da data da Dani</span>
         <span><i class="lg hoje"></i>hoje</span>
       </div>
     </div>
-    <p class="calNota">As datas saem da planilha: é o prazo da tarefa <b>Liberar a unidade</b> de cada ciclo e, nas gravações, o da análise final.
+    <p class="calNota">As datas saem da planilha: é o prazo da tarefa <b>Liberar a unidade</b> de cada ciclo (a entrega prevista, contada da chegada dos templates) e, nas gravações, o da análise final.
+    A linha de margem compara essa entrega com a data da Dani.
     Se uma data muda lá, o calendário muda aqui na publicação seguinte, que roda de hora em hora. Dados: ${escapa(fonte)}.</p>`;
   alvo.innerHTML=h;
   alvo.querySelectorAll(".filtro").forEach(b=>b.onclick=()=>{
@@ -4693,6 +4734,7 @@ function menuEntrega(chave, alvoEl){
   m.className="menu menu-est";
   m.addEventListener("click",ev=>ev.stopPropagation());
   let h=`<p class="cab">${e.grav?e.unidade+" · "+e.modulo:e.chave}<span>entrega ${diaCurto(e.data)}</span></p>`;
+  if(e.txtPrev) h+=`<p class="nota${e.estado==="previsto"?" atr":""}"><b>${escapa(e.txtPrev)}</b></p>`;
   h+=`<p class="nota"><b>${situacao(e)}.</b> ${e.pc}% pronto — ${e.feitas} de ${e.total} tarefas concluídas.`+
      (e.atr?` <span class="atr">${e.atr} tarefa${e.atr>1?"s":""} com prazo vencido.</span>`:"")+`</p>`;
   if(e.fim) h+=`<p class="nota">Fecha com <b>${e.fim.tarefa}</b>${e.fim.resp?" · "+e.fim.resp:""} · ${e.fim.status.toLowerCase()}</p>`;
@@ -4797,22 +4839,24 @@ function layoutCalendario(M, faixa){
   const chip=(e,c,x,y,w,h)=>{
     const cor=e.grav?COR_GRAV:corMod(e.modulo);
     cx({t:"box",x,y,w,h,r:0.09,fill:cor.f,
-        linha: e.estado==="atrasada"?"#25314C":null, esp:2.25});
-    const outra = numDia(e.data)!==numDia(c.data) ? diaCurto(e.data) : "";
+        linha: e.estado==="atrasada"?"#25314C":e.estado==="previsto"?"#B0203F":null, esp:2.25});
+    const outra = diaCurto(e.data);
     const estado = e.estado==="entregue" ? "entregue"
                  : e.estado==="atrasada" ? "ATRASADA"
+                 : e.estado==="previsto" ? "ATRASO PREVISTO +"+(-e.margem)
                  : e.estado==="risco" ? e.pc+"% · com atraso"
                  : e.pc+"% pronto";
     const linhas = e.grav
       ? [{s:e.unidade,pt:grande?13:11,b:true},{s:e.modulo+(outra?" · "+outra:""),pt:grande?9:7.5}]
       : [{s:e.rotulo,pt:enorme?18:grande?15:12,b:true}].concat(outra?[{s:outra,pt:grande?9:7.5}]:[]);
-    linhas.push({s:estado,pt:enorme?9.5:grande?8.5:7,b:e.estado==="atrasada"});
+    linhas.push({s:estado,pt:enorme?9.5:grande?8.5:7,b:e.estado==="atrasada"||e.estado==="previsto"});
+    if(e.margem!=null&&e.estado!=="entregue"&&e.estado!=="previsto") linhas.push({s:"margem "+e.margem+" d.u."+(e.dani?" · Dani "+ddmm(e.dani):""),pt:grande?8:6.5});
     cx({t:"txt",x,y,w,h,linhas,cor:cor.t});
   };
   M.colunas.forEach((c,i)=>{
     const x=xs(i);
     cx({t:"box",x,y:yCab,w:colW,h:hCab,r:0.09,fill:c.soGrav?"#FECB55":"#25314C"});
-    cx({t:"txt",x,y:yCab,w:colW,h:hCab,linhas:[{s:DIA_SEM[c.data.getDay()],pt:9},{s:ddmm(c.data),pt:17,b:true}],
+    cx({t:"txt",x,y:yCab,w:colW,h:hCab,linhas:[{s:"SEMANA",pt:9},{s:ddmm(c.seg)+" a "+ddmm(sextaDe(c.seg)),pt:12,b:true}],
         cor:c.soGrav?"#25314C":"#FFFFFF"});
     if(c.unidades.length){
       c.unidades.forEach((e,k)=>chip(e,c,x,yU+k*(hU+0.1),colW,hU));
@@ -5042,13 +5086,15 @@ let ULTIMO_PAINEL=null, ULTIMA_BUSCA=0;
 async function tentarLocais(silencioso){
   try{
     ULTIMA_BUSCA=Date.now();
-    const [r,p,c]=await Promise.all([semCache("regras.csv"),semCache("painel.csv"),
-                                     semCache("capacidade.csv").catch(()=>null)]);
+    const [r,p,c,ch]=await Promise.all([semCache("regras.csv"),semCache("painel.csv"),
+                                     semCache("capacidade.csv").catch(()=>null),
+                                     semCache("chegadas.csv").catch(()=>null)]);
     if(!r.ok||!p.ok) return false;
     // o servidor diz quando o arquivo foi gravado: é assim que sabemos a idade dos dados
     const lm=p.headers.get("last-modified");
     const txtP=await p.text(), txtR=await r.text();
     const cap = (c&&c.ok) ? await c.text() : null;   // capacidade é opcional
+    try{ lerChegadas((ch&&ch.ok) ? await ch.text() : null); }catch(e){ CHEGADAS={}; }   // chegadas também
     if(silencioso && txtP===ULTIMO_PAINEL){            // nada mudou: só atualiza a idade
       const av=document.getElementById("atualizado"); if(av) av.textContent=rotuloIdade(lm?new Date(lm):null);
       return true;
