@@ -236,8 +236,8 @@ M2,U8,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,
 M2,U8,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Maria Eduarda,Concluído,08/10,09/10,05/10,02/10,01/10/2026,02/10/2026,-,"0,25",
 M2,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Anna Paula,Concluído,09/10,13/10,12/10,02/10,02/10/2026,02/10/2026,-,4,
 M2,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Concluído,09/10,13/10,12/10,,02/10/2026,05/10/2026,-,2,
-M2,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Alline,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
-M2,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Alline,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
+M2,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
+M2,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
 M2,U8,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
 M2,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Alline,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
 M2,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,13/10,13/10,12/10,,,,-,2,
@@ -1802,8 +1802,8 @@ M3,5ª gravação,Gravações · PopUp,"(GOP) Inserir o popUp, mas deixar oculto
 M3,5ª gravação,Gravações · PopUp,"(GIM) Inserir o popUp, mas deixar oculto",Maria Eduarda,Concluído,29/09,02/10,28/09,06/10,23/09/2026,06/10/2026,-,"0,25",
 M3,5ª gravação,Gravações · PopUp,"(TI) Inserir o popUp, mas deixar oculto",Maria Eduarda,Concluído,29/09,02/10,28/09,06/10,23/09/2026,06/10/2026,-,"0,25",
 M3,5ª gravação,Gravações · PopUp,"(TEV) Inserir o popUp, mas deixar oculto",Maria Eduarda,Concluído,29/09,02/10,28/09,06/10,23/09/2026,06/10/2026,-,"0,25",
-M3,5ª gravação,Gravações · Revisão,Revisão dos 9 popUps e liberar a visualização na página,Alline,Liberado,02/10,05/10,05/10,,06/10/2026,,-,"0,167",Atrasada
-M3,5ª gravação,Gravações · Revisão,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Liberado,05/10,07/10,05/10,,06/10/2026,,-,"0,333",Atrasada
+M3,5ª gravação,Gravações · Revisão,Revisão dos 9 popUps e liberar a visualização na página,Alline,Concluído,02/10,05/10,05/10,,06/10/2026,08/10/2026,-,"0,167",
+M3,5ª gravação,Gravações · Revisão,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Concluído,05/10,07/10,05/10,08/10,06/10/2026,08/10/2026,-,"0,333",
 M3,5ª gravação,Gravações · Revisão,"(AGS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Liberado,05/10,07/10,05/10,,06/10/2026,,-,"0,333",Atrasada
 M3,5ª gravação,Gravações · Revisão,"(COM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Liberado,05/10,07/10,05/10,,06/10/2026,,-,"0,333",Atrasada
 M3,5ª gravação,Gravações · Revisão,"(CDC) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum",Alline,Liberado,05/10,07/10,05/10,,06/10/2026,,-,"0,333",Atrasada
