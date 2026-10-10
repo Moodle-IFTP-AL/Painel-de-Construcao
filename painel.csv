@@ -155,7 +155,7 @@ M2,U7,Revisão final,"Revisão do ""Para levar para a prática"" - PET",Alline,C
 M2,U7,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Concluído,09/10,13/10,12/10,05/10,02/10/2026,05/10/2026,-,4,
 M2,U7,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Concluído,09/10,13/10,12/10,05/10,02/10/2026,05/10/2026,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluído,09/10,13/10,12/10,,02/10/2026,05/10/2026,-,2,
-M2,U7,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,
+M2,U7,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,02/10/2026,,-,2,Em risco
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de PET,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
 M2,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,13/10,13/10,12/10,,,,-,2,
@@ -353,11 +353,11 @@ M3,U1,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Con
 M3,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,08/10,09/10,05/10,08/10,06/10/2026,08/10/2026,-,"0,5",
 M3,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,08/10,09/10,05/10,,,,-,"0,25",
 M3,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Concluído,09/10,13/10,12/10,08/10,08/10/2026,08/10/2026,-,4,
-M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,
+M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
 M3,U1,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
 M3,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,13/10,13/10,12/10,,,,-,2,
 M3,U1,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
 M3,U1,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",
