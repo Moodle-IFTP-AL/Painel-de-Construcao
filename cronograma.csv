@@ -336,10 +336,10 @@ item,2026-10-12,M3 U1,2026-10-13,5,Mapear certificáveis PET,Marcelo,#d6d6e6,#25
 M3 U1 · M3!C120 · Liberado",aj,M3|120
 item,2026-10-12,M3 U1,2026-10-13,6,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Inserir os requisitos de acesso à certificação
 M3 U1 · M3!C121 · Bloqueado",aj,M3|121
-item,2026-10-12,M3 U1,2026-10-13,7,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-10-12,M3 U1,2026-10-13,7,🔒︎ Revisar configurações,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Revisar configurações: restrições, certificados, visibilidade
 M3 U1 · M3!C122 · Bloqueado",aj,M3|122
 item,2026-10-12,M3 U1,2026-10-13,8,🔒︎ ★ LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:lib,
-item,2026-10-12,M3 U1,2026-10-13,9,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
+item,2026-10-12,M3 U1,2026-10-13,9,🔒︎ Liberar a unidade,Maria Eduarda,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
 M3 U1 · M3!C123 · Bloqueado",lib,M3|123
 unidade,2026-10-12,M3 U1,,,"M3 · U1
 template seg 05/10
