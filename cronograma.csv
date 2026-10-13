@@ -416,13 +416,13 @@ item,2026-10-19,M3 U2,2026-10-14,11,✔ Rev. H5P base MET,Alline,#EEF9F3,#8FB5A3
 M3 U2 · M3!C251 · Concluído",rb
 item,2026-10-19,M3 U2,2026-10-14,12,✔ Rev. H5P base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U2 · M3!C252 · Concluído",rb
-item,2026-10-19,M3 U2,2026-10-15,0,▶ REPLICAÇÃO + PET 8,0/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp
+item,2026-10-19,M3 U2,2026-10-15,0,▶ REPLICAÇÃO + PET 8,1/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp
 item,2026-10-19,M3 U2,2026-10-15,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U2 · M3!C256 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,2,Replicar H5P MET/PI/RP,Marquito,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U2 · M3!C257 · Liberado",rp
-item,2026-10-19,M3 U2,2026-10-15,3,HTML de PET AGS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
-M3 U2 · M3!C266 · Liberado",rp
+item,2026-10-19,M3 U2,2026-10-15,3,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
+M3 U2 · M3!C266 · Concluído",rp
 item,2026-10-19,M3 U2,2026-10-15,4,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
 M3 U2 · M3!C267 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,5,HTML de PET CDC,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
@@ -437,9 +437,9 @@ item,2026-10-19,M3 U2,2026-10-15,9,HTML de PET TI,Maria Eduarda,#d5edf8,#25314C,
 M3 U2 · M3!C272 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,10,HTML de PET TEV,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
 M3 U2 · M3!C273 · Liberado",rp
-item,2026-10-19,M3 U2,2026-10-16,0,🔒︎ REVISÃO FINAL,0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:rf
-item,2026-10-19,M3 U2,2026-10-16,1,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M3 U2 · M3!C274 · Bloqueado",rf
+item,2026-10-19,M3 U2,2026-10-16,0,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf
+item,2026-10-19,M3 U2,2026-10-16,1,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
+M3 U2 · M3!C274 · Liberado",rf
 item,2026-10-19,M3 U2,2026-10-16,2,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
 M3 U2 · M3!C275 · Bloqueado",rf
 item,2026-10-19,M3 U2,2026-10-16,3,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
@@ -605,7 +605,7 @@ M3 U3 · M3!C390 · Bloqueado · falta o template",lib
 unidade,2026-10-26,M3 U3,,,"M3 · U3
 template seg 19/10
 entrega ter 27/10",,,,,,,,,
-item,2026-10-26,M3 U4,2026-10-19,0,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl
+item,2026-10-26,M3 U4,2026-10-19,0,TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl
 item,2026-10-26,M3 U4,2026-10-19,1,🔒︎ H5P,0/12 feitas · 12 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p
 item,2026-10-26,M3 U4,2026-10-19,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M3 U4 · M3!C436 · Bloqueado · falta o template",h5p
