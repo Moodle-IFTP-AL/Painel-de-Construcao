@@ -416,17 +416,17 @@ item,2026-10-19,M3 U2,2026-10-14,11,✔ Rev. H5P base MET,Alline,#EEF9F3,#8FB5A3
 M3 U2 · M3!C251 · Concluído",rb
 item,2026-10-19,M3 U2,2026-10-14,12,✔ Rev. H5P base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U2 · M3!C252 · Concluído",rb
-item,2026-10-19,M3 U2,2026-10-15,0,▶ REPLICAÇÃO + PET 8,1/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp
+item,2026-10-19,M3 U2,2026-10-15,0,▶ REPLICAÇÃO + PET 8,3/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp
 item,2026-10-19,M3 U2,2026-10-15,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U2 · M3!C256 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,2,Replicar H5P MET/PI/RP,Marquito,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U2 · M3!C257 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,3,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
 M3 U2 · M3!C266 · Concluído",rp
-item,2026-10-19,M3 U2,2026-10-15,4,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
-M3 U2 · M3!C267 · Liberado",rp
-item,2026-10-19,M3 U2,2026-10-15,5,HTML de PET CDC,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
-M3 U2 · M3!C268 · Liberado",rp
+item,2026-10-19,M3 U2,2026-10-15,4,✔ HTML de PET COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
+M3 U2 · M3!C267 · Concluído",rp
+item,2026-10-19,M3 U2,2026-10-15,5,✔ HTML de PET CDC,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
+M3 U2 · M3!C268 · Concluído",rp
 item,2026-10-19,M3 U2,2026-10-15,6,HTML de PET ECS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
 M3 U2 · M3!C269 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-15,7,HTML de PET GOP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GOP (Gestão e Operações)
@@ -440,10 +440,10 @@ M3 U2 · M3!C273 · Liberado",rp
 item,2026-10-19,M3 U2,2026-10-16,0,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf
 item,2026-10-19,M3 U2,2026-10-16,1,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
 M3 U2 · M3!C274 · Liberado",rf
-item,2026-10-19,M3 U2,2026-10-16,2,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M3 U2 · M3!C275 · Bloqueado",rf
-item,2026-10-19,M3 U2,2026-10-16,3,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M3 U2 · M3!C276 · Bloqueado",rf
+item,2026-10-19,M3 U2,2026-10-16,2,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - COM (Comunicação e Mercado)
+M3 U2 · M3!C275 · Liberado",rf
+item,2026-10-19,M3 U2,2026-10-16,3,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - CDC (Criação Digital e Cultural)
+M3 U2 · M3!C276 · Liberado",rf
 item,2026-10-19,M3 U2,2026-10-16,4,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
 M3 U2 · M3!C277 · Bloqueado",rf
 item,2026-10-19,M3 U2,2026-10-16,5,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
