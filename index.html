@@ -404,6 +404,35 @@
 
   /* faixa de quebra-cabeça no pé das vistas de leitura, como nos slides */
   .resumo,.alertas,.calendario{background:var(--faixa) repeat-x left bottom / auto 30px local,#fff;padding-bottom:70px}
+  /* ===== aba Semana: o Cronograma semanal da planilha, item por item (cronograma.csv) ===== */
+  .semanal{flex:1;min-width:0;overflow:auto;padding:22px 24px 72px;background:var(--faixa) repeat-x left bottom / auto 30px local,#fff}
+  .smLeg{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px}
+  .smLeg span{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:4px 10px;border:2px solid transparent}
+  .smBloco{margin-top:26px}
+  .smTit{background:var(--azul-escuro);color:#fff;border-radius:12px;padding:10px 16px;font-weight:700;font-size:15px;letter-spacing:.02em;
+         text-transform:uppercase;box-shadow:var(--sombra)}
+  .smWrap{overflow-x:auto;padding:10px 2px 6px}
+  .smGrade{display:grid;gap:8px;align-items:start;min-width:max-content}
+  .smDia{border-radius:10px;text-align:center;padding:6px 4px;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .smDia small{display:block;font-weight:500;font-size:10.5px;letter-spacing:.03em;opacity:.85;text-transform:none}
+  .smUni{padding:4px 6px 0 2px;white-space:pre-line;font-size:12px;color:var(--texto-2);line-height:1.35}
+  .smUni b{display:block;font-size:16px;color:var(--texto);letter-spacing:.01em}
+  .smUni .av{color:var(--rosa);font-weight:700}
+  .smCel{display:flex;flex-direction:column;gap:6px;min-height:24px;border-radius:10px;padding:0}
+  .smCel.dentro{background:#F4F7FB;padding:4px}
+  .smCard{border-radius:10px;overflow:hidden;border:1px solid rgba(37,49,76,.08);background:#fff}
+  .smCard.atual{border:2.5px solid var(--azul-escuro)}
+  .smCard.alerta{border:2px solid #E0566F}
+  .smIt{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;padding:3px 8px;font-size:11.5px;line-height:1.3}
+  .smIt .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .smIt .q{white-space:nowrap;font-size:11px;padding:1px 6px;border-radius:6px}
+  .smIt.cab{font-weight:700;font-size:11.5px;letter-spacing:.03em;padding:5px 8px}
+  .smIt.cab .q{font-weight:500;font-size:10.5px;padding:0}
+  .smIt.forte .t{font-weight:700}
+  .smIt.apagado{opacity:.22}
+  .smIt.meu .q{outline:2px solid var(--amarelo);outline-offset:-1px}
+  .smVazio{color:var(--texto-3);font-size:13.5px;margin-top:18px}
+
 
   /* tarefas citadas nos Alertas: eram botões crus do navegador */
   .al .ref{display:block;width:100%;text-align:left;border:0;background:none;cursor:pointer;font-family:var(--sans);
@@ -533,6 +562,7 @@
       <button class="aba" role="tab" aria-selected="false" data-vista="ciclo">Ciclo</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="logica">Lógica</button>
       <button class="aba" role="tab" aria-selected="false" data-vista="calendario">Calendário</button>
+      <button class="aba" role="tab" aria-selected="false" data-vista="semana">Semana</button>
     </div>
     <div class="dir">
       <select id="selCiclo" aria-label="Ciclo"></select>
@@ -555,6 +585,7 @@
   <div class="corpo">
     <div class="vista on" id="v-resumo"><div class="resumo" id="resumo"></div></div>
     <div class="vista" id="v-calendario"><div class="calendario" id="calendario"></div></div>
+    <div class="vista" id="v-semana"><div class="semanal" id="semanal"></div></div>
     <div class="vista" id="v-alerta"><div class="alertas" id="alertas"></div></div>
     <div class="vista" id="v-ciclo" style="flex:1;min-width:0">
       <div class="tela" id="tela"><svg id="svg" role="img" aria-label="Grafo de dependências do ciclo"></svg></div>
@@ -4510,6 +4541,7 @@ function mostrar(v){
   if(v==="resumo") desenharResumo();
   if(v==="alerta") desenharAlertas();
   if(v==="calendario") desenharCalendario();
+  if(v==="semana") desenharSemanal();
   if(v==="logica") abrirLogica();
   if(v==="ciclo"&&G) setTimeout(()=>{ if(precisaEnquadrar) enquadrar(); else {vb();aplicarCam();} },0);
 }
@@ -5007,6 +5039,103 @@ function carregar(csvRegras, csvPainel, rotulo, csvCapacidade){
   }catch(err){ aviso.textContent="Não deu para ler: "+err.message; }
 }
 
+
+/* ===================================================================
+   ABA SEMANA — o Cronograma semanal da planilha de gestão.
+   A planilha desenha a aba e grava o mesmo desenho, item por item, na aba oculta
+   "_cronograma_web", publicada aqui como cronograma.csv. Esta aba só mostra: cores,
+   cadeados, atraso e "em alerta" vêm prontos de lá. Trocar quem faz é na planilha.
+   =================================================================== */
+let SEMANAL=null, SM_PESSOA="", SM_SEMANA="";
+function lerSemanal(txt){
+  SEMANAL=null;
+  if(!txt) return;
+  const L=parseCSV(txt);
+  if(!L.length) return;
+  const cab=L[0].map(semAcento), c=n=>cab.indexOf(n);
+  const k={tipo:c("tipo"),sem:c("semana"),uni:c("unidade"),dia:c("dia"),ord:c("ordem"),tx:c("texto"),qm:c("quem"),
+           bg:c("fundo"),fc:c("cor"),bgq:c("fundoq"),fcq:c("corq"),ng:c("negrito"),bd:c("borda"),nt:c("nota"),fa:c("fase")};
+  if(k.tipo<0||k.sem<0) return;
+  const semanas=[], porS={};
+  const S=id=>{ if(!porS[id]){ porS[id]={id,titulo:"",dias:[],unidades:[],porU:{}}; semanas.push(porS[id]); } return porS[id]; };
+  const U=(sm,u)=>{ if(!sm.porU[u]){ sm.porU[u]={u,texto:u,itens:{}}; sm.unidades.push(sm.porU[u]); } return sm.porU[u]; };
+  for(let i=1;i<L.length;i++){
+    const l=L[i], tipo=l[k.tipo]; if(!tipo) continue;
+    const sm=S(l[k.sem]);
+    if(tipo==="semana") sm.titulo=l[k.tx];
+    else if(tipo==="dia") sm.dias.push({d:l[k.dia],tx:l[k.tx],marca:l[k.qm],bg:l[k.bg],fc:l[k.fc]});
+    else if(tipo==="unidade") U(sm,l[k.uni]).texto=l[k.tx];
+    else if(tipo==="item"){
+      const un=U(sm,l[k.uni]);
+      (un.itens[l[k.dia]]=un.itens[l[k.dia]]||[]).push({ord:+l[k.ord]||0,tx:l[k.tx],qm:l[k.qm],bg:l[k.bg],fc:l[k.fc],
+        bgq:l[k.bgq],fcq:l[k.fcq],forte:l[k.ng]==="1",borda:l[k.bd],nota:l[k.nt],fase:l[k.fa]||""});
+    }
+  }
+  semanas.forEach(sm=>sm.unidades.forEach(un=>Object.values(un.itens).forEach(a=>a.sort((x,y)=>x.ord-y.ord))));
+  SEMANAL=semanas.filter(sm=>sm.dias.length);
+}
+function desenharSemanal(){
+  const alvo=document.getElementById("semanal"); if(!alvo) return;
+  let h=`<div class="calTopo"><div><h2>Cronograma semanal</h2>
+    <p class="calSub">Uma tabela por semana de entrega da Dani: cada dia mostra as fases previstas, as tarefas e quem faz.
+    Para trocar quem faz, use a lista suspensa da aba Cronograma semanal na planilha de gestão.</p></div>`;
+  if(!SEMANAL||!SEMANAL.length){
+    alvo.innerHTML=h+`</div><p class="smVazio">O cronograma ainda não foi publicado. Na planilha de gestão, use Esteira › Atualizar tudo agora.</p>`;
+    return;
+  }
+  const todos=[]; SEMANAL.forEach(sm=>sm.unidades.forEach(un=>Object.values(un.itens).forEach(a=>a.forEach(it=>todos.push(it)))));
+  const pessoas=[...new Set(todos.filter(it=>it.qm&&!it.fase.startsWith("cab:")&&it.tx!=="feriado").map(it=>it.qm))]
+    .sort((a,b)=>a.localeCompare(b,"pt-BR"));
+  if(SM_PESSOA&&!pessoas.includes(SM_PESSOA)) SM_PESSOA="";
+  if(SM_SEMANA&&!SEMANAL.some(sm=>sm.id===SM_SEMANA)) SM_SEMANA="";
+  const temHoje=SEMANAL.find(sm=>sm.dias.some(d=>d.marca==="hoje"));
+  h+=`<div class="calAcoes">
+      <select id="smPessoa" aria-label="Destacar pessoa"><option value="">todas as pessoas</option>${pessoas.map(p=>`<option${p===SM_PESSOA?" selected":""}>${escapa(p)}</option>`).join("")}</select>
+      <select id="smSemana" aria-label="Semana"><option value="">todas as semanas</option>${SEMANAL.map(sm=>`<option value="${escapa(sm.id)}"${sm.id===SM_SEMANA?" selected":""}>${escapa(sm.titulo.replace(/^SEMANA DE ENTREGA /,"").split(" · ")[0])}</option>`).join("")}</select>
+      ${temHoje?`<button class="btn cheio" id="smHoje">Semana de hoje</button>`:""}
+    </div></div>`;
+  const leg=[["Template","#5A6680","#fff"],["H5P","#008CC7","#fff"],["Vídeos","#F04770","#fff"],["HTML base","#79D3F2","#14213A"],
+    ["Revisão da base","#FECB55","#14213A"],["Replicação + PET 8","#3FAFDD","#14213A"],["Revisão final","#F5A623","#14213A"],
+    ["Ajustes finais","#46468F","#fff"],["★ Liberação","#1F2340","#FECB55"],["✔ Concluída","#E3F5EC","#8FB5A3"],
+    ["🔒︎ Falta template","#ECEEF1","#A0A7B4"],["🔒︎ Espera etapa","#B7E1F2","#3A84A3"],["◐ Parte liberada","#fff","#25314C"],
+    ["⚠ Atrasada","#B0203F","#fff"]];
+  h+=`<div class="smLeg">${leg.map(x=>`<span style="background:${x[1]};color:${x[2]}${x[1]==="#fff"?";border-color:#B8C6D5":""}">${x[0]}</span>`).join("")}
+      <span style="background:#fff;color:#25314C;border-color:#25314C">▶ Fase atual</span>
+      <span style="background:#fff;color:#B0203F;border-color:#E0566F">Em alerta</span></div>`;
+  (SM_SEMANA?SEMANAL.filter(sm=>sm.id===SM_SEMANA):SEMANAL).forEach(sm=>{
+    const n=sm.dias.length;
+    h+=`<section class="smBloco" id="sm-${escapa(sm.id)}"><div class="smTit">${escapa(sm.titulo)}</div><div class="smWrap">
+      <div class="smGrade" style="grid-template-columns:150px repeat(${n},minmax(250px,1fr))"><div></div>`;
+    sm.dias.forEach(d=>{ h+=`<div class="smDia" style="background:${d.bg};color:${d.fc}">${escapa(d.tx)}<small>${d.marca==="hoje"?"hoje":d.marca==="feriado"?"feriado":"tarefa · quem faz"}</small></div>`; });
+    sm.unidades.forEach(un=>{
+      const linhas=(un.texto||un.u).split("\n");
+      h+=`<div class="smUni"><b>${escapa(linhas[0])}</b>${linhas.slice(1).map(x=>x.startsWith("⚠")?`<span class="av">${escapa(x)}</span>`:escapa(x)).join("\n")}</div>`;
+      sm.dias.forEach(d=>{
+        const its=un.itens[d.d]||[];
+        // cartões: cada título de fase abre um cartão; as tarefas seguintes ficam dentro dele
+        const cards=[]; its.forEach(it=>{ if(it.fase.startsWith("cab:")||it.tx==="feriado"||!cards.length) cards.push({borda:it.borda,its:[it]}); else cards[cards.length-1].its.push(it); });
+        h+=`<div class="smCel${its.length?" dentro":""}">`;
+        cards.forEach(cd=>{
+          h+=`<div class="smCard${cd.borda?" "+cd.borda:""}">`;
+          cd.its.forEach(it=>{
+            const cab=it.fase.startsWith("cab:"), meu=SM_PESSOA&&!cab&&it.qm===SM_PESSOA, apaga=SM_PESSOA&&!cab&&it.tx!=="feriado"&&it.qm!==SM_PESSOA;
+            h+=`<div class="smIt${cab?" cab":""}${it.forte?" forte":""}${apaga?" apagado":""}${meu?" meu":""}" style="background:${it.bg||"#fff"};color:${it.fc||"#25314C"}"${it.nota?` title="${escapa(it.nota)}"`:""}>
+              <span class="t">${escapa(it.tx)}</span><span class="q" style="${cab?"":`background:${it.bgq||"#fff"};`}color:${it.fcq||it.fc||"#25314C"}">${escapa(it.qm||"")}</span></div>`;
+          });
+          h+=`</div>`;
+        });
+        h+=`</div>`;
+      });
+    });
+    h+=`</div></div></section>`;
+  });
+  alvo.innerHTML=h;
+  document.getElementById("smPessoa").onchange=e=>{ SM_PESSOA=e.target.value; desenharSemanal(); };
+  document.getElementById("smSemana").onchange=e=>{ SM_SEMANA=e.target.value; desenharSemanal(); };
+  const bh=document.getElementById("smHoje");
+  if(bh) bh.onclick=()=>{ SM_SEMANA=""; desenharSemanal(); const el=document.getElementById("sm-"+temHoje.id); if(el) el.scrollIntoView({behavior:"smooth",block:"start"}); };
+}
+
 /* diálogo de dados */
 /* texto para colar em e-mail ou mensagem, sem precisar de captura de tela */
 function resumoEmTexto(){
@@ -5086,15 +5215,18 @@ let ULTIMO_PAINEL=null, ULTIMA_BUSCA=0;
 async function tentarLocais(silencioso){
   try{
     ULTIMA_BUSCA=Date.now();
-    const [r,p,c,ch]=await Promise.all([semCache("regras.csv"),semCache("painel.csv"),
+    const [r,p,c,ch,cs]=await Promise.all([semCache("regras.csv"),semCache("painel.csv"),
                                      semCache("capacidade.csv").catch(()=>null),
-                                     semCache("chegadas.csv").catch(()=>null)]);
+                                     semCache("chegadas.csv").catch(()=>null),
+                                     semCache("cronograma.csv").catch(()=>null)]);
     if(!r.ok||!p.ok) return false;
     // o servidor diz quando o arquivo foi gravado: é assim que sabemos a idade dos dados
     const lm=p.headers.get("last-modified");
     const txtP=await p.text(), txtR=await r.text();
     const cap = (c&&c.ok) ? await c.text() : null;   // capacidade é opcional
     try{ lerChegadas((ch&&ch.ok) ? await ch.text() : null); }catch(e){ CHEGADAS={}; }   // chegadas também
+    try{ lerSemanal((cs&&cs.ok) ? await cs.text() : null); }catch(e){ SEMANAL=null; }     // cronograma semanal (opcional)
+    if(silencioso && vistaAtual==="semana") desenharSemanal();
     if(silencioso && txtP===ULTIMO_PAINEL){            // nada mudou: só atualiza a idade
       const av=document.getElementById("atualizado"); if(av) av.textContent=rotuloIdade(lm?new Date(lm):null);
       return true;
