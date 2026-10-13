@@ -547,6 +547,35 @@
     body.imprimeCal .calChip{box-shadow:none}
     .resumo,.alertas{background:none}
   }
+  /* ===== navegação estilo quadro (arrastar e zoom) nas abas Resumo, Alertas, Calendário e Semana =====
+     A vista vira a "janela" e o conteúdo vira uma folha que se move e se aproxima, como no Ciclo. */
+  .vista.palco{position:relative;overflow:hidden;cursor:grab;touch-action:none;background:#fff}
+  .vista.palco.arrastando{cursor:grabbing}
+  .vista.palco.arrastando *{user-select:none}
+  .vista.palco>.cena{position:absolute;left:0;top:0;flex:none;overflow:visible;min-height:100%;
+                     transform-origin:0 0;will-change:transform}
+  .vista.palco .esteiras,.vista.palco .smWrap,.vista.palco .calGradeWrap{overflow:visible}
+  .vista.palco .mapa,.vista.palco .pessoas{overflow:visible;max-height:none}
+  .zoomCtl{position:absolute;right:16px;bottom:16px;z-index:20;display:flex;align-items:center;gap:2px;
+           background:#fff;border:1px solid #E3EAF1;border-radius:12px;padding:4px;
+           box-shadow:0 6px 20px rgba(37,49,76,.16);cursor:default}
+  .zoomCtl button{border:0;background:none;min-width:34px;height:32px;border-radius:8px;cursor:pointer;
+                  font-size:17px;line-height:1;color:#25314C;padding:0 8px}
+  .zoomCtl button:hover{background:#E0F6F9;color:#008CC7}
+  .zoomCtl .pct{font-family:var(--narrow);font-size:12.5px;font-weight:600;min-width:52px}
+  .zoomCtl .fit{font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+                background:#25314C;color:#fff;margin-left:4px}
+  .zoomCtl .fit:hover{background:#008CC7;color:#fff}
+  .zoomDica{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);z-index:19;pointer-events:none;
+            background:rgba(37,49,76,.86);color:#fff;font-size:12.5px;border-radius:999px;padding:6px 14px;
+            opacity:0;transition:opacity .4s}
+  .zoomDica.on{opacity:1}
+  @media (max-width:900px){ .zoomCtl{right:10px;bottom:10px} .zoomDica{display:none} }
+  @media print{
+    .vista.palco{overflow:visible!important;background:none}
+    .vista.palco>.cena{position:static!important;transform:none!important;width:auto!important;min-height:0}
+    .zoomCtl,.zoomDica{display:none!important}
+  }
 </style>
 </head>
 <body>
@@ -3225,9 +3254,17 @@ function grafoDe(regras, status, extra){
   return {nos,arestas,colunas,faixas,bandas,xBanda,gut:GUT,W:x+16,H,NH,nomes,regras,total:regras.length};
 }
 
+/* Tarefas de estrutura do Moodle (infraestrutura, check point, certificação intermediária e
+   lista de presença): já foram feitas em todos os ciclos e só poluem o Ciclo e a Lógica.
+   No Ciclo somem quando estão concluídas (ou não se aplicam); se alguma voltar a ficar
+   em aberto, ela reaparece. Os percentuais do Resumo continuam contando com elas. */
+const TAREFA_ESTRUTURA=/montar (a infraestrutura da unidade|o check point de inicio|a secao da certificacao intermediaria|a secao da lista de presenca)/;
+const ehEstrutura = t => TAREFA_ESTRUTURA.test(semAcento(t));
+const ocultaNoCiclo = p => ehEstrutura(p.tarefa) && (p.status==="Concluído"||p.status==="Não se aplica");
+
 /* monta o grafo de um ciclo real: tarefas das Regras que existem no Painel daquele ciclo */
 function montar(chave){
-  const doCiclo = PAINEL.filter(p=>p.modulo+" · "+p.unidade===chave);
+  const doCiclo = PAINEL.filter(p=>p.modulo+" · "+p.unidade===chave && !ocultaNoCiclo(p));
   const status={}, extra={};
   doCiclo.forEach(p=>{ status[p.tarefa]=p.status||"—"; extra[p.tarefa]=p; });
   const usadas = REGRAS.filter(r=>status.hasOwnProperty(r.tarefa));
@@ -3613,7 +3650,7 @@ const prontoNo = (g,id) => {
 };
 
 function criarSim(tipo,titulo){
-  const regras=REGRAS.filter(r=>tipo==="gravacoes"?ehGravacao(r):!ehGravacao(r));
+  const regras=REGRAS.filter(r=>(tipo==="gravacoes"?ehGravacao(r):!ehGravacao(r)) && !ehEstrutura(r.tarefa));
   if(!regras.length) return null;
   const inicial=estadoInicial(regras);
   const g=grafoDe(regras,{...inicial},{});
@@ -3946,6 +3983,160 @@ telaL.addEventListener("pointerdown",e=>{ if(e.button)return;
   window.addEventListener("pointermove",moverL);
   window.addEventListener("pointerup",soltarL,{once:true});
   window.addEventListener("pointercancel",soltarL,{once:true}); });
+/* ===========================================================
+   Navegação estilo quadro (Miro) nas abas de leitura:
+   arrastar move a folha, a roda do mouse (ou o gesto de pinça) aproxima e afasta
+   em direção ao ponteiro. Um clique só vale se não houve arrasto, como no Ciclo.
+   =========================================================== */
+const PALCOS={};
+function criarPalco(vistaId, cenaId){
+  const v=document.getElementById(vistaId), c=document.getElementById(cenaId);
+  if(!v||!c) return;
+  v.classList.add("palco"); c.classList.add("cena");
+  const ctl=document.createElement("div");
+  ctl.className="zoomCtl";
+  ctl.innerHTML=`<button type="button" data-z="out" aria-label="Diminuir zoom" title="Diminuir zoom (−)">−</button>
+    <button type="button" class="pct" data-z="100" title="Voltar a 100% e ao topo (0)">100%</button>
+    <button type="button" data-z="in" aria-label="Aumentar zoom" title="Aumentar zoom (+)">+</button>
+    <button type="button" class="fit" data-z="fit" title="Ver a página inteira">Ajustar</button>`;
+  v.appendChild(ctl);
+  const dica=document.createElement("div");
+  dica.className="zoomDica"; dica.textContent="Arraste para mover · role para aproximar";
+  v.appendChild(dica);
+  const P={v,c,ctl,dica,x:0,y:0,k:1,larg:0,dicaVista:false};
+  PALCOS[vistaId]=P;
+
+  ctl.addEventListener("pointerdown",e=>e.stopPropagation());
+  ctl.addEventListener("wheel",e=>e.stopPropagation(),{passive:true});
+  ctl.querySelectorAll("[data-z]").forEach(b=>b.onclick=()=>{
+    const z=b.dataset.z;
+    if(z==="in") palcoZoom(P,1.2); else if(z==="out") palcoZoom(P,1/1.2);
+    else if(z==="100") palcoTopo(P); else palcoAjustar(P);
+  });
+
+  v.addEventListener("wheel",e=>{
+    if(e.target.closest(".menu")) return;
+    e.preventDefault();
+    const r=v.getBoundingClientRect();
+    // passo proporcional: um "clique" da roda ≈ 12%; o gesto de pinça do touchpad fica suave
+    const d=Math.max(-60,Math.min(60,e.deltaMode===1?e.deltaY*20:e.deltaY));
+    palcoZoom(P,Math.exp(-d*0.0021),e.clientX-r.left,e.clientY-r.top);
+  },{passive:false});
+
+  // arrastar com mouse, caneta ou um dedo; pinça com dois dedos
+  const toques=new Map(); let arr=null, moveu=false, pinca=null;
+  const ehCampo=t=>t.closest("select,input,textarea,option,[contenteditable],.zoomCtl");
+  function mover(e){
+    if(toques.has(e.pointerId)) toques.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(toques.size>=2&&pinca){
+      const [a,b]=[...toques.values()];
+      const dist=Math.hypot(a.x-b.x,a.y-b.y), r=v.getBoundingClientRect();
+      const cx=(a.x+b.x)/2-r.left, cy=(a.y+b.y)/2-r.top;
+      P.x+=cx-pinca.cx; P.y+=cy-pinca.cy;
+      palcoZoom(P,dist/pinca.dist,cx,cy);
+      pinca={dist,cx,cy}; moveu=true; return;
+    }
+    if(!arr) return;
+    const dx=e.clientX-arr.x, dy=e.clientY-arr.y;
+    if(!moveu&&Math.abs(dx)+Math.abs(dy)>4){
+      moveu=true; v.classList.add("arrastando");
+      const sel=window.getSelection&&window.getSelection(); if(sel) sel.removeAllRanges();
+      if(typeof fecharMenu==="function") fecharMenu();
+    }
+    if(moveu){ P.x=arr.px+dx; P.y=arr.py+dy; palcoAplicar(P); }
+  }
+  function soltar(e){
+    toques.delete(e.pointerId);
+    if(toques.size<2) pinca=null;
+    if(toques.size===1){ const [t]=[...toques.values()]; arr={x:t.x,y:t.y,px:P.x,py:P.y}; return; }
+    if(toques.size) return;
+    arr=null; v.classList.remove("arrastando");
+    window.removeEventListener("pointermove",mover);
+    window.removeEventListener("pointerup",soltar);
+    window.removeEventListener("pointercancel",soltar);
+    if(moveu){
+      // engole o clique que o navegador dispara ao soltar, para não abrir cartões sem querer
+      const engole=ev=>{ev.stopPropagation();ev.preventDefault();};
+      v.addEventListener("click",engole,{capture:true,once:true});
+      setTimeout(()=>v.removeEventListener("click",engole,{capture:true}),0);
+    }
+  }
+  v.addEventListener("pointerdown",e=>{
+    if(e.button||ehCampo(e.target)) return;
+    if(e.pointerType==="mouse") e.preventDefault();   // impede seleção de texto ao arrastar
+    toques.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(toques.size===2){
+      const [a,b]=[...toques.values()], r=v.getBoundingClientRect();
+      pinca={dist:Math.hypot(a.x-b.x,a.y-b.y)||1,cx:(a.x+b.x)/2-r.left,cy:(a.y+b.y)/2-r.top};
+      return;
+    }
+    arr={x:e.clientX,y:e.clientY,px:P.x,py:P.y}; moveu=false;
+    window.addEventListener("pointermove",mover);
+    window.addEventListener("pointerup",soltar);
+    window.addEventListener("pointercancel",soltar);
+  });
+}
+/* a folha tem a largura da janela a 100%, então o layout fica igual ao de antes */
+function palcoMedir(P){
+  const w=P.v.clientWidth;
+  if(w<40) return false;
+  if(w!==P.larg){ P.larg=w; P.c.style.width=w+"px"; }
+  return true;
+}
+function palcoTam(P){ return {W:Math.max(P.c.scrollWidth,P.larg), H:Math.max(P.c.scrollHeight,P.v.clientHeight)}; }
+function palcoAplicar(P){
+  const vw=P.v.clientWidth, vh=P.v.clientHeight, t=palcoTam(P), m=120;
+  const W=t.W*P.k, H=t.H*P.k;
+  // a folha nunca some da tela: sempre sobra um pedaço visível para puxar de volta
+  P.x=Math.min(vw-Math.min(m,W), Math.max(Math.min(m,W)-W, P.x));
+  P.y=Math.min(vh-Math.min(m,H), Math.max(Math.min(m,H)-H, P.y));
+  P.c.style.transform=`translate(${P.x}px,${P.y}px) scale(${P.k})`;
+  const pct=P.ctl.querySelector(".pct"); if(pct) pct.textContent=Math.round(P.k*100)+"%";
+}
+function palcoZoom(P,f,cx,cy){
+  const k2=Math.min(3,Math.max(.15,P.k*f));
+  cx=cx??P.v.clientWidth/2; cy=cy??P.v.clientHeight/2;
+  P.x=cx-(cx-P.x)*(k2/P.k); P.y=cy-(cy-P.y)*(k2/P.k); P.k=k2; palcoAplicar(P);
+}
+function palcoTopo(P){ P.k=1; P.x=0; P.y=0; palcoAplicar(P); }
+function palcoAjustar(P){
+  const t=palcoTam(P), vw=P.v.clientWidth, vh=P.v.clientHeight;
+  P.k=Math.max(.15,Math.min(1,(vw-24)/t.W,(vh-24)/t.H));
+  P.x=(vw-t.W*P.k)/2; P.y=Math.max(12,(vh-t.H*P.k)/2); palcoAplicar(P);
+}
+/* leva um elemento da folha para o alto da janela, mantendo o zoom (usado no "Semana de hoje") */
+function palcoIrPara(el){
+  const v=el&&el.closest(".vista.palco"); if(!v) return false;
+  const P=PALCOS[v.id]; if(!P) return false;
+  const re=el.getBoundingClientRect(), rv=v.getBoundingClientRect();
+  P.x+= 24-(re.left-rv.left); P.y+= 16-(re.top-rv.top);
+  P.c.style.transition="transform .35s ease"; palcoAplicar(P);
+  setTimeout(()=>{P.c.style.transition="";},380);
+  return true;
+}
+function palcoMostrar(vista){
+  const P=PALCOS["v-"+vista]; if(!P) return;
+  requestAnimationFrame(()=>{
+    if(!palcoMedir(P)) return;
+    palcoAplicar(P);
+    if(!P.dicaVista){ P.dicaVista=true; P.dica.classList.add("on"); setTimeout(()=>P.dica.classList.remove("on"),2600); }
+  });
+}
+[["v-resumo","resumo"],["v-alerta","alertas"],["v-calendario","calendario"],["v-semana","semanal"]]
+  .forEach(([v,c])=>criarPalco(v,c));
+window.addEventListener("resize",()=>Object.values(PALCOS).forEach(P=>{
+  if(P.v.classList.contains("on")&&palcoMedir(P)) palcoAplicar(P); }));
+/* atalhos de teclado quando nenhum campo está em foco: + − 0 */
+document.addEventListener("keydown",e=>{
+  if(e.ctrlKey||e.metaKey||e.altKey) return;
+  if(e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]")) return;
+  const P=PALCOS["v-"+vistaAtual]; if(!P) return;
+  if(e.key==="+"||e.key==="=") palcoZoom(P,1.2);
+  else if(e.key==="-"||e.key==="_") palcoZoom(P,1/1.2);
+  else if(e.key==="0") palcoTopo(P);
+  else return;
+  e.preventDefault();
+});
 document.getElementById("logIn").onclick=()=>zoomL(1.2);
 document.getElementById("logOut").onclick=()=>zoomL(1/1.2);
 document.getElementById("logFit").onclick=ajustarL;
@@ -4129,9 +4320,10 @@ function diagnostico(R){
 
 /* Avanço por semana, a partir da coluna "Conclusão real" da planilha.
    Barras = tarefas concluídas na semana; linha = acumulado. */
-function curvaAvanco(){
-  const feitos=PAINEL.filter(p=>p.feito&&ordData(p.feito)<9e9);
-  if(feitos.length<1) return `<div class="rsCard"><h3>Avanço por semana</h3>
+function curvaAvanco(its, rotulo){
+  const feitos=(its||PAINEL).filter(p=>p.feito&&ordData(p.feito)<9e9);
+  const tit=`Avanço por semana${rotulo?" · "+rotulo:""}`;
+  if(feitos.length<1) return `<div class="rsCard"><h3>${tit}</h3>
     <p><em>Ainda não há conclusões registradas na coluna "Conclusão real".</em></p></div>`;
   const semanas={};
   feitos.forEach(p=>{
@@ -4155,7 +4347,7 @@ function curvaAvanco(){
   const rotulos=chaves.map((k,i)=>
     `<text x="${i*passo+passo/2}" y="${L+12}" text-anchor="middle" font-family="Archivo Narrow" font-size="9.5" fill="#7B879B">${semanas[k].rot}</text>`).join("");
   const ult=semanas[chaves[chaves.length-1]].n;
-  return `<div class="rsCard"><h3>Avanço por semana</h3>
+  return `<div class="rsCard"><h3>${tit}</h3>
     <svg viewBox="0 0 ${W} ${L+18}" style="width:100%;height:82px" role="img"
          aria-label="Barras: tarefas concluídas em cada semana. Linha: total acumulado.">
       ${barras}${linha}${rotulos}</svg>
@@ -4198,9 +4390,9 @@ function desenharResumo(){
   });
   h+=`</div></div>`;
 
-  // três leituras rápidas
-  const livresTodos={};
-  PAINEL.filter(p=>p.status==="Liberado"||p.status==="Em andamento").forEach(p=>{
+  // leituras rápidas: só da unidade escolhida no topo (menos "Próximas liberações", que compara as unidades)
+  const livresTodos={}, nomeU=R.chave.replace(" · "," ");
+  R.its.filter(p=>p.status==="Liberado"||p.status==="Em andamento").forEach(p=>{
     const r=p.resp||"—";
     const o=livresTodos[r]=livresTodos[r]||{n:0,prazo:""};
     o.n++;
@@ -4235,12 +4427,12 @@ function desenharResumo(){
       }).join("")
     }<div class="linha2"><span>esperando a Dani</span><b>${espera} tarefa(s)</b></div>
       <div class="linha2"><span>atrasadas</span><b${atrCiclo?' class="atr"':''}>${atrCiclo}</b></div></div>
-    <div class="rsCard"><h3>Tarefas liberadas para fazer</h3>${
+    <div class="rsCard"><h3>Tarefas liberadas para fazer · ${nomeU}</h3>${
       pessoas.length?pessoas.map(([r,o])=>`<div class="linha2"><span>${r}${o.at?` <span class="atr">${o.at} atrasada${o.at>1?"s":""}</span>`:""}</span><b>${o.n} <em>${o.prazo?"até "+curta(o.prazo):""}</em></b></div>`).join("")
                     :`<p><em>Nada liberado no momento.</em></p>`
     }</div>
-    ${curvaAvanco()}
-    <div class="rsCard"><h3>Próximas liberações</h3>
+    ${curvaAvanco(R.its, nomeU)}
+    <div class="rsCard"><h3>Próximas liberações · todas as unidades</h3>
       <div class="linha2 chv"><span>ciclo</span><span>prazo</span></div>${
       prox.length?prox.map(x=>`<div class="linha2"><span>${x.chave} <em>${x.e.pc}%</em></span><b>${curta(x.data)}</b></div>`).join("")
                  :`<p><em>Sem datas previstas.</em></p>`
@@ -4544,6 +4736,7 @@ function mostrar(v){
   if(v==="semana") desenharSemanal();
   if(v==="logica") abrirLogica();
   if(v==="ciclo"&&G) setTimeout(()=>{ if(precisaEnquadrar) enquadrar(); else {vb();aplicarCam();} },0);
+  palcoMostrar(v);
 }
 document.querySelectorAll(".aba").forEach(b=>b.onclick=()=>mostrar(b.dataset.vista));
 let painelVisivel=true;
@@ -5133,7 +5326,7 @@ function desenharSemanal(){
   document.getElementById("smPessoa").onchange=e=>{ SM_PESSOA=e.target.value; desenharSemanal(); };
   document.getElementById("smSemana").onchange=e=>{ SM_SEMANA=e.target.value; desenharSemanal(); };
   const bh=document.getElementById("smHoje");
-  if(bh) bh.onclick=()=>{ SM_SEMANA=""; desenharSemanal(); const el=document.getElementById("sm-"+temHoje.id); if(el) el.scrollIntoView({behavior:"smooth",block:"start"}); };
+  if(bh) bh.onclick=()=>{ SM_SEMANA=""; desenharSemanal(); const el=document.getElementById("sm-"+temHoje.id); if(el&&!palcoIrPara(el)) el.scrollIntoView({behavior:"smooth",block:"start"}); };
 }
 
 /* diálogo de dados */
