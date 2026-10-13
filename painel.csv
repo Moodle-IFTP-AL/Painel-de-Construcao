@@ -158,9 +158,9 @@ M2,U7,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluí
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Concluído,09/10,13/10,12/10,,02/10/2026,05/10/2026,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
 M2,U7,Ajustes finais,Mapear as atividades certificáveis de PET,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
-M2,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,13/10,13/10,12/10,,07/10/2026,,-,2,
-M2,U7,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
-M2,U7,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",
+M2,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,13/10,13/10,12/10,,07/10/2026,,-,2,Vence hoje
+M2,U7,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,Vence hoje
+M2,U7,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",Vence hoje
 M2,U8,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,28/09,28/09,28/09,27/09,28/09/2026,27/09/2026,-,0,
 M2,U8,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,28/09,28/09,28/09,27/09,28/09/2026,27/09/2026,-,0,
 M2,U8,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
@@ -240,9 +240,9 @@ M2,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Alline,Concluíd
 M2,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
 M2,U8,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
 M2,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Alline,Concluído,09/10,13/10,12/10,07/10,02/10/2026,07/10/2026,-,2,
-M2,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,13/10,13/10,12/10,,07/10/2026,,-,2,
-M2,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
-M2,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",
+M2,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Liberado,13/10,13/10,12/10,,07/10/2026,,-,2,Vence hoje
+M2,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,Vence hoje
+M2,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",Vence hoje
 M3,U1,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,29/09,05/10/2026,29/09/2026,-,0,
 M3,U1,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,05/10,05/10,05/10,06/10,05/10/2026,06/10/2026,-,0,
 M3,U1,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
@@ -353,14 +353,14 @@ M3,U1,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Con
 M3,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,08/10,09/10,05/10,08/10,06/10/2026,08/10/2026,-,"0,5",
 M3,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,08/10,09/10,05/10,,,,-,"0,25",
 M3,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Concluído,09/10,13/10,12/10,08/10,08/10/2026,08/10/2026,-,4,
-M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
+M3,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Vence hoje
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Vence hoje
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Vence hoje
 M3,U1,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,09/10,13/10,12/10,,,,-,2,
-M3,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Em risco
-M3,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,13/10,13/10,12/10,,,,-,2,
-M3,U1,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,
-M3,U1,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",
+M3,U1,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/10,13/10,12/10,,08/10/2026,,-,2,Vence hoje
+M3,U1,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,13/10,13/10,12/10,,,,-,2,Vence hoje
+M3,U1,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,1,Vence hoje
+M3,U1,Liberação,Liberar a unidade,Marcelo,Bloqueado,13/10,13/10,12/10,,,,-,"0,5",Vence hoje
 M3,U2,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,12/10,12/10,12/10,07/10,12/10/2026,07/10/2026,-,0,
 M3,U2,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,12/10,12/10,12/10,08/10,12/10/2026,08/10/2026,-,0,
 M3,U2,Template,RP - Residência Pedagógica - validado e revisado,Dani,Concluído,12/10,12/10,12/10,08/10,12/10/2026,08/10/2026,-,0,
@@ -546,15 +546,15 @@ M3,U3,Liberação,Liberar a unidade,Marcelo,Bloqueado,27/10,27/10,26/10,,,,-,"0,
 M3,U4,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,19/10,19/10,19/10,,19/10/2026,,-,0,
 M3,U4,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,19/10,19/10,19/10,,19/10/2026,,-,0,
 M3,U4,Template,RP - Residência Pedagógica - validado e revisado,Dani,Aguardando liberação,19/10,19/10,19/10,,19/10/2026,,-,0,
-M3,U4,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
-M3,U4,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,12/10,12/10,12/10,,12/10/2026,,-,0,Vence hoje
+M3,U4,Template,PET - ADM (Administração) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
+M3,U4,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Atrasado,12/10,12/10,12/10,,12/10/2026,,-,0,Atrasada
 M3,U4,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,30/09,07/10,05/10,24/09,,24/09/2026,-,"0,33",
 M3,U4,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,30/09,07/10,05/10,24/09,,24/09/2026,-,"0,33",
 M3,U4,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,30/09,07/10,05/10,24/09,,24/09/2026,-,"0,33",
