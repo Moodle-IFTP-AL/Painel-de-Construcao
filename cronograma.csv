@@ -394,27 +394,29 @@ M3 U2 · M3!C230 · Concluído",vid,M3|230
 item,2026-10-19,M3 U2,2026-10-13,20,✔ YouTube PET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - PET
 M3 U2 · M3!C233 · Concluído",vid,M3|233
 item,2026-10-19,M3 U2,2026-10-14,0,✔ H5P,↳ continua,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:h5p,
-item,2026-10-19,M3 U2,2026-10-14,1,✔ HTML BASE,4/4 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:hb,
-item,2026-10-19,M3 U2,2026-10-14,2,✔ HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Metodologia Pedagógica
+item,2026-10-19,M3 U2,2026-10-14,1,✔ HTML BASE,5/5 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:hb,
+item,2026-10-19,M3 U2,2026-10-14,2,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M3 U2 · M3!C240 · Concluído",hb,M3|240
+item,2026-10-19,M3 U2,2026-10-14,3,✔ HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Metodologia Pedagógica
 M3 U2 · M3!C243 · Concluído",hb,M3|243
-item,2026-10-19,M3 U2,2026-10-14,3,✔ HTML base ADM PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-10-19,M3 U2,2026-10-14,4,✔ HTML base ADM PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
 M3 U2 · M3!C244 · Concluído",hb,M3|244
-item,2026-10-19,M3 U2,2026-10-14,4,✔ HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-10-19,M3 U2,2026-10-14,5,✔ HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
 M3 U2 · M3!C245 · Concluído",hb,M3|245
-item,2026-10-19,M3 U2,2026-10-14,5,✔ HTML base RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-10-19,M3 U2,2026-10-14,6,✔ HTML base RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Residência Pedagógica (se houver)
 M3 U2 · M3!C246 · Concluído",hb,M3|246
-item,2026-10-19,M3 U2,2026-10-14,6,✔ REVISÃO DA BASE,6/6 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:rb,
-item,2026-10-19,M3 U2,2026-10-14,7,✔ Rev. HTML base MET,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
+item,2026-10-19,M3 U2,2026-10-14,7,✔ REVISÃO DA BASE,6/6 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:rb,
+item,2026-10-19,M3 U2,2026-10-14,8,✔ Rev. HTML base MET,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
 M3 U2 · M3!C247 · Concluído",rb,M3|247
-item,2026-10-19,M3 U2,2026-10-14,8,✔ Rev. HTML base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
+item,2026-10-19,M3 U2,2026-10-14,9,✔ Rev. HTML base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
 M3 U2 · M3!C248 · Concluído",rb,M3|248
-item,2026-10-19,M3 U2,2026-10-14,9,✔ Rev. HTML base PI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-10-19,M3 U2,2026-10-14,10,✔ Rev. HTML base PI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U2 · M3!C249 · Concluído",rb,M3|249
-item,2026-10-19,M3 U2,2026-10-14,10,✔ Rev. HTML base RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-10-19,M3 U2,2026-10-14,11,✔ Rev. HTML base RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M3 U2 · M3!C250 · Concluído",rb,M3|250
-item,2026-10-19,M3 U2,2026-10-14,11,✔ Rev. H5P base MET,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
+item,2026-10-19,M3 U2,2026-10-14,12,✔ Rev. H5P base MET,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
 M3 U2 · M3!C251 · Concluído",rb,M3|251
-item,2026-10-19,M3 U2,2026-10-14,12,✔ Rev. H5P base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-10-19,M3 U2,2026-10-14,13,✔ Rev. H5P base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U2 · M3!C252 · Concluído",rb,M3|252
 item,2026-10-19,M3 U2,2026-10-15,0,▶ REPLICAÇÃO + PET 8,3/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
 item,2026-10-19,M3 U2,2026-10-15,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
@@ -607,7 +609,7 @@ template seg 19/10
 entrega ter 27/10",,,,,,,,,,
 item,2026-10-26,M3 U4,2026-10-19,0,TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
 item,2026-10-26,M3 U4,2026-10-19,1,🔒︎ H5P,0/12 feitas · 12 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-10-26,M3 U4,2026-10-19,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-10-26,M3 U4,2026-10-19,2,🔒︎ Mapear H5P ref. MET,Isabela,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M3 U4 · M3!C436 · Bloqueado · falta o template",h5p,M3|436
 item,2026-10-26,M3 U4,2026-10-19,3,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M3 U4 · M3!C437 · Bloqueado · falta o template",h5p,M3|437
@@ -657,27 +659,29 @@ item,2026-10-26,M3 U4,2026-10-20,12,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FF
 M3 U4 · M3!C430 · Bloqueado · falta o template",vid,M3|430
 item,2026-10-26,M3 U4,2026-10-20,13,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M3 U4 · M3!C431 · Bloqueado · falta o template",vid,M3|431
-item,2026-10-26,M3 U4,2026-10-21,0,🔒︎ HTML BASE,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-10-26,M3 U4,2026-10-21,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-10-26,M3 U4,2026-10-21,0,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-10-26,M3 U4,2026-10-21,1,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M3 U4 · M3!C438 · Bloqueado · falta o template",hb,M3|438
+item,2026-10-26,M3 U4,2026-10-21,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M3 U4 · M3!C441 · Bloqueado · falta o template",hb,M3|441
-item,2026-10-26,M3 U4,2026-10-21,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-10-26,M3 U4,2026-10-21,3,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M3 U4 · M3!C442 · Bloqueado · falta o template",hb,M3|442
-item,2026-10-26,M3 U4,2026-10-21,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-10-26,M3 U4,2026-10-21,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M3 U4 · M3!C443 · Bloqueado · falta o template",hb,M3|443
-item,2026-10-26,M3 U4,2026-10-21,4,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-10-26,M3 U4,2026-10-21,5,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M3 U4 · M3!C444 · Bloqueado · falta o template",hb,M3|444
-item,2026-10-26,M3 U4,2026-10-21,5,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
-item,2026-10-26,M3 U4,2026-10-21,6,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
+item,2026-10-26,M3 U4,2026-10-21,6,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
+item,2026-10-26,M3 U4,2026-10-21,7,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
 M3 U4 · M3!C445 · Bloqueado · falta o template",rb,M3|445
-item,2026-10-26,M3 U4,2026-10-21,7,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
+item,2026-10-26,M3 U4,2026-10-21,8,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M3 U4 · M3!C446 · Bloqueado · falta o template",rb,M3|446
-item,2026-10-26,M3 U4,2026-10-21,8,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-10-26,M3 U4,2026-10-21,9,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U4 · M3!C447 · Bloqueado · falta o template",rb,M3|447
-item,2026-10-26,M3 U4,2026-10-21,9,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-10-26,M3 U4,2026-10-21,10,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M3 U4 · M3!C448 · Bloqueado · falta o template",rb,M3|448
-item,2026-10-26,M3 U4,2026-10-21,10,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
+item,2026-10-26,M3 U4,2026-10-21,11,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
 M3 U4 · M3!C449 · Bloqueado · falta o template",rb,M3|449
-item,2026-10-26,M3 U4,2026-10-21,11,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-10-26,M3 U4,2026-10-21,12,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U4 · M3!C450 · Bloqueado · falta o template",rb,M3|450
 item,2026-10-26,M3 U4,2026-10-22,0,🔒︎ REPLICAÇÃO + PET 8,0/10 feitas · 10 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rp,
 item,2026-10-26,M3 U4,2026-10-22,1,🔒︎ Replicar páginas MET/PI/RP,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
@@ -792,14 +796,16 @@ item,2026-10-26,M3 U6,2026-10-21,12,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FF
 M3 U6 · M3!C628 · Bloqueado · falta o template",vid,M3|628
 item,2026-10-26,M3 U6,2026-10-21,13,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M3 U6 · M3!C629 · Bloqueado · falta o template",vid,M3|629
-item,2026-10-26,M3 U6,2026-10-22,0,🔒︎ HTML BASE,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-10-26,M3 U6,2026-10-22,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-10-26,M3 U6,2026-10-22,0,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-10-26,M3 U6,2026-10-22,1,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M3 U6 · M3!C636 · Bloqueado · falta o template",hb,M3|636
+item,2026-10-26,M3 U6,2026-10-22,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M3 U6 · M3!C639 · Bloqueado · falta o template",hb,M3|639
-item,2026-10-26,M3 U6,2026-10-22,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-10-26,M3 U6,2026-10-22,3,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M3 U6 · M3!C640 · Bloqueado · falta o template",hb,M3|640
-item,2026-10-26,M3 U6,2026-10-22,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-10-26,M3 U6,2026-10-22,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M3 U6 · M3!C641 · Bloqueado · falta o template",hb,M3|641
-item,2026-10-26,M3 U6,2026-10-22,4,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-10-26,M3 U6,2026-10-22,5,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M3 U6 · M3!C642 · Bloqueado · falta o template",hb,M3|642
 item,2026-10-26,M3 U6,2026-10-23,0,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
 item,2026-10-26,M3 U6,2026-10-23,1,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
@@ -1187,27 +1193,29 @@ item,2026-11-02,M4 U2,2026-10-28,11,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FF
 M4 U2 · M4!C163 · Bloqueado · falta o template",vid,M4|163
 item,2026-11-02,M4 U2,2026-10-28,12,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U2 · M4!C164 · Bloqueado · falta o template",vid,M4|164
-item,2026-11-02,M4 U2,2026-10-29,0,🔒︎ HTML BASE,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-02,M4 U2,2026-10-29,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-11-02,M4 U2,2026-10-29,0,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-11-02,M4 U2,2026-10-29,1,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M4 U2 · M4!C171 · Bloqueado · falta o template",hb,M4|171
+item,2026-11-02,M4 U2,2026-10-29,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M4 U2 · M4!C174 · Bloqueado · falta o template",hb,M4|174
-item,2026-11-02,M4 U2,2026-10-29,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-02,M4 U2,2026-10-29,3,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U2 · M4!C175 · Bloqueado · falta o template",hb,M4|175
-item,2026-11-02,M4 U2,2026-10-29,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U2,2026-10-29,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M4 U2 · M4!C176 · Bloqueado · falta o template",hb,M4|176
-item,2026-11-02,M4 U2,2026-10-29,4,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-02,M4 U2,2026-10-29,5,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M4 U2 · M4!C177 · Bloqueado · falta o template",hb,M4|177
-item,2026-11-02,M4 U2,2026-10-29,5,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
-item,2026-11-02,M4 U2,2026-10-29,6,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
+item,2026-11-02,M4 U2,2026-10-29,6,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
+item,2026-11-02,M4 U2,2026-10-29,7,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
 M4 U2 · M4!C178 · Bloqueado · falta o template",rb,M4|178
-item,2026-11-02,M4 U2,2026-10-29,7,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
+item,2026-11-02,M4 U2,2026-10-29,8,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M4 U2 · M4!C179 · Bloqueado · falta o template",rb,M4|179
-item,2026-11-02,M4 U2,2026-10-29,8,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U2,2026-10-29,9,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U2 · M4!C180 · Bloqueado · falta o template",rb,M4|180
-item,2026-11-02,M4 U2,2026-10-29,9,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-11-02,M4 U2,2026-10-29,10,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M4 U2 · M4!C181 · Bloqueado · falta o template",rb,M4|181
-item,2026-11-02,M4 U2,2026-10-29,10,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-02,M4 U2,2026-10-29,11,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
 M4 U2 · M4!C182 · Bloqueado · falta o template",rb,M4|182
-item,2026-11-02,M4 U2,2026-10-29,11,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-11-02,M4 U2,2026-10-29,12,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U2 · M4!C183 · Bloqueado · falta o template",rb,M4|183
 item,2026-11-02,M4 U2,2026-10-30,0,🔒︎ REPLICAÇÃO + PET 8,0/10 feitas · 10 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rp,
 item,2026-11-02,M4 U2,2026-10-30,1,🔒︎ Replicar páginas MET/PI/RP,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
@@ -1705,14 +1713,16 @@ item,2026-11-09,M4 U4,2026-11-04,12,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FF
 M4 U4 · M4!C361 · Bloqueado · falta o template",vid,M4|361
 item,2026-11-09,M4 U4,2026-11-04,13,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U4 · M4!C362 · Bloqueado · falta o template",vid,M4|362
-item,2026-11-09,M4 U4,2026-11-05,0,🔒︎ HTML BASE,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-09,M4 U4,2026-11-05,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-11-09,M4 U4,2026-11-05,0,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-11-09,M4 U4,2026-11-05,1,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M4 U4 · M4!C369 · Bloqueado · falta o template",hb,M4|369
+item,2026-11-09,M4 U4,2026-11-05,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M4 U4 · M4!C372 · Bloqueado · falta o template",hb,M4|372
-item,2026-11-09,M4 U4,2026-11-05,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-09,M4 U4,2026-11-05,3,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U4 · M4!C373 · Bloqueado · falta o template",hb,M4|373
-item,2026-11-09,M4 U4,2026-11-05,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-09,M4 U4,2026-11-05,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M4 U4 · M4!C374 · Bloqueado · falta o template",hb,M4|374
-item,2026-11-09,M4 U4,2026-11-05,4,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-09,M4 U4,2026-11-05,5,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M4 U4 · M4!C375 · Bloqueado · falta o template",hb,M4|375
 item,2026-11-09,M4 U4,2026-11-06,0,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
 item,2026-11-09,M4 U4,2026-11-06,1,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
@@ -1976,14 +1986,16 @@ item,2026-11-16,M4 U6,2026-11-11,12,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FF
 M4 U6 · M4!C559 · Bloqueado · falta o template",vid,M4|559
 item,2026-11-16,M4 U6,2026-11-11,13,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U6 · M4!C560 · Bloqueado · falta o template",vid,M4|560
-item,2026-11-16,M4 U6,2026-11-12,0,🔒︎ HTML BASE,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-16,M4 U6,2026-11-12,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-11-16,M4 U6,2026-11-12,0,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-11-16,M4 U6,2026-11-12,1,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M4 U6 · M4!C567 · Bloqueado · falta o template",hb,M4|567
+item,2026-11-16,M4 U6,2026-11-12,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M4 U6 · M4!C570 · Bloqueado · falta o template",hb,M4|570
-item,2026-11-16,M4 U6,2026-11-12,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-16,M4 U6,2026-11-12,3,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U6 · M4!C571 · Bloqueado · falta o template",hb,M4|571
-item,2026-11-16,M4 U6,2026-11-12,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-16,M4 U6,2026-11-12,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M4 U6 · M4!C572 · Bloqueado · falta o template",hb,M4|572
-item,2026-11-16,M4 U6,2026-11-12,4,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-16,M4 U6,2026-11-12,5,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M4 U6 · M4!C573 · Bloqueado · falta o template",hb,M4|573
 item,2026-11-16,M4 U6,2026-11-13,0,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
 item,2026-11-16,M4 U6,2026-11-13,1,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
