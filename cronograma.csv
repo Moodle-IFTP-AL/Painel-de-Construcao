@@ -323,19 +323,19 @@ M3 U1 · M3!C112 · Concluído",rf,M3|112
 item,2026-10-12,M3 U1,2026-10-09,19,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U1 · M3!C113 · Concluído",rf,M3|113
 item,2026-10-12,M3 U1,2026-10-12,0,feriado,,#E7EBF1,#8C97AD,#E7EBF1,#8C97AD,,,,,
-item,2026-10-12,M3 U1,2026-10-13,0,◐ AJUSTES FINAIS,2/7 feitas · em alerta,#46468F,#FFFFFF,#46468F,#FFFFFF,1,alerta,,cab:aj,
+item,2026-10-12,M3 U1,2026-10-13,0,◐ AJUSTES FINAIS,5/7 feitas · em alerta,#46468F,#FFFFFF,#46468F,#FFFFFF,1,alerta,,cab:aj,
 item,2026-10-12,M3 U1,2026-10-13,1,✔ Ajustes da revisão final,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Aplicar os ajustes apontados na revisão final
 M3 U1 · M3!C115 · Concluído",aj,M3|115
 item,2026-10-12,M3 U1,2026-10-13,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Aplicar a restrição de acesso da unidade
 M3 U1 · M3!C116 · Concluído",aj,M3|116
-item,2026-10-12,M3 U1,2026-10-13,3,Mapear certificáveis MET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,alerta,"Mapear as atividades certificáveis de MET
-M3 U1 · M3!C117 · Liberado",aj,M3|117
-item,2026-10-12,M3 U1,2026-10-13,4,Mapear certificáveis PI,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,alerta,"Mapear as atividades certificáveis de PI
-M3 U1 · M3!C118 · Liberado",aj,M3|118
-item,2026-10-12,M3 U1,2026-10-13,5,Mapear certificáveis PET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,alerta,"Mapear as atividades certificáveis de PET
-M3 U1 · M3!C120 · Liberado",aj,M3|120
-item,2026-10-12,M3 U1,2026-10-13,6,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Inserir os requisitos de acesso à certificação
-M3 U1 · M3!C121 · Bloqueado",aj,M3|121
+item,2026-10-12,M3 U1,2026-10-13,3,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Mapear as atividades certificáveis de MET
+M3 U1 · M3!C117 · Concluído",aj,M3|117
+item,2026-10-12,M3 U1,2026-10-13,4,✔ Mapear certificáveis PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Mapear as atividades certificáveis de PI
+M3 U1 · M3!C118 · Concluído",aj,M3|118
+item,2026-10-12,M3 U1,2026-10-13,5,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Mapear as atividades certificáveis de PET
+M3 U1 · M3!C120 · Concluído",aj,M3|120
+item,2026-10-12,M3 U1,2026-10-13,6,Requisitos da certificação,Thony,#d6d6e6,#25314C,#FFFFFF,#25314C,,alerta,"Inserir os requisitos de acesso à certificação
+M3 U1 · M3!C121 · Liberado",aj,M3|121
 item,2026-10-12,M3 U1,2026-10-13,7,🔒︎ Revisar configurações,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Revisar configurações: restrições, certificados, visibilidade
 M3 U1 · M3!C122 · Bloqueado",aj,M3|122
 item,2026-10-12,M3 U1,2026-10-13,8,🔒︎ ★ LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:lib,
@@ -454,19 +454,19 @@ item,2026-10-19,M3 U2,2026-10-16,7,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,
 M3 U2 · M3!C280 · Bloqueado",rf,M3|280
 item,2026-10-19,M3 U2,2026-10-16,8,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U2 · M3!C281 · Bloqueado",rf,M3|281
-item,2026-10-19,M3 U2,2026-10-19,0,🔒︎ AJUSTES FINAIS,1/8 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
+item,2026-10-19,M3 U2,2026-10-19,0,🔒︎ AJUSTES FINAIS,5/8 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
 item,2026-10-19,M3 U2,2026-10-19,1,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
 M3 U2 · M3!C283 · Bloqueado",aj,M3|283
 item,2026-10-19,M3 U2,2026-10-19,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M3 U2 · M3!C284 · Concluído",aj,M3|284
-item,2026-10-19,M3 U2,2026-10-19,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
-M3 U2 · M3!C285 · Bloqueado",aj,M3|285
-item,2026-10-19,M3 U2,2026-10-19,4,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
-M3 U2 · M3!C286 · Bloqueado",aj,M3|286
-item,2026-10-19,M3 U2,2026-10-19,5,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
-M3 U2 · M3!C287 · Bloqueado",aj,M3|287
-item,2026-10-19,M3 U2,2026-10-19,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
-M3 U2 · M3!C288 · Bloqueado",aj,M3|288
+item,2026-10-19,M3 U2,2026-10-19,3,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear as atividades certificáveis de MET
+M3 U2 · M3!C285 · Concluído",aj,M3|285
+item,2026-10-19,M3 U2,2026-10-19,4,✔ Mapear certificáveis PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear as atividades certificáveis de PI
+M3 U2 · M3!C286 · Concluído",aj,M3|286
+item,2026-10-19,M3 U2,2026-10-19,5,✔ Mapear certificáveis RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear as atividades certificáveis de RP
+M3 U2 · M3!C287 · Concluído",aj,M3|287
+item,2026-10-19,M3 U2,2026-10-19,6,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear as atividades certificáveis de PET
+M3 U2 · M3!C288 · Concluído",aj,M3|288
 item,2026-10-19,M3 U2,2026-10-19,7,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
 M3 U2 · M3!C289 · Bloqueado",aj,M3|289
 item,2026-10-19,M3 U2,2026-10-19,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
