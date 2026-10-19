@@ -520,26 +520,26 @@ item,2026-10-19,M3 U3,2026-10-16,3,✔ HTML base ADM PET,Marcelo,#EEF9F3,#8FB5A3
 M3 U3 · M3!C343 · Concluído",hb,M3|343
 item,2026-10-19,M3 U3,2026-10-16,4,✔ HTML base PI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
 M3 U3 · M3!C344 · Concluído",hb,M3|344
-item,2026-10-19,M3 U3,2026-10-19,0,REVISÃO DA BASE,0/5 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:rb,
-item,2026-10-19,M3 U3,2026-10-19,1,Rev. HTML base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Metodologia
-M3 U3 · M3!C346 · Liberado",rb,M3|346
-item,2026-10-19,M3 U3,2026-10-19,2,Rev. HTML base PET ADM,Maria Eduarda,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - PET (ADM)
-M3 U3 · M3!C347 · Liberado",rb,M3|347
-item,2026-10-19,M3 U3,2026-10-19,3,Rev. HTML base PI,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Planejamento Integrado (se houver)
-M3 U3 · M3!C348 · Liberado",rb,M3|348
+item,2026-10-19,M3 U3,2026-10-19,0,REVISÃO DA BASE,3/5 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:rb,
+item,2026-10-19,M3 U3,2026-10-19,1,✔ Rev. HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
+M3 U3 · M3!C346 · Concluído",rb,M3|346
+item,2026-10-19,M3 U3,2026-10-19,2,✔ Rev. HTML base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
+M3 U3 · M3!C347 · Concluído",rb,M3|347
+item,2026-10-19,M3 U3,2026-10-19,3,✔ Rev. HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+M3 U3 · M3!C348 · Concluído",rb,M3|348
 item,2026-10-19,M3 U3,2026-10-19,4,Rev. H5P base MET,Maria Eduarda,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - Metodologia
 M3 U3 · M3!C350 · Liberado",rb,M3|350
 item,2026-10-19,M3 U3,2026-10-19,5,Rev. H5P base PET ADM,Maria Eduarda,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U3 · M3!C351 · Liberado",rb,M3|351
-item,2026-10-19,M3 U3,2026-10-20,0,🔒︎ REPLICAÇÃO + PET 8,0/10 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:rp,
+item,2026-10-19,M3 U3,2026-10-20,0,◐ REPLICAÇÃO + PET 8,0/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,,,cab:rp,
 item,2026-10-19,M3 U3,2026-10-20,1,🔒︎ Replicar páginas MET/PI/RP,Thony,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U3 · M3!C355 · Bloqueado",rp,M3|355
 item,2026-10-19,M3 U3,2026-10-20,2,🔒︎ Replicar H5P MET/PI/RP,Marquito,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U3 · M3!C356 · Bloqueado",rp,M3|356
-item,2026-10-19,M3 U3,2026-10-20,3,🔒︎ HTML de PET AGS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
-M3 U3 · M3!C365 · Bloqueado",rp,M3|365
-item,2026-10-19,M3 U3,2026-10-20,4,🔒︎ HTML de PET COM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
-M3 U3 · M3!C366 · Bloqueado",rp,M3|366
+item,2026-10-19,M3 U3,2026-10-20,3,HTML de PET AGS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,,"HTML de PET - AGS (Agro Sustentável)
+M3 U3 · M3!C365 · Liberado",rp,M3|365
+item,2026-10-19,M3 U3,2026-10-20,4,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,,"HTML de PET - COM (Comunicação e Mercado)
+M3 U3 · M3!C366 · Liberado",rp,M3|366
 item,2026-10-19,M3 U3,2026-10-20,5,🔒︎ HTML de PET CDC,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
 M3 U3 · M3!C367 · Bloqueado",rp,M3|367
 item,2026-10-19,M3 U3,2026-10-20,6,🔒︎ HTML de PET ECS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
