@@ -469,7 +469,7 @@ item,2026-10-19,M3 U2,2026-10-19,5,✔ Mapear certificáveis RP,Marcelo,#EEF9F3,
 M3 U2 · M3!C287 · Concluído",aj,M3|287
 item,2026-10-19,M3 U2,2026-10-19,6,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
 M3 U2 · M3!C288 · Concluído",aj,M3|288
-item,2026-10-19,M3 U2,2026-10-19,7,⚠ Requisitos da certificação,Maria Eduarda,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Inserir os requisitos de acesso à certificação
+item,2026-10-19,M3 U2,2026-10-19,7,⚠ Requisitos da certificação,Thony,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Inserir os requisitos de acesso à certificação
 M3 U2 · M3!C289 · Liberado · ATRASADA",aj,M3|289
 item,2026-10-19,M3 U2,2026-10-19,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M3 U2 · M3!C290 · Bloqueado",aj,M3|290
@@ -516,7 +516,7 @@ M3 U3 · M3!C350 · Concluído",rb,M3|350
 item,2026-10-19,M3 U3,2026-10-19,5,✔ Rev. H5P base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U3 · M3!C351 · Concluído",rb,M3|351
 item,2026-10-19,M3 U3,2026-10-20,0,▶ REPLICAÇÃO + PET 8,16/18 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
-item,2026-10-19,M3 U3,2026-10-20,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
+item,2026-10-19,M3 U3,2026-10-20,1,Replicar páginas MET/PI/RP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U3 · M3!C355 · Liberado",rp,M3|355
 item,2026-10-19,M3 U3,2026-10-20,2,Replicar H5P MET/PI/RP,Marquito,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U3 · M3!C356 · Liberado",rp,M3|356
@@ -627,7 +627,7 @@ M3 U4 · M3!C448 · Concluído",rb,M3|448
 item,2026-10-19,M3 U4,2026-10-20,5,✔ Rev. H5P base MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
 M3 U4 · M3!C449 · Concluído",rb,M3|449
 item,2026-10-19,M3 U4,2026-10-21,0,▶ REPLICAÇÃO + PET 8,0/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
-item,2026-10-19,M3 U4,2026-10-21,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
+item,2026-10-19,M3 U4,2026-10-21,1,Replicar páginas MET/PI/RP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U4 · M3!C454 · Liberado",rp,M3|454
 item,2026-10-19,M3 U4,2026-10-21,2,Replicar H5P MET/PI/RP,Marcelo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U4 · M3!C455 · Liberado",rp,M3|455
