@@ -515,7 +515,7 @@ item,2026-10-19,M3 U3,2026-10-19,4,✔ Rev. H5P base MET,Maria Eduarda,#EEF9F3,#
 M3 U3 · M3!C350 · Concluído",rb,M3|350
 item,2026-10-19,M3 U3,2026-10-19,5,✔ Rev. H5P base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U3 · M3!C351 · Concluído",rb,M3|351
-item,2026-10-19,M3 U3,2026-10-20,0,▶ REPLICAÇÃO + PET 8,15/18 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
+item,2026-10-19,M3 U3,2026-10-20,0,▶ REPLICAÇÃO + PET 8,16/18 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
 item,2026-10-19,M3 U3,2026-10-20,1,Replicar páginas MET/PI/RP,Thony,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U3 · M3!C355 · Liberado",rp,M3|355
 item,2026-10-19,M3 U3,2026-10-20,2,Replicar H5P MET/PI/RP,Marquito,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
@@ -550,9 +550,9 @@ item,2026-10-19,M3 U3,2026-10-20,16,✔ HTML de PET GIM,Maria Eduarda,#EEF9F3,#8
 M3 U3 · M3!C370 · Concluído",rp,M3|370
 item,2026-10-19,M3 U3,2026-10-20,17,✔ HTML de PET TI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
 M3 U3 · M3!C371 · Concluído",rp,M3|371
-item,2026-10-19,M3 U3,2026-10-20,18,HTML de PET TEV,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
-M3 U3 · M3!C372 · Liberado",rp,M3|372
-item,2026-10-19,M3 U3,2026-10-21,0,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
+item,2026-10-19,M3 U3,2026-10-20,18,✔ HTML de PET TEV,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M3 U3 · M3!C372 · Concluído",rp,M3|372
+item,2026-10-19,M3 U3,2026-10-21,0,REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
 item,2026-10-19,M3 U3,2026-10-21,1,Rev. final AGS,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
 M3 U3 · M3!C373 · Liberado",rf,M3|373
 item,2026-10-19,M3 U3,2026-10-21,2,Rev. final COM,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - COM (Comunicação e Mercado)
@@ -567,8 +567,8 @@ item,2026-10-19,M3 U3,2026-10-21,6,Rev. final GIM,Gustavo,#fdebcf,#25314C,#FFFFF
 M3 U3 · M3!C378 · Liberado",rf,M3|378
 item,2026-10-19,M3 U3,2026-10-21,7,Rev. final TI,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
 M3 U3 · M3!C379 · Liberado",rf,M3|379
-item,2026-10-19,M3 U3,2026-10-21,8,🔒︎ Rev. final TEV,Gustavo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M3 U3 · M3!C380 · Bloqueado",rf,M3|380
+item,2026-10-19,M3 U3,2026-10-21,8,Rev. final TEV,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TEV (Turismo e Eventos)
+M3 U3 · M3!C380 · Liberado",rf,M3|380
 item,2026-10-19,M3 U3,2026-10-22,0,🔒︎ AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
 item,2026-10-19,M3 U3,2026-10-22,1,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
 M3 U3 · M3!C382 · Bloqueado",aj,M3|382
