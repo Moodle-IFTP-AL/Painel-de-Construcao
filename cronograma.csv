@@ -1356,52 +1356,52 @@ unidade,2026-11-09,M4 U4,,,"M4 · U4
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,,,,,,,,,
-item,2026-11-09,M3 U8,2026-11-04,0,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-09,M3 U8,2026-11-04,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-09,M3 U8,2026-11-04,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
-M3 U8 · M3!C832 · Bloqueado · falta o template",h5p,M3|832
+item,2026-11-09,M3 U8,2026-11-04,0,▶ TEMPLATE,Dani · 1/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-09,M3 U8,2026-11-04,1,◐ H5P,0/4 feitas · 2 sem template,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:h5p,
+item,2026-11-09,M3 U8,2026-11-04,2,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+M3 U8 · M3!C832 · Liberado",h5p,M3|832
 item,2026-11-09,M3 U8,2026-11-04,3,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M3 U8 · M3!C833 · Bloqueado · falta o template",h5p,M3|833
-item,2026-11-09,M3 U8,2026-11-04,4,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
-M3 U8 · M3!C835 · Bloqueado · falta o template",h5p,M3|835
+item,2026-11-09,M3 U8,2026-11-04,4,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
+M3 U8 · M3!C835 · Bloqueado",h5p,M3|835
 item,2026-11-09,M3 U8,2026-11-04,5,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M3 U8 · M3!C836 · Bloqueado · falta o template",h5p,M3|836
-item,2026-11-09,M3 U8,2026-11-05,0,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-09,M3 U8,2026-11-05,1,🔒︎ VÍDEOS,0/9 feitas · 9 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
-item,2026-11-09,M3 U8,2026-11-05,2,🔒︎ Conferir vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de MET foram criados
-M3 U8 · M3!C816 · Bloqueado · falta o template",vid,M3|816
+item,2026-11-09,M3 U8,2026-11-05,0,◐ H5P,↳ continua,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:h5p,
+item,2026-11-09,M3 U8,2026-11-05,1,◐ VÍDEOS,0/9 feitas · 6 sem template,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:vid,
+item,2026-11-09,M3 U8,2026-11-05,2,Conferir vídeos MET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de MET foram criados
+M3 U8 · M3!C816 · Liberado",vid,M3|816
 item,2026-11-09,M3 U8,2026-11-05,3,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
 M3 U8 · M3!C817 · Bloqueado · falta o template",vid,M3|817
 item,2026-11-09,M3 U8,2026-11-05,4,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M3 U8 · M3!C819 · Bloqueado · falta o template",vid,M3|819
-item,2026-11-09,M3 U8,2026-11-05,5,🔒︎ Criar vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de MET
-M3 U8 · M3!C820 · Bloqueado · falta o template",vid,M3|820
+item,2026-11-09,M3 U8,2026-11-05,5,🔒︎ Criar vídeos MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de MET
+M3 U8 · M3!C820 · Bloqueado",vid,M3|820
 item,2026-11-09,M3 U8,2026-11-05,6,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
 M3 U8 · M3!C821 · Bloqueado · falta o template",vid,M3|821
 item,2026-11-09,M3 U8,2026-11-05,7,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
 M3 U8 · M3!C823 · Bloqueado · falta o template",vid,M3|823
-item,2026-11-09,M3 U8,2026-11-05,8,🔒︎ YouTube MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - MET
-M3 U8 · M3!C824 · Bloqueado · falta o template",vid,M3|824
+item,2026-11-09,M3 U8,2026-11-05,8,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - MET
+M3 U8 · M3!C824 · Bloqueado",vid,M3|824
 item,2026-11-09,M3 U8,2026-11-05,9,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
 M3 U8 · M3!C825 · Bloqueado · falta o template",vid,M3|825
 item,2026-11-09,M3 U8,2026-11-05,10,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M3 U8 · M3!C827 · Bloqueado · falta o template",vid,M3|827
-item,2026-11-09,M3 U8,2026-11-06,0,🔒︎ HTML BASE,0/3 feitas · 3 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-09,M3 U8,2026-11-06,1,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
-M3 U8 · M3!C837 · Bloqueado · falta o template",hb,M3|837
+item,2026-11-09,M3 U8,2026-11-06,0,◐ HTML BASE,0/3 feitas · 2 sem template,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:hb,
+item,2026-11-09,M3 U8,2026-11-06,1,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+M3 U8 · M3!C837 · Liberado",hb,M3|837
 item,2026-11-09,M3 U8,2026-11-06,2,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M3 U8 · M3!C838 · Bloqueado · falta o template",hb,M3|838
 item,2026-11-09,M3 U8,2026-11-06,3,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M3 U8 · M3!C839 · Bloqueado · falta o template",hb,M3|839
-item,2026-11-09,M3 U8,2026-11-09,0,🔒︎ REVISÃO DA BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
-item,2026-11-09,M3 U8,2026-11-09,1,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
-M3 U8 · M3!C841 · Bloqueado · falta o template",rb,M3|841
+item,2026-11-09,M3 U8,2026-11-09,0,🔒︎ REVISÃO DA BASE,0/5 feitas · 3 sem template,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:rb,
+item,2026-11-09,M3 U8,2026-11-09,1,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
+M3 U8 · M3!C841 · Bloqueado",rb,M3|841
 item,2026-11-09,M3 U8,2026-11-09,2,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M3 U8 · M3!C842 · Bloqueado · falta o template",rb,M3|842
 item,2026-11-09,M3 U8,2026-11-09,3,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U8 · M3!C843 · Bloqueado · falta o template",rb,M3|843
-item,2026-11-09,M3 U8,2026-11-09,4,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
-M3 U8 · M3!C845 · Bloqueado · falta o template",rb,M3|845
+item,2026-11-09,M3 U8,2026-11-09,4,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
+M3 U8 · M3!C845 · Bloqueado",rb,M3|845
 item,2026-11-09,M3 U8,2026-11-09,5,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U8 · M3!C846 · Bloqueado · falta o template",rb,M3|846
 item,2026-11-09,M3 U8,2026-11-10,0,🔒︎ REPLICAÇÃO + PET 8,0/18 feitas · 18 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rp,
@@ -1458,13 +1458,13 @@ item,2026-11-09,M3 U8,2026-11-11,7,🔒︎ Rev. final TI,Alline,#F5F6F8,#A0A7B4,
 M3 U8 · M3!C874 · Bloqueado · falta o template",rf,M3|874
 item,2026-11-09,M3 U8,2026-11-11,8,🔒︎ Rev. final TEV,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U8 · M3!C875 · Bloqueado · falta o template",rf,M3|875
-item,2026-11-09,M3 U8,2026-11-12,0,🔒︎ AJUSTES FINAIS,1/7 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:aj,
+item,2026-11-09,M3 U8,2026-11-12,0,🔒︎ AJUSTES FINAIS,1/7 feitas · 5 sem template,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
 item,2026-11-09,M3 U8,2026-11-12,1,🔒︎ Ajustes da revisão final,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar os ajustes apontados na revisão final
 M3 U8 · M3!C877 · Bloqueado · falta o template",aj,M3|877
 item,2026-11-09,M3 U8,2026-11-12,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M3 U8 · M3!C878 · Concluído",aj,M3|878
-item,2026-11-09,M3 U8,2026-11-12,3,🔒︎ Mapear certificáveis MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de MET
-M3 U8 · M3!C879 · Bloqueado · falta o template",aj,M3|879
+item,2026-11-09,M3 U8,2026-11-12,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+M3 U8 · M3!C879 · Bloqueado",aj,M3|879
 item,2026-11-09,M3 U8,2026-11-12,4,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
 M3 U8 · M3!C880 · Bloqueado · falta o template",aj,M3|880
 item,2026-11-09,M3 U8,2026-11-12,5,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
