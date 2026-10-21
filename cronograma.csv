@@ -626,7 +626,7 @@ item,2026-10-19,M3 U4,2026-10-20,4,✔ Rev. HTML base RP,Maria Eduarda,#EEF9F3,#
 M3 U4 · M3!C448 · Concluído",rb,M3|448
 item,2026-10-19,M3 U4,2026-10-20,5,✔ Rev. H5P base MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
 M3 U4 · M3!C449 · Concluído",rb,M3|449
-item,2026-10-19,M3 U4,2026-10-21,0,▶ REPLICAÇÃO + PET 8,7/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
+item,2026-10-19,M3 U4,2026-10-21,0,▶ REPLICAÇÃO + PET 8,9/10 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
 item,2026-10-19,M3 U4,2026-10-21,1,✔ Replicar páginas MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U4 · M3!C454 · Concluído",rp,M3|454
 item,2026-10-19,M3 U4,2026-10-21,2,✔ Replicar H5P MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
@@ -641,10 +641,10 @@ item,2026-10-19,M3 U4,2026-10-21,6,✔ HTML de PET ECS,Marcelo,#EEF9F3,#8FB5A3,#
 M3 U4 · M3!C467 · Concluído",rp,M3|467
 item,2026-10-19,M3 U4,2026-10-21,7,✔ HTML de PET GOP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GOP (Gestão e Operações)
 M3 U4 · M3!C468 · Concluído",rp,M3|468
-item,2026-10-19,M3 U4,2026-10-21,8,HTML de PET GIM,Marcelo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GIM (Gestão Imobiliária)
-M3 U4 · M3!C469 · Liberado",rp,M3|469
-item,2026-10-19,M3 U4,2026-10-21,9,HTML de PET TI,Marcelo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TI (Tecnologia da Informação)
-M3 U4 · M3!C470 · Liberado",rp,M3|470
+item,2026-10-19,M3 U4,2026-10-21,8,✔ HTML de PET GIM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GIM (Gestão Imobiliária)
+M3 U4 · M3!C469 · Concluído",rp,M3|469
+item,2026-10-19,M3 U4,2026-10-21,9,✔ HTML de PET TI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
+M3 U4 · M3!C470 · Concluído",rp,M3|470
 item,2026-10-19,M3 U4,2026-10-21,10,HTML de PET TEV,Marcelo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
 M3 U4 · M3!C471 · Liberado",rp,M3|471
 item,2026-10-19,M3 U4,2026-10-22,0,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
@@ -658,10 +658,10 @@ item,2026-10-19,M3 U4,2026-10-22,4,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF
 M3 U4 · M3!C475 · Liberado",rf,M3|475
 item,2026-10-19,M3 U4,2026-10-22,5,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GOP (Gestão e Operações)
 M3 U4 · M3!C476 · Liberado",rf,M3|476
-item,2026-10-19,M3 U4,2026-10-22,6,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
-M3 U4 · M3!C477 · Bloqueado",rf,M3|477
-item,2026-10-19,M3 U4,2026-10-22,7,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M3 U4 · M3!C478 · Bloqueado",rf,M3|478
+item,2026-10-19,M3 U4,2026-10-22,6,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GIM (Gestão Imobiliária)
+M3 U4 · M3!C477 · Liberado",rf,M3|477
+item,2026-10-19,M3 U4,2026-10-22,7,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
+M3 U4 · M3!C478 · Liberado",rf,M3|478
 item,2026-10-19,M3 U4,2026-10-22,8,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U4 · M3!C479 · Bloqueado",rf,M3|479
 item,2026-10-19,M3 U4,2026-10-23,0,🔒︎ AJUSTES FINAIS,1/8 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
@@ -728,18 +728,18 @@ M3 U5 · M3!C528 · Bloqueado · falta o template",vid,M3|528
 item,2026-11-02,M3 U5,2026-10-26,15,🔒︎ YouTube PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - PET
 M3 U5 · M3!C530 · Bloqueado",vid,M3|530
 item,2026-11-02,M3 U5,2026-10-27,0,◐ H5P,↳ continua,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:h5p,
-item,2026-11-02,M3 U5,2026-10-27,1,◐ HTML BASE,0/3 feitas · 2 sem template,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:hb,
+item,2026-11-02,M3 U5,2026-10-27,1,🔒︎ HTML BASE,1/3 feitas · 2 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
 item,2026-11-02,M3 U5,2026-10-27,2,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M3 U5 · M3!C540 · Bloqueado · falta o template",hb,M3|540
-item,2026-11-02,M3 U5,2026-10-27,3,HTML base ADM PET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base ADM - Prática do Ensino Técnico
-M3 U5 · M3!C541 · Liberado",hb,M3|541
+item,2026-11-02,M3 U5,2026-10-27,3,✔ HTML base ADM PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
+M3 U5 · M3!C541 · Concluído",hb,M3|541
 item,2026-11-02,M3 U5,2026-10-27,4,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M3 U5 · M3!C542 · Bloqueado · falta o template",hb,M3|542
-item,2026-11-02,M3 U5,2026-10-28,0,🔒︎ REVISÃO DA BASE,0/5 feitas · 3 sem template,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:rb,
+item,2026-11-02,M3 U5,2026-10-28,0,◐ REVISÃO DA BASE,0/5 feitas · 3 sem template,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:rb,
 item,2026-11-02,M3 U5,2026-10-28,1,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
 M3 U5 · M3!C544 · Bloqueado · falta o template",rb,M3|544
-item,2026-11-02,M3 U5,2026-10-28,2,🔒︎ Rev. HTML base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
-M3 U5 · M3!C545 · Bloqueado",rb,M3|545
+item,2026-11-02,M3 U5,2026-10-28,2,Rev. HTML base PET ADM,Alline,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - PET (ADM)
+M3 U5 · M3!C545 · Liberado",rb,M3|545
 item,2026-11-02,M3 U5,2026-10-28,3,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U5 · M3!C546 · Bloqueado · falta o template",rb,M3|546
 item,2026-11-02,M3 U5,2026-10-28,4,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
