@@ -456,7 +456,7 @@ item,2026-10-19,M3 U2,2026-10-16,7,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFF
 M3 U2 · M3!C280 · Concluído",rf,M3|280
 item,2026-10-19,M3 U2,2026-10-16,8,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U2 · M3!C281 · Concluído",rf,M3|281
-item,2026-10-19,M3 U2,2026-10-19,0,⚠ AJUSTES FINAIS,6/8 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:aj,
+item,2026-10-19,M3 U2,2026-10-19,0,⚠ AJUSTES FINAIS,7/8 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:aj,
 item,2026-10-19,M3 U2,2026-10-19,1,✔ Ajustes da revisão final,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar os ajustes apontados na revisão final
 M3 U2 · M3!C283 · Concluído",aj,M3|283
 item,2026-10-19,M3 U2,2026-10-19,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
@@ -469,10 +469,10 @@ item,2026-10-19,M3 U2,2026-10-19,5,✔ Mapear certificáveis RP,Marcelo,#EEF9F3,
 M3 U2 · M3!C287 · Concluído",aj,M3|287
 item,2026-10-19,M3 U2,2026-10-19,6,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
 M3 U2 · M3!C288 · Concluído",aj,M3|288
-item,2026-10-19,M3 U2,2026-10-19,7,⚠ Requisitos da certificação,Maria Eduarda,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Inserir os requisitos de acesso à certificação
-M3 U2 · M3!C289 · Liberado · ATRASADA",aj,M3|289
-item,2026-10-19,M3 U2,2026-10-19,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
-M3 U2 · M3!C290 · Bloqueado",aj,M3|290
+item,2026-10-19,M3 U2,2026-10-19,7,✔ Requisitos da certificação,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Inserir os requisitos de acesso à certificação
+M3 U2 · M3!C289 · Concluído",aj,M3|289
+item,2026-10-19,M3 U2,2026-10-19,8,⚠ Revisar configurações,Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Revisar configurações: restrições, certificados, visibilidade
+M3 U2 · M3!C290 · Liberado · ATRASADA",aj,M3|290
 item,2026-10-19,M3 U2,2026-10-20,0,🔒︎ ★ LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:lib,
 item,2026-10-19,M3 U2,2026-10-20,1,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
 M3 U2 · M3!C291 · Bloqueado",lib,M3|291
