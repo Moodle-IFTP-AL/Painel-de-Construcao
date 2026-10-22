@@ -569,19 +569,19 @@ item,2026-10-19,M3 U3,2026-10-21,7,✔ Rev. final TI,Gustavo,#EEF9F3,#8FB5A3,#FF
 M3 U3 · M3!C379 · Concluído",rf,M3|379
 item,2026-10-19,M3 U3,2026-10-21,8,✔ Rev. final TEV,Gustavo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
 M3 U3 · M3!C380 · Concluído",rf,M3|380
-item,2026-10-19,M3 U3,2026-10-22,0,◐ AJUSTES FINAIS,1/7 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:aj,
+item,2026-10-19,M3 U3,2026-10-22,0,◐ AJUSTES FINAIS,4/7 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:aj,
 item,2026-10-19,M3 U3,2026-10-22,1,Ajustes da revisão final,Maria Eduarda,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Aplicar os ajustes apontados na revisão final
 M3 U3 · M3!C382 · Liberado",aj,M3|382
 item,2026-10-19,M3 U3,2026-10-22,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M3 U3 · M3!C383 · Concluído",aj,M3|383
-item,2026-10-19,M3 U3,2026-10-22,3,Mapear certificáveis MET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de MET
-M3 U3 · M3!C384 · Liberado",aj,M3|384
-item,2026-10-19,M3 U3,2026-10-22,4,Mapear certificáveis PI,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PI
-M3 U3 · M3!C385 · Liberado",aj,M3|385
-item,2026-10-19,M3 U3,2026-10-22,5,Mapear certificáveis PET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PET
-M3 U3 · M3!C387 · Liberado",aj,M3|387
-item,2026-10-19,M3 U3,2026-10-22,6,🔒︎ Requisitos da certificação,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Inserir os requisitos de acesso à certificação
-M3 U3 · M3!C388 · Bloqueado",aj,M3|388
+item,2026-10-19,M3 U3,2026-10-22,3,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de MET
+M3 U3 · M3!C384 · Concluído",aj,M3|384
+item,2026-10-19,M3 U3,2026-10-22,4,✔ Mapear certificáveis PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PI
+M3 U3 · M3!C385 · Concluído",aj,M3|385
+item,2026-10-19,M3 U3,2026-10-22,5,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
+M3 U3 · M3!C387 · Concluído",aj,M3|387
+item,2026-10-19,M3 U3,2026-10-22,6,Requisitos da certificação,Maria Eduarda,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Inserir os requisitos de acesso à certificação
+M3 U3 · M3!C388 · Liberado",aj,M3|388
 item,2026-10-19,M3 U3,2026-10-22,7,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M3 U3 · M3!C389 · Bloqueado",aj,M3|389
 item,2026-10-19,M3 U3,2026-10-23,0,🔒︎ ★ LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:lib,
@@ -647,39 +647,39 @@ item,2026-10-19,M3 U4,2026-10-21,9,✔ HTML de PET TI,Marcelo,#EEF9F3,#8FB5A3,#F
 M3 U4 · M3!C470 · Concluído",rp,M3|470
 item,2026-10-19,M3 U4,2026-10-21,10,✔ HTML de PET TEV,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - TEV (Turismo e Eventos)
 M3 U4 · M3!C471 · Concluído",rp,M3|471
-item,2026-10-19,M3 U4,2026-10-22,0,▶ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:rf,
-item,2026-10-19,M3 U4,2026-10-22,1,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
-M3 U4 · M3!C472 · Liberado",rf,M3|472
-item,2026-10-19,M3 U4,2026-10-22,2,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
-M3 U4 · M3!C473 · Liberado",rf,M3|473
-item,2026-10-19,M3 U4,2026-10-22,3,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
-M3 U4 · M3!C474 · Liberado",rf,M3|474
-item,2026-10-19,M3 U4,2026-10-22,4,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
-M3 U4 · M3!C475 · Liberado",rf,M3|475
-item,2026-10-19,M3 U4,2026-10-22,5,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GOP (Gestão e Operações)
-M3 U4 · M3!C476 · Liberado",rf,M3|476
-item,2026-10-19,M3 U4,2026-10-22,6,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GIM (Gestão Imobiliária)
-M3 U4 · M3!C477 · Liberado",rf,M3|477
-item,2026-10-19,M3 U4,2026-10-22,7,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TI (Tecnologia da Informação)
-M3 U4 · M3!C478 · Liberado",rf,M3|478
-item,2026-10-19,M3 U4,2026-10-22,8,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TEV (Turismo e Eventos)
-M3 U4 · M3!C479 · Liberado",rf,M3|479
-item,2026-10-19,M3 U4,2026-10-23,0,🔒︎ AJUSTES FINAIS,1/8 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
-item,2026-10-19,M3 U4,2026-10-23,1,🔒︎ Ajustes da revisão final,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
-M3 U4 · M3!C481 · Bloqueado",aj,M3|481
-item,2026-10-19,M3 U4,2026-10-23,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
+item,2026-10-19,M3 U4,2026-10-22,0,✔ REVISÃO FINAL,8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:rf,
+item,2026-10-19,M3 U4,2026-10-22,1,✔ Rev. final AGS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - AGS (Agro Sustentável)
+M3 U4 · M3!C472 · Concluído",rf,M3|472
+item,2026-10-19,M3 U4,2026-10-22,2,✔ Rev. final COM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - COM (Comunicação e Mercado)
+M3 U4 · M3!C473 · Concluído",rf,M3|473
+item,2026-10-19,M3 U4,2026-10-22,3,✔ Rev. final CDC,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - CDC (Criação Digital e Cultural)
+M3 U4 · M3!C474 · Concluído",rf,M3|474
+item,2026-10-19,M3 U4,2026-10-22,4,✔ Rev. final ECS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - ECS (Economia Social)
+M3 U4 · M3!C475 · Concluído",rf,M3|475
+item,2026-10-19,M3 U4,2026-10-22,5,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GOP (Gestão e Operações)
+M3 U4 · M3!C476 · Concluído",rf,M3|476
+item,2026-10-19,M3 U4,2026-10-22,6,✔ Rev. final GIM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GIM (Gestão Imobiliária)
+M3 U4 · M3!C477 · Concluído",rf,M3|477
+item,2026-10-19,M3 U4,2026-10-22,7,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TI (Tecnologia da Informação)
+M3 U4 · M3!C478 · Concluído",rf,M3|478
+item,2026-10-19,M3 U4,2026-10-22,8,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
+M3 U4 · M3!C479 · Concluído",rf,M3|479
+item,2026-10-19,M3 U4,2026-10-23,0,◐ AJUSTES FINAIS,6/8 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:aj,
+item,2026-10-19,M3 U4,2026-10-23,1,✔ Ajustes da revisão final,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar os ajustes apontados na revisão final
+M3 U4 · M3!C481 · Concluído",aj,M3|481
+item,2026-10-19,M3 U4,2026-10-23,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M3 U4 · M3!C482 · Concluído",aj,M3|482
-item,2026-10-19,M3 U4,2026-10-23,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
-M3 U4 · M3!C483 · Bloqueado",aj,M3|483
-item,2026-10-19,M3 U4,2026-10-23,4,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
-M3 U4 · M3!C484 · Bloqueado",aj,M3|484
-item,2026-10-19,M3 U4,2026-10-23,5,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
-M3 U4 · M3!C485 · Bloqueado",aj,M3|485
-item,2026-10-19,M3 U4,2026-10-23,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
-M3 U4 · M3!C486 · Bloqueado",aj,M3|486
-item,2026-10-19,M3 U4,2026-10-23,7,🔒︎ Requisitos da certificação,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
-M3 U4 · M3!C487 · Bloqueado",aj,M3|487
-item,2026-10-19,M3 U4,2026-10-23,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-10-19,M3 U4,2026-10-23,3,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de MET
+M3 U4 · M3!C483 · Concluído",aj,M3|483
+item,2026-10-19,M3 U4,2026-10-23,4,✔ Mapear certificáveis PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PI
+M3 U4 · M3!C484 · Concluído",aj,M3|484
+item,2026-10-19,M3 U4,2026-10-23,5,✔ Mapear certificáveis RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de RP
+M3 U4 · M3!C485 · Concluído",aj,M3|485
+item,2026-10-19,M3 U4,2026-10-23,6,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
+M3 U4 · M3!C486 · Concluído",aj,M3|486
+item,2026-10-19,M3 U4,2026-10-23,7,Requisitos da certificação,Maria Eduarda,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Inserir os requisitos de acesso à certificação
+M3 U4 · M3!C487 · Liberado",aj,M3|487
+item,2026-10-19,M3 U4,2026-10-23,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M3 U4 · M3!C488 · Bloqueado",aj,M3|488
 item,2026-10-19,M3 U4,2026-10-23,9,🔒︎ ★ LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:lib,
 item,2026-10-19,M3 U4,2026-10-23,10,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
