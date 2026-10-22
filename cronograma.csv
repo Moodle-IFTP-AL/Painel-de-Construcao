@@ -697,11 +697,11 @@ dia,2026-10-26,,2026-10-29,5,QUI 29/10,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-30,6,SEX 30/10,,#1B6E8C,#FFFFFF,,,,,,,
 item,2026-10-26,M3 U5,2026-10-22,0,✔ TEMPLATE,Dani · 11/11 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:tpl,
 item,2026-10-26,M3 U5,2026-10-22,1,◐ H5P,0/4 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:h5p,
-item,2026-10-26,M3 U5,2026-10-22,2,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
+item,2026-10-26,M3 U5,2026-10-22,2,Mapear H5P ref. MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
 M3 U5 · M3!C535 · Liberado",h5p,M3|535
-item,2026-10-26,M3 U5,2026-10-22,3,Mapear H5P ref. PET ADM,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - PET (ADM)
+item,2026-10-26,M3 U5,2026-10-22,3,Mapear H5P ref. PET ADM,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - PET (ADM)
 M3 U5 · M3!C536 · Liberado",h5p,M3|536
-item,2026-10-26,M3 U5,2026-10-22,4,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
+item,2026-10-26,M3 U5,2026-10-22,4,🔒︎ H5P base MET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
 M3 U5 · M3!C538 · Bloqueado",h5p,M3|538
 item,2026-10-26,M3 U5,2026-10-22,5,🔒︎ H5P base ADM PET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base ADM - trilha de Prática do Ensino Técnico
 M3 U5 · M3!C539 · Bloqueado",h5p,M3|539
@@ -831,9 +831,9 @@ dia,2026-11-02,,2026-11-05,8,QUI 05/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-02,,2026-11-06,9,SEX 06/11,,#1B6E8C,#FFFFFF,,,,,,,
 item,2026-11-02,M3 U6,2026-10-26,0,▶ TEMPLATE,Dani · 3/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
 item,2026-11-02,M3 U6,2026-10-26,1,◐ H5P,0/4 feitas · 2 sem template,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:h5p,
-item,2026-11-02,M3 U6,2026-10-26,2,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M3 U6,2026-10-26,2,Mapear H5P ref. MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
 M3 U6 · M3!C634 · Liberado",h5p,M3|634
-item,2026-11-02,M3 U6,2026-10-26,3,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M3 U6,2026-10-26,3,🔒︎ Mapear H5P ref. PET ADM,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M3 U6 · M3!C635 · Bloqueado · falta o template",h5p,M3|635
 item,2026-11-02,M3 U6,2026-10-26,4,🔒︎ H5P base MET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
 M3 U6 · M3!C637 · Bloqueado",h5p,M3|637
