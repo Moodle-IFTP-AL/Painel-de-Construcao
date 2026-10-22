@@ -877,17 +877,17 @@ M3 U6 · M3!C641 · Liberado",hb,M3|641
 item,2026-11-02,M3 U6,2026-10-27,6,HTML base RP,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
 M3 U6 · M3!C642 · Liberado",hb,M3|642
 item,2026-11-02,M3 U6,2026-10-28,0,🔒︎ REVISÃO DA BASE,0/6 feitas · 2 sem template,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:rb,
-item,2026-11-02,M3 U6,2026-10-28,1,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
+item,2026-11-02,M3 U6,2026-10-28,1,🔒︎ Rev. HTML base MET,Maria Eduarda,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
 M3 U6 · M3!C643 · Bloqueado",rb,M3|643
-item,2026-11-02,M3 U6,2026-10-28,2,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
+item,2026-11-02,M3 U6,2026-10-28,2,🔒︎ Rev. HTML base PET ADM,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M3 U6 · M3!C644 · Bloqueado · falta o template",rb,M3|644
-item,2026-11-02,M3 U6,2026-10-28,3,🔒︎ Rev. HTML base PI,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M3 U6,2026-10-28,3,🔒︎ Rev. HTML base PI,Maria Eduarda,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U6 · M3!C645 · Bloqueado",rb,M3|645
-item,2026-11-02,M3 U6,2026-10-28,4,🔒︎ Rev. HTML base RP,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-11-02,M3 U6,2026-10-28,4,🔒︎ Rev. HTML base RP,Maria Eduarda,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M3 U6 · M3!C646 · Bloqueado",rb,M3|646
-item,2026-11-02,M3 U6,2026-10-28,5,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-02,M3 U6,2026-10-28,5,🔒︎ Rev. H5P base MET,Maria Eduarda,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
 M3 U6 · M3!C647 · Bloqueado",rb,M3|647
-item,2026-11-02,M3 U6,2026-10-28,6,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-11-02,M3 U6,2026-10-28,6,🔒︎ Rev. H5P base PET ADM,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U6 · M3!C648 · Bloqueado · falta o template",rb,M3|648
 item,2026-11-02,M3 U6,2026-10-29,0,🔒︎ REPLICAÇÃO + PET 8,0/18 feitas · 16 sem template,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:rp,
 item,2026-11-02,M3 U6,2026-10-29,1,🔒︎ Replicar páginas MET/PI/RP,Thony,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
@@ -969,11 +969,11 @@ template seg 26/10
 entrega ter 03/11",,,,,,,,,,
 item,2026-11-02,M3 U7,2026-10-27,0,TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
 item,2026-11-02,M3 U7,2026-10-27,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M3 U7,2026-10-27,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M3 U7,2026-10-27,2,🔒︎ Mapear H5P ref. MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M3 U7 · M3!C733 · Bloqueado · falta o template",h5p,M3|733
-item,2026-11-02,M3 U7,2026-10-27,3,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M3 U7,2026-10-27,3,🔒︎ Mapear H5P ref. PET ADM,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M3 U7 · M3!C734 · Bloqueado · falta o template",h5p,M3|734
-item,2026-11-02,M3 U7,2026-10-27,4,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M3 U7,2026-10-27,4,🔒︎ H5P base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M3 U7 · M3!C736 · Bloqueado · falta o template",h5p,M3|736
 item,2026-11-02,M3 U7,2026-10-27,5,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M3 U7 · M3!C737 · Bloqueado · falta o template",h5p,M3|737
