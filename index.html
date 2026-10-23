@@ -4816,8 +4816,8 @@ function entregasDoCalendario(){
   return out.sort((a,b)=>a.data-b.data || a.chave.localeCompare(b.chave,"pt-BR",{numeric:true}));
 }
 
-/* agrupa por semana: as unidades de uma semana fecham juntas (terça), e a gravação
-   da mesma semana entra na mesma coluna com a data dela */
+/* agrupa por semana: unidades e gravações da mesma semana ficam numa pilha só, em ordem de data
+   (a gravação entra junto das unidades, no dia dela, como no Calendário e no Cronograma semanal da planilha) */
 function modeloCalendario(){
   const todas=entregasDoCalendario();
   const ents=todas.filter(calVisivel);
@@ -4830,7 +4830,8 @@ function modeloCalendario(){
   const colunas=[...sem.values()].sort((a,b)=>a.seg-b.seg).map(s=>{
     const base=(s.unidades.length?s.unidades:s.gravacoes).map(e=>e.data).sort((a,b)=>a-b)[0];
     const ultimo=[...s.unidades,...s.gravacoes].map(e=>e.data).sort((a,b)=>b-a)[0];
-    return {seg:s.seg, data:base, ultimo, soGrav:!s.unidades.length, unidades:s.unidades, gravacoes:s.gravacoes};
+    const pilha=[...s.unidades,...s.gravacoes].sort((a,b)=>a.data-b.data || (a.grav===b.grav?0:a.grav?-1:1) || a.chave.localeCompare(b.chave,"pt-BR",{numeric:true}));
+    return {seg:s.seg, data:base, ultimo, soGrav:!s.unidades.length, unidades:s.unidades, gravacoes:s.gravacoes, pilha};
   });
   const meses=[];
   colunas.forEach((c,i)=>{
@@ -4842,8 +4843,8 @@ function modeloCalendario(){
   const anos=[...new Set(ents.map(e=>e.data.getFullYear()))];
   return {todas, ents, colunas, meses, anos,
     nU:ents.filter(e=>!e.grav).length, nG:ents.filter(e=>e.grav).length,
-    maxU:Math.max(1,...colunas.map(c=>c.unidades.length)),
-    maxG:Math.max(0,...colunas.map(c=>c.gravacoes.length))};
+    maxU:Math.max(1,...colunas.map(c=>c.pilha.length)),
+    maxG:0};
 }
 const tituloCal = M => "CALENDÁRIO DE ENTREGAS"+(M.anos.length===1?" · "+M.anos[0]:"");
 function contagemTexto(M){
@@ -4893,7 +4894,7 @@ function gradeCalendario(M){
   }
   const tHoje=trilhas.indexOf("hoje")+1;
   const tmpl=trilhas.map(t=>t==="hoje"?"46px":"minmax(122px,1fr)").join(" ");
-  const fimLinhas = M.nG ? 6 : 4;
+  const fimLinhas = 4;
   let g=`<div class="calGradeWrap"><div class="calGrade" style="grid-template-columns:${tmpl}">`;
   M.meses.forEach(m=>{
     g+=`<div class="calMes" style="grid-column:${pos[m.ini]}/${pos[m.fim]+1};grid-row:1">${m.nome}</div>`;
@@ -4903,11 +4904,9 @@ function gradeCalendario(M){
     g+=`<div class="calCab${c.soGrav?" grav":""}" style="grid-column:${col};grid-row:2">
           <span>SEMANA</span><b class="sem">${ddmm(c.seg)} a ${ddmm(sextaDe(c.seg))}</b></div>`;
     g+=`<div class="calPilha" style="grid-column:${col};grid-row:3">`+
-       (c.unidades.length ? c.unidades.map(e=>chipHTML(e,c)).join("")
-                          : `<div class="calVazio">sem unidade<br>nesta data</div>`)+`</div>`;
-    if(M.nG) g+=`<div class="calPilha grav" style="grid-column:${col};grid-row:5">${c.gravacoes.map(e=>chipHTML(e,c)).join("")}</div>`;
+       (c.pilha.length ? c.pilha.map(e=>chipHTML(e,c)).join("")
+                       : `<div class="calVazio">sem entrega<br>nesta data</div>`)+`</div>`;
   });
-  if(M.nG) g+=`<div class="calRotG" style="grid-column:1/-1;grid-row:4">Gravações de encontro síncrono</div>`;
   g+=`<div class="calHoje" style="grid-column:${tHoje};grid-row:2/${fimLinhas}" title="Hoje"><span>hoje<br>${ddmm(new Date())}</span></div>`;
   return g+`</div></div>`;
 }
@@ -5050,10 +5049,8 @@ function layoutCalendario(M, faixa){
   const n=M.colunas.length, gap=0.1;
   const colW=(W-2*mx-gap*(n-1))/n, xs=i=>mx+i*(colW+gap);
   const yMes=1.2, hMes=0.3, yCab=1.6, hCab=0.62, yU=2.36;
-  const yLeg=H-0.98, temG=M.nG>0, linhasG=temG?M.maxG:0, hG=0.66;
-  const yG=yLeg-0.22-(linhasG*hG+Math.max(0,linhasG-1)*0.1);
-  const yRot=yG-0.3;
-  const limU=(temG?yRot-0.06:yLeg-0.22);
+  const yLeg=H-0.98;
+  const limU=yLeg-0.22;
   const hU=Math.min(0.92,(limU-yU-(M.maxU-1)*0.1)/M.maxU);
   const grande=hU>=0.55, enorme=hU>=0.8;
   M.meses.forEach(m=>{
@@ -5083,16 +5080,14 @@ function layoutCalendario(M, faixa){
     cx({t:"box",x,y:yCab,w:colW,h:hCab,r:0.09,fill:c.soGrav?"#FECB55":"#25314C"});
     cx({t:"txt",x,y:yCab,w:colW,h:hCab,linhas:[{s:"SEMANA",pt:9},{s:ddmm(c.seg)+" a "+ddmm(sextaDe(c.seg)),pt:12,b:true}],
         cor:c.soGrav?"#25314C":"#FFFFFF"});
-    if(c.unidades.length){
-      c.unidades.forEach((e,k)=>chip(e,c,x,yU+k*(hU+0.1),colW,hU));
+    if(c.pilha.length){
+      c.pilha.forEach((e,k)=>chip(e,c,x,yU+k*(hU+0.1),colW,hU));
     }else{
       const hv=M.maxU*hU+(M.maxU-1)*0.1;
       cx({t:"box",x,y:yU,w:colW,h:hv,r:0.09,fill:null,linha:"#DCE5EE",esp:1.5});
-      cx({t:"txt",x,y:yU,w:colW,h:hv,linhas:[{s:"sem unidade",pt:9},{s:"nesta data",pt:9}],cor:"#7B879B"});
+      cx({t:"txt",x,y:yU,w:colW,h:hv,linhas:[{s:"sem entrega",pt:9},{s:"nesta data",pt:9}],cor:"#7B879B"});
     }
-    c.gravacoes.forEach((e,k)=>chip(e,c,x,yG+k*(hG+0.1),colW,hG));
   });
-  if(temG) cx({t:"txt",x:mx,y:yRot,w:6,h:0.26,linhas:[{s:"GRAVAÇÕES DE ENCONTRO SÍNCRONO",pt:9,b:true}],cor:"#7B879B",al:"left"});
   // legenda
   let lx=mx;
   const itens=[...new Set(M.ents.filter(e=>!e.grav).map(e=>e.modulo))].sort()
