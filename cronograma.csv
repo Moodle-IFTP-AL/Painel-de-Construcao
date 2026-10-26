@@ -833,7 +833,7 @@ dia,2026-10-26,,2026-10-20,0,TER 20/10,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-21,1,QUA 21/10,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-22,2,QUI 22/10,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-23,3,SEX 23/10,,#3A4766,#FFFFFF,,,,,,,
-dia,2026-10-26,,2026-10-26,4,SEG 26/10,,#1B6E8C,#FFFFFF,,,,,,,
+dia,2026-10-26,,2026-10-26,4,SEG 26/10,hoje,#FECB55,#14213A,,,,,,,
 dia,2026-10-26,,2026-10-27,5,TER 27/10,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-28,6,QUA 28/10,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-29,7,QUI 29/10,,#1B6E8C,#FFFFFF,,,,,,,
@@ -1339,7 +1339,7 @@ dia,2026-11-09,,2026-11-10,5,TER 10/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-11,6,QUA 11/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-12,7,QUI 12/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-13,8,SEX 13/11,,#1B6E8C,#FFFFFF,,,,,,,
-item,2026-11-09,M4 U3,2026-11-03,0,TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
+item,2026-11-09,M4 U3,2026-11-03,0,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
 item,2026-11-09,M4 U3,2026-11-03,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
 item,2026-11-09,M4 U3,2026-11-03,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U3 · M4!C268 · Bloqueado · falta o template",h5p,M4|268
@@ -1464,7 +1464,7 @@ unidade,2026-11-09,M4 U3,,,"M4 · U3
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,,,,,,,,,
-item,2026-11-09,M4 U4,2026-11-03,0,TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
+item,2026-11-09,M4 U4,2026-11-03,0,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
 item,2026-11-09,M4 U4,2026-11-03,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
 item,2026-11-09,M4 U4,2026-11-03,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U4 · M4!C367 · Bloqueado · falta o template",h5p,M4|367
@@ -1727,7 +1727,7 @@ M3 U8 · M3!C954 · Bloqueado · falta o template",lib,M3|954
 unidade,2026-11-09,M3 U8,,,"M3 · U8
 template qua 04/11
 entrega qui 12/11",,,,,,,,,,
-item,2026-11-09,M4 U1,2026-11-04,0,TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
+item,2026-11-09,M4 U1,2026-11-04,0,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
 item,2026-11-09,M4 U1,2026-11-04,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
 item,2026-11-09,M4 U1,2026-11-04,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U1 · M4!C70 · Bloqueado · falta o template",h5p,M4|70
@@ -1851,7 +1851,7 @@ M4 U1 · M4!C123 · Bloqueado · falta o template",lib,M4|123
 unidade,2026-11-09,M4 U1,,,"M4 · U1
 template qua 04/11
 entrega qui 12/11",,,,,,,,,,
-item,2026-11-09,M4 U2,2026-11-04,0,TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,,,cab:tpl,
+item,2026-11-09,M4 U2,2026-11-04,0,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
 item,2026-11-09,M4 U2,2026-11-04,1,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
 item,2026-11-09,M4 U2,2026-11-04,2,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U2 · M4!C169 · Bloqueado · falta o template",h5p,M4|169
