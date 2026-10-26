@@ -858,28 +858,28 @@ M3 6ª gravação · M3!C509 · Concluído",ghtm,M3|509
 item,2026-10-26,M3 6ª gravação,2026-10-20,9,✔ (TEV) Construir os 2 HTML (PET …,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TEV) Construir os 2 HTML (PET + MET)
 M3 6ª gravação · M3!C510 · Concluído",ghtm,M3|510
 item,2026-10-26,M3 6ª gravação,2026-10-23,0,⚠ ENTRADA (DANI),Dani · 2/3 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:gent,
-item,2026-10-26,M3 6ª gravação,2026-10-26,0,VÍDEOS · GRAVAÇÃO,0/1 feitas · em alerta,#FECB55,#14213A,#FECB55,#14213A,1,alerta,,cab:gvid,
-item,2026-10-26,M3 6ª gravação,2026-10-26,1,Subir os 10 vídeos para o YouTu…,Lucas,#fff4da,#25314C,#FFFFFF,#25314C,,alerta,"Subir os 10 vídeos para o YouTube da SEDUC
-M3 6ª gravação · M3!C501 · Liberado",gvid,M3|501
-item,2026-10-26,M3 6ª gravação,2026-10-26,2,🔒︎ IFRAME DA GRAVAÇÃO,0/9 feitas · em alerta,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,alerta,,cab:gifr,
-item,2026-10-26,M3 6ª gravação,2026-10-26,3,🔒︎ (ADM) Iframe da gravação da aul…,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(ADM) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C511 · Bloqueado",gifr,M3|511
-item,2026-10-26,M3 6ª gravação,2026-10-26,4,🔒︎ (AGS) Iframe da gravação da aul…,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(AGS) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C512 · Bloqueado",gifr,M3|512
-item,2026-10-26,M3 6ª gravação,2026-10-26,5,🔒︎ (COM) Iframe da gravação da aul…,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(COM) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C513 · Bloqueado",gifr,M3|513
-item,2026-10-26,M3 6ª gravação,2026-10-26,6,🔒︎ (CDC) Iframe da gravação da aul…,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(CDC) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C514 · Bloqueado",gifr,M3|514
-item,2026-10-26,M3 6ª gravação,2026-10-26,7,🔒︎ (ECS) Iframe da gravação da aul…,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(ECS) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C515 · Bloqueado",gifr,M3|515
-item,2026-10-26,M3 6ª gravação,2026-10-26,8,🔒︎ (GOP) Iframe da gravação da aul…,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(GOP) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C516 · Bloqueado",gifr,M3|516
-item,2026-10-26,M3 6ª gravação,2026-10-26,9,🔒︎ (GIM) Iframe da gravação da aul…,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(GIM) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C517 · Bloqueado",gifr,M3|517
-item,2026-10-26,M3 6ª gravação,2026-10-26,10,🔒︎ (TI) Iframe da gravação da aula…,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(TI) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C518 · Bloqueado",gifr,M3|518
-item,2026-10-26,M3 6ª gravação,2026-10-26,11,🔒︎ (TEV) Iframe da gravação da aul…,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,alerta,"(TEV) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C519 · Bloqueado",gifr,M3|519
+item,2026-10-26,M3 6ª gravação,2026-10-26,0,✔ VÍDEOS · GRAVAÇÃO,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:gvid,
+item,2026-10-26,M3 6ª gravação,2026-10-26,1,✔ Subir os 10 vídeos para o YouTu…,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Subir os 10 vídeos para o YouTube da SEDUC
+M3 6ª gravação · M3!C501 · Concluído",gvid,M3|501
+item,2026-10-26,M3 6ª gravação,2026-10-26,2,IFRAME DA GRAVAÇÃO,0/9 feitas · em alerta,#3FAFDD,#14213A,#3FAFDD,#14213A,1,alerta,,cab:gifr,
+item,2026-10-26,M3 6ª gravação,2026-10-26,3,(ADM) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(ADM) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C511 · Liberado",gifr,M3|511
+item,2026-10-26,M3 6ª gravação,2026-10-26,4,(AGS) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(AGS) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C512 · Liberado",gifr,M3|512
+item,2026-10-26,M3 6ª gravação,2026-10-26,5,(COM) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(COM) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C513 · Liberado",gifr,M3|513
+item,2026-10-26,M3 6ª gravação,2026-10-26,6,(CDC) Iframe da gravação da aul…,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(CDC) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C514 · Liberado",gifr,M3|514
+item,2026-10-26,M3 6ª gravação,2026-10-26,7,(ECS) Iframe da gravação da aul…,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(ECS) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C515 · Liberado",gifr,M3|515
+item,2026-10-26,M3 6ª gravação,2026-10-26,8,(GOP) Iframe da gravação da aul…,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(GOP) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C516 · Liberado",gifr,M3|516
+item,2026-10-26,M3 6ª gravação,2026-10-26,9,(GIM) Iframe da gravação da aul…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(GIM) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C517 · Liberado",gifr,M3|517
+item,2026-10-26,M3 6ª gravação,2026-10-26,10,(TI) Iframe da gravação da aula…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(TI) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C518 · Liberado",gifr,M3|518
+item,2026-10-26,M3 6ª gravação,2026-10-26,11,(TEV) Iframe da gravação da aul…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(TEV) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C519 · Liberado",gifr,M3|519
 item,2026-10-26,M3 6ª gravação,2026-10-26,12,◐ FÓRUM,0/18 feitas · em alerta,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,alerta,,cab:gfor,
 item,2026-10-26,M3 6ª gravação,2026-10-26,13,🔒︎ (ADM) Inserir as perguntas no f…,Gustavo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,alerta,"(ADM) Inserir as perguntas no fórum (MET + PET)
 M3 6ª gravação · M3!C520 · Bloqueado",gfor,M3|520
@@ -937,7 +937,7 @@ M3 6ª gravação · M3!C545 · Bloqueado",gpop,M3|545
 item,2026-10-26,M3 6ª gravação,2026-10-26,40,"🔒︎ (TEV) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,alerta,"(TEV) Inserir o popUp, mas deixar oculto
 M3 6ª gravação · M3!C546 · Bloqueado",gpop,M3|546
 item,2026-10-26,M3 6ª gravação,2026-10-27,0,🔒︎ REVISÃO · GRAVAÇÃO,0/10 feitas · em alerta,#fce6c1,#f8c165,#fce6c1,#f8c165,1,alerta,,cab:grev,
-item,2026-10-26,M3 6ª gravação,2026-10-27,1,🔒︎ Revisão dos 9 popUps e liberar …,Marcelo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão dos 9 popUps e liberar a visualização na página
+item,2026-10-26,M3 6ª gravação,2026-10-27,1,🔒︎ Revisão dos 9 popUps e liberar …,Maria Eduarda,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão dos 9 popUps e liberar a visualização na página
 M3 6ª gravação · M3!C547 · Bloqueado",grev,M3|547
 item,2026-10-26,M3 6ª gravação,2026-10-27,2,"🔒︎ (ADM) Revisão dos 2 HTMLs, mate…",Marcelo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M3 6ª gravação · M3!C548 · Bloqueado",grev,M3|548
