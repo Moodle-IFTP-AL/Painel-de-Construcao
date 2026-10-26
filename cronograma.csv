@@ -861,7 +861,7 @@ item,2026-10-26,M3 6ª gravação,2026-10-23,0,⚠ ENTRADA (DANI),Dani · 2/3 fe
 item,2026-10-26,M3 6ª gravação,2026-10-26,0,✔ VÍDEOS · GRAVAÇÃO,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:gvid,
 item,2026-10-26,M3 6ª gravação,2026-10-26,1,✔ Subir os 10 vídeos para o YouTu…,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Subir os 10 vídeos para o YouTube da SEDUC
 M3 6ª gravação · M3!C501 · Concluído",gvid,M3|501
-item,2026-10-26,M3 6ª gravação,2026-10-26,2,IFRAME DA GRAVAÇÃO,0/9 feitas · em alerta,#3FAFDD,#14213A,#3FAFDD,#14213A,1,alerta,,cab:gifr,
+item,2026-10-26,M3 6ª gravação,2026-10-26,2,IFRAME DA GRAVAÇÃO,3/9 feitas · em alerta,#3FAFDD,#14213A,#3FAFDD,#14213A,1,alerta,,cab:gifr,
 item,2026-10-26,M3 6ª gravação,2026-10-26,3,(ADM) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(ADM) Iframe da gravação da aula no HTML
 M3 6ª gravação · M3!C511 · Liberado",gifr,M3|511
 item,2026-10-26,M3 6ª gravação,2026-10-26,4,(AGS) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(AGS) Iframe da gravação da aula no HTML
@@ -874,13 +874,13 @@ item,2026-10-26,M3 6ª gravação,2026-10-26,7,(ECS) Iframe da gravação da aul
 M3 6ª gravação · M3!C515 · Liberado",gifr,M3|515
 item,2026-10-26,M3 6ª gravação,2026-10-26,8,(GOP) Iframe da gravação da aul…,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(GOP) Iframe da gravação da aula no HTML
 M3 6ª gravação · M3!C516 · Liberado",gifr,M3|516
-item,2026-10-26,M3 6ª gravação,2026-10-26,9,(GIM) Iframe da gravação da aul…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(GIM) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C517 · Liberado",gifr,M3|517
-item,2026-10-26,M3 6ª gravação,2026-10-26,10,(TI) Iframe da gravação da aula…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(TI) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C518 · Liberado",gifr,M3|518
-item,2026-10-26,M3 6ª gravação,2026-10-26,11,(TEV) Iframe da gravação da aul…,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"(TEV) Iframe da gravação da aula no HTML
-M3 6ª gravação · M3!C519 · Liberado",gifr,M3|519
-item,2026-10-26,M3 6ª gravação,2026-10-26,12,◐ FÓRUM,0/18 feitas · em alerta,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,alerta,,cab:gfor,
+item,2026-10-26,M3 6ª gravação,2026-10-26,9,✔ (GIM) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(GIM) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C517 · Concluído",gifr,M3|517
+item,2026-10-26,M3 6ª gravação,2026-10-26,10,✔ (TI) Iframe da gravação da aula…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(TI) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C518 · Concluído",gifr,M3|518
+item,2026-10-26,M3 6ª gravação,2026-10-26,11,✔ (TEV) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(TEV) Iframe da gravação da aula no HTML
+M3 6ª gravação · M3!C519 · Concluído",gifr,M3|519
+item,2026-10-26,M3 6ª gravação,2026-10-26,12,◐ FÓRUM,3/18 feitas · em alerta,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,alerta,,cab:gfor,
 item,2026-10-26,M3 6ª gravação,2026-10-26,13,🔒︎ (ADM) Inserir as perguntas no f…,Gustavo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,alerta,"(ADM) Inserir as perguntas no fórum (MET + PET)
 M3 6ª gravação · M3!C520 · Bloqueado",gfor,M3|520
 item,2026-10-26,M3 6ª gravação,2026-10-26,14,🔒︎ (AGS) Inserir as perguntas no f…,Gustavo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,alerta,"(AGS) Inserir as perguntas no fórum (MET + PET)
@@ -911,12 +911,12 @@ item,2026-10-26,M3 6ª gravação,2026-10-26,26,(ECS) Material da aula no fórum
 M3 6ª gravação · M3!C533 · Liberado",gfor,M3|533
 item,2026-10-26,M3 6ª gravação,2026-10-26,27,(GOP) Material da aula no fórum…,Anna Paula,#c7e6f3,#25314C,#FFFFFF,#25314C,,alerta,"(GOP) Material da aula no fórum da gravação (MET + PET)
 M3 6ª gravação · M3!C534 · Liberado",gfor,M3|534
-item,2026-10-26,M3 6ª gravação,2026-10-26,28,(GIM) Material da aula no fórum…,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,alerta,"(GIM) Material da aula no fórum da gravação (MET + PET)
-M3 6ª gravação · M3!C535 · Liberado",gfor,M3|535
-item,2026-10-26,M3 6ª gravação,2026-10-26,29,(TI) Material da aula no fórum …,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,alerta,"(TI) Material da aula no fórum da gravação (MET + PET)
-M3 6ª gravação · M3!C536 · Liberado",gfor,M3|536
-item,2026-10-26,M3 6ª gravação,2026-10-26,30,(TEV) Material da aula no fórum…,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,alerta,"(TEV) Material da aula no fórum da gravação (MET + PET)
-M3 6ª gravação · M3!C537 · Liberado",gfor,M3|537
+item,2026-10-26,M3 6ª gravação,2026-10-26,28,✔ (GIM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(GIM) Material da aula no fórum da gravação (MET + PET)
+M3 6ª gravação · M3!C535 · Concluído",gfor,M3|535
+item,2026-10-26,M3 6ª gravação,2026-10-26,29,✔ (TI) Material da aula no fórum …,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(TI) Material da aula no fórum da gravação (MET + PET)
+M3 6ª gravação · M3!C536 · Concluído",gfor,M3|536
+item,2026-10-26,M3 6ª gravação,2026-10-26,30,✔ (TEV) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"(TEV) Material da aula no fórum da gravação (MET + PET)
+M3 6ª gravação · M3!C537 · Concluído",gfor,M3|537
 item,2026-10-26,M3 6ª gravação,2026-10-26,31,🔒︎ POPUP,0/9 feitas · em alerta,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,alerta,,cab:gpop,
 item,2026-10-26,M3 6ª gravação,2026-10-26,32,"🔒︎ (ADM) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,alerta,"(ADM) Inserir o popUp, mas deixar oculto
 M3 6ª gravação · M3!C538 · Bloqueado",gpop,M3|538
@@ -988,35 +988,35 @@ item,2026-10-26,M3 U5,2026-10-23,3,✔ HTML base ADM PET,Maria Eduarda,#EEF9F3,#
 M3 U5 · M3!C610 · Concluído",hb,M3|610
 item,2026-10-26,M3 U5,2026-10-23,4,✔ HTML base PI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
 M3 U5 · M3!C611 · Concluído",hb,M3|611
-item,2026-10-26,M3 U5,2026-10-26,0,▶ REVISÃO DA BASE,1/4 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:rb,
-item,2026-10-26,M3 U5,2026-10-26,1,Rev. HTML base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Metodologia
-M3 U5 · M3!C613 · Liberado",rb,M3|613
-item,2026-10-26,M3 U5,2026-10-26,2,Rev. HTML base PET ADM,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - PET (ADM)
-M3 U5 · M3!C614 · Liberado",rb,M3|614
-item,2026-10-26,M3 U5,2026-10-26,3,Rev. HTML base PI,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Planejamento Integrado (se houver)
-M3 U5 · M3!C615 · Liberado",rb,M3|615
-item,2026-10-26,M3 U5,2026-10-26,4,✔ Rev. H5P base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão das atividades H5P base - PET (ADM)
+item,2026-10-26,M3 U5,2026-10-26,0,✔ REVISÃO DA BASE,4/4 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:rb,
+item,2026-10-26,M3 U5,2026-10-26,1,✔ Rev. HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
+M3 U5 · M3!C613 · Concluído",rb,M3|613
+item,2026-10-26,M3 U5,2026-10-26,2,✔ Rev. HTML base PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
+M3 U5 · M3!C614 · Concluído",rb,M3|614
+item,2026-10-26,M3 U5,2026-10-26,3,✔ Rev. HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+M3 U5 · M3!C615 · Concluído",rb,M3|615
+item,2026-10-26,M3 U5,2026-10-26,4,✔ Rev. H5P base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U5 · M3!C618 · Concluído",rb,M3|618
-item,2026-10-26,M3 U5,2026-10-27,0,◐ REPLICAÇÃO + H5P PET 8,0/10 feitas,#006A99,#FFFFFF,#006A99,#FFFFFF,1,,,cab:p5,
-item,2026-10-26,M3 U5,2026-10-27,1,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M3 U5 · M3!C622 · Bloqueado",p5,M3|622
-item,2026-10-26,M3 U5,2026-10-27,2,Replicar H5P MET/PI/RP,Maria Eduarda,#c7dee9,#25314C,#FFFFFF,#25314C,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+item,2026-10-26,M3 U5,2026-10-27,0,▶ REPLICAÇÃO + H5P PET 8,0/10 feitas,#006A99,#FFFFFF,#006A99,#FFFFFF,1,atual,,cab:p5,
+item,2026-10-26,M3 U5,2026-10-27,1,Replicar páginas MET/PI/RP,Maria Eduarda,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M3 U5 · M3!C622 · Liberado",p5,M3|622
+item,2026-10-26,M3 U5,2026-10-27,2,Replicar H5P MET/PI/RP,Maria Eduarda,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M3 U5 · M3!C623 · Liberado",p5,M3|623
-item,2026-10-26,M3 U5,2026-10-27,3,H5P de PET AGS,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - AGS (Agro Sustentável)
+item,2026-10-26,M3 U5,2026-10-27,3,H5P de PET AGS,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - AGS (Agro Sustentável)
 M3 U5 · M3!C624 · Liberado",p5,M3|624
-item,2026-10-26,M3 U5,2026-10-27,4,H5P de PET COM,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - COM (Comunicação e Mercado)
+item,2026-10-26,M3 U5,2026-10-27,4,H5P de PET COM,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - COM (Comunicação e Mercado)
 M3 U5 · M3!C625 · Liberado",p5,M3|625
-item,2026-10-26,M3 U5,2026-10-27,5,H5P de PET CDC,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - CDC (Criação Digital e Cultural)
+item,2026-10-26,M3 U5,2026-10-27,5,H5P de PET CDC,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - CDC (Criação Digital e Cultural)
 M3 U5 · M3!C626 · Liberado",p5,M3|626
-item,2026-10-26,M3 U5,2026-10-27,6,H5P de PET ECS,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - ECS (Economia Social)
+item,2026-10-26,M3 U5,2026-10-27,6,H5P de PET ECS,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - ECS (Economia Social)
 M3 U5 · M3!C627 · Liberado",p5,M3|627
-item,2026-10-26,M3 U5,2026-10-27,7,H5P de PET GOP,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - GOP (Gestão e Operações)
+item,2026-10-26,M3 U5,2026-10-27,7,H5P de PET GOP,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - GOP (Gestão e Operações)
 M3 U5 · M3!C628 · Liberado",p5,M3|628
-item,2026-10-26,M3 U5,2026-10-27,8,H5P de PET GIM,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - GIM (Gestão Imobiliária)
+item,2026-10-26,M3 U5,2026-10-27,8,H5P de PET GIM,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - GIM (Gestão Imobiliária)
 M3 U5 · M3!C629 · Liberado",p5,M3|629
-item,2026-10-26,M3 U5,2026-10-27,9,H5P de PET TI,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - TI (Tecnologia da Informação)
+item,2026-10-26,M3 U5,2026-10-27,9,H5P de PET TI,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - TI (Tecnologia da Informação)
 M3 U5 · M3!C630 · Liberado",p5,M3|630
-item,2026-10-26,M3 U5,2026-10-27,10,H5P de PET TEV,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,,"H5P de PET - TEV (Turismo e Eventos)
+item,2026-10-26,M3 U5,2026-10-27,10,H5P de PET TEV,Marquito,#c7dee9,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - TEV (Turismo e Eventos)
 M3 U5 · M3!C631 · Liberado",p5,M3|631
 item,2026-10-26,M3 U5,2026-10-28,0,🔒︎ HTML DE PET 8,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:rp,
 item,2026-10-26,M3 U5,2026-10-28,1,🔒︎ HTML de PET AGS,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
