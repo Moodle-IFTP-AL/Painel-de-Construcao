@@ -1205,15 +1205,15 @@ dia,2026-11-02,,2026-11-04,7,QUA 04/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-02,,2026-11-05,8,QUI 05/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-02,,2026-11-06,9,SEX 06/11,,#1B6E8C,#FFFFFF,,,,,,,
 item,2026-11-02,M3 U7,2026-10-26,0,✔ TEMPLATE,Dani · 11/11 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:tpl,
-item,2026-11-02,M3 U7,2026-10-26,1,◐ H5P,0/4 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:h5p,
-item,2026-11-02,M3 U7,2026-10-26,2,Mapear H5P ref. MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
-M3 U7 · M3!C802 · Liberado",h5p,M3|802
-item,2026-11-02,M3 U7,2026-10-26,3,Mapear H5P ref. PET ADM,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - PET (ADM)
-M3 U7 · M3!C803 · Liberado",h5p,M3|803
-item,2026-11-02,M3 U7,2026-10-26,4,🔒︎ H5P base MET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
-M3 U7 · M3!C805 · Bloqueado",h5p,M3|805
-item,2026-11-02,M3 U7,2026-10-26,5,🔒︎ H5P base ADM PET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base ADM - trilha de Prática do Ensino Técnico
-M3 U7 · M3!C806 · Bloqueado",h5p,M3|806
+item,2026-11-02,M3 U7,2026-10-26,1,✔ H5P,4/4 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:h5p,
+item,2026-11-02,M3 U7,2026-10-26,2,✔ Mapear H5P ref. MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - Metodologia
+M3 U7 · M3!C802 · Concluído",h5p,M3|802
+item,2026-11-02,M3 U7,2026-10-26,3,✔ Mapear H5P ref. PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - PET (ADM)
+M3 U7 · M3!C803 · Concluído",h5p,M3|803
+item,2026-11-02,M3 U7,2026-10-26,4,✔ H5P base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base - trilha de Metodologia
+M3 U7 · M3!C805 · Concluído",h5p,M3|805
+item,2026-11-02,M3 U7,2026-10-26,5,✔ H5P base ADM PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+M3 U7 · M3!C806 · Concluído",h5p,M3|806
 item,2026-11-02,M3 U7,2026-10-26,6,✔ VÍDEOS,3/3 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:vid,
 item,2026-11-02,M3 U7,2026-10-26,7,✔ Conferir vídeos MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Conferir se os vídeos de MET foram criados
 M3 U7 · M3!C786 · Concluído",vid,M3|786
@@ -1221,25 +1221,25 @@ item,2026-11-02,M3 U7,2026-10-26,8,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3,#
 M3 U7 · M3!C790 · Concluído",vid,M3|790
 item,2026-11-02,M3 U7,2026-10-26,9,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
 M3 U7 · M3!C794 · Concluído",vid,M3|794
-item,2026-11-02,M3 U7,2026-10-27,0,◐ H5P,↳ continua,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:h5p,
-item,2026-11-02,M3 U7,2026-10-27,1,HTML BASE,0/3 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:hb,
-item,2026-11-02,M3 U7,2026-10-27,2,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+item,2026-11-02,M3 U7,2026-10-27,0,✔ H5P,↳ continua,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:h5p,
+item,2026-11-02,M3 U7,2026-10-27,1,▶ HTML BASE,0/3 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,atual,,cab:hb,
+item,2026-11-02,M3 U7,2026-10-27,2,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,atual,"HTML base - Metodologia Pedagógica
 M3 U7 · M3!C807 · Liberado",hb,M3|807
-item,2026-11-02,M3 U7,2026-10-27,3,HTML base ADM PET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-02,M3 U7,2026-10-27,3,HTML base ADM PET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,atual,"HTML base ADM - Prática do Ensino Técnico
 M3 U7 · M3!C808 · Liberado",hb,M3|808
-item,2026-11-02,M3 U7,2026-10-27,4,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M3 U7,2026-10-27,4,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,atual,"HTML base - Planejamento Integrado (se houver)
 M3 U7 · M3!C809 · Liberado",hb,M3|809
-item,2026-11-02,M3 U7,2026-10-27,5,🔒︎ REVISÃO DA BASE,0/5 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:rb,
+item,2026-11-02,M3 U7,2026-10-27,5,◐ REVISÃO DA BASE,0/5 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:rb,
 item,2026-11-02,M3 U7,2026-10-27,6,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
 M3 U7 · M3!C811 · Bloqueado",rb,M3|811
 item,2026-11-02,M3 U7,2026-10-27,7,🔒︎ Rev. HTML base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
 M3 U7 · M3!C812 · Bloqueado",rb,M3|812
 item,2026-11-02,M3 U7,2026-10-27,8,🔒︎ Rev. HTML base PI,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U7 · M3!C813 · Bloqueado",rb,M3|813
-item,2026-11-02,M3 U7,2026-10-27,9,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
-M3 U7 · M3!C815 · Bloqueado",rb,M3|815
-item,2026-11-02,M3 U7,2026-10-27,10,🔒︎ Rev. H5P base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
-M3 U7 · M3!C816 · Bloqueado",rb,M3|816
+item,2026-11-02,M3 U7,2026-10-27,9,Rev. H5P base MET,Alline,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - Metodologia
+M3 U7 · M3!C815 · Liberado",rb,M3|815
+item,2026-11-02,M3 U7,2026-10-27,10,Rev. H5P base PET ADM,Alline,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - PET (ADM)
+M3 U7 · M3!C816 · Liberado",rb,M3|816
 item,2026-11-02,M3 U7,2026-10-28,0,🔒︎ REPLICAÇÃO + H5P PET 8,0/10 feitas,#b8d5e2,#4d97b8,#b8d5e2,#4d97b8,1,,,cab:p5,
 item,2026-11-02,M3 U7,2026-10-28,1,🔒︎ Replicar páginas MET/PI/RP,Thony,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M3 U7 · M3!C820 · Bloqueado",p5,M3|820
