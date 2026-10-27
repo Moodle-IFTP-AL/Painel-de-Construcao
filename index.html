@@ -432,6 +432,15 @@
   .smIt.apagado{opacity:.22}
   .smIt.meu .q{outline:2px solid var(--amarelo);outline-offset:-1px}
   .smVazio{color:var(--texto-3);font-size:13.5px;margin-top:18px}
+  /* semana de construção: cada dia empilha um bloco por unidade */
+  .smDiaCol{gap:10px}
+  .smGrupo{border:1.5px solid #C9D3E3;border-radius:12px;overflow:hidden;background:#F4F7FB}
+  .smGrupo.semMim{opacity:.45}
+  .smGcab{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:6px 10px;font-weight:700;font-size:12.5px;
+          letter-spacing:.05em;text-transform:uppercase}
+  .smGcab small{font-weight:500;font-size:11px;letter-spacing:.02em;text-transform:none;opacity:.85;white-space:nowrap}
+  .smGcorpo{display:flex;flex-direction:column;gap:5px;padding:5px}
+  .smNada{color:var(--texto-3);font-size:12px;margin:6px 4px}
 
 
   /* tarefas citadas nos Alertas: eram botões crus do navegador */
@@ -5245,7 +5254,8 @@ function lerSemanal(txt){
            bg:c("fundo"),fc:c("cor"),bgq:c("fundoq"),fcq:c("corq"),ng:c("negrito"),bd:c("borda"),nt:c("nota"),fa:c("fase")};
   if(k.tipo<0||k.sem<0) return;
   const semanas=[], porS={};
-  const S=id=>{ if(!porS[id]){ porS[id]={id,titulo:"",dias:[],unidades:[],porU:{}}; semanas.push(porS[id]); } return porS[id]; };
+  // porDia: a pilha de cada dia (v4.0 da planilha: semana de construção, um bloco por unidade dentro do dia)
+  const S=id=>{ if(!porS[id]){ porS[id]={id,titulo:"",dias:[],unidades:[],porU:{},porDia:{},blocos:0}; semanas.push(porS[id]); } return porS[id]; };
   const U=(sm,u)=>{ if(!sm.porU[u]){ sm.porU[u]={u,texto:u,itens:{}}; sm.unidades.push(sm.porU[u]); } return sm.porU[u]; };
   for(let i=1;i<L.length;i++){
     const l=L[i], tipo=l[k.tipo]; if(!tipo) continue;
@@ -5253,20 +5263,25 @@ function lerSemanal(txt){
     if(tipo==="semana") sm.titulo=l[k.tx];
     else if(tipo==="dia") sm.dias.push({d:l[k.dia],tx:l[k.tx],marca:l[k.qm],bg:l[k.bg],fc:l[k.fc]});
     else if(tipo==="unidade") U(sm,l[k.uni]).texto=l[k.tx];
-    else if(tipo==="item"){
-      const un=U(sm,l[k.uni]);
-      (un.itens[l[k.dia]]=un.itens[l[k.dia]]||[]).push({ord:+l[k.ord]||0,tx:l[k.tx],qm:l[k.qm],bg:l[k.bg],fc:l[k.fc],
-        bgq:l[k.bgq],fcq:l[k.fcq],forte:l[k.ng]==="1",borda:l[k.bd],nota:l[k.nt],fase:l[k.fa]||""});
+    else if(tipo==="item"||tipo==="bloco"){
+      const it={tipo,uni:l[k.uni],ord:+l[k.ord]||0,tx:l[k.tx],qm:l[k.qm],bg:l[k.bg],fc:l[k.fc],
+        bgq:l[k.bgq],fcq:l[k.fcq],forte:l[k.ng]==="1",borda:l[k.bd],nota:l[k.nt],fase:l[k.fa]||""};
+      (sm.porDia[l[k.dia]]=sm.porDia[l[k.dia]]||[]).push(it);
+      if(tipo==="bloco") sm.blocos++;
+      else if(l[k.uni]){ const un=U(sm,l[k.uni]); (un.itens[l[k.dia]]=un.itens[l[k.dia]]||[]).push(it); }
     }
   }
-  semanas.forEach(sm=>sm.unidades.forEach(un=>Object.values(un.itens).forEach(a=>a.sort((x,y)=>x.ord-y.ord))));
+  semanas.forEach(sm=>{
+    sm.unidades.forEach(un=>Object.values(un.itens).forEach(a=>a.sort((x,y)=>x.ord-y.ord)));
+    Object.values(sm.porDia).forEach(a=>a.sort((x,y)=>x.ord-y.ord));
+  });
   SEMANAL=semanas.filter(sm=>sm.dias.length);
 }
 function desenharSemanal(){
   const alvo=document.getElementById("semanal"); if(!alvo) return;
   let h=`<div class="calTopo"><div><h2>Cronograma semanal</h2>
-    <p class="calSub">Uma tabela por semana de entrega da Dani: cada dia mostra as fases previstas, as tarefas e quem faz.
-    Para trocar quem faz, use a lista suspensa da aba Cronograma semanal na planilha de gestão.</p></div>`;
+    <p class="calSub">Uma tabela por semana de construção: em cada dia, um bloco por unidade com as fases, as tarefas e quem faz naquele dia
+    (a entrega à Dani fica no cabeçalho do bloco). Para trocar quem faz, use a lista suspensa da aba Cronograma semanal na planilha de gestão.</p></div>`;
   if(!SEMANAL||!SEMANAL.length){
     alvo.innerHTML=h+`</div><p class="smVazio">O cronograma ainda não foi publicado. Na planilha de gestão, use Esteira › Atualizar tudo agora.</p>`;
     return;
@@ -5279,7 +5294,7 @@ function desenharSemanal(){
   const temHoje=SEMANAL.find(sm=>sm.dias.some(d=>d.marca==="hoje"));
   h+=`<div class="calAcoes">
       <select id="smPessoa" aria-label="Destacar pessoa"><option value="">todas as pessoas</option>${pessoas.map(p=>`<option${p===SM_PESSOA?" selected":""}>${escapa(p)}</option>`).join("")}</select>
-      <select id="smSemana" aria-label="Semana"><option value="">todas as semanas</option>${SEMANAL.map(sm=>`<option value="${escapa(sm.id)}"${sm.id===SM_SEMANA?" selected":""}>${escapa(sm.titulo.replace(/^SEMANA DE ENTREGA /,"").split(" · ")[0])}</option>`).join("")}</select>
+      <select id="smSemana" aria-label="Semana"><option value="">todas as semanas</option>${SEMANAL.map(sm=>`<option value="${escapa(sm.id)}"${sm.id===SM_SEMANA?" selected":""}>${escapa(sm.titulo.replace(/^SEMANA (DE ENTREGA |DE )?/,"").split(" · ")[0].trim())}</option>`).join("")}</select>
       ${temHoje?`<button class="btn cheio" id="smHoje">Semana de hoje</button>`:""}
     </div></div>`;
   const leg=[["Template","#5A6680","#fff"],["H5P","#008CC7","#fff"],["Vídeos","#F04770","#fff"],["HTML base","#79D3F2","#14213A"],
@@ -5290,29 +5305,58 @@ function desenharSemanal(){
   h+=`<div class="smLeg">${leg.map(x=>`<span style="background:${x[1]};color:${x[2]}${x[1]==="#fff"?";border-color:#B8C6D5":""}">${x[0]}</span>`).join("")}
       <span style="background:#fff;color:#25314C;border-color:#25314C">▶ Fase atual</span>
       <span style="background:#fff;color:#B0203F;border-color:#E0566F">Em alerta</span></div>`;
+  // cartões: cada título de fase abre um cartão; as tarefas seguintes ficam dentro dele
+  const cartoes=its=>{
+    const cards=[]; its.forEach(it=>{ if(it.fase.startsWith("cab:")||it.tx==="feriado"||!cards.length) cards.push({borda:it.borda,its:[it]}); else cards[cards.length-1].its.push(it); });
+    let s="";
+    cards.forEach(cd=>{
+      s+=`<div class="smCard${cd.borda?" "+cd.borda:""}">`;
+      cd.its.forEach(it=>{
+        const cab=it.fase.startsWith("cab:"), meu=SM_PESSOA&&!cab&&it.qm===SM_PESSOA, apaga=SM_PESSOA&&!cab&&it.tx!=="feriado"&&it.qm!==SM_PESSOA;
+        s+=`<div class="smIt${cab?" cab":""}${it.forte?" forte":""}${apaga?" apagado":""}${meu?" meu":""}" style="background:${it.bg||"#fff"};color:${it.fc||"#25314C"}"${it.nota?` title="${escapa(it.nota)}"`:""}>
+          <span class="t">${escapa(it.tx)}</span><span class="q" style="${cab?"":`background:${it.bgq||"#fff"};`}color:${it.fcq||it.fc||"#25314C"}">${escapa(it.qm||"")}</span></div>`;
+      });
+      s+=`</div>`;
+    });
+    return s;
+  };
+  const cabDia=d=>`<div class="smDia" style="background:${d.bg};color:${d.fc}">${escapa(d.tx)}<small>${d.marca==="hoje"?"hoje":d.marca==="feriado"?"feriado":"tarefa · quem faz"}</small></div>`;
   (SM_SEMANA?SEMANAL.filter(sm=>sm.id===SM_SEMANA):SEMANAL).forEach(sm=>{
     const n=sm.dias.length;
-    h+=`<section class="smBloco" id="sm-${escapa(sm.id)}"><div class="smTit">${escapa(sm.titulo)}</div><div class="smWrap">
-      <div class="smGrade" style="grid-template-columns:150px repeat(${n},minmax(250px,1fr))"><div></div>`;
-    sm.dias.forEach(d=>{ h+=`<div class="smDia" style="background:${d.bg};color:${d.fc}">${escapa(d.tx)}<small>${d.marca==="hoje"?"hoje":d.marca==="feriado"?"feriado":"tarefa · quem faz"}</small></div>`; });
+    h+=`<section class="smBloco" id="sm-${escapa(sm.id)}"><div class="smTit">${escapa(sm.titulo)}</div><div class="smWrap">`;
+    if(sm.blocos){
+      // semana de construção: cada dia é uma pilha de blocos, um por unidade, com o que é feito naquele dia
+      h+=`<div class="smGrade" style="grid-template-columns:repeat(${n},minmax(270px,1fr))">`;
+      sm.dias.forEach(d=>{ h+=cabDia(d); });
+      sm.dias.forEach(d=>{
+        const pilha=sm.porDia[d.d]||[], grupos=[];
+        pilha.forEach(it=>{
+          if(it.tipo==="bloco") grupos.push({cab:it,its:[]});
+          else if(!it.uni||!grupos.length) grupos.push({cab:null,its:[it]});
+          else grupos[grupos.length-1].its.push(it);
+        });
+        h+=`<div class="smCel smDiaCol">`;
+        if(!grupos.length) h+=`<p class="smNada">nada previsto</p>`;
+        grupos.forEach(g=>{
+          if(!g.cab){ h+=cartoes(g.its); return; }
+          const meu=SM_PESSOA&&g.its.some(it=>!it.fase.startsWith("cab:")&&it.qm===SM_PESSOA);
+          h+=`<div class="smGrupo${SM_PESSOA&&!meu?" semMim":""}"><div class="smGcab" style="background:${g.cab.bg||"#25314C"};color:${g.cab.fc||"#fff"}"${g.cab.nota?` title="${escapa(g.cab.nota)}"`:""}>
+              <span>${escapa(g.cab.tx)}</span><small>${escapa(g.cab.qm||"")}</small></div><div class="smGcorpo">${cartoes(g.its)}</div></div>`;
+        });
+        h+=`</div>`;
+      });
+      h+=`</div></div></section>`;
+      return;
+    }
+    // formato antigo (semana de entrega × unidades), enquanto a planilha não publica o novo
+    h+=`<div class="smGrade" style="grid-template-columns:150px repeat(${n},minmax(250px,1fr))"><div></div>`;
+    sm.dias.forEach(d=>{ h+=cabDia(d); });
     sm.unidades.forEach(un=>{
       const linhas=(un.texto||un.u).split("\n");
       h+=`<div class="smUni"><b>${escapa(linhas[0])}</b>${linhas.slice(1).map(x=>x.startsWith("⚠")?`<span class="av">${escapa(x)}</span>`:escapa(x)).join("\n")}</div>`;
       sm.dias.forEach(d=>{
         const its=un.itens[d.d]||[];
-        // cartões: cada título de fase abre um cartão; as tarefas seguintes ficam dentro dele
-        const cards=[]; its.forEach(it=>{ if(it.fase.startsWith("cab:")||it.tx==="feriado"||!cards.length) cards.push({borda:it.borda,its:[it]}); else cards[cards.length-1].its.push(it); });
-        h+=`<div class="smCel${its.length?" dentro":""}">`;
-        cards.forEach(cd=>{
-          h+=`<div class="smCard${cd.borda?" "+cd.borda:""}">`;
-          cd.its.forEach(it=>{
-            const cab=it.fase.startsWith("cab:"), meu=SM_PESSOA&&!cab&&it.qm===SM_PESSOA, apaga=SM_PESSOA&&!cab&&it.tx!=="feriado"&&it.qm!==SM_PESSOA;
-            h+=`<div class="smIt${cab?" cab":""}${it.forte?" forte":""}${apaga?" apagado":""}${meu?" meu":""}" style="background:${it.bg||"#fff"};color:${it.fc||"#25314C"}"${it.nota?` title="${escapa(it.nota)}"`:""}>
-              <span class="t">${escapa(it.tx)}</span><span class="q" style="${cab?"":`background:${it.bgq||"#fff"};`}color:${it.fcq||it.fc||"#25314C"}">${escapa(it.qm||"")}</span></div>`;
-          });
-          h+=`</div>`;
-        });
-        h+=`</div>`;
+        h+=`<div class="smCel${its.length?" dentro":""}">${cartoes(its)}</div>`;
       });
     });
     h+=`</div></div></section>`;
