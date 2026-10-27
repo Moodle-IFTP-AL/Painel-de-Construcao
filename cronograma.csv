@@ -261,7 +261,7 @@ M3 6ª gravação · M3!C558 · Concluído",gfec,M3|558
 bloco,2026-10-26,M3 U5,2026-10-28,5,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U5
 template qui 22/10
 entrega sex 30/10",,
-item,2026-10-26,M3 U5,2026-10-28,6,▶ HTML DE PET 8,0/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
+item,2026-10-26,M3 U5,2026-10-28,6,▶ HTML DE PET 8,2/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
 item,2026-10-26,M3 U5,2026-10-28,7,HTML de PET AGS,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
 M3 U5 · M3!C632 · Liberado",rp,M3|632
 item,2026-10-26,M3 U5,2026-10-28,8,HTML de PET COM,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
@@ -274,10 +274,10 @@ item,2026-10-26,M3 U5,2026-10-28,11,HTML de PET GOP,Gustavo,#d5edf8,#25314C,#FFF
 M3 U5 · M3!C636 · Liberado",rp,M3|636
 item,2026-10-26,M3 U5,2026-10-28,12,HTML de PET GIM,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GIM (Gestão Imobiliária)
 M3 U5 · M3!C637 · Liberado",rp,M3|637
-item,2026-10-26,M3 U5,2026-10-28,13,HTML de PET TI,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TI (Tecnologia da Informação)
-M3 U5 · M3!C638 · Liberado",rp,M3|638
-item,2026-10-26,M3 U5,2026-10-28,14,HTML de PET TEV,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
-M3 U5 · M3!C639 · Liberado",rp,M3|639
+item,2026-10-26,M3 U5,2026-10-28,13,✔ HTML de PET TI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
+M3 U5 · M3!C638 · Concluído",rp,M3|638
+item,2026-10-26,M3 U5,2026-10-28,14,✔ HTML de PET TEV,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M3 U5 · M3!C639 · Concluído",rp,M3|639
 bloco,2026-10-26,M3 U6,2026-10-28,16,M3 · UNIDADE 6,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U6
 template sex 23/10
 entrega sex 30/10",,
@@ -316,7 +316,7 @@ M3 U7 · M3!C816 · Concluído",rb,M3|816
 bloco,2026-10-26,M3 U5,2026-10-29,0,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U5
 template qui 22/10
 entrega sex 30/10",,
-item,2026-10-26,M3 U5,2026-10-29,1,🔒︎ REVISÃO FINAL,0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:rf,
+item,2026-10-26,M3 U5,2026-10-29,1,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
 item,2026-10-26,M3 U5,2026-10-29,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
 M3 U5 · M3!C640 · Bloqueado",rf,M3|640
 item,2026-10-26,M3 U5,2026-10-29,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
@@ -329,10 +329,10 @@ item,2026-10-26,M3 U5,2026-10-29,6,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570
 M3 U5 · M3!C644 · Bloqueado",rf,M3|644
 item,2026-10-26,M3 U5,2026-10-29,7,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
 M3 U5 · M3!C645 · Bloqueado",rf,M3|645
-item,2026-10-26,M3 U5,2026-10-29,8,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M3 U5 · M3!C646 · Bloqueado",rf,M3|646
-item,2026-10-26,M3 U5,2026-10-29,9,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M3 U5 · M3!C647 · Bloqueado",rf,M3|647
+item,2026-10-26,M3 U5,2026-10-29,8,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
+M3 U5 · M3!C646 · Liberado",rf,M3|646
+item,2026-10-26,M3 U5,2026-10-29,9,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TEV (Turismo e Eventos)
+M3 U5 · M3!C647 · Liberado",rf,M3|647
 bloco,2026-10-26,M3 U6,2026-10-29,11,M3 · UNIDADE 6,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U6
 template sex 23/10
 entrega sex 30/10",,
