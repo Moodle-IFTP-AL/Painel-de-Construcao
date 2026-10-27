@@ -562,7 +562,9 @@
   .vista.palco.arrastando{cursor:grabbing}
   .vista.palco.arrastando *{user-select:none}
   .vista.palco>.cena{position:absolute;left:0;top:0;flex:none;overflow:visible;min-height:100%;
-                     transform-origin:0 0;will-change:transform}
+                     transform-origin:0 0}
+  /* will-change só enquanto a folha se mexe: parada, o navegador redesenha o texto na escala certa (nítido) */
+  .vista.palco>.cena.mexendo{will-change:transform}
   .vista.palco .esteiras,.vista.palco .smWrap,.vista.palco .calGradeWrap{overflow:visible}
   .vista.palco .mapa,.vista.palco .pessoas{overflow:visible;max-height:none}
   .zoomCtl{position:absolute;right:16px;bottom:16px;z-index:20;display:flex;align-items:center;gap:2px;
@@ -682,6 +684,7 @@
 </dialog>
 
 <script>
+var ZOOM_MIN=.25, ZOOM_MAX=2;   // zoom das abas: 25% a 200% (além disso a folha fica pequena demais ou o texto estoura a tela)
 "use strict";
 
 /* ===========================================================
@@ -3454,7 +3457,7 @@ function enquadrar(){ const r=vb();
   precisaEnquadrar=false;
   cam.k=Math.max(.2,Math.min(r.height/(G.H+60), 1.15));
   cam.x=16; cam.y=(r.height-G.H*cam.k)/2; aplicarCam(); }
-function zoom(f,cx,cy){ const r=tela.getBoundingClientRect(); const k2=Math.min(2.4,Math.max(.15,cam.k*f));
+function zoom(f,cx,cy){ const r=tela.getBoundingClientRect(); const k2=Math.min(ZOOM_MAX,Math.max(.15,cam.k*f));
   cx=cx??r.width/2; cy=cy??r.height/2;
   cam.x=cx-(cx-cam.x)*(k2/cam.k); cam.y=cy-(cy-cam.y)*(k2/cam.k); cam.k=k2; aplicarCam(); }
 tela.addEventListener("wheel",e=>{e.preventDefault();const r=tela.getBoundingClientRect();
@@ -3977,7 +3980,7 @@ function aplicarL(){ if(raizL) raizL.setAttribute("transform",`translate(${camL.
 function vbL(){ const r=telaL.getBoundingClientRect(); svgL.setAttribute("viewBox",`0 0 ${r.width} ${r.height}`); return r; }
 function ajustarL(){ const r=vbL(); camL.k=Math.max(.12,Math.min(r.width/(cenaW+60), r.height/(cenaH+60), 1.1));
   camL.x=(r.width-cenaW*camL.k)/2; camL.y=24; aplicarL(); }
-function zoomL(f,cx,cy){ const r=telaL.getBoundingClientRect(); const k2=Math.min(2.6,Math.max(.1,camL.k*f));
+function zoomL(f,cx,cy){ const r=telaL.getBoundingClientRect(); const k2=Math.min(ZOOM_MAX,Math.max(.1,camL.k*f));
   cx=cx??r.width/2; cy=cy??r.height/2;
   camL.x=cx-(cx-camL.x)*(k2/camL.k); camL.y=cy-(cy-camL.y)*(k2/camL.k); camL.k=k2; aplicarL(); }
 telaL.addEventListener("wheel",e=>{e.preventDefault();const r=telaL.getBoundingClientRect();
@@ -4099,18 +4102,21 @@ function palcoAplicar(P){
   // a folha nunca some da tela: sempre sobra um pedaço visível para puxar de volta
   P.x=Math.min(vw-Math.min(m,W), Math.max(Math.min(m,W)-W, P.x));
   P.y=Math.min(vh-Math.min(m,H), Math.max(Math.min(m,H)-H, P.y));
-  P.c.style.transform=`translate(${P.x}px,${P.y}px) scale(${P.k})`;
+  // posição em pixel inteiro: deslocamento fracionado borra o texto
+  P.c.style.transform=`translate(${Math.round(P.x)}px,${Math.round(P.y)}px) scale(${P.k})`;
+  P.c.classList.add("mexendo");
+  clearTimeout(P.nitido); P.nitido=setTimeout(()=>P.c.classList.remove("mexendo"),160);
   const pct=P.ctl.querySelector(".pct"); if(pct) pct.textContent=Math.round(P.k*100)+"%";
 }
 function palcoZoom(P,f,cx,cy){
-  const k2=Math.min(3,Math.max(.15,P.k*f));
+  const k2=Math.min(ZOOM_MAX,Math.max(ZOOM_MIN,P.k*f));
   cx=cx??P.v.clientWidth/2; cy=cy??P.v.clientHeight/2;
   P.x=cx-(cx-P.x)*(k2/P.k); P.y=cy-(cy-P.y)*(k2/P.k); P.k=k2; palcoAplicar(P);
 }
 function palcoTopo(P){ P.k=1; P.x=0; P.y=0; palcoAplicar(P); }
 function palcoAjustar(P){
   const t=palcoTam(P), vw=P.v.clientWidth, vh=P.v.clientHeight;
-  P.k=Math.max(.15,Math.min(1,(vw-24)/t.W,(vh-24)/t.H));
+  P.k=Math.max(ZOOM_MIN,Math.min(1,(vw-24)/t.W,(vh-24)/t.H));
   P.x=(vw-t.W*P.k)/2; P.y=Math.max(12,(vh-t.H*P.k)/2); palcoAplicar(P);
 }
 /* leva um elemento da folha para o alto da janela, mantendo o zoom (usado no "Semana de hoje") */
