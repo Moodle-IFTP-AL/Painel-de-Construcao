@@ -10,7 +10,7 @@ template sex 23/10
 entrega sex 30/10",,,,,,,,,,
 unidade,2026-10-26,M3 U7,,,"M3 · UNIDADE 7
 template seg 26/10
-entrega ter 03/11",,,,,,,,,,
+entrega qui 05/11",,,,,,,,,,
 dia,2026-10-26,,2026-10-26,0,SEG 26/10,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-10-26,,2026-10-27,1,TER 27/10,hoje,#FECB55,#14213A,,,,,,,
 dia,2026-10-26,,2026-10-28,2,QUA 28/10,,#1B6E8C,#FFFFFF,,,,,,,
@@ -145,9 +145,10 @@ item,2026-10-26,M3 U6,2026-10-26,67,✔ Rev. H5P base MET,Alline,#EEF9F3,#8FB5A3
 M3 U6 · M3!C716 · Concluído",rb,M3|716
 item,2026-10-26,M3 U6,2026-10-26,68,✔ Rev. H5P base PET ADM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão das atividades H5P base - PET (ADM)
 M3 U6 · M3!C717 · Concluído",rb,M3|717
-bloco,2026-10-26,M3 U7,2026-10-26,70,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-10-26,M3 U7,2026-10-26,70,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
 item,2026-10-26,M3 U7,2026-10-26,71,✔ TEMPLATE,Dani · 11/11 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:tpl,
 item,2026-10-26,M3 U7,2026-10-26,72,✔ H5P,4/4 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:h5p,
 item,2026-10-26,M3 U7,2026-10-26,73,✔ Mapear H5P ref. MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - Metodologia
@@ -237,9 +238,10 @@ item,2026-10-26,M3 U6,2026-10-27,36,✔ H5P de PET TI,Marquito,#EEF9F3,#8FB5A3,#
 M3 U6 · M3!C729 · Concluído",p5,M3|729
 item,2026-10-26,M3 U6,2026-10-27,37,✔ H5P de PET TEV,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"H5P de PET - TEV (Turismo e Eventos)
 M3 U6 · M3!C730 · Concluído",p5,M3|730
-bloco,2026-10-26,M3 U7,2026-10-27,39,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-10-26,M3 U7,2026-10-27,39,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
 item,2026-10-26,M3 U7,2026-10-27,40,✔ H5P,↳ continua,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:h5p,
 item,2026-10-26,M3 U7,2026-10-27,41,✔ HTML BASE,3/3 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:hb,
 item,2026-10-26,M3 U7,2026-10-27,42,✔ HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Metodologia Pedagógica
@@ -248,17 +250,6 @@ item,2026-10-26,M3 U7,2026-10-27,43,✔ HTML base ADM PET,Marcelo,#EEF9F3,#8FB5A
 M3 U7 · M3!C808 · Concluído",hb,M3|808
 item,2026-10-26,M3 U7,2026-10-27,44,✔ HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
 M3 U7 · M3!C809 · Concluído",hb,M3|809
-item,2026-10-26,M3 U7,2026-10-27,45,▶ REVISÃO DA BASE,0/5 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:rb,
-item,2026-10-26,M3 U7,2026-10-27,46,Rev. HTML base MET,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Metodologia
-M3 U7 · M3!C811 · Liberado",rb,M3|811
-item,2026-10-26,M3 U7,2026-10-27,47,Rev. HTML base PET ADM,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - PET (ADM)
-M3 U7 · M3!C812 · Liberado",rb,M3|812
-item,2026-10-26,M3 U7,2026-10-27,48,Rev. HTML base PI,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Planejamento Integrado (se houver)
-M3 U7 · M3!C813 · Liberado",rb,M3|813
-item,2026-10-26,M3 U7,2026-10-27,49,Rev. H5P base MET,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - Metodologia
-M3 U7 · M3!C815 · Liberado",rb,M3|815
-item,2026-10-26,M3 U7,2026-10-27,50,Rev. H5P base PET ADM,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - PET (ADM)
-M3 U7 · M3!C816 · Liberado",rb,M3|816
 bloco,2026-10-26,M3 6ª gravação,2026-10-28,0,M3 · 6ª GRAVAÇÃO,entrega qua 28/10,#3A4766,#FFFFFF,#3A4766,#FFFFFF,1,,"M3 6ª gravação
 encontros 19/10 a 21/10
 entrega qua 28/10",,
@@ -307,30 +298,21 @@ item,2026-10-26,M3 U6,2026-10-28,24,HTML de PET TI,Maria Eduarda,#d5edf8,#25314C
 M3 U6 · M3!C737 · Liberado",rp,M3|737
 item,2026-10-26,M3 U6,2026-10-28,25,HTML de PET TEV,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,alerta,"HTML de PET - TEV (Turismo e Eventos)
 M3 U6 · M3!C738 · Liberado",rp,M3|738
-bloco,2026-10-26,M3 U7,2026-10-28,27,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-10-26,M3 U7,2026-10-28,27,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
-item,2026-10-26,M3 U7,2026-10-28,28,🔒︎ REPLICAÇÃO + H5P PET 8,0/10 feitas,#b8d5e2,#4d97b8,#b8d5e2,#4d97b8,1,,,cab:p5,
-item,2026-10-26,M3 U7,2026-10-28,29,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M3 U7 · M3!C820 · Bloqueado",p5,M3|820
-item,2026-10-26,M3 U7,2026-10-28,30,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M3 U7 · M3!C821 · Bloqueado",p5,M3|821
-item,2026-10-26,M3 U7,2026-10-28,31,🔒︎ H5P de PET AGS,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - AGS (Agro Sustentável)
-M3 U7 · M3!C822 · Bloqueado",p5,M3|822
-item,2026-10-26,M3 U7,2026-10-28,32,🔒︎ H5P de PET COM,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - COM (Comunicação e Mercado)
-M3 U7 · M3!C823 · Bloqueado",p5,M3|823
-item,2026-10-26,M3 U7,2026-10-28,33,🔒︎ H5P de PET CDC,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - CDC (Criação Digital e Cultural)
-M3 U7 · M3!C824 · Bloqueado",p5,M3|824
-item,2026-10-26,M3 U7,2026-10-28,34,🔒︎ H5P de PET ECS,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - ECS (Economia Social)
-M3 U7 · M3!C825 · Bloqueado",p5,M3|825
-item,2026-10-26,M3 U7,2026-10-28,35,🔒︎ H5P de PET GOP,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - GOP (Gestão e Operações)
-M3 U7 · M3!C826 · Bloqueado",p5,M3|826
-item,2026-10-26,M3 U7,2026-10-28,36,🔒︎ H5P de PET GIM,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - GIM (Gestão Imobiliária)
-M3 U7 · M3!C827 · Bloqueado",p5,M3|827
-item,2026-10-26,M3 U7,2026-10-28,37,🔒︎ H5P de PET TI,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - TI (Tecnologia da Informação)
-M3 U7 · M3!C828 · Bloqueado",p5,M3|828
-item,2026-10-26,M3 U7,2026-10-28,38,🔒︎ H5P de PET TEV,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - TEV (Turismo e Eventos)
-M3 U7 · M3!C829 · Bloqueado",p5,M3|829
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-10-26,M3 U7,2026-10-28,28,▶ REVISÃO DA BASE,0/5 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:rb,
+item,2026-10-26,M3 U7,2026-10-28,29,Rev. HTML base MET,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Metodologia
+M3 U7 · M3!C811 · Liberado",rb,M3|811
+item,2026-10-26,M3 U7,2026-10-28,30,Rev. HTML base PET ADM,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - PET (ADM)
+M3 U7 · M3!C812 · Liberado",rb,M3|812
+item,2026-10-26,M3 U7,2026-10-28,31,Rev. HTML base PI,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Planejamento Integrado (se houver)
+M3 U7 · M3!C813 · Liberado",rb,M3|813
+item,2026-10-26,M3 U7,2026-10-28,32,Rev. H5P base MET,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - Metodologia
+M3 U7 · M3!C815 · Liberado",rb,M3|815
+item,2026-10-26,M3 U7,2026-10-28,33,Rev. H5P base PET ADM,Anna Paula,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - PET (ADM)
+M3 U7 · M3!C816 · Liberado",rb,M3|816
 bloco,2026-10-26,M3 U5,2026-10-29,0,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U5
 template qui 22/10
 entrega sex 30/10",,
@@ -371,26 +353,31 @@ item,2026-10-26,M3 U6,2026-10-29,19,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570
 M3 U6 · M3!C745 · Bloqueado",rf,M3|745
 item,2026-10-26,M3 U6,2026-10-29,20,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão final - TEV (Turismo e Eventos)
 M3 U6 · M3!C746 · Bloqueado",rf,M3|746
-bloco,2026-10-26,M3 U7,2026-10-29,22,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-10-26,M3 U7,2026-10-29,22,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
-item,2026-10-26,M3 U7,2026-10-29,23,🔒︎ HTML DE PET 8,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:rp,
-item,2026-10-26,M3 U7,2026-10-29,24,🔒︎ HTML de PET AGS,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
-M3 U7 · M3!C830 · Bloqueado",rp,M3|830
-item,2026-10-26,M3 U7,2026-10-29,25,🔒︎ HTML de PET COM,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
-M3 U7 · M3!C831 · Bloqueado",rp,M3|831
-item,2026-10-26,M3 U7,2026-10-29,26,🔒︎ HTML de PET CDC,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
-M3 U7 · M3!C832 · Bloqueado",rp,M3|832
-item,2026-10-26,M3 U7,2026-10-29,27,🔒︎ HTML de PET ECS,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
-M3 U7 · M3!C833 · Bloqueado",rp,M3|833
-item,2026-10-26,M3 U7,2026-10-29,28,🔒︎ HTML de PET GOP,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GOP (Gestão e Operações)
-M3 U7 · M3!C834 · Bloqueado",rp,M3|834
-item,2026-10-26,M3 U7,2026-10-29,29,🔒︎ HTML de PET GIM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GIM (Gestão Imobiliária)
-M3 U7 · M3!C835 · Bloqueado",rp,M3|835
-item,2026-10-26,M3 U7,2026-10-29,30,🔒︎ HTML de PET TI,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TI (Tecnologia da Informação)
-M3 U7 · M3!C836 · Bloqueado",rp,M3|836
-item,2026-10-26,M3 U7,2026-10-29,31,🔒︎ HTML de PET TEV,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TEV (Turismo e Eventos)
-M3 U7 · M3!C837 · Bloqueado",rp,M3|837
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-10-26,M3 U7,2026-10-29,23,🔒︎ REPLICAÇÃO + H5P PET 8,0/10 feitas,#b8d5e2,#4d97b8,#b8d5e2,#4d97b8,1,,,cab:p5,
+item,2026-10-26,M3 U7,2026-10-29,24,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M3 U7 · M3!C820 · Bloqueado",p5,M3|820
+item,2026-10-26,M3 U7,2026-10-29,25,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M3 U7 · M3!C821 · Bloqueado",p5,M3|821
+item,2026-10-26,M3 U7,2026-10-29,26,🔒︎ H5P de PET AGS,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - AGS (Agro Sustentável)
+M3 U7 · M3!C822 · Bloqueado",p5,M3|822
+item,2026-10-26,M3 U7,2026-10-29,27,🔒︎ H5P de PET COM,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - COM (Comunicação e Mercado)
+M3 U7 · M3!C823 · Bloqueado",p5,M3|823
+item,2026-10-26,M3 U7,2026-10-29,28,🔒︎ H5P de PET CDC,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - CDC (Criação Digital e Cultural)
+M3 U7 · M3!C824 · Bloqueado",p5,M3|824
+item,2026-10-26,M3 U7,2026-10-29,29,🔒︎ H5P de PET ECS,Gustavo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - ECS (Economia Social)
+M3 U7 · M3!C825 · Bloqueado",p5,M3|825
+item,2026-10-26,M3 U7,2026-10-29,30,🔒︎ H5P de PET GOP,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - GOP (Gestão e Operações)
+M3 U7 · M3!C826 · Bloqueado",p5,M3|826
+item,2026-10-26,M3 U7,2026-10-29,31,🔒︎ H5P de PET GIM,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - GIM (Gestão Imobiliária)
+M3 U7 · M3!C827 · Bloqueado",p5,M3|827
+item,2026-10-26,M3 U7,2026-10-29,32,🔒︎ H5P de PET TI,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - TI (Tecnologia da Informação)
+M3 U7 · M3!C828 · Bloqueado",p5,M3|828
+item,2026-10-26,M3 U7,2026-10-29,33,🔒︎ H5P de PET TEV,Marcelo,#e0edf3,#599ebd,#FFFFFF,#599ebd,,,"H5P de PET - TEV (Turismo e Eventos)
+M3 U7 · M3!C829 · Bloqueado",p5,M3|829
 bloco,2026-10-26,M3 U5,2026-10-30,0,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U5
 template qui 22/10
 entrega sex 30/10",,
@@ -435,30 +422,31 @@ M3 U6 · M3!C755 · Bloqueado",aj,M3|755
 item,2026-10-26,M3 U6,2026-10-30,22,🔒︎ ★ LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:lib,
 item,2026-10-26,M3 U6,2026-10-30,23,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
 M3 U6 · M3!C756 · Bloqueado",lib,M3|756
-bloco,2026-10-26,M3 U7,2026-10-30,25,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-10-26,M3 U7,2026-10-30,25,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
-item,2026-10-26,M3 U7,2026-10-30,26,🔒︎ REVISÃO FINAL,0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:rf,
-item,2026-10-26,M3 U7,2026-10-30,27,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M3 U7 · M3!C838 · Bloqueado",rf,M3|838
-item,2026-10-26,M3 U7,2026-10-30,28,🔒︎ Rev. final COM,Anna Paula,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M3 U7 · M3!C839 · Bloqueado",rf,M3|839
-item,2026-10-26,M3 U7,2026-10-30,29,🔒︎ Rev. final CDC,Gustavo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M3 U7 · M3!C840 · Bloqueado",rf,M3|840
-item,2026-10-26,M3 U7,2026-10-30,30,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
-M3 U7 · M3!C841 · Bloqueado",rf,M3|841
-item,2026-10-26,M3 U7,2026-10-30,31,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
-M3 U7 · M3!C842 · Bloqueado",rf,M3|842
-item,2026-10-26,M3 U7,2026-10-30,32,🔒︎ Rev. final GIM,Maria Eduarda,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
-M3 U7 · M3!C843 · Bloqueado",rf,M3|843
-item,2026-10-26,M3 U7,2026-10-30,33,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M3 U7 · M3!C844 · Bloqueado",rf,M3|844
-item,2026-10-26,M3 U7,2026-10-30,34,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M3 U7 · M3!C845 · Bloqueado",rf,M3|845
-semana,2026-11-02,,,,"SEMANA DE 02/11 A 06/11   ·   em construção: M3 U7, M4 U3, M4 U4, M3 U8, M4 U1, M4 U2   ·   entregas: M3 U7 (ter 03/11)",,,,,,,,,,
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-10-26,M3 U7,2026-10-30,26,🔒︎ HTML DE PET 8,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:rp,
+item,2026-10-26,M3 U7,2026-10-30,27,🔒︎ HTML de PET AGS,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
+M3 U7 · M3!C830 · Bloqueado",rp,M3|830
+item,2026-10-26,M3 U7,2026-10-30,28,🔒︎ HTML de PET COM,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
+M3 U7 · M3!C831 · Bloqueado",rp,M3|831
+item,2026-10-26,M3 U7,2026-10-30,29,🔒︎ HTML de PET CDC,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
+M3 U7 · M3!C832 · Bloqueado",rp,M3|832
+item,2026-10-26,M3 U7,2026-10-30,30,🔒︎ HTML de PET ECS,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
+M3 U7 · M3!C833 · Bloqueado",rp,M3|833
+item,2026-10-26,M3 U7,2026-10-30,31,🔒︎ HTML de PET GOP,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GOP (Gestão e Operações)
+M3 U7 · M3!C834 · Bloqueado",rp,M3|834
+item,2026-10-26,M3 U7,2026-10-30,32,🔒︎ HTML de PET GIM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GIM (Gestão Imobiliária)
+M3 U7 · M3!C835 · Bloqueado",rp,M3|835
+item,2026-10-26,M3 U7,2026-10-30,33,🔒︎ HTML de PET TI,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TI (Tecnologia da Informação)
+M3 U7 · M3!C836 · Bloqueado",rp,M3|836
+item,2026-10-26,M3 U7,2026-10-30,34,🔒︎ HTML de PET TEV,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TEV (Turismo e Eventos)
+M3 U7 · M3!C837 · Bloqueado",rp,M3|837
+semana,2026-11-02,,,,"SEMANA DE 02/11 A 06/11   ·   em construção: M3 U7, M4 U3, M4 U4, M3 U8, M4 U1, M4 U2   ·   entregas: M3 U7 (qui 05/11)",,,,,,,,,,
 unidade,2026-11-02,M3 U7,,,"M3 · UNIDADE 7
 template seg 26/10
-entrega ter 03/11",,,,,,,,,,
+entrega qui 05/11",,,,,,,,,,
 unidade,2026-11-02,M4 U3,,,"M4 · UNIDADE 3
 template ter 03/11
 entrega qua 11/11",,,,,,,,,,
@@ -480,229 +468,255 @@ dia,2026-11-02,,2026-11-04,2,QUA 04/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-02,,2026-11-05,3,QUI 05/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-02,,2026-11-06,4,SEX 06/11,,#1B6E8C,#FFFFFF,,,,,,,
 item,2026-11-02,,2026-11-02,0,feriado,,#E7EBF1,#8C97AD,#E7EBF1,#8C97AD,,,,,
-bloco,2026-11-02,M3 U7,2026-11-03,0,M3 · UNIDADE 7,entrega ter 03/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+bloco,2026-11-02,M3 U7,2026-11-03,0,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
 template seg 26/10
-entrega ter 03/11",,
-item,2026-11-02,M3 U7,2026-11-03,1,🔒︎ AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
-item,2026-11-02,M3 U7,2026-11-03,2,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
-M3 U7 · M3!C847 · Bloqueado",aj,M3|847
-item,2026-11-02,M3 U7,2026-11-03,3,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
-M3 U7 · M3!C848 · Concluído",aj,M3|848
-item,2026-11-02,M3 U7,2026-11-03,4,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
-M3 U7 · M3!C849 · Bloqueado",aj,M3|849
-item,2026-11-02,M3 U7,2026-11-03,5,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
-M3 U7 · M3!C850 · Bloqueado",aj,M3|850
-item,2026-11-02,M3 U7,2026-11-03,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
-M3 U7 · M3!C852 · Bloqueado",aj,M3|852
-item,2026-11-02,M3 U7,2026-11-03,7,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
-M3 U7 · M3!C853 · Bloqueado",aj,M3|853
-item,2026-11-02,M3 U7,2026-11-03,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
-M3 U7 · M3!C854 · Bloqueado",aj,M3|854
-item,2026-11-02,M3 U7,2026-11-03,9,🔒︎ ★ LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:lib,
-item,2026-11-02,M3 U7,2026-11-03,10,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
-M3 U7 · M3!C855 · Bloqueado",lib,M3|855
-bloco,2026-11-02,M4 U3,2026-11-03,12,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-11-02,M3 U7,2026-11-03,1,🔒︎ REVISÃO FINAL,0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:rf,
+item,2026-11-02,M3 U7,2026-11-03,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
+M3 U7 · M3!C838 · Bloqueado",rf,M3|838
+item,2026-11-02,M3 U7,2026-11-03,3,🔒︎ Rev. final COM,Anna Paula,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
+M3 U7 · M3!C839 · Bloqueado",rf,M3|839
+item,2026-11-02,M3 U7,2026-11-03,4,🔒︎ Rev. final CDC,Gustavo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
+M3 U7 · M3!C840 · Bloqueado",rf,M3|840
+item,2026-11-02,M3 U7,2026-11-03,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
+M3 U7 · M3!C841 · Bloqueado",rf,M3|841
+item,2026-11-02,M3 U7,2026-11-03,6,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
+M3 U7 · M3!C842 · Bloqueado",rf,M3|842
+item,2026-11-02,M3 U7,2026-11-03,7,🔒︎ Rev. final GIM,Maria Eduarda,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
+M3 U7 · M3!C843 · Bloqueado",rf,M3|843
+item,2026-11-02,M3 U7,2026-11-03,8,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
+M3 U7 · M3!C844 · Bloqueado",rf,M3|844
+item,2026-11-02,M3 U7,2026-11-03,9,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
+M3 U7 · M3!C845 · Bloqueado",rf,M3|845
+bloco,2026-11-02,M4 U3,2026-11-03,11,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U3,2026-11-03,13,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-02,M4 U3,2026-11-03,14,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U3,2026-11-03,15,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M4 U3,2026-11-03,12,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-02,M4 U3,2026-11-03,13,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U3,2026-11-03,14,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U3 · M4!C268 · Bloqueado · falta o template",h5p,M4|268
-item,2026-11-02,M4 U3,2026-11-03,16,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M4 U3,2026-11-03,15,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M4 U3 · M4!C269 · Bloqueado · falta o template",h5p,M4|269
-item,2026-11-02,M4 U3,2026-11-03,17,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M4 U3,2026-11-03,16,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M4 U3 · M4!C271 · Bloqueado · falta o template",h5p,M4|271
-item,2026-11-02,M4 U3,2026-11-03,18,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+item,2026-11-02,M4 U3,2026-11-03,17,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U3 · M4!C272 · Bloqueado · falta o template",h5p,M4|272
-item,2026-11-02,M4 U3,2026-11-03,19,🔒︎ VÍDEOS,0/9 feitas · 9 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
-item,2026-11-02,M4 U3,2026-11-03,20,🔒︎ Conferir vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de MET foram criados
+item,2026-11-02,M4 U3,2026-11-03,18,🔒︎ VÍDEOS,0/9 feitas · 9 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
+item,2026-11-02,M4 U3,2026-11-03,19,🔒︎ Conferir vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de MET foram criados
 M4 U3 · M4!C252 · Bloqueado · falta o template",vid,M4|252
-item,2026-11-02,M4 U3,2026-11-03,21,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
+item,2026-11-02,M4 U3,2026-11-03,20,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
 M4 U3 · M4!C253 · Bloqueado · falta o template",vid,M4|253
-item,2026-11-02,M4 U3,2026-11-03,22,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
+item,2026-11-02,M4 U3,2026-11-03,21,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M4 U3 · M4!C255 · Bloqueado · falta o template",vid,M4|255
-item,2026-11-02,M4 U3,2026-11-03,23,🔒︎ Criar vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de MET
+item,2026-11-02,M4 U3,2026-11-03,22,🔒︎ Criar vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de MET
 M4 U3 · M4!C256 · Bloqueado · falta o template",vid,M4|256
-item,2026-11-02,M4 U3,2026-11-03,24,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
+item,2026-11-02,M4 U3,2026-11-03,23,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
 M4 U3 · M4!C257 · Bloqueado · falta o template",vid,M4|257
-item,2026-11-02,M4 U3,2026-11-03,25,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
+item,2026-11-02,M4 U3,2026-11-03,24,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
 M4 U3 · M4!C259 · Bloqueado · falta o template",vid,M4|259
-item,2026-11-02,M4 U3,2026-11-03,26,🔒︎ YouTube MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - MET
+item,2026-11-02,M4 U3,2026-11-03,25,🔒︎ YouTube MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - MET
 M4 U3 · M4!C260 · Bloqueado · falta o template",vid,M4|260
-item,2026-11-02,M4 U3,2026-11-03,27,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
+item,2026-11-02,M4 U3,2026-11-03,26,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
 M4 U3 · M4!C261 · Bloqueado · falta o template",vid,M4|261
-item,2026-11-02,M4 U3,2026-11-03,28,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
+item,2026-11-02,M4 U3,2026-11-03,27,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U3 · M4!C263 · Bloqueado · falta o template",vid,M4|263
-bloco,2026-11-02,M4 U4,2026-11-03,30,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
+bloco,2026-11-02,M4 U4,2026-11-03,29,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U4,2026-11-03,31,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-02,M4 U4,2026-11-03,32,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U4,2026-11-03,33,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M4 U4,2026-11-03,30,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-02,M4 U4,2026-11-03,31,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U4,2026-11-03,32,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U4 · M4!C367 · Bloqueado · falta o template",h5p,M4|367
-item,2026-11-02,M4 U4,2026-11-03,34,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M4 U4,2026-11-03,33,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M4 U4 · M4!C368 · Bloqueado · falta o template",h5p,M4|368
-item,2026-11-02,M4 U4,2026-11-03,35,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M4 U4,2026-11-03,34,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M4 U4 · M4!C370 · Bloqueado · falta o template",h5p,M4|370
-item,2026-11-02,M4 U4,2026-11-03,36,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+item,2026-11-02,M4 U4,2026-11-03,35,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U4 · M4!C371 · Bloqueado · falta o template",h5p,M4|371
-bloco,2026-11-02,M4 U3,2026-11-04,0,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
+bloco,2026-11-02,M3 U7,2026-11-04,0,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+template seg 26/10
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-11-02,M3 U7,2026-11-04,1,🔒︎ AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
+item,2026-11-02,M3 U7,2026-11-04,2,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
+M3 U7 · M3!C847 · Bloqueado",aj,M3|847
+item,2026-11-02,M3 U7,2026-11-04,3,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
+M3 U7 · M3!C848 · Concluído",aj,M3|848
+item,2026-11-02,M3 U7,2026-11-04,4,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+M3 U7 · M3!C849 · Bloqueado",aj,M3|849
+item,2026-11-02,M3 U7,2026-11-04,5,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
+M3 U7 · M3!C850 · Bloqueado",aj,M3|850
+item,2026-11-02,M3 U7,2026-11-04,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
+M3 U7 · M3!C852 · Bloqueado",aj,M3|852
+item,2026-11-02,M3 U7,2026-11-04,7,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
+M3 U7 · M3!C853 · Bloqueado",aj,M3|853
+item,2026-11-02,M3 U7,2026-11-04,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
+M3 U7 · M3!C854 · Bloqueado",aj,M3|854
+bloco,2026-11-02,M4 U3,2026-11-04,10,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U3,2026-11-04,1,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U3,2026-11-04,2,🔒︎ HTML BASE,0/3 feitas · 3 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-02,M4 U3,2026-11-04,3,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-11-02,M4 U3,2026-11-04,11,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U3,2026-11-04,12,🔒︎ HTML BASE,0/3 feitas · 3 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-11-02,M4 U3,2026-11-04,13,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M4 U3 · M4!C273 · Bloqueado · falta o template",hb,M4|273
-item,2026-11-02,M4 U3,2026-11-04,4,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-02,M4 U3,2026-11-04,14,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U3 · M4!C274 · Bloqueado · falta o template",hb,M4|274
-item,2026-11-02,M4 U3,2026-11-04,5,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U3,2026-11-04,15,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M4 U3 · M4!C275 · Bloqueado · falta o template",hb,M4|275
-bloco,2026-11-02,M4 U4,2026-11-04,7,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
+bloco,2026-11-02,M4 U4,2026-11-04,17,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U4,2026-11-04,8,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U4,2026-11-04,9,🔒︎ VÍDEOS,0/12 feitas · 12 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
-item,2026-11-02,M4 U4,2026-11-04,10,🔒︎ Conferir vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de MET foram criados
+item,2026-11-02,M4 U4,2026-11-04,18,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U4,2026-11-04,19,🔒︎ VÍDEOS,0/12 feitas · 12 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
+item,2026-11-02,M4 U4,2026-11-04,20,🔒︎ Conferir vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de MET foram criados
 M4 U4 · M4!C351 · Bloqueado · falta o template",vid,M4|351
-item,2026-11-02,M4 U4,2026-11-04,11,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
+item,2026-11-02,M4 U4,2026-11-04,21,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
 M4 U4 · M4!C352 · Bloqueado · falta o template",vid,M4|352
-item,2026-11-02,M4 U4,2026-11-04,12,🔒︎ Conferir vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de RP foram criados
+item,2026-11-02,M4 U4,2026-11-04,22,🔒︎ Conferir vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de RP foram criados
 M4 U4 · M4!C353 · Bloqueado · falta o template",vid,M4|353
-item,2026-11-02,M4 U4,2026-11-04,13,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
+item,2026-11-02,M4 U4,2026-11-04,23,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M4 U4 · M4!C354 · Bloqueado · falta o template",vid,M4|354
-item,2026-11-02,M4 U4,2026-11-04,14,🔒︎ Criar vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de MET
+item,2026-11-02,M4 U4,2026-11-04,24,🔒︎ Criar vídeos MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de MET
 M4 U4 · M4!C355 · Bloqueado · falta o template",vid,M4|355
-item,2026-11-02,M4 U4,2026-11-04,15,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
+item,2026-11-02,M4 U4,2026-11-04,25,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
 M4 U4 · M4!C356 · Bloqueado · falta o template",vid,M4|356
-item,2026-11-02,M4 U4,2026-11-04,16,🔒︎ Criar vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de RP
+item,2026-11-02,M4 U4,2026-11-04,26,🔒︎ Criar vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de RP
 M4 U4 · M4!C357 · Bloqueado · falta o template",vid,M4|357
-item,2026-11-02,M4 U4,2026-11-04,17,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
+item,2026-11-02,M4 U4,2026-11-04,27,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
 M4 U4 · M4!C358 · Bloqueado · falta o template",vid,M4|358
-item,2026-11-02,M4 U4,2026-11-04,18,🔒︎ YouTube MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - MET
+item,2026-11-02,M4 U4,2026-11-04,28,🔒︎ YouTube MET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - MET
 M4 U4 · M4!C359 · Bloqueado · falta o template",vid,M4|359
-item,2026-11-02,M4 U4,2026-11-04,19,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
+item,2026-11-02,M4 U4,2026-11-04,29,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
 M4 U4 · M4!C360 · Bloqueado · falta o template",vid,M4|360
-item,2026-11-02,M4 U4,2026-11-04,20,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - RP
+item,2026-11-02,M4 U4,2026-11-04,30,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - RP
 M4 U4 · M4!C361 · Bloqueado · falta o template",vid,M4|361
-item,2026-11-02,M4 U4,2026-11-04,21,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
+item,2026-11-02,M4 U4,2026-11-04,31,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U4 · M4!C362 · Bloqueado · falta o template",vid,M4|362
-bloco,2026-11-02,M3 U8,2026-11-04,23,M3 · UNIDADE 8,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
+bloco,2026-11-02,M3 U8,2026-11-04,33,M3 · UNIDADE 8,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M3 U8,2026-11-04,24,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-02,M3 U8,2026-11-04,25,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M3 U8,2026-11-04,26,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M3 U8,2026-11-04,34,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-02,M3 U8,2026-11-04,35,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M3 U8,2026-11-04,36,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M3 U8 · M3!C901 · Bloqueado · falta o template",h5p,M3|901
-item,2026-11-02,M3 U8,2026-11-04,27,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M3 U8,2026-11-04,37,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M3 U8 · M3!C902 · Bloqueado · falta o template",h5p,M3|902
-item,2026-11-02,M3 U8,2026-11-04,28,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M3 U8,2026-11-04,38,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M3 U8 · M3!C904 · Bloqueado · falta o template",h5p,M3|904
-item,2026-11-02,M3 U8,2026-11-04,29,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+item,2026-11-02,M3 U8,2026-11-04,39,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M3 U8 · M3!C905 · Bloqueado · falta o template",h5p,M3|905
-bloco,2026-11-02,M4 U1,2026-11-04,31,M4 · UNIDADE 1,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
+bloco,2026-11-02,M4 U1,2026-11-04,41,M4 · UNIDADE 1,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M4 U1,2026-11-04,32,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-02,M4 U1,2026-11-04,33,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U1,2026-11-04,34,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M4 U1,2026-11-04,42,▶ TEMPLATE,Dani · 0/11 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-02,M4 U1,2026-11-04,43,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U1,2026-11-04,44,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U1 · M4!C70 · Bloqueado · falta o template",h5p,M4|70
-item,2026-11-02,M4 U1,2026-11-04,35,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M4 U1,2026-11-04,45,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M4 U1 · M4!C71 · Bloqueado · falta o template",h5p,M4|71
-item,2026-11-02,M4 U1,2026-11-04,36,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M4 U1,2026-11-04,46,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M4 U1 · M4!C73 · Bloqueado · falta o template",h5p,M4|73
-item,2026-11-02,M4 U1,2026-11-04,37,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+item,2026-11-02,M4 U1,2026-11-04,47,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U1 · M4!C74 · Bloqueado · falta o template",h5p,M4|74
-bloco,2026-11-02,M4 U2,2026-11-04,39,M4 · UNIDADE 2,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
+bloco,2026-11-02,M4 U2,2026-11-04,49,M4 · UNIDADE 2,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M4 U2,2026-11-04,40,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
-item,2026-11-02,M4 U2,2026-11-04,41,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M4 U2,2026-11-04,42,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-02,M4 U2,2026-11-04,50,▶ TEMPLATE,Dani · 0/12 feitas,#5A6680,#FFFFFF,#5A6680,#FFFFFF,1,atual,,cab:tpl,
+item,2026-11-02,M4 U2,2026-11-04,51,🔒︎ H5P,0/4 feitas · 4 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U2,2026-11-04,52,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
 M4 U2 · M4!C169 · Bloqueado · falta o template",h5p,M4|169
-item,2026-11-02,M4 U2,2026-11-04,43,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-02,M4 U2,2026-11-04,53,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M4 U2 · M4!C170 · Bloqueado · falta o template",h5p,M4|170
-item,2026-11-02,M4 U2,2026-11-04,44,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
+item,2026-11-02,M4 U2,2026-11-04,54,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
 M4 U2 · M4!C172 · Bloqueado · falta o template",h5p,M4|172
-item,2026-11-02,M4 U2,2026-11-04,45,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+item,2026-11-02,M4 U2,2026-11-04,55,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U2 · M4!C173 · Bloqueado · falta o template",h5p,M4|173
-bloco,2026-11-02,M4 U3,2026-11-05,0,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
+bloco,2026-11-02,M3 U7,2026-11-05,0,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U7
+template seg 26/10
+entrega qui 05/11
+⚠ revisão final sem a Alline",,
+item,2026-11-02,M3 U7,2026-11-05,1,🔒︎ ★ LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:lib,
+item,2026-11-02,M3 U7,2026-11-05,2,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
+M3 U7 · M3!C855 · Bloqueado",lib,M3|855
+bloco,2026-11-02,M4 U3,2026-11-05,4,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U3,2026-11-05,1,🔒︎ REVISÃO DA BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
-item,2026-11-02,M4 U3,2026-11-05,2,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
+item,2026-11-02,M4 U3,2026-11-05,5,🔒︎ REVISÃO DA BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
+item,2026-11-02,M4 U3,2026-11-05,6,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
 M4 U3 · M4!C277 · Bloqueado · falta o template",rb,M4|277
-item,2026-11-02,M4 U3,2026-11-05,3,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
+item,2026-11-02,M4 U3,2026-11-05,7,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M4 U3 · M4!C278 · Bloqueado · falta o template",rb,M4|278
-item,2026-11-02,M4 U3,2026-11-05,4,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U3,2026-11-05,8,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U3 · M4!C279 · Bloqueado · falta o template",rb,M4|279
-item,2026-11-02,M4 U3,2026-11-05,5,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-02,M4 U3,2026-11-05,9,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
 M4 U3 · M4!C281 · Bloqueado · falta o template",rb,M4|281
-item,2026-11-02,M4 U3,2026-11-05,6,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-11-02,M4 U3,2026-11-05,10,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U3 · M4!C282 · Bloqueado · falta o template",rb,M4|282
-bloco,2026-11-02,M4 U4,2026-11-05,8,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
+bloco,2026-11-02,M4 U4,2026-11-05,12,M4 · UNIDADE 4,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template ter 03/11
 entrega qua 11/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M4 U4,2026-11-05,9,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
-item,2026-11-02,M4 U4,2026-11-05,10,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
+item,2026-11-02,M4 U4,2026-11-05,13,🔒︎ HTML BASE,0/5 feitas · 5 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:hb,
+item,2026-11-02,M4 U4,2026-11-05,14,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
 M4 U4 · M4!C369 · Bloqueado · falta o template",hb,M4|369
-item,2026-11-02,M4 U4,2026-11-05,11,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
+item,2026-11-02,M4 U4,2026-11-05,15,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
 M4 U4 · M4!C372 · Bloqueado · falta o template",hb,M4|372
-item,2026-11-02,M4 U4,2026-11-05,12,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-02,M4 U4,2026-11-05,16,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U4 · M4!C373 · Bloqueado · falta o template",hb,M4|373
-item,2026-11-02,M4 U4,2026-11-05,13,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U4,2026-11-05,17,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
 M4 U4 · M4!C374 · Bloqueado · falta o template",hb,M4|374
-item,2026-11-02,M4 U4,2026-11-05,14,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-02,M4 U4,2026-11-05,18,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
 M4 U4 · M4!C375 · Bloqueado · falta o template",hb,M4|375
-item,2026-11-02,M4 U4,2026-11-05,15,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
-item,2026-11-02,M4 U4,2026-11-05,16,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
+item,2026-11-02,M4 U4,2026-11-05,19,🔒︎ REVISÃO DA BASE,0/6 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:rb,
+item,2026-11-02,M4 U4,2026-11-05,20,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
 M4 U4 · M4!C376 · Bloqueado · falta o template",rb,M4|376
-item,2026-11-02,M4 U4,2026-11-05,17,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
+item,2026-11-02,M4 U4,2026-11-05,21,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M4 U4 · M4!C377 · Bloqueado · falta o template",rb,M4|377
-item,2026-11-02,M4 U4,2026-11-05,18,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-11-02,M4 U4,2026-11-05,22,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U4 · M4!C378 · Bloqueado · falta o template",rb,M4|378
-item,2026-11-02,M4 U4,2026-11-05,19,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-11-02,M4 U4,2026-11-05,23,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M4 U4 · M4!C379 · Bloqueado · falta o template",rb,M4|379
-item,2026-11-02,M4 U4,2026-11-05,20,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-02,M4 U4,2026-11-05,24,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
 M4 U4 · M4!C380 · Bloqueado · falta o template",rb,M4|380
-item,2026-11-02,M4 U4,2026-11-05,21,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-11-02,M4 U4,2026-11-05,25,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U4 · M4!C381 · Bloqueado · falta o template",rb,M4|381
-bloco,2026-11-02,M3 U8,2026-11-05,23,M3 · UNIDADE 8,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
+bloco,2026-11-02,M3 U8,2026-11-05,27,M3 · UNIDADE 8,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M3 U8,2026-11-05,24,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-item,2026-11-02,M3 U8,2026-11-05,25,🔒︎ VÍDEOS,3/9 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
-item,2026-11-02,M3 U8,2026-11-05,26,✔ Conferir vídeos MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Conferir se os vídeos de MET foram criados
+item,2026-11-02,M3 U8,2026-11-05,28,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M3 U8,2026-11-05,29,🔒︎ VÍDEOS,3/9 feitas · 6 sem template,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:vid,
+item,2026-11-02,M3 U8,2026-11-05,30,✔ Conferir vídeos MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Conferir se os vídeos de MET foram criados
 M3 U8 · M3!C885 · Concluído",vid,M3|885
-item,2026-11-02,M3 U8,2026-11-05,27,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
+item,2026-11-02,M3 U8,2026-11-05,31,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
 M3 U8 · M3!C886 · Bloqueado · falta o template",vid,M3|886
-item,2026-11-02,M3 U8,2026-11-05,28,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
+item,2026-11-02,M3 U8,2026-11-05,32,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M3 U8 · M3!C888 · Bloqueado · falta o template",vid,M3|888
-item,2026-11-02,M3 U8,2026-11-05,29,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Criar os vídeos de MET
+item,2026-11-02,M3 U8,2026-11-05,33,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Criar os vídeos de MET
 M3 U8 · M3!C889 · Concluído",vid,M3|889
-item,2026-11-02,M3 U8,2026-11-05,30,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
+item,2026-11-02,M3 U8,2026-11-05,34,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
 M3 U8 · M3!C890 · Bloqueado · falta o template",vid,M3|890
-item,2026-11-02,M3 U8,2026-11-05,31,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
+item,2026-11-02,M3 U8,2026-11-05,35,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
 M3 U8 · M3!C892 · Bloqueado · falta o template",vid,M3|892
-item,2026-11-02,M3 U8,2026-11-05,32,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
+item,2026-11-02,M3 U8,2026-11-05,36,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
 M3 U8 · M3!C893 · Concluído",vid,M3|893
-item,2026-11-02,M3 U8,2026-11-05,33,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
+item,2026-11-02,M3 U8,2026-11-05,37,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
 M3 U8 · M3!C894 · Bloqueado · falta o template",vid,M3|894
-item,2026-11-02,M3 U8,2026-11-05,34,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
+item,2026-11-02,M3 U8,2026-11-05,38,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M3 U8 · M3!C896 · Bloqueado · falta o template",vid,M3|896
-bloco,2026-11-02,M4 U1,2026-11-05,36,M4 · UNIDADE 1,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
+bloco,2026-11-02,M4 U1,2026-11-05,40,M4 · UNIDADE 1,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M4 U1,2026-11-05,37,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
-bloco,2026-11-02,M4 U2,2026-11-05,39,M4 · UNIDADE 2,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
+item,2026-11-02,M4 U1,2026-11-05,41,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+bloco,2026-11-02,M4 U2,2026-11-05,43,M4 · UNIDADE 2,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template qua 04/11
 entrega qui 12/11",,
-item,2026-11-02,M4 U2,2026-11-05,40,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
+item,2026-11-02,M4 U2,2026-11-05,44,🔒︎ H5P,↳ continua,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,,cab:h5p,
 bloco,2026-11-02,M4 U3,2026-11-06,0,M4 · UNIDADE 3,entrega qua 11/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template ter 03/11
 entrega qua 11/11
