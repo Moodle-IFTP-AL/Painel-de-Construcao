@@ -382,7 +382,7 @@ bloco,2026-10-26,M3 U5,2026-10-30,0,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#F
 template qui 22/10
 entrega sex 30/10",,
 item,2026-10-26,M3 U5,2026-10-30,1,🔒︎ AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
-item,2026-10-26,M3 U5,2026-10-30,2,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
+item,2026-10-26,M3 U5,2026-10-30,2,🔒︎ Ajustes da revisão final,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
 M3 U5 · M3!C649 · Bloqueado",aj,M3|649
 item,2026-10-26,M3 U5,2026-10-30,3,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M3 U5 · M3!C650 · Concluído",aj,M3|650
@@ -403,7 +403,7 @@ bloco,2026-10-26,M3 U6,2026-10-30,12,M3 · UNIDADE 6,entrega sex 30/10,#25314C,#
 template sex 23/10
 entrega sex 30/10",,
 item,2026-10-26,M3 U6,2026-10-30,13,🔒︎ AJUSTES FINAIS,1/8 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:aj,
-item,2026-10-26,M3 U6,2026-10-30,14,🔒︎ Ajustes da revisão final,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
+item,2026-10-26,M3 U6,2026-10-30,14,🔒︎ Ajustes da revisão final,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar os ajustes apontados na revisão final
 M3 U6 · M3!C748 · Bloqueado",aj,M3|748
 item,2026-10-26,M3 U6,2026-10-30,15,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M3 U6 · M3!C749 · Concluído",aj,M3|749
@@ -473,13 +473,13 @@ template seg 26/10
 entrega qui 05/11
 ⚠ revisão final sem a Alline",,
 item,2026-11-02,M3 U7,2026-11-03,1,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
-item,2026-11-02,M3 U7,2026-11-03,2,🔒︎ Rev. final AGS,Maria Eduarda,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
+item,2026-11-02,M3 U7,2026-11-03,2,🔒︎ Rev. final AGS,Marcelo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
 M3 U7 · M3!C838 · Bloqueado",rf,M3|838
-item,2026-11-02,M3 U7,2026-11-03,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
+item,2026-11-02,M3 U7,2026-11-03,3,🔒︎ Rev. final COM,Marcelo,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
 M3 U7 · M3!C839 · Bloqueado",rf,M3|839
 item,2026-11-02,M3 U7,2026-11-03,4,Rev. final CDC,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - CDC (Criação Digital e Cultural)
 M3 U7 · M3!C840 · Liberado",rf,M3|840
-item,2026-11-02,M3 U7,2026-11-03,5,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - ECS (Economia Social)
+item,2026-11-02,M3 U7,2026-11-03,5,Rev. final ECS,Gustavo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - ECS (Economia Social)
 M3 U7 · M3!C841 · Liberado",rf,M3|841
 item,2026-11-02,M3 U7,2026-11-03,6,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GOP (Gestão e Operações)
 M3 U7 · M3!C842 · Liberado",rf,M3|842
