@@ -281,7 +281,7 @@ M3 U5 · M3!C639 · Concluído",rp,M3|639
 bloco,2026-10-26,M3 U6,2026-10-28,16,M3 · UNIDADE 6,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U6
 template sex 23/10
 entrega sex 30/10",,
-item,2026-10-26,M3 U6,2026-10-28,17,▶ HTML DE PET 8,5/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
+item,2026-10-26,M3 U6,2026-10-28,17,▶ HTML DE PET 8,6/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
 item,2026-10-26,M3 U6,2026-10-28,18,✔ HTML de PET AGS,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
 M3 U6 · M3!C731 · Concluído",rp,M3|731
 item,2026-10-26,M3 U6,2026-10-28,19,✔ HTML de PET COM,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
@@ -290,8 +290,8 @@ item,2026-10-26,M3 U6,2026-10-28,20,✔ HTML de PET CDC,Anna Paula,#EEF9F3,#8FB5
 M3 U6 · M3!C733 · Concluído",rp,M3|733
 item,2026-10-26,M3 U6,2026-10-28,21,HTML de PET ECS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
 M3 U6 · M3!C734 · Liberado",rp,M3|734
-item,2026-10-26,M3 U6,2026-10-28,22,HTML de PET GOP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GOP (Gestão e Operações)
-M3 U6 · M3!C735 · Liberado",rp,M3|735
+item,2026-10-26,M3 U6,2026-10-28,22,✔ HTML de PET GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GOP (Gestão e Operações)
+M3 U6 · M3!C735 · Concluído",rp,M3|735
 item,2026-10-26,M3 U6,2026-10-28,23,HTML de PET GIM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GIM (Gestão Imobiliária)
 M3 U6 · M3!C736 · Liberado",rp,M3|736
 item,2026-10-26,M3 U6,2026-10-28,24,✔ HTML de PET TI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
@@ -345,8 +345,8 @@ item,2026-10-26,M3 U6,2026-10-29,15,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFF
 M3 U6 · M3!C741 · Liberado",rf,M3|741
 item,2026-10-26,M3 U6,2026-10-29,16,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
 M3 U6 · M3!C742 · Bloqueado",rf,M3|742
-item,2026-10-26,M3 U6,2026-10-29,17,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
-M3 U6 · M3!C743 · Bloqueado",rf,M3|743
+item,2026-10-26,M3 U6,2026-10-29,17,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GOP (Gestão e Operações)
+M3 U6 · M3!C743 · Liberado",rf,M3|743
 item,2026-10-26,M3 U6,2026-10-29,18,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
 M3 U6 · M3!C744 · Bloqueado",rf,M3|744
 item,2026-10-26,M3 U6,2026-10-29,19,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
