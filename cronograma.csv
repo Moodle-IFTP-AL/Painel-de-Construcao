@@ -261,13 +261,13 @@ M3 6ª gravação · M3!C558 · Concluído",gfec,M3|558
 bloco,2026-10-26,M3 U5,2026-10-28,5,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U5
 template qui 22/10
 entrega sex 30/10",,
-item,2026-10-26,M3 U5,2026-10-28,6,▶ HTML DE PET 8,2/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
-item,2026-10-26,M3 U5,2026-10-28,7,HTML de PET AGS,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
-M3 U5 · M3!C632 · Liberado",rp,M3|632
-item,2026-10-26,M3 U5,2026-10-28,8,HTML de PET COM,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
-M3 U5 · M3!C633 · Liberado",rp,M3|633
-item,2026-10-26,M3 U5,2026-10-28,9,HTML de PET CDC,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
-M3 U5 · M3!C634 · Liberado",rp,M3|634
+item,2026-10-26,M3 U5,2026-10-28,6,▶ HTML DE PET 8,5/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:rp,
+item,2026-10-26,M3 U5,2026-10-28,7,✔ HTML de PET AGS,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
+M3 U5 · M3!C632 · Concluído",rp,M3|632
+item,2026-10-26,M3 U5,2026-10-28,8,✔ HTML de PET COM,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
+M3 U5 · M3!C633 · Concluído",rp,M3|633
+item,2026-10-26,M3 U5,2026-10-28,9,✔ HTML de PET CDC,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
+M3 U5 · M3!C634 · Concluído",rp,M3|634
 item,2026-10-26,M3 U5,2026-10-28,10,HTML de PET ECS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
 M3 U5 · M3!C635 · Liberado",rp,M3|635
 item,2026-10-26,M3 U5,2026-10-28,11,HTML de PET GOP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GOP (Gestão e Operações)
@@ -317,12 +317,12 @@ bloco,2026-10-26,M3 U5,2026-10-29,0,M3 · UNIDADE 5,entrega sex 30/10,#25314C,#F
 template qui 22/10
 entrega sex 30/10",,
 item,2026-10-26,M3 U5,2026-10-29,1,◐ REVISÃO FINAL,0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:rf,
-item,2026-10-26,M3 U5,2026-10-29,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M3 U5 · M3!C640 · Bloqueado",rf,M3|640
-item,2026-10-26,M3 U5,2026-10-29,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M3 U5 · M3!C641 · Bloqueado",rf,M3|641
-item,2026-10-26,M3 U5,2026-10-29,4,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M3 U5 · M3!C642 · Bloqueado",rf,M3|642
+item,2026-10-26,M3 U5,2026-10-29,2,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
+M3 U5 · M3!C640 · Liberado",rf,M3|640
+item,2026-10-26,M3 U5,2026-10-29,3,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - COM (Comunicação e Mercado)
+M3 U5 · M3!C641 · Liberado",rf,M3|641
+item,2026-10-26,M3 U5,2026-10-29,4,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - CDC (Criação Digital e Cultural)
+M3 U5 · M3!C642 · Liberado",rf,M3|642
 item,2026-10-26,M3 U5,2026-10-29,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
 M3 U5 · M3!C643 · Bloqueado",rf,M3|643
 item,2026-10-26,M3 U5,2026-10-29,6,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
