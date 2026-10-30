@@ -402,21 +402,21 @@ M3 U5 · M3!C657 · Bloqueado",lib,M3|657
 bloco,2026-10-26,M3 U6,2026-10-30,12,M3 · UNIDADE 6,entrega sex 30/10,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U6
 template sex 23/10
 entrega sex 30/10",,
-item,2026-10-26,M3 U6,2026-10-30,13,◐ AJUSTES FINAIS,4/8 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:aj,
+item,2026-10-26,M3 U6,2026-10-30,13,◐ AJUSTES FINAIS,5/8 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:aj,
 item,2026-10-26,M3 U6,2026-10-30,14,Ajustes da revisão final,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Aplicar os ajustes apontados na revisão final
 M3 U6 · M3!C748 · Liberado",aj,M3|748
 item,2026-10-26,M3 U6,2026-10-30,15,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M3 U6 · M3!C749 · Concluído",aj,M3|749
-item,2026-10-26,M3 U6,2026-10-30,16,Mapear certificáveis MET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de MET
-M3 U6 · M3!C750 · Liberado",aj,M3|750
+item,2026-10-26,M3 U6,2026-10-30,16,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de MET
+M3 U6 · M3!C750 · Concluído",aj,M3|750
 item,2026-10-26,M3 U6,2026-10-30,17,✔ Mapear certificáveis PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PI
 M3 U6 · M3!C751 · Concluído",aj,M3|751
 item,2026-10-26,M3 U6,2026-10-30,18,✔ Mapear certificáveis RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de RP
 M3 U6 · M3!C752 · Concluído",aj,M3|752
 item,2026-10-26,M3 U6,2026-10-30,19,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
 M3 U6 · M3!C753 · Concluído",aj,M3|753
-item,2026-10-26,M3 U6,2026-10-30,20,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Inserir os requisitos de acesso à certificação
-M3 U6 · M3!C754 · Bloqueado",aj,M3|754
+item,2026-10-26,M3 U6,2026-10-30,20,Requisitos da certificação,Thony,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Inserir os requisitos de acesso à certificação
+M3 U6 · M3!C754 · Liberado",aj,M3|754
 item,2026-10-26,M3 U6,2026-10-30,21,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M3 U6 · M3!C755 · Bloqueado",aj,M3|755
 item,2026-10-26,M3 U6,2026-10-30,22,🔒︎ ★ LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:lib,
