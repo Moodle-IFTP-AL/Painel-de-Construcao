@@ -472,17 +472,17 @@ bloco,2026-11-02,M3 U7,2026-11-03,0,M3 · UNIDADE 7,entrega qui 05/11,#25314C,#F
 template seg 26/10
 entrega qui 05/11
 ⚠ revisão final sem a Alline",,
-item,2026-11-02,M3 U7,2026-11-03,1,▶ REVISÃO FINAL,1/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:rf,
-item,2026-11-02,M3 U7,2026-11-03,2,Rev. final AGS,Maria Eduarda,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
-M3 U7 · M3!C838 · Liberado",rf,M3|838
-item,2026-11-02,M3 U7,2026-11-03,3,Rev. final COM,Maria Eduarda,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
-M3 U7 · M3!C839 · Liberado",rf,M3|839
+item,2026-11-02,M3 U7,2026-11-03,1,▶ REVISÃO FINAL,5/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:rf,
+item,2026-11-02,M3 U7,2026-11-03,2,✔ Rev. final AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - AGS (Agro Sustentável)
+M3 U7 · M3!C838 · Concluído",rf,M3|838
+item,2026-11-02,M3 U7,2026-11-03,3,✔ Rev. final COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - COM (Comunicação e Mercado)
+M3 U7 · M3!C839 · Concluído",rf,M3|839
 item,2026-11-02,M3 U7,2026-11-03,4,✔ Rev. final CDC,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - CDC (Criação Digital e Cultural)
 M3 U7 · M3!C840 · Concluído",rf,M3|840
-item,2026-11-02,M3 U7,2026-11-03,5,Rev. final ECS,Maria Eduarda,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
-M3 U7 · M3!C841 · Liberado",rf,M3|841
-item,2026-11-02,M3 U7,2026-11-03,6,Rev. final GOP,Maria Eduarda,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GOP (Gestão e Operações)
-M3 U7 · M3!C842 · Liberado",rf,M3|842
+item,2026-11-02,M3 U7,2026-11-03,5,✔ Rev. final ECS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - ECS (Economia Social)
+M3 U7 · M3!C841 · Concluído",rf,M3|841
+item,2026-11-02,M3 U7,2026-11-03,6,✔ Rev. final GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - GOP (Gestão e Operações)
+M3 U7 · M3!C842 · Concluído",rf,M3|842
 item,2026-11-02,M3 U7,2026-11-03,7,Rev. final GIM,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GIM (Gestão Imobiliária)
 M3 U7 · M3!C843 · Liberado",rf,M3|843
 item,2026-11-02,M3 U7,2026-11-03,8,Rev. final TI,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TI (Tecnologia da Informação)
