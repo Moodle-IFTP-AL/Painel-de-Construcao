@@ -240,7 +240,7 @@ item,2026-11-02,M3 U8,2026-11-06,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9
 M3 U8 · M3!C948 · Bloqueado",b_aj,M3|948
 item,2026-11-02,M3 U8,2026-11-06,4,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M3 U8 · M3!C949 · Bloqueado",b_aj,M3|949
-item,2026-11-02,M3 U8,2026-11-06,5,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-02,M3 U8,2026-11-06,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M3 U8 · M3!C950 · Não se aplica",b_aj,M3|950
 item,2026-11-02,M3 U8,2026-11-06,6,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M3 U8 · M3!C951 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M3|951
@@ -295,7 +295,7 @@ item,2026-11-09,M4 U1,2026-11-09,3,🔒︎ Mapear certificáveis MET,Marcelo,#F5
 M4 U1 · M4!C117 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|117
 item,2026-11-09,M4 U1,2026-11-09,4,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
 M4 U1 · M4!C118 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|118
-item,2026-11-09,M4 U1,2026-11-09,5,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-09,M4 U1,2026-11-09,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U1 · M4!C119 · Não se aplica",b_aj,M4|119
 item,2026-11-09,M4 U1,2026-11-09,6,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U1 · M4!C120 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|120
