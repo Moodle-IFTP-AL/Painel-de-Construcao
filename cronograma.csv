@@ -48,8 +48,8 @@ M3 U8 · M3!C914 · Concluído",b_rb_met,M3|914
 item,2026-11-02,M3 U8,2026-11-03,19,✔ 04 REVISÃO BASE PI,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_pi,
 item,2026-11-02,M3 U8,2026-11-03,20,✔ Rev. HTML base PI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M3 U8 · M3!C912 · Concluído",b_rb_pi,M3|912
-item,2026-11-02,M3 U8,2026-11-03,21,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
-item,2026-11-02,M3 U8,2026-11-03,22,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
+item,2026-11-02,M3 U8,2026-11-03,21,✔ 05 CORREÇÃO BASE MET,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_met,
+item,2026-11-02,M3 U8,2026-11-03,22,✔ 05 CORREÇÃO BASE PI,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_pi,
 bloco,2026-11-02,M3 U8,2026-11-04,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
@@ -67,11 +67,11 @@ M3 U8 · M3!C911 · Bloqueado",b_rb_adm,M3|911
 item,2026-11-02,M3 U8,2026-11-04,8,🔒︎ Rev. H5P base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
 M3 U8 · M3!C915 · Bloqueado",b_rb_adm,M3|915
 item,2026-11-02,M3 U8,2026-11-04,9,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
-item,2026-11-02,M3 U8,2026-11-04,10,06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,,,cab:b_rep,
-item,2026-11-02,M3 U8,2026-11-04,11,Replicar páginas MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M3 U8 · M3!C919 · Liberado",b_rep,M3|919
-item,2026-11-02,M3 U8,2026-11-04,12,Replicar H5P MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M3 U8 · M3!C920 · Liberado",b_rep,M3|920
+item,2026-11-02,M3 U8,2026-11-04,10,✔ 06 REPLICAR BASE MET_PI_RP HTML_H5P,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rep,
+item,2026-11-02,M3 U8,2026-11-04,11,✔ Replicar páginas MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M3 U8 · M3!C919 · Concluído",b_rep,M3|919
+item,2026-11-02,M3 U8,2026-11-04,12,✔ Replicar H5P MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M3 U8 · M3!C920 · Concluído",b_rep,M3|920
 item,2026-11-02,M3 U8,2026-11-04,13,🔒︎ 07 H5P PET 8 EIXOS,0/8 feitas,#bfdbe9,#60a5c8,#bfdbe9,#60a5c8,1,,,cab:b_h5p8,
 item,2026-11-02,M3 U8,2026-11-04,14,🔒︎ H5P de PET AGS,Marquito,#e4f0f6,#6baccc,#FFFFFF,#6baccc,,,"H5P de PET - AGS (Agro Sustentável)
 M3 U8 · M3!C921 · Bloqueado",b_h5p8,M3|921
