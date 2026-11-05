@@ -146,16 +146,16 @@ item,2026-11-02,M4 U1,2026-11-04,54,✔ 04 REVISÃO BASE PI,1/1 feitas,#E3F5EC,#
 item,2026-11-02,M4 U1,2026-11-04,55,✔ Rev. HTML base PI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U1 · M4!C81 · Concluído",b_rb_pi,M4|81
 item,2026-11-02,M4 U1,2026-11-04,56,✔ 05 CORREÇÃO BASE MET,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_met,
-item,2026-11-02,M4 U1,2026-11-04,57,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
+item,2026-11-02,M4 U1,2026-11-04,57,✔ 05 CORREÇÃO BASE ADM,concluída: HTML de PET começou,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_adm,
 item,2026-11-02,M4 U1,2026-11-04,58,✔ 05 CORREÇÃO BASE PI,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_pi,
 bloco,2026-11-02,M3 U8,2026-11-05,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
-item,2026-11-02,M3 U8,2026-11-05,1,▶ 08 HTML PET,3/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
-item,2026-11-02,M3 U8,2026-11-05,2,HTML de PET AGS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
-M3 U8 · M3!C929 · Liberado",b_htmlpet,M3|929
-item,2026-11-02,M3 U8,2026-11-05,3,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
-M3 U8 · M3!C930 · Liberado",b_htmlpet,M3|930
+item,2026-11-02,M3 U8,2026-11-05,1,▶ 08 HTML PET,5/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-02,M3 U8,2026-11-05,2,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
+M3 U8 · M3!C929 · Concluído",b_htmlpet,M3|929
+item,2026-11-02,M3 U8,2026-11-05,3,✔ HTML de PET COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
+M3 U8 · M3!C930 · Concluído",b_htmlpet,M3|930
 item,2026-11-02,M3 U8,2026-11-05,4,HTML de PET CDC,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
 M3 U8 · M3!C931 · Liberado",b_htmlpet,M3|931
 item,2026-11-02,M3 U8,2026-11-05,5,HTML de PET ECS,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
@@ -176,31 +176,31 @@ item,2026-11-02,M4 U1,2026-11-05,13,✔ Replicar páginas MET/PI/RP,Maria Eduard
 M4 U1 · M4!C88 · Concluído",b_rep,M4|88
 item,2026-11-02,M4 U1,2026-11-05,14,✔ Replicar H5P MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M4 U1 · M4!C89 · Concluído",b_rep,M4|89
-item,2026-11-02,M4 U1,2026-11-05,15,▶ 07 H5P PET 8 EIXOS,0/8 feitas,#1C7FB0,#FFFFFF,#1C7FB0,#FFFFFF,1,atual,,cab:b_h5p8,
-item,2026-11-02,M4 U1,2026-11-05,16,H5P de PET AGS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - AGS (Agro Sustentável)
-M4 U1 · M4!C90 · Liberado",b_h5p8,M4|90
-item,2026-11-02,M4 U1,2026-11-05,17,H5P de PET COM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - COM (Comunicação e Mercado)
-M4 U1 · M4!C91 · Liberado",b_h5p8,M4|91
-item,2026-11-02,M4 U1,2026-11-05,18,H5P de PET CDC,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - CDC (Criação Digital e Cultural)
-M4 U1 · M4!C92 · Liberado",b_h5p8,M4|92
-item,2026-11-02,M4 U1,2026-11-05,19,H5P de PET ECS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - ECS (Economia Social)
-M4 U1 · M4!C93 · Liberado",b_h5p8,M4|93
-item,2026-11-02,M4 U1,2026-11-05,20,H5P de PET GOP,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - GOP (Gestão e Operações)
-M4 U1 · M4!C94 · Liberado",b_h5p8,M4|94
-item,2026-11-02,M4 U1,2026-11-05,21,H5P de PET GIM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - GIM (Gestão Imobiliária)
-M4 U1 · M4!C95 · Liberado",b_h5p8,M4|95
-item,2026-11-02,M4 U1,2026-11-05,22,H5P de PET TI,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - TI (Tecnologia da Informação)
-M4 U1 · M4!C96 · Liberado",b_h5p8,M4|96
-item,2026-11-02,M4 U1,2026-11-05,23,H5P de PET TEV,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - TEV (Turismo e Eventos)
-M4 U1 · M4!C97 · Liberado",b_h5p8,M4|97
+item,2026-11-02,M4 U1,2026-11-05,15,✔ 07 H5P PET 8 EIXOS,8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_h5p8,
+item,2026-11-02,M4 U1,2026-11-05,16,✔ H5P de PET AGS,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - AGS (Agro Sustentável)
+M4 U1 · M4!C90 · Concluído",b_h5p8,M4|90
+item,2026-11-02,M4 U1,2026-11-05,17,✔ H5P de PET COM,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - COM (Comunicação e Mercado)
+M4 U1 · M4!C91 · Concluído",b_h5p8,M4|91
+item,2026-11-02,M4 U1,2026-11-05,18,✔ H5P de PET CDC,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - CDC (Criação Digital e Cultural)
+M4 U1 · M4!C92 · Concluído",b_h5p8,M4|92
+item,2026-11-02,M4 U1,2026-11-05,19,✔ H5P de PET ECS,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - ECS (Economia Social)
+M4 U1 · M4!C93 · Concluído",b_h5p8,M4|93
+item,2026-11-02,M4 U1,2026-11-05,20,✔ H5P de PET GOP,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - GOP (Gestão e Operações)
+M4 U1 · M4!C94 · Concluído",b_h5p8,M4|94
+item,2026-11-02,M4 U1,2026-11-05,21,✔ H5P de PET GIM,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - GIM (Gestão Imobiliária)
+M4 U1 · M4!C95 · Concluído",b_h5p8,M4|95
+item,2026-11-02,M4 U1,2026-11-05,22,✔ H5P de PET TI,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - TI (Tecnologia da Informação)
+M4 U1 · M4!C96 · Concluído",b_h5p8,M4|96
+item,2026-11-02,M4 U1,2026-11-05,23,✔ H5P de PET TEV,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - TEV (Turismo e Eventos)
+M4 U1 · M4!C97 · Concluído",b_h5p8,M4|97
 bloco,2026-11-02,M3 U8,2026-11-06,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
 item,2026-11-02,M3 U8,2026-11-06,1,◐ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:b_rpet,
-item,2026-11-02,M3 U8,2026-11-06,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M3 U8 · M3!C937 · Bloqueado",b_rpet,M3|937
-item,2026-11-02,M3 U8,2026-11-06,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M3 U8 · M3!C938 · Bloqueado",b_rpet,M3|938
+item,2026-11-02,M3 U8,2026-11-06,2,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
+M3 U8 · M3!C937 · Liberado",b_rpet,M3|937
+item,2026-11-02,M3 U8,2026-11-06,3,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - COM (Comunicação e Mercado)
+M3 U8 · M3!C938 · Liberado",b_rpet,M3|938
 item,2026-11-02,M3 U8,2026-11-06,4,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
 M3 U8 · M3!C939 · Bloqueado",b_rpet,M3|939
 item,2026-11-02,M3 U8,2026-11-06,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
@@ -219,23 +219,23 @@ M3 U8 · M3!C946 · Bloqueado",b_cpet,M3|946
 bloco,2026-11-02,M4 U1,2026-11-06,13,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
-item,2026-11-02,M4 U1,2026-11-06,14,🔒︎ 08 HTML PET,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
-item,2026-11-02,M4 U1,2026-11-06,15,🔒︎ HTML de PET AGS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
-M4 U1 · M4!C98 · Bloqueado",b_htmlpet,M4|98
-item,2026-11-02,M4 U1,2026-11-06,16,🔒︎ HTML de PET COM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
-M4 U1 · M4!C99 · Bloqueado",b_htmlpet,M4|99
-item,2026-11-02,M4 U1,2026-11-06,17,🔒︎ HTML de PET CDC,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
-M4 U1 · M4!C100 · Bloqueado",b_htmlpet,M4|100
-item,2026-11-02,M4 U1,2026-11-06,18,🔒︎ HTML de PET ECS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
-M4 U1 · M4!C101 · Bloqueado",b_htmlpet,M4|101
-item,2026-11-02,M4 U1,2026-11-06,19,🔒︎ HTML de PET GOP,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GOP (Gestão e Operações)
-M4 U1 · M4!C102 · Bloqueado",b_htmlpet,M4|102
-item,2026-11-02,M4 U1,2026-11-06,20,🔒︎ HTML de PET GIM,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GIM (Gestão Imobiliária)
-M4 U1 · M4!C103 · Bloqueado",b_htmlpet,M4|103
-item,2026-11-02,M4 U1,2026-11-06,21,🔒︎ HTML de PET TI,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TI (Tecnologia da Informação)
-M4 U1 · M4!C104 · Bloqueado",b_htmlpet,M4|104
-item,2026-11-02,M4 U1,2026-11-06,22,🔒︎ HTML de PET TEV,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TEV (Turismo e Eventos)
-M4 U1 · M4!C105 · Bloqueado",b_htmlpet,M4|105
+item,2026-11-02,M4 U1,2026-11-06,14,▶ 08 HTML PET,4/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-02,M4 U1,2026-11-06,15,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
+M4 U1 · M4!C98 · Concluído",b_htmlpet,M4|98
+item,2026-11-02,M4 U1,2026-11-06,16,✔ HTML de PET COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
+M4 U1 · M4!C99 · Concluído",b_htmlpet,M4|99
+item,2026-11-02,M4 U1,2026-11-06,17,✔ HTML de PET CDC,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
+M4 U1 · M4!C100 · Concluído",b_htmlpet,M4|100
+item,2026-11-02,M4 U1,2026-11-06,18,✔ HTML de PET ECS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - ECS (Economia Social)
+M4 U1 · M4!C101 · Concluído",b_htmlpet,M4|101
+item,2026-11-02,M4 U1,2026-11-06,19,HTML de PET GOP,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GOP (Gestão e Operações)
+M4 U1 · M4!C102 · Liberado",b_htmlpet,M4|102
+item,2026-11-02,M4 U1,2026-11-06,20,HTML de PET GIM,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GIM (Gestão Imobiliária)
+M4 U1 · M4!C103 · Liberado",b_htmlpet,M4|103
+item,2026-11-02,M4 U1,2026-11-06,21,HTML de PET TI,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TI (Tecnologia da Informação)
+M4 U1 · M4!C104 · Liberado",b_htmlpet,M4|104
+item,2026-11-02,M4 U1,2026-11-06,22,HTML de PET TEV,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M4 U1 · M4!C105 · Liberado",b_htmlpet,M4|105
 semana,2026-11-09,,,,"SEMANA DE 09/11 A 13/11   ·   em construção: M3 U8, M4 U1, M4 U2, M4 U3, M4 U4, M4 7ª gravação   ·   entregas: M3 U8 (seg 09/11), M4 U1 (ter 10/11), M4 U2 (qui 12/11), M4 U3 (qui 12/11), M4 U4 (qui 12/11)",,,,,,,,,,
 unidade,2026-11-09,M3 U8,,,"M3 · UNIDADE 8
 template ter 03/11
@@ -283,15 +283,15 @@ M3 U8 · M3!C954 · Bloqueado",b_lib,M3|954
 bloco,2026-11-09,M4 U1,2026-11-09,12,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
-item,2026-11-09,M4 U1,2026-11-09,13,🔒︎ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:b_rpet,
-item,2026-11-09,M4 U1,2026-11-09,14,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M4 U1 · M4!C106 · Bloqueado",b_rpet,M4|106
-item,2026-11-09,M4 U1,2026-11-09,15,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M4 U1 · M4!C107 · Bloqueado",b_rpet,M4|107
-item,2026-11-09,M4 U1,2026-11-09,16,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M4 U1 · M4!C108 · Bloqueado",b_rpet,M4|108
-item,2026-11-09,M4 U1,2026-11-09,17,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
-M4 U1 · M4!C109 · Bloqueado",b_rpet,M4|109
+item,2026-11-09,M4 U1,2026-11-09,13,◐ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:b_rpet,
+item,2026-11-09,M4 U1,2026-11-09,14,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - AGS (Agro Sustentável)
+M4 U1 · M4!C106 · Liberado",b_rpet,M4|106
+item,2026-11-09,M4 U1,2026-11-09,15,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - COM (Comunicação e Mercado)
+M4 U1 · M4!C107 · Liberado",b_rpet,M4|107
+item,2026-11-09,M4 U1,2026-11-09,16,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - CDC (Criação Digital e Cultural)
+M4 U1 · M4!C108 · Liberado",b_rpet,M4|108
+item,2026-11-09,M4 U1,2026-11-09,17,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - ECS (Economia Social)
+M4 U1 · M4!C109 · Liberado",b_rpet,M4|109
 item,2026-11-09,M4 U1,2026-11-09,18,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
 M4 U1 · M4!C110 · Bloqueado",b_rpet,M4|110
 item,2026-11-09,M4 U1,2026-11-09,19,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
@@ -334,31 +334,31 @@ item,2026-11-09,M4 U2,2026-11-09,40,✔ Criar vídeos PET,Lucas,#EEF9F3,#8FB5A3,
 M4 U2 · M4!C160 · Concluído",b_vid_pet,M4|160
 item,2026-11-09,M4 U2,2026-11-09,41,✔ YouTube PET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - PET
 M4 U2 · M4!C164 · Concluído",b_vid_pet,M4|164
-item,2026-11-09,M4 U2,2026-11-09,42,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
-item,2026-11-09,M4 U2,2026-11-09,43,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
-M4 U2 · M4!C169 · Liberado",b_h5p_met,M4|169
-item,2026-11-09,M4 U2,2026-11-09,44,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
-M4 U2 · M4!C172 · Bloqueado",b_h5p_met,M4|172
+item,2026-11-09,M4 U2,2026-11-09,42,02 H5P BASE MET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
+item,2026-11-09,M4 U2,2026-11-09,43,✔ Mapear H5P ref. MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - Metodologia
+M4 U2 · M4!C169 · Concluído",b_h5p_met,M4|169
+item,2026-11-09,M4 U2,2026-11-09,44,H5P base MET,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"H5P base - trilha de Metodologia
+M4 U2 · M4!C172 · Liberado",b_h5p_met,M4|172
 item,2026-11-09,M4 U2,2026-11-09,45,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
-item,2026-11-09,M4 U2,2026-11-09,46,🔒︎ 02 H5P BASE PET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_pet,
-item,2026-11-09,M4 U2,2026-11-09,47,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
-M4 U2 · M4!C170 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|170
-item,2026-11-09,M4 U2,2026-11-09,48,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
-M4 U2 · M4!C173 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|173
+item,2026-11-09,M4 U2,2026-11-09,46,🔒︎ 02 H5P BASE PET,1/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_pet,
+item,2026-11-09,M4 U2,2026-11-09,47,✔ Mapear H5P ref. PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - PET (ADM)
+M4 U2 · M4!C170 · Concluído",b_h5p_pet,M4|170
+item,2026-11-09,M4 U2,2026-11-09,48,🔒︎ H5P base ADM PET,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+M4 U2 · M4!C173 · Liberado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|173
 item,2026-11-09,M4 U2,2026-11-09,49,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
 item,2026-11-09,M4 U2,2026-11-09,50,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
-item,2026-11-09,M4 U2,2026-11-09,51,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+item,2026-11-09,M4 U2,2026-11-09,51,HTML base MET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
 M4 U2 · M4!C174 · Liberado",b_hb_met,M4|174
 item,2026-11-09,M4 U2,2026-11-09,52,🔒︎ 03 BASE HTML ADM,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_adm,
-item,2026-11-09,M4 U2,2026-11-09,53,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
+item,2026-11-09,M4 U2,2026-11-09,53,🔒︎ HTML base ADM PET,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U2 · M4!C175 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_adm,M4|175
 item,2026-11-09,M4 U2,2026-11-09,54,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
-item,2026-11-09,M4 U2,2026-11-09,55,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-09,M4 U2,2026-11-09,55,HTML base PI,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
 M4 U2 · M4!C176 · Liberado",b_hb_pi,M4|176
 item,2026-11-09,M4 U2,2026-11-09,56,03 BASE HTML RP,1/2 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_rp,
 item,2026-11-09,M4 U2,2026-11-09,57,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Editar Rubrica - Residência Pedagógica (se houver)
 M4 U2 · M4!C171 · Concluído",b_hb_rp,M4|171
-item,2026-11-09,M4 U2,2026-11-09,58,HTML base RP,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-09,M4 U2,2026-11-09,58,HTML base RP,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
 M4 U2 · M4!C177 · Liberado",b_hb_rp,M4|177
 item,2026-11-09,M4 U2,2026-11-09,59,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
 item,2026-11-09,M4 U2,2026-11-09,60,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
@@ -542,9 +542,9 @@ bloco,2026-11-09,M4 U2,2026-11-10,12,M4 · UNIDADE 2,entrega qui 12/11,#25314C,#
 template seg 09/11
 entrega qui 12/11",,
 item,2026-11-09,M4 U2,2026-11-10,13,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
-item,2026-11-09,M4 U2,2026-11-10,14,🔒︎ Replicar páginas MET/PI/RP,Thony,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+item,2026-11-09,M4 U2,2026-11-10,14,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
 M4 U2 · M4!C187 · Bloqueado",b_rep,M4|187
-item,2026-11-09,M4 U2,2026-11-10,15,🔒︎ Replicar H5P MET/PI/RP,Marquito,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+item,2026-11-09,M4 U2,2026-11-10,15,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
 M4 U2 · M4!C188 · Bloqueado",b_rep,M4|188
 item,2026-11-09,M4 U2,2026-11-10,16,🔒︎ 07 H5P PET 8 EIXOS,0/8 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,8 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p8,
 item,2026-11-09,M4 U2,2026-11-10,17,🔒︎ H5P de PET AGS,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - AGS (Agro Sustentável)
@@ -564,13 +564,13 @@ M4 U2 · M4!C195 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-09,M4 U2,2026-11-10,24,🔒︎ H5P de PET TEV,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - TEV (Turismo e Eventos)
 M4 U2 · M4!C196 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|196
 item,2026-11-09,M4 U2,2026-11-10,25,🔒︎ 08 HTML PET,0/8 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,8 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_htmlpet,
-item,2026-11-09,M4 U2,2026-11-10,26,🔒︎ HTML de PET AGS,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - AGS (Agro Sustentável)
+item,2026-11-09,M4 U2,2026-11-10,26,🔒︎ HTML de PET AGS,Gustavo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - AGS (Agro Sustentável)
 M4 U2 · M4!C197 · Bloqueado · previsto: o template ainda não está no Moodle",b_htmlpet,M4|197
-item,2026-11-09,M4 U2,2026-11-10,27,🔒︎ HTML de PET COM,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - COM (Comunicação e Mercado)
+item,2026-11-09,M4 U2,2026-11-10,27,🔒︎ HTML de PET COM,Gustavo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - COM (Comunicação e Mercado)
 M4 U2 · M4!C198 · Bloqueado · previsto: o template ainda não está no Moodle",b_htmlpet,M4|198
-item,2026-11-09,M4 U2,2026-11-10,28,🔒︎ HTML de PET CDC,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - CDC (Criação Digital e Cultural)
+item,2026-11-09,M4 U2,2026-11-10,28,🔒︎ HTML de PET CDC,Gustavo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - CDC (Criação Digital e Cultural)
 M4 U2 · M4!C199 · Bloqueado · previsto: o template ainda não está no Moodle",b_htmlpet,M4|199
-item,2026-11-09,M4 U2,2026-11-10,29,🔒︎ HTML de PET ECS,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - ECS (Economia Social)
+item,2026-11-09,M4 U2,2026-11-10,29,🔒︎ HTML de PET ECS,Gustavo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - ECS (Economia Social)
 M4 U2 · M4!C200 · Bloqueado · previsto: o template ainda não está no Moodle",b_htmlpet,M4|200
 item,2026-11-09,M4 U2,2026-11-10,30,🔒︎ HTML de PET GOP,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML de PET - GOP (Gestão e Operações)
 M4 U2 · M4!C201 · Bloqueado · previsto: o template ainda não está no Moodle",b_htmlpet,M4|201
@@ -769,7 +769,7 @@ item,2026-11-09,M4 U2,2026-11-12,5,🔒︎ Mapear certificáveis RP,Marcelo,#e9e
 M4 U2 · M4!C218 · Bloqueado",b_aj,M4|218
 item,2026-11-09,M4 U2,2026-11-12,6,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U2 · M4!C219 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|219
-item,2026-11-09,M4 U2,2026-11-12,7,🔒︎ Requisitos da certificação,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
+item,2026-11-09,M4 U2,2026-11-12,7,🔒︎ Requisitos da certificação,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
 M4 U2 · M4!C220 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|220
 item,2026-11-09,M4 U2,2026-11-12,8,🔒︎ Revisar configurações,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisar configurações: restrições, certificados, visibilidade
 M4 U2 · M4!C221 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|221
