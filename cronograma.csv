@@ -151,7 +151,7 @@ item,2026-11-02,M4 U1,2026-11-04,58,✔ 05 CORREÇÃO BASE PI,concluída: replic
 bloco,2026-11-02,M3 U8,2026-11-05,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
-item,2026-11-02,M3 U8,2026-11-05,1,▶ 08 HTML PET,1/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-02,M3 U8,2026-11-05,1,▶ 08 HTML PET,3/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
 item,2026-11-02,M3 U8,2026-11-05,2,HTML de PET AGS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
 M3 U8 · M3!C929 · Liberado",b_htmlpet,M3|929
 item,2026-11-02,M3 U8,2026-11-05,3,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
@@ -164,10 +164,10 @@ item,2026-11-02,M3 U8,2026-11-05,6,HTML de PET GOP,Gustavo,#d5edf8,#25314C,#FFFF
 M3 U8 · M3!C933 · Liberado",b_htmlpet,M3|933
 item,2026-11-02,M3 U8,2026-11-05,7,✔ HTML de PET GIM,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GIM (Gestão Imobiliária)
 M3 U8 · M3!C934 · Concluído",b_htmlpet,M3|934
-item,2026-11-02,M3 U8,2026-11-05,8,HTML de PET TI,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TI (Tecnologia da Informação)
-M3 U8 · M3!C935 · Liberado",b_htmlpet,M3|935
-item,2026-11-02,M3 U8,2026-11-05,9,HTML de PET TEV,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
-M3 U8 · M3!C936 · Liberado",b_htmlpet,M3|936
+item,2026-11-02,M3 U8,2026-11-05,8,✔ HTML de PET TI,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
+M3 U8 · M3!C935 · Concluído",b_htmlpet,M3|935
+item,2026-11-02,M3 U8,2026-11-05,9,✔ HTML de PET TEV,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M3 U8 · M3!C936 · Concluído",b_htmlpet,M3|936
 bloco,2026-11-02,M4 U1,2026-11-05,11,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
@@ -209,10 +209,10 @@ item,2026-11-02,M3 U8,2026-11-06,6,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570
 M3 U8 · M3!C941 · Bloqueado",b_rpet,M3|941
 item,2026-11-02,M3 U8,2026-11-06,7,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GIM (Gestão Imobiliária)
 M3 U8 · M3!C942 · Liberado",b_rpet,M3|942
-item,2026-11-02,M3 U8,2026-11-06,8,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M3 U8 · M3!C943 · Bloqueado",b_rpet,M3|943
-item,2026-11-02,M3 U8,2026-11-06,9,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M3 U8 · M3!C944 · Bloqueado",b_rpet,M3|944
+item,2026-11-02,M3 U8,2026-11-06,8,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
+M3 U8 · M3!C943 · Liberado",b_rpet,M3|943
+item,2026-11-02,M3 U8,2026-11-06,9,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TEV (Turismo e Eventos)
+M3 U8 · M3!C944 · Liberado",b_rpet,M3|944
 item,2026-11-02,M3 U8,2026-11-06,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
 item,2026-11-02,M3 U8,2026-11-06,11,🔒︎ Ajustes da revisão final,Marcelo,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
 M3 U8 · M3!C946 · Bloqueado",b_cpet,M3|946
