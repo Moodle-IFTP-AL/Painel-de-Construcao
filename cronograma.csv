@@ -219,7 +219,7 @@ M3 U8 · M3!C946 · Bloqueado",b_cpet,M3|946
 bloco,2026-11-02,M4 U1,2026-11-06,13,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
-item,2026-11-02,M4 U1,2026-11-06,14,▶ 08 HTML PET,5/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-02,M4 U1,2026-11-06,14,▶ 08 HTML PET,6/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
 item,2026-11-02,M4 U1,2026-11-06,15,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
 M4 U1 · M4!C98 · Concluído",b_htmlpet,M4|98
 item,2026-11-02,M4 U1,2026-11-06,16,✔ HTML de PET COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
@@ -234,8 +234,8 @@ item,2026-11-02,M4 U1,2026-11-06,20,HTML de PET GIM,Gustavo,#d5edf8,#25314C,#FFF
 M4 U1 · M4!C103 · Liberado",b_htmlpet,M4|103
 item,2026-11-02,M4 U1,2026-11-06,21,✔ HTML de PET TI,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
 M4 U1 · M4!C104 · Concluído",b_htmlpet,M4|104
-item,2026-11-02,M4 U1,2026-11-06,22,HTML de PET TEV,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
-M4 U1 · M4!C105 · Liberado",b_htmlpet,M4|105
+item,2026-11-02,M4 U1,2026-11-06,22,✔ HTML de PET TEV,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M4 U1 · M4!C105 · Concluído",b_htmlpet,M4|105
 semana,2026-11-09,,,,"SEMANA DE 09/11 A 13/11   ·   em construção: M3 U8, M4 U1, M4 U2, M4 U3, M4 U4, M4 7ª gravação   ·   entregas: M3 U8 (seg 09/11), M4 U1 (ter 10/11), M4 U2 (qui 12/11), M4 U3 (qui 12/11), M4 U4 (qui 12/11)",,,,,,,,,,
 unidade,2026-11-09,M3 U8,,,"M3 · UNIDADE 8
 template ter 03/11
@@ -298,8 +298,8 @@ item,2026-11-09,M4 U1,2026-11-09,19,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c57
 M4 U1 · M4!C111 · Bloqueado",b_rpet,M4|111
 item,2026-11-09,M4 U1,2026-11-09,20,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
 M4 U1 · M4!C112 · Liberado",b_rpet,M4|112
-item,2026-11-09,M4 U1,2026-11-09,21,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M4 U1 · M4!C113 · Bloqueado",b_rpet,M4|113
+item,2026-11-09,M4 U1,2026-11-09,21,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TEV (Turismo e Eventos)
+M4 U1 · M4!C113 · Liberado",b_rpet,M4|113
 item,2026-11-09,M4 U1,2026-11-09,22,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
 item,2026-11-09,M4 U1,2026-11-09,23,🔒︎ Ajustes da revisão final,Maria Eduarda,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
 M4 U1 · M4!C115 · Bloqueado",b_cpet,M4|115
