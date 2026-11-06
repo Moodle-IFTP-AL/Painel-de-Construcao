@@ -392,11 +392,11 @@ item,2026-11-09,M4 U3,2026-11-09,78,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFF
 M4 U3 · M4!C260 · Concluído",b_vid_met,M4|260
 item,2026-11-09,M4 U3,2026-11-09,79,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
 item,2026-11-09,M4 U3,2026-11-09,80,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
-M4 U3 · M4!C253 · Não se aplica · previsto: o template ainda não está no Moodle",b_vid_pi,M4|253
+M4 U3 · M4!C253 · Não se aplica",b_vid_pi,M4|253
 item,2026-11-09,M4 U3,2026-11-09,81,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
-M4 U3 · M4!C257 · Não se aplica · previsto: o template ainda não está no Moodle",b_vid_pi,M4|257
+M4 U3 · M4!C257 · Não se aplica",b_vid_pi,M4|257
 item,2026-11-09,M4 U3,2026-11-09,82,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
-M4 U3 · M4!C261 · Não se aplica · previsto: o template ainda não está no Moodle",b_vid_pi,M4|261
+M4 U3 · M4!C261 · Não se aplica",b_vid_pi,M4|261
 item,2026-11-09,M4 U3,2026-11-09,83,🔒︎ 01 VÍDEOS PET,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_pet,
 item,2026-11-09,M4 U3,2026-11-09,84,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M4 U3 · M4!C255 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|255
@@ -404,39 +404,39 @@ item,2026-11-09,M4 U3,2026-11-09,85,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A
 M4 U3 · M4!C259 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|259
 item,2026-11-09,M4 U3,2026-11-09,86,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U3 · M4!C263 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|263
-item,2026-11-09,M4 U3,2026-11-09,87,🔒︎ 02 H5P BASE MET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_met,
-item,2026-11-09,M4 U3,2026-11-09,88,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
-M4 U3 · M4!C268 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_met,M4|268
-item,2026-11-09,M4 U3,2026-11-09,89,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
-M4 U3 · M4!C271 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_met,M4|271
+item,2026-11-09,M4 U3,2026-11-09,87,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
+item,2026-11-09,M4 U3,2026-11-09,88,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+M4 U3 · M4!C268 · Liberado",b_h5p_met,M4|268
+item,2026-11-09,M4 U3,2026-11-09,89,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
+M4 U3 · M4!C271 · Bloqueado",b_h5p_met,M4|271
 item,2026-11-09,M4 U3,2026-11-09,90,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U3,2026-11-09,91,🔒︎ 02 H5P BASE PET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_pet,
 item,2026-11-09,M4 U3,2026-11-09,92,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
 M4 U3 · M4!C269 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|269
 item,2026-11-09,M4 U3,2026-11-09,93,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U3 · M4!C272 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|272
-item,2026-11-09,M4 U3,2026-11-09,94,🔒︎ 03 BASE HTML MET,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_met,
-item,2026-11-09,M4 U3,2026-11-09,95,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
-M4 U3 · M4!C273 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_met,M4|273
+item,2026-11-09,M4 U3,2026-11-09,94,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
+item,2026-11-09,M4 U3,2026-11-09,95,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+M4 U3 · M4!C273 · Liberado",b_hb_met,M4|273
 item,2026-11-09,M4 U3,2026-11-09,96,🔒︎ 03 BASE HTML ADM,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_adm,
 item,2026-11-09,M4 U3,2026-11-09,97,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U3 · M4!C274 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_adm,M4|274
-item,2026-11-09,M4 U3,2026-11-09,98,🔒︎ 03 BASE HTML PI,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_pi,
-item,2026-11-09,M4 U3,2026-11-09,99,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
-M4 U3 · M4!C275 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_pi,M4|275
-item,2026-11-09,M4 U3,2026-11-09,100,🔒︎ 04 REVISÃO BASE MET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_met,
-item,2026-11-09,M4 U3,2026-11-09,101,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
-M4 U3 · M4!C277 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_met,M4|277
-item,2026-11-09,M4 U3,2026-11-09,102,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
-M4 U3 · M4!C281 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_met,M4|281
+item,2026-11-09,M4 U3,2026-11-09,98,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
+item,2026-11-09,M4 U3,2026-11-09,99,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
+M4 U3 · M4!C275 · Liberado",b_hb_pi,M4|275
+item,2026-11-09,M4 U3,2026-11-09,100,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
+item,2026-11-09,M4 U3,2026-11-09,101,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
+M4 U3 · M4!C277 · Bloqueado",b_rb_met,M4|277
+item,2026-11-09,M4 U3,2026-11-09,102,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
+M4 U3 · M4!C281 · Bloqueado",b_rb_met,M4|281
 item,2026-11-09,M4 U3,2026-11-09,103,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_adm,
 item,2026-11-09,M4 U3,2026-11-09,104,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M4 U3 · M4!C278 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|278
 item,2026-11-09,M4 U3,2026-11-09,105,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U3 · M4!C282 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|282
-item,2026-11-09,M4 U3,2026-11-09,106,🔒︎ 04 REVISÃO BASE PI,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_pi,
-item,2026-11-09,M4 U3,2026-11-09,107,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
-M4 U3 · M4!C279 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_pi,M4|279
+item,2026-11-09,M4 U3,2026-11-09,106,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_pi,
+item,2026-11-09,M4 U3,2026-11-09,107,🔒︎ Rev. HTML base PI,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+M4 U3 · M4!C279 · Bloqueado",b_rb_pi,M4|279
 item,2026-11-09,M4 U3,2026-11-09,108,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-09,M4 U3,2026-11-09,109,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 item,2026-11-09,M4 U3,2026-11-09,110,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
@@ -450,20 +450,20 @@ item,2026-11-09,M4 U4,2026-11-09,115,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3
 M4 U4 · M4!C355 · Concluído",b_vid_met,M4|355
 item,2026-11-09,M4 U4,2026-11-09,116,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
 M4 U4 · M4!C359 · Concluído",b_vid_met,M4|359
-item,2026-11-09,M4 U4,2026-11-09,117,🔒︎ 01 VÍDEOS PI,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_pi,
-item,2026-11-09,M4 U4,2026-11-09,118,🔒︎ Conferir vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PI foram criados
-M4 U4 · M4!C352 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pi,M4|352
-item,2026-11-09,M4 U4,2026-11-09,119,🔒︎ Criar vídeos PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PI
-M4 U4 · M4!C356 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pi,M4|356
-item,2026-11-09,M4 U4,2026-11-09,120,🔒︎ YouTube PI,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PI
-M4 U4 · M4!C360 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pi,M4|360
-item,2026-11-09,M4 U4,2026-11-09,121,🔒︎ 01 VÍDEOS RP,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_rp,
-item,2026-11-09,M4 U4,2026-11-09,122,🔒︎ Conferir vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de RP foram criados
-M4 U4 · M4!C353 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|353
-item,2026-11-09,M4 U4,2026-11-09,123,🔒︎ Criar vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de RP
-M4 U4 · M4!C357 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|357
-item,2026-11-09,M4 U4,2026-11-09,124,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - RP
-M4 U4 · M4!C361 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|361
+item,2026-11-09,M4 U4,2026-11-09,117,◐ 01 VÍDEOS PI,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_pi,
+item,2026-11-09,M4 U4,2026-11-09,118,Conferir vídeos PI,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de PI foram criados
+M4 U4 · M4!C352 · Liberado",b_vid_pi,M4|352
+item,2026-11-09,M4 U4,2026-11-09,119,🔒︎ Criar vídeos PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de PI
+M4 U4 · M4!C356 · Bloqueado",b_vid_pi,M4|356
+item,2026-11-09,M4 U4,2026-11-09,120,🔒︎ YouTube PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - PI
+M4 U4 · M4!C360 · Bloqueado",b_vid_pi,M4|360
+item,2026-11-09,M4 U4,2026-11-09,121,◐ 01 VÍDEOS RP,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_rp,
+item,2026-11-09,M4 U4,2026-11-09,122,Conferir vídeos RP,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de RP foram criados
+M4 U4 · M4!C353 · Liberado",b_vid_rp,M4|353
+item,2026-11-09,M4 U4,2026-11-09,123,🔒︎ Criar vídeos RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de RP
+M4 U4 · M4!C357 · Bloqueado",b_vid_rp,M4|357
+item,2026-11-09,M4 U4,2026-11-09,124,🔒︎ YouTube RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - RP
+M4 U4 · M4!C361 · Bloqueado",b_vid_rp,M4|361
 item,2026-11-09,M4 U4,2026-11-09,125,🔒︎ 01 VÍDEOS PET,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_pet,
 item,2026-11-09,M4 U4,2026-11-09,126,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
 M4 U4 · M4!C354 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|354
@@ -471,11 +471,11 @@ item,2026-11-09,M4 U4,2026-11-09,127,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0
 M4 U4 · M4!C358 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|358
 item,2026-11-09,M4 U4,2026-11-09,128,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
 M4 U4 · M4!C362 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|362
-item,2026-11-09,M4 U4,2026-11-09,129,🔒︎ 02 H5P BASE MET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_met,
-item,2026-11-09,M4 U4,2026-11-09,130,🔒︎ Mapear H5P ref. MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - Metodologia
-M4 U4 · M4!C367 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_met,M4|367
-item,2026-11-09,M4 U4,2026-11-09,131,🔒︎ H5P base MET,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base - trilha de Metodologia
-M4 U4 · M4!C370 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_met,M4|370
+item,2026-11-09,M4 U4,2026-11-09,129,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
+item,2026-11-09,M4 U4,2026-11-09,130,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+M4 U4 · M4!C367 · Liberado",b_h5p_met,M4|367
+item,2026-11-09,M4 U4,2026-11-09,131,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
+M4 U4 · M4!C370 · Bloqueado",b_h5p_met,M4|370
 item,2026-11-09,M4 U4,2026-11-09,132,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U4,2026-11-09,133,🔒︎ 02 H5P BASE PET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_pet,
 item,2026-11-09,M4 U4,2026-11-09,134,🔒︎ Mapear H5P ref. PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
@@ -483,36 +483,36 @@ M4 U4 · M4!C368 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-09,M4 U4,2026-11-09,135,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U4 · M4!C371 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|371
 item,2026-11-09,M4 U4,2026-11-09,136,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
-item,2026-11-09,M4 U4,2026-11-09,137,🔒︎ 03 BASE HTML MET,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_met,
-item,2026-11-09,M4 U4,2026-11-09,138,🔒︎ HTML base MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Metodologia Pedagógica
-M4 U4 · M4!C372 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_met,M4|372
+item,2026-11-09,M4 U4,2026-11-09,137,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
+item,2026-11-09,M4 U4,2026-11-09,138,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+M4 U4 · M4!C372 · Liberado",b_hb_met,M4|372
 item,2026-11-09,M4 U4,2026-11-09,139,🔒︎ 03 BASE HTML ADM,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_adm,
 item,2026-11-09,M4 U4,2026-11-09,140,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U4 · M4!C373 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_adm,M4|373
-item,2026-11-09,M4 U4,2026-11-09,141,🔒︎ 03 BASE HTML PI,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_pi,
-item,2026-11-09,M4 U4,2026-11-09,142,🔒︎ HTML base PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Planejamento Integrado (se houver)
-M4 U4 · M4!C374 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_pi,M4|374
-item,2026-11-09,M4 U4,2026-11-09,143,🔒︎ 03 BASE HTML RP,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_rp,
-item,2026-11-09,M4 U4,2026-11-09,144,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
-M4 U4 · M4!C369 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_rp,M4|369
-item,2026-11-09,M4 U4,2026-11-09,145,🔒︎ HTML base RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
-M4 U4 · M4!C375 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_rp,M4|375
-item,2026-11-09,M4 U4,2026-11-09,146,🔒︎ 04 REVISÃO BASE MET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_met,
-item,2026-11-09,M4 U4,2026-11-09,147,🔒︎ Rev. HTML base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Metodologia
-M4 U4 · M4!C376 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_met,M4|376
-item,2026-11-09,M4 U4,2026-11-09,148,🔒︎ Rev. H5P base MET,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - Metodologia
-M4 U4 · M4!C380 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_met,M4|380
+item,2026-11-09,M4 U4,2026-11-09,141,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
+item,2026-11-09,M4 U4,2026-11-09,142,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
+M4 U4 · M4!C374 · Liberado",b_hb_pi,M4|374
+item,2026-11-09,M4 U4,2026-11-09,143,03 BASE HTML RP,0/2 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_rp,
+item,2026-11-09,M4 U4,2026-11-09,144,Editar Rubrica RP,Lucas,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M4 U4 · M4!C369 · Liberado",b_hb_rp,M4|369
+item,2026-11-09,M4 U4,2026-11-09,145,HTML base RP,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
+M4 U4 · M4!C375 · Liberado",b_hb_rp,M4|375
+item,2026-11-09,M4 U4,2026-11-09,146,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
+item,2026-11-09,M4 U4,2026-11-09,147,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
+M4 U4 · M4!C376 · Bloqueado",b_rb_met,M4|376
+item,2026-11-09,M4 U4,2026-11-09,148,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
+M4 U4 · M4!C380 · Bloqueado",b_rb_met,M4|380
 item,2026-11-09,M4 U4,2026-11-09,149,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_adm,
 item,2026-11-09,M4 U4,2026-11-09,150,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
 M4 U4 · M4!C377 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|377
 item,2026-11-09,M4 U4,2026-11-09,151,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U4 · M4!C381 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|381
-item,2026-11-09,M4 U4,2026-11-09,152,🔒︎ 04 REVISÃO BASE PI,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_pi,
-item,2026-11-09,M4 U4,2026-11-09,153,🔒︎ Rev. HTML base PI,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Planejamento Integrado (se houver)
-M4 U4 · M4!C378 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_pi,M4|378
-item,2026-11-09,M4 U4,2026-11-09,154,🔒︎ 04 REVISÃO BASE RP,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_rp,
-item,2026-11-09,M4 U4,2026-11-09,155,🔒︎ Rev. HTML base RP,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
-M4 U4 · M4!C379 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_rp,M4|379
+item,2026-11-09,M4 U4,2026-11-09,152,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_pi,
+item,2026-11-09,M4 U4,2026-11-09,153,🔒︎ Rev. HTML base PI,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+M4 U4 · M4!C378 · Bloqueado",b_rb_pi,M4|378
+item,2026-11-09,M4 U4,2026-11-09,154,🔒︎ 04 REVISÃO BASE RP,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_rp,
+item,2026-11-09,M4 U4,2026-11-09,155,🔒︎ Rev. HTML base RP,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+M4 U4 · M4!C379 · Bloqueado",b_rb_rp,M4|379
 item,2026-11-09,M4 U4,2026-11-09,156,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-09,M4 U4,2026-11-09,157,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 item,2026-11-09,M4 U4,2026-11-09,158,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
@@ -583,11 +583,11 @@ M4 U2 · M4!C204 · Bloqueado · previsto: o template ainda não está no Moodle
 bloco,2026-11-09,M4 U3,2026-11-10,35,M4 · UNIDADE 3,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega qui 12/11",,
-item,2026-11-09,M4 U3,2026-11-10,36,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rep,
-item,2026-11-09,M4 U3,2026-11-10,37,🔒︎ Replicar páginas MET/PI/RP,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U3 · M4!C286 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|286
-item,2026-11-09,M4 U3,2026-11-10,38,🔒︎ Replicar H5P MET/PI/RP,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U3 · M4!C287 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|287
+item,2026-11-09,M4 U3,2026-11-10,36,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
+item,2026-11-09,M4 U3,2026-11-10,37,🔒︎ Replicar páginas MET/PI/RP,Thony,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U3 · M4!C286 · Bloqueado",b_rep,M4|286
+item,2026-11-09,M4 U3,2026-11-10,38,🔒︎ Replicar H5P MET/PI/RP,Marquito,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U3 · M4!C287 · Bloqueado",b_rep,M4|287
 item,2026-11-09,M4 U3,2026-11-10,39,🔒︎ 07 H5P PET 8 EIXOS,0/8 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,8 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p8,
 item,2026-11-09,M4 U3,2026-11-10,40,🔒︎ H5P de PET AGS,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - AGS (Agro Sustentável)
 M4 U3 · M4!C288 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|288
@@ -625,11 +625,11 @@ M4 U3 · M4!C303 · Bloqueado · previsto: o template ainda não está no Moodle
 bloco,2026-11-09,M4 U4,2026-11-10,58,M4 · UNIDADE 4,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template seg 09/11
 entrega qui 12/11",,
-item,2026-11-09,M4 U4,2026-11-10,59,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rep,
-item,2026-11-09,M4 U4,2026-11-10,60,🔒︎ Replicar páginas MET/PI/RP,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U4 · M4!C385 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|385
-item,2026-11-09,M4 U4,2026-11-10,61,🔒︎ Replicar H5P MET/PI/RP,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U4 · M4!C386 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|386
+item,2026-11-09,M4 U4,2026-11-10,59,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
+item,2026-11-09,M4 U4,2026-11-10,60,🔒︎ Replicar páginas MET/PI/RP,Thony,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U4 · M4!C385 · Bloqueado",b_rep,M4|385
+item,2026-11-09,M4 U4,2026-11-10,61,🔒︎ Replicar H5P MET/PI/RP,Marquito,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U4 · M4!C386 · Bloqueado",b_rep,M4|386
 item,2026-11-09,M4 U4,2026-11-10,62,🔒︎ 07 H5P PET 8 EIXOS,0/8 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,8 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p8,
 item,2026-11-09,M4 U4,2026-11-10,63,🔒︎ H5P de PET AGS,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - AGS (Agro Sustentável)
 M4 U4 · M4!C387 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|387
@@ -779,13 +779,13 @@ M4 U2 · M4!C222 · Bloqueado · previsto: o template ainda não está no Moodle
 bloco,2026-11-09,M4 U3,2026-11-12,12,M4 · UNIDADE 3,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega qui 12/11",,
-item,2026-11-09,M4 U3,2026-11-12,13,🔒︎ 11 AJUSTES FINAIS,0/6 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,6 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
+item,2026-11-09,M4 U3,2026-11-12,13,🔒︎ 11 AJUSTES FINAIS,0/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
 item,2026-11-09,M4 U3,2026-11-12,14,🔒︎ Restrição de acesso,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar a restrição de acesso da unidade
 M4 U3 · M4!C314 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|314
-item,2026-11-09,M4 U3,2026-11-12,15,🔒︎ Mapear certificáveis MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de MET
-M4 U3 · M4!C315 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|315
-item,2026-11-09,M4 U3,2026-11-12,16,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
-M4 U3 · M4!C316 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|316
+item,2026-11-09,M4 U3,2026-11-12,15,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+M4 U3 · M4!C315 · Bloqueado",b_aj,M4|315
+item,2026-11-09,M4 U3,2026-11-12,16,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
+M4 U3 · M4!C316 · Bloqueado",b_aj,M4|316
 item,2026-11-09,M4 U3,2026-11-12,17,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U3 · M4!C317 · Não se aplica",b_aj,M4|317
 item,2026-11-09,M4 U3,2026-11-12,18,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
@@ -800,15 +800,15 @@ M4 U3 · M4!C321 · Bloqueado · previsto: o template ainda não está no Moodle
 bloco,2026-11-09,M4 U4,2026-11-12,24,M4 · UNIDADE 4,entrega qui 12/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template seg 09/11
 entrega qui 12/11",,
-item,2026-11-09,M4 U4,2026-11-12,25,🔒︎ 11 AJUSTES FINAIS,0/7 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,7 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
+item,2026-11-09,M4 U4,2026-11-12,25,🔒︎ 11 AJUSTES FINAIS,0/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
 item,2026-11-09,M4 U4,2026-11-12,26,🔒︎ Restrição de acesso,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar a restrição de acesso da unidade
 M4 U4 · M4!C413 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|413
-item,2026-11-09,M4 U4,2026-11-12,27,🔒︎ Mapear certificáveis MET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de MET
-M4 U4 · M4!C414 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|414
-item,2026-11-09,M4 U4,2026-11-12,28,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
-M4 U4 · M4!C415 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|415
-item,2026-11-09,M4 U4,2026-11-12,29,🔒︎ Mapear certificáveis RP,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de RP
-M4 U4 · M4!C416 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|416
+item,2026-11-09,M4 U4,2026-11-12,27,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+M4 U4 · M4!C414 · Bloqueado",b_aj,M4|414
+item,2026-11-09,M4 U4,2026-11-12,28,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
+M4 U4 · M4!C415 · Bloqueado",b_aj,M4|415
+item,2026-11-09,M4 U4,2026-11-12,29,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
+M4 U4 · M4!C416 · Bloqueado",b_aj,M4|416
 item,2026-11-09,M4 U4,2026-11-12,30,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U4 · M4!C417 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|417
 item,2026-11-09,M4 U4,2026-11-12,31,🔒︎ Requisitos da certificação,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
