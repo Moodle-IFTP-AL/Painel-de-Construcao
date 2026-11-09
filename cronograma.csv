@@ -106,10 +106,10 @@ item,2026-11-09,M4 U2,2026-11-09,47,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3,
 M4 U2 · M4!C171 · Concluído",b_hb_rp,M4|171
 item,2026-11-09,M4 U2,2026-11-09,48,✔ HTML base RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Residência Pedagógica (se houver)
 M4 U2 · M4!C177 · Concluído",b_hb_rp,M4|177
-item,2026-11-09,M4 U2,2026-11-09,49,▶ 04 REVISÃO BASE MET,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:b_rb_met,
-item,2026-11-09,M4 U2,2026-11-09,50,Rev. HTML base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Metodologia
+item,2026-11-09,M4 U2,2026-11-09,49,04 REVISÃO BASE MET,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_met,
+item,2026-11-09,M4 U2,2026-11-09,50,Rev. HTML base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Metodologia
 M4 U2 · M4!C178 · Liberado",b_rb_met,M4|178
-item,2026-11-09,M4 U2,2026-11-09,51,Rev. H5P base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - Metodologia
+item,2026-11-09,M4 U2,2026-11-09,51,Rev. H5P base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - Metodologia
 M4 U2 · M4!C182 · Liberado",b_rb_met,M4|182
 item,2026-11-09,M4 U2,2026-11-09,52,04 REVISÃO BASE PI,0/1 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_pi,
 item,2026-11-09,M4 U2,2026-11-09,53,Rev. HTML base PI,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Planejamento Integrado (se houver)
@@ -144,10 +144,10 @@ item,2026-11-09,M4 U3,2026-11-09,71,— Criar vídeos RP,,#F4F5F8,#8C97AD,#FFFFF
 M4 U3 · M4!C258 · Não se aplica",b_vid_rp,M4|258
 item,2026-11-09,M4 U3,2026-11-09,72,— YouTube RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
 M4 U3 · M4!C262 · Não se aplica",b_vid_rp,M4|262
-item,2026-11-09,M4 U3,2026-11-09,73,▶ 02 H5P BASE MET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
-item,2026-11-09,M4 U3,2026-11-09,74,✔ Mapear H5P ref. MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear os H5P de referência - Metodologia
+item,2026-11-09,M4 U3,2026-11-09,73,02 H5P BASE MET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
+item,2026-11-09,M4 U3,2026-11-09,74,✔ Mapear H5P ref. MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - Metodologia
 M4 U3 · M4!C268 · Concluído",b_h5p_met,M4|268
-item,2026-11-09,M4 U3,2026-11-09,75,H5P base MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"H5P base - trilha de Metodologia
+item,2026-11-09,M4 U3,2026-11-09,75,H5P base MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"H5P base - trilha de Metodologia
 M4 U3 · M4!C271 · Liberado",b_h5p_met,M4|271
 item,2026-11-09,M4 U3,2026-11-09,76,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U3,2026-11-09,77,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
@@ -268,14 +268,14 @@ item,2026-11-09,M4 U2,2026-11-10,18,✔ Mapear H5P ref. PET ADM,Maria Eduarda,#E
 M4 U2 · M4!C170 · Concluído",b_h5p_pet,M4|170
 item,2026-11-09,M4 U2,2026-11-10,19,✔ H5P base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U2 · M4!C173 · Concluído",b_h5p_pet,M4|173
-item,2026-11-09,M4 U2,2026-11-10,20,🔒︎ 03 BASE HTML ADM,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_adm,
-item,2026-11-09,M4 U2,2026-11-10,21,🔒︎ HTML base ADM PET,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
-M4 U2 · M4!C175 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_adm,M4|175
-item,2026-11-09,M4 U2,2026-11-10,22,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_adm,
-item,2026-11-09,M4 U2,2026-11-10,23,🔒︎ Rev. HTML base PET ADM,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
-M4 U2 · M4!C179 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|179
-item,2026-11-09,M4 U2,2026-11-10,24,🔒︎ Rev. H5P base PET ADM,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
-M4 U2 · M4!C183 · Liberado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|183
+item,2026-11-09,M4 U2,2026-11-10,20,▶ 03 BASE HTML ADM,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,atual,,cab:b_hb_adm,
+item,2026-11-09,M4 U2,2026-11-10,21,HTML base ADM PET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,atual,"HTML base ADM - Prática do Ensino Técnico
+M4 U2 · M4!C175 · Liberado",b_hb_adm,M4|175
+item,2026-11-09,M4 U2,2026-11-10,22,◐ 04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_adm,
+item,2026-11-09,M4 U2,2026-11-10,23,🔒︎ Rev. HTML base PET ADM,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
+M4 U2 · M4!C179 · Bloqueado",b_rb_adm,M4|179
+item,2026-11-09,M4 U2,2026-11-10,24,Rev. H5P base PET ADM,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - PET (ADM)
+M4 U2 · M4!C183 · Liberado",b_rb_adm,M4|183
 item,2026-11-09,M4 U2,2026-11-10,25,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 item,2026-11-09,M4 U2,2026-11-10,26,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
 item,2026-11-09,M4 U2,2026-11-10,27,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
@@ -473,26 +473,26 @@ M4 U2 · M4!C204 · Bloqueado · previsto: o template ainda não está no Moodle
 bloco,2026-11-09,M4 U3,2026-11-12,82,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega ter 17/11",,
-item,2026-11-09,M4 U3,2026-11-12,83,🔒︎ 01 VÍDEOS PET,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_pet,
-item,2026-11-09,M4 U3,2026-11-12,84,🔒︎ Conferir vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de PET foram criados
-M4 U3 · M4!C255 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|255
-item,2026-11-09,M4 U3,2026-11-12,85,🔒︎ Criar vídeos PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de PET
-M4 U3 · M4!C259 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|259
-item,2026-11-09,M4 U3,2026-11-12,86,🔒︎ YouTube PET,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - PET
-M4 U3 · M4!C263 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_pet,M4|263
-item,2026-11-09,M4 U3,2026-11-12,87,🔒︎ 02 H5P BASE PET,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p_pet,
-item,2026-11-09,M4 U3,2026-11-12,88,🔒︎ Mapear H5P ref. PET ADM,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear os H5P de referência - PET (ADM)
-M4 U3 · M4!C269 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|269
-item,2026-11-09,M4 U3,2026-11-12,89,🔒︎ H5P base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P base ADM - trilha de Prática do Ensino Técnico
-M4 U3 · M4!C272 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p_pet,M4|272
-item,2026-11-09,M4 U3,2026-11-12,90,🔒︎ 03 BASE HTML ADM,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_adm,
-item,2026-11-09,M4 U3,2026-11-12,91,🔒︎ HTML base ADM PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base ADM - Prática do Ensino Técnico
-M4 U3 · M4!C274 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_adm,M4|274
-item,2026-11-09,M4 U3,2026-11-12,92,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_adm,
-item,2026-11-09,M4 U3,2026-11-12,93,🔒︎ Rev. HTML base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - PET (ADM)
-M4 U3 · M4!C278 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|278
-item,2026-11-09,M4 U3,2026-11-12,94,🔒︎ Rev. H5P base PET ADM,Alline,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão das atividades H5P base - PET (ADM)
-M4 U3 · M4!C282 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_adm,M4|282
+item,2026-11-09,M4 U3,2026-11-12,83,◐ 01 VÍDEOS PET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_pet,
+item,2026-11-09,M4 U3,2026-11-12,84,Conferir vídeos PET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de PET foram criados
+M4 U3 · M4!C255 · Liberado",b_vid_pet,M4|255
+item,2026-11-09,M4 U3,2026-11-12,85,🔒︎ Criar vídeos PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de PET
+M4 U3 · M4!C259 · Bloqueado",b_vid_pet,M4|259
+item,2026-11-09,M4 U3,2026-11-12,86,🔒︎ YouTube PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - PET
+M4 U3 · M4!C263 · Bloqueado",b_vid_pet,M4|263
+item,2026-11-09,M4 U3,2026-11-12,87,◐ 02 H5P BASE PET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_pet,
+item,2026-11-09,M4 U3,2026-11-12,88,Mapear H5P ref. PET ADM,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - PET (ADM)
+M4 U3 · M4!C269 · Liberado",b_h5p_pet,M4|269
+item,2026-11-09,M4 U3,2026-11-12,89,🔒︎ H5P base ADM PET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+M4 U3 · M4!C272 · Bloqueado",b_h5p_pet,M4|272
+item,2026-11-09,M4 U3,2026-11-12,90,03 BASE HTML ADM,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_adm,
+item,2026-11-09,M4 U3,2026-11-12,91,HTML base ADM PET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base ADM - Prática do Ensino Técnico
+M4 U3 · M4!C274 · Liberado",b_hb_adm,M4|274
+item,2026-11-09,M4 U3,2026-11-12,92,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_adm,
+item,2026-11-09,M4 U3,2026-11-12,93,🔒︎ Rev. HTML base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
+M4 U3 · M4!C278 · Bloqueado",b_rb_adm,M4|278
+item,2026-11-09,M4 U3,2026-11-12,94,🔒︎ Rev. H5P base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
+M4 U3 · M4!C282 · Bloqueado",b_rb_adm,M4|282
 item,2026-11-09,M4 U3,2026-11-12,95,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 bloco,2026-11-09,M4 U4,2026-11-12,97,M4 · UNIDADE 4,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template seg 09/11
@@ -541,7 +541,7 @@ M4 U2 · M4!C212 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-09,M4 U2,2026-11-13,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_cpet,
 item,2026-11-09,M4 U2,2026-11-13,11,🔒︎ Ajustes da revisão final,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar os ajustes apontados na revisão final
 M4 U2 · M4!C214 · Bloqueado · previsto: o template ainda não está no Moodle",b_cpet,M4|214
-item,2026-11-09,M4 U2,2026-11-13,12,🔒︎ 11 AJUSTES FINAIS,0/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
+item,2026-11-09,M4 U2,2026-11-13,12,🔒︎ 11 AJUSTES FINAIS,0/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
 item,2026-11-09,M4 U2,2026-11-13,13,🔒︎ Restrição de acesso,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar a restrição de acesso da unidade
 M4 U2 · M4!C215 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|215
 item,2026-11-09,M4 U2,2026-11-13,14,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
@@ -550,8 +550,8 @@ item,2026-11-09,M4 U2,2026-11-13,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9
 M4 U2 · M4!C217 · Bloqueado",b_aj,M4|217
 item,2026-11-09,M4 U2,2026-11-13,16,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
 M4 U2 · M4!C218 · Bloqueado",b_aj,M4|218
-item,2026-11-09,M4 U2,2026-11-13,17,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
-M4 U2 · M4!C219 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|219
+item,2026-11-09,M4 U2,2026-11-13,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
+M4 U2 · M4!C219 · Bloqueado",b_aj,M4|219
 item,2026-11-09,M4 U2,2026-11-13,18,🔒︎ Requisitos da certificação,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
 M4 U2 · M4!C220 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|220
 item,2026-11-09,M4 U2,2026-11-13,19,🔒︎ Revisar configurações,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisar configurações: restrições, certificados, visibilidade
@@ -823,7 +823,7 @@ M4 U3 · M4!C311 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-16,M4 U3,2026-11-17,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_cpet,
 item,2026-11-16,M4 U3,2026-11-17,11,🔒︎ Ajustes da revisão final,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar os ajustes apontados na revisão final
 M4 U3 · M4!C313 · Bloqueado · previsto: o template ainda não está no Moodle",b_cpet,M4|313
-item,2026-11-16,M4 U3,2026-11-17,12,🔒︎ 11 AJUSTES FINAIS,0/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
+item,2026-11-16,M4 U3,2026-11-17,12,🔒︎ 11 AJUSTES FINAIS,0/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
 item,2026-11-16,M4 U3,2026-11-17,13,🔒︎ Restrição de acesso,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar a restrição de acesso da unidade
 M4 U3 · M4!C314 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|314
 item,2026-11-16,M4 U3,2026-11-17,14,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
@@ -832,8 +832,8 @@ item,2026-11-16,M4 U3,2026-11-17,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9
 M4 U3 · M4!C316 · Bloqueado",b_aj,M4|316
 item,2026-11-16,M4 U3,2026-11-17,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U3 · M4!C317 · Não se aplica",b_aj,M4|317
-item,2026-11-16,M4 U3,2026-11-17,17,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
-M4 U3 · M4!C318 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|318
+item,2026-11-16,M4 U3,2026-11-17,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
+M4 U3 · M4!C318 · Bloqueado",b_aj,M4|318
 item,2026-11-16,M4 U3,2026-11-17,18,🔒︎ Requisitos da certificação,Thony,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
 M4 U3 · M4!C319 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|319
 item,2026-11-16,M4 U3,2026-11-17,19,🔒︎ Revisar configurações,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisar configurações: restrições, certificados, visibilidade
