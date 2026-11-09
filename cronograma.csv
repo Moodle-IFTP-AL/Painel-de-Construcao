@@ -103,17 +103,17 @@ item,2026-11-09,M4 U2,2026-11-09,45,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3,
 M4 U2 · M4!C171 · Concluído",b_hb_rp,M4|171
 item,2026-11-09,M4 U2,2026-11-09,46,✔ HTML base RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Residência Pedagógica (se houver)
 M4 U2 · M4!C177 · Concluído",b_hb_rp,M4|177
-item,2026-11-09,M4 U2,2026-11-09,47,04 REVISÃO BASE MET,1/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_met,
+item,2026-11-09,M4 U2,2026-11-09,47,✔ 04 REVISÃO BASE MET,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_met,
 item,2026-11-09,M4 U2,2026-11-09,48,✔ Rev. HTML base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
 M4 U2 · M4!C178 · Concluído",b_rb_met,M4|178
-item,2026-11-09,M4 U2,2026-11-09,49,Rev. H5P base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - Metodologia
-M4 U2 · M4!C182 · Liberado",b_rb_met,M4|182
+item,2026-11-09,M4 U2,2026-11-09,49,✔ Rev. H5P base MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
+M4 U2 · M4!C182 · Concluído",b_rb_met,M4|182
 item,2026-11-09,M4 U2,2026-11-09,50,✔ 04 REVISÃO BASE PI,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_pi,
 item,2026-11-09,M4 U2,2026-11-09,51,✔ Rev. HTML base PI,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U2 · M4!C180 · Concluído",b_rb_pi,M4|180
-item,2026-11-09,M4 U2,2026-11-09,52,04 REVISÃO BASE RP,0/1 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_rp,
-item,2026-11-09,M4 U2,2026-11-09,53,Rev. HTML base RP,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Residência Pedagógica (se houver)
-M4 U2 · M4!C181 · Liberado",b_rb_rp,M4|181
+item,2026-11-09,M4 U2,2026-11-09,52,✔ 04 REVISÃO BASE RP,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_rp,
+item,2026-11-09,M4 U2,2026-11-09,53,✔ Rev. HTML base RP,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+M4 U2 · M4!C181 · Concluído",b_rb_rp,M4|181
 item,2026-11-09,M4 U2,2026-11-09,54,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-09,M4 U2,2026-11-09,55,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
 item,2026-11-09,M4 U2,2026-11-09,56,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
@@ -274,11 +274,11 @@ M4 U2 · M4!C179 · Bloqueado",b_rb_adm,M4|179
 item,2026-11-09,M4 U2,2026-11-10,24,Rev. H5P base PET ADM,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U2 · M4!C183 · Liberado",b_rb_adm,M4|183
 item,2026-11-09,M4 U2,2026-11-10,25,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
-item,2026-11-09,M4 U2,2026-11-10,26,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
-item,2026-11-09,M4 U2,2026-11-10,27,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U2 · M4!C187 · Bloqueado",b_rep,M4|187
-item,2026-11-09,M4 U2,2026-11-10,28,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U2 · M4!C188 · Bloqueado",b_rep,M4|188
+item,2026-11-09,M4 U2,2026-11-10,26,06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,,,cab:b_rep,
+item,2026-11-09,M4 U2,2026-11-10,27,Replicar páginas MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U2 · M4!C187 · Liberado",b_rep,M4|187
+item,2026-11-09,M4 U2,2026-11-10,28,Replicar H5P MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U2 · M4!C188 · Liberado",b_rep,M4|188
 bloco,2026-11-09,M4 U3,2026-11-10,30,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega ter 17/11",,
