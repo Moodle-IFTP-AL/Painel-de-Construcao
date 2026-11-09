@@ -147,15 +147,15 @@ M4 U3 · M4!C262 · Não se aplica",b_vid_rp,M4|262
 item,2026-11-09,M4 U3,2026-11-09,73,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
 item,2026-11-09,M4 U3,2026-11-09,74,Mapear H5P ref. MET,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
 M4 U3 · M4!C268 · Liberado",b_h5p_met,M4|268
-item,2026-11-09,M4 U3,2026-11-09,75,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
+item,2026-11-09,M4 U3,2026-11-09,75,🔒︎ H5P base MET,Marcelo,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
 M4 U3 · M4!C271 · Bloqueado",b_h5p_met,M4|271
 item,2026-11-09,M4 U3,2026-11-09,76,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U3,2026-11-09,77,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
 item,2026-11-09,M4 U3,2026-11-09,78,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
-item,2026-11-09,M4 U3,2026-11-09,79,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+item,2026-11-09,M4 U3,2026-11-09,79,HTML base MET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
 M4 U3 · M4!C273 · Liberado",b_hb_met,M4|273
 item,2026-11-09,M4 U3,2026-11-09,80,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
-item,2026-11-09,M4 U3,2026-11-09,81,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
+item,2026-11-09,M4 U3,2026-11-09,81,HTML base PI,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
 M4 U3 · M4!C275 · Liberado",b_hb_pi,M4|275
 item,2026-11-09,M4 U3,2026-11-09,82,— 03 BASE HTML RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_hb_rp,
 item,2026-11-09,M4 U3,2026-11-09,83,— Editar Rubrica RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Editar Rubrica - Residência Pedagógica (se houver)
