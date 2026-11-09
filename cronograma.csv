@@ -49,26 +49,26 @@ M3 U8 · M3!C954 · Bloqueado",b_lib,M3|954
 bloco,2026-11-09,M4 U1,2026-11-09,14,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
-item,2026-11-09,M4 U1,2026-11-09,15,▶ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:b_rpet,
-item,2026-11-09,M4 U1,2026-11-09,16,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
-M4 U1 · M4!C106 · Liberado",b_rpet,M4|106
-item,2026-11-09,M4 U1,2026-11-09,17,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
-M4 U1 · M4!C107 · Liberado",b_rpet,M4|107
-item,2026-11-09,M4 U1,2026-11-09,18,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
-M4 U1 · M4!C108 · Liberado",b_rpet,M4|108
-item,2026-11-09,M4 U1,2026-11-09,19,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
-M4 U1 · M4!C109 · Liberado",b_rpet,M4|109
-item,2026-11-09,M4 U1,2026-11-09,20,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GOP (Gestão e Operações)
-M4 U1 · M4!C110 · Liberado",b_rpet,M4|110
-item,2026-11-09,M4 U1,2026-11-09,21,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GIM (Gestão Imobiliária)
-M4 U1 · M4!C111 · Liberado",b_rpet,M4|111
-item,2026-11-09,M4 U1,2026-11-09,22,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TI (Tecnologia da Informação)
-M4 U1 · M4!C112 · Liberado",b_rpet,M4|112
-item,2026-11-09,M4 U1,2026-11-09,23,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TEV (Turismo e Eventos)
-M4 U1 · M4!C113 · Liberado",b_rpet,M4|113
-item,2026-11-09,M4 U1,2026-11-09,24,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
-item,2026-11-09,M4 U1,2026-11-09,25,🔒︎ Ajustes da revisão final,Marcelo,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
-M4 U1 · M4!C115 · Bloqueado",b_cpet,M4|115
+item,2026-11-09,M4 U1,2026-11-09,15,✔ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rpet,
+item,2026-11-09,M4 U1,2026-11-09,16,✔ Rev. final AGS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - AGS (Agro Sustentável)
+M4 U1 · M4!C106 · Concluído",b_rpet,M4|106
+item,2026-11-09,M4 U1,2026-11-09,17,✔ Rev. final COM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - COM (Comunicação e Mercado)
+M4 U1 · M4!C107 · Concluído",b_rpet,M4|107
+item,2026-11-09,M4 U1,2026-11-09,18,✔ Rev. final CDC,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - CDC (Criação Digital e Cultural)
+M4 U1 · M4!C108 · Concluído",b_rpet,M4|108
+item,2026-11-09,M4 U1,2026-11-09,19,✔ Rev. final ECS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - ECS (Economia Social)
+M4 U1 · M4!C109 · Concluído",b_rpet,M4|109
+item,2026-11-09,M4 U1,2026-11-09,20,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GOP (Gestão e Operações)
+M4 U1 · M4!C110 · Concluído",b_rpet,M4|110
+item,2026-11-09,M4 U1,2026-11-09,21,✔ Rev. final GIM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GIM (Gestão Imobiliária)
+M4 U1 · M4!C111 · Concluído",b_rpet,M4|111
+item,2026-11-09,M4 U1,2026-11-09,22,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TI (Tecnologia da Informação)
+M4 U1 · M4!C112 · Concluído",b_rpet,M4|112
+item,2026-11-09,M4 U1,2026-11-09,23,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
+M4 U1 · M4!C113 · Concluído",b_rpet,M4|113
+item,2026-11-09,M4 U1,2026-11-09,24,▶ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#FAD28F,#14213A,#FAD28F,#14213A,1,atual,,cab:b_cpet,
+item,2026-11-09,M4 U1,2026-11-09,25,Ajustes da revisão final,Marcelo,#fef5e6,#25314C,#FFFFFF,#25314C,,atual,"Aplicar os ajustes apontados na revisão final
+M4 U1 · M4!C115 · Liberado",b_cpet,M4|115
 bloco,2026-11-09,M4 U2,2026-11-09,27,M4 · UNIDADE 2,entrega sex 13/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template seg 09/11
 entrega sex 13/11",,
@@ -226,26 +226,26 @@ M4 U4 · M4!C380 · Bloqueado",b_rb_met,M4|380
 item,2026-11-09,M4 U4,2026-11-09,124,04 REVISÃO BASE PI,0/1 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_pi,
 item,2026-11-09,M4 U4,2026-11-09,125,Rev. HTML base PI,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U4 · M4!C378 · Liberado",b_rb_pi,M4|378
-item,2026-11-09,M4 U4,2026-11-09,126,04 REVISÃO BASE RP,0/1 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_rp,
-item,2026-11-09,M4 U4,2026-11-09,127,Rev. HTML base RP,Alline,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Residência Pedagógica (se houver)
-M4 U4 · M4!C379 · Liberado",b_rb_rp,M4|379
+item,2026-11-09,M4 U4,2026-11-09,126,✔ 04 REVISÃO BASE RP,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_rp,
+item,2026-11-09,M4 U4,2026-11-09,127,✔ Rev. HTML base RP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+M4 U4 · M4!C379 · Concluído",b_rb_rp,M4|379
 item,2026-11-09,M4 U4,2026-11-09,128,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-09,M4 U4,2026-11-09,129,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
 item,2026-11-09,M4 U4,2026-11-09,130,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
 bloco,2026-11-09,M4 U1,2026-11-10,0,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
 entrega ter 10/11",,
-item,2026-11-09,M4 U1,2026-11-10,1,🔒︎ 11 AJUSTES FINAIS,0/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
-item,2026-11-09,M4 U1,2026-11-10,2,🔒︎ Restrição de acesso,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar a restrição de acesso da unidade
-M4 U1 · M4!C116 · Bloqueado",b_aj,M4|116
-item,2026-11-09,M4 U1,2026-11-10,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
-M4 U1 · M4!C117 · Bloqueado",b_aj,M4|117
-item,2026-11-09,M4 U1,2026-11-10,4,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
-M4 U1 · M4!C118 · Bloqueado",b_aj,M4|118
+item,2026-11-09,M4 U1,2026-11-10,1,◐ 11 AJUSTES FINAIS,0/6 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,,,cab:b_aj,
+item,2026-11-09,M4 U1,2026-11-10,2,Restrição de acesso,Maria Eduarda,#d6d6e6,#25314C,#FFFFFF,#25314C,,,"Aplicar a restrição de acesso da unidade
+M4 U1 · M4!C116 · Liberado",b_aj,M4|116
+item,2026-11-09,M4 U1,2026-11-10,3,Mapear certificáveis MET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,,"Mapear as atividades certificáveis de MET
+M4 U1 · M4!C117 · Liberado",b_aj,M4|117
+item,2026-11-09,M4 U1,2026-11-10,4,Mapear certificáveis PI,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,,"Mapear as atividades certificáveis de PI
+M4 U1 · M4!C118 · Liberado",b_aj,M4|118
 item,2026-11-09,M4 U1,2026-11-10,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U1 · M4!C119 · Não se aplica",b_aj,M4|119
-item,2026-11-09,M4 U1,2026-11-10,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
-M4 U1 · M4!C120 · Bloqueado",b_aj,M4|120
+item,2026-11-09,M4 U1,2026-11-10,6,Mapear certificáveis PET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,,"Mapear as atividades certificáveis de PET
+M4 U1 · M4!C120 · Liberado",b_aj,M4|120
 item,2026-11-09,M4 U1,2026-11-10,7,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
 M4 U1 · M4!C121 · Bloqueado",b_aj,M4|121
 item,2026-11-09,M4 U1,2026-11-10,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
