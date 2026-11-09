@@ -163,12 +163,12 @@ M4 U3 · M4!C270 · Não se aplica",b_hb_rp,M4|270
 item,2026-11-09,M4 U3,2026-11-09,84,— HTML base RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"HTML base - Residência Pedagógica (se houver)
 M4 U3 · M4!C276 · Não se aplica",b_hb_rp,M4|276
 item,2026-11-09,M4 U3,2026-11-09,85,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
-item,2026-11-09,M4 U3,2026-11-09,86,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
+item,2026-11-09,M4 U3,2026-11-09,86,🔒︎ Rev. HTML base MET,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
 M4 U3 · M4!C277 · Bloqueado",b_rb_met,M4|277
-item,2026-11-09,M4 U3,2026-11-09,87,🔒︎ Rev. H5P base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-09,M4 U3,2026-11-09,87,🔒︎ Rev. H5P base MET,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
 M4 U3 · M4!C281 · Bloqueado",b_rb_met,M4|281
 item,2026-11-09,M4 U3,2026-11-09,88,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_pi,
-item,2026-11-09,M4 U3,2026-11-09,89,🔒︎ Rev. HTML base PI,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
+item,2026-11-09,M4 U3,2026-11-09,89,🔒︎ Rev. HTML base PI,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U3 · M4!C279 · Bloqueado",b_rb_pi,M4|279
 item,2026-11-09,M4 U3,2026-11-09,90,— 04 REVISÃO BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_rb_rp,
 item,2026-11-09,M4 U3,2026-11-09,91,— Rev. HTML base RP,Alline,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Revisão do HTML base - Residência Pedagógica (se houver)
@@ -201,14 +201,14 @@ M4 U4 · M4!C357 · Não se aplica",b_vid_rp,M4|357
 item,2026-11-09,M4 U4,2026-11-09,108,— YouTube RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
 M4 U4 · M4!C361 · Não se aplica",b_vid_rp,M4|361
 item,2026-11-09,M4 U4,2026-11-09,109,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
-item,2026-11-09,M4 U4,2026-11-09,110,Mapear H5P ref. MET,Alline,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
+item,2026-11-09,M4 U4,2026-11-09,110,Mapear H5P ref. MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
 M4 U4 · M4!C367 · Liberado",b_h5p_met,M4|367
-item,2026-11-09,M4 U4,2026-11-09,111,🔒︎ H5P base MET,Marquito,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
+item,2026-11-09,M4 U4,2026-11-09,111,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
 M4 U4 · M4!C370 · Bloqueado",b_h5p_met,M4|370
 item,2026-11-09,M4 U4,2026-11-09,112,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U4,2026-11-09,113,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
 item,2026-11-09,M4 U4,2026-11-09,114,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
-item,2026-11-09,M4 U4,2026-11-09,115,HTML base MET,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
+item,2026-11-09,M4 U4,2026-11-09,115,HTML base MET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
 M4 U4 · M4!C372 · Liberado",b_hb_met,M4|372
 item,2026-11-09,M4 U4,2026-11-09,116,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
 item,2026-11-09,M4 U4,2026-11-09,117,HTML base PI,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
@@ -216,7 +216,7 @@ M4 U4 · M4!C374 · Liberado",b_hb_pi,M4|374
 item,2026-11-09,M4 U4,2026-11-09,118,03 BASE HTML RP,0/2 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_rp,
 item,2026-11-09,M4 U4,2026-11-09,119,Editar Rubrica RP,Lucas,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"Editar Rubrica - Residência Pedagógica (se houver)
 M4 U4 · M4!C369 · Em andamento",b_hb_rp,M4|369
-item,2026-11-09,M4 U4,2026-11-09,120,HTML base RP,Marcelo,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-09,M4 U4,2026-11-09,120,HTML base RP,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
 M4 U4 · M4!C375 · Liberado",b_hb_rp,M4|375
 item,2026-11-09,M4 U4,2026-11-09,121,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
 item,2026-11-09,M4 U4,2026-11-09,122,🔒︎ Rev. HTML base MET,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
