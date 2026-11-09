@@ -207,9 +207,9 @@ item,2026-11-09,M4 U4,2026-11-09,111,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,
 M4 U4 · M4!C370 · Bloqueado",b_h5p_met,M4|370
 item,2026-11-09,M4 U4,2026-11-09,112,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U4,2026-11-09,113,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
-item,2026-11-09,M4 U4,2026-11-09,114,03 BASE HTML MET,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_met,
-item,2026-11-09,M4 U4,2026-11-09,115,HTML base MET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Metodologia Pedagógica
-M4 U4 · M4!C372 · Liberado",b_hb_met,M4|372
+item,2026-11-09,M4 U4,2026-11-09,114,✔ 03 BASE HTML MET,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_met,
+item,2026-11-09,M4 U4,2026-11-09,115,✔ HTML base MET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Metodologia Pedagógica
+M4 U4 · M4!C372 · Concluído",b_hb_met,M4|372
 item,2026-11-09,M4 U4,2026-11-09,116,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
 item,2026-11-09,M4 U4,2026-11-09,117,HTML base PI,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
 M4 U4 · M4!C374 · Liberado",b_hb_pi,M4|374
@@ -218,9 +218,9 @@ item,2026-11-09,M4 U4,2026-11-09,119,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3
 M4 U4 · M4!C369 · Concluído",b_hb_rp,M4|369
 item,2026-11-09,M4 U4,2026-11-09,120,HTML base RP,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
 M4 U4 · M4!C375 · Liberado",b_hb_rp,M4|375
-item,2026-11-09,M4 U4,2026-11-09,121,🔒︎ 04 REVISÃO BASE MET,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_met,
-item,2026-11-09,M4 U4,2026-11-09,122,🔒︎ Rev. HTML base MET,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Metodologia
-M4 U4 · M4!C376 · Bloqueado",b_rb_met,M4|376
+item,2026-11-09,M4 U4,2026-11-09,121,◐ 04 REVISÃO BASE MET,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_met,
+item,2026-11-09,M4 U4,2026-11-09,122,Rev. HTML base MET,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - Metodologia
+M4 U4 · M4!C376 · Liberado",b_rb_met,M4|376
 item,2026-11-09,M4 U4,2026-11-09,123,🔒︎ Rev. H5P base MET,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - Metodologia
 M4 U4 · M4!C380 · Bloqueado",b_rb_met,M4|380
 item,2026-11-09,M4 U4,2026-11-09,124,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_pi,
