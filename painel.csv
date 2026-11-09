@@ -1366,18 +1366,18 @@ M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplic
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,09/11,10/11,09/11,,,,Não se aplica,2,
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
-M4,U3,Pré-base,Mapear os H5P de referência - Metodologia,Maria Eduarda,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
+M4,U3,Pré-base,Mapear os H5P de referência - Metodologia,Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
 M4,U3,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,2,
 M4,U3,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2,
-M4,U3,Base,H5P base - trilha de Metodologia,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
+M4,U3,Base,H5P base - trilha de Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,09/11/2026,,-,"0,5",Vence hoje
 M4,U3,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
-M4,U3,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U3,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U3,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U3,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U3,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U3,Base,HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
-M4,U3,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M4,U3,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,09/11/2026,,-,1,Vence hoje
 M4,U3,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U3,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M4,U3,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,09/11/2026,,-,1,Vence hoje
 M4,U3,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
 M4,U3,Revisão inicial,Revisão das atividades H5P base - Metodologia,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U3,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
@@ -1464,12 +1464,12 @@ M4,U4,Base,H5P base - trilha de Metodologia,Maria Eduarda,Bloqueado,09/11,09/11,
 M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
 M4,U4,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U4,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U4,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
-M4,U4,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U4,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
+M4,U4,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U4,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,09/11/2026,,-,1,Vence hoje
 M4,U4,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U4,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
-M4,U4,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M4,U4,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,09/11/2026,,-,1,Vence hoje
+M4,U4,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Liberado,09/11,09/11,09/11,,09/11/2026,,-,1,Vence hoje
 M4,U4,Revisão inicial,Revisão das atividades H5P base - Metodologia,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U4,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
 M4,U4,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",,Não se aplica,11/11,12/11,09/11,,,,-,"0,25",
