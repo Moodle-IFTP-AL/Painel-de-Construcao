@@ -1113,13 +1113,13 @@ M3,U8,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,
 M3,U8,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,09/11,10/11,09/11,,,,-,"0,25",
 M3,U8,Ajustes finais,Aplicar os ajustes apontados na revisão final,Marcelo,Liberado,06/11,06/11,02/11,,06/11/2026,,-,4,Atrasada
 M3,U8,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Concluído,10/11,11/11,09/11,13/10,06/11/2026,13/10/2026,-,2,
-M3,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,
-M3,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,
+M3,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
+M3,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
 M3,U8,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,10/11,11/11,09/11,,,,-,2,
-M3,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,
-M3,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,2,
-M3,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,
-M3,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",
+M3,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
+M3,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,2,Vence hoje
+M3,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M3,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U1,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,04/11,04/11,02/11,05/11,04/11/2026,04/11/2026,-,0,
 M4,U1,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,04/11,04/11,02/11,05/11,04/11/2026,04/11/2026,-,0,
 M4,U1,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
@@ -1220,16 +1220,16 @@ M4,U1,Criar HTML 8 eixos,HTML de PET - GOP (Gestão e Operações),Gustavo,Concl
 M4,U1,Criar HTML 8 eixos,HTML de PET - GIM (Gestão Imobiliária),Gustavo,Concluído,06/11,06/11,02/11,,05/11/2026,06/11/2026,-,1,
 M4,U1,Criar HTML 8 eixos,HTML de PET - TI (Tecnologia da Informação),Anna Paula,Concluído,06/11,06/11,02/11,05/11,05/11/2026,05/11/2026,-,1,
 M4,U1,Criar HTML 8 eixos,HTML de PET - TEV (Turismo e Eventos),Anna Paula,Concluído,06/11,06/11,02/11,06/11,05/11/2026,06/11/2026,-,1,
-M4,U1,Revisão final,Revisão final - AGS (Agro Sustentável),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - COM (Comunicação e Mercado),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - CDC (Criação Digital e Cultural),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - ECS (Economia Social),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",
-M4,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",
+M4,U1,Revisão final,Revisão final - AGS (Agro Sustentável),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - COM (Comunicação e Mercado),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - CDC (Criação Digital e Cultural),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - ECS (Economia Social),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,09/11,09/11,09/11,,05/11/2026,,-,"0,5",Vence hoje
+M4,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",Vence hoje
 M4,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,09/11,10/11,09/11,,,,-,"0,25",
-M4,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,09/11,09/11,09/11,,,,-,4,
+M4,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,09/11,09/11,09/11,,,,-,4,Vence hoje
 M4,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,10/11,10/11,09/11,,,,-,2,
 M4,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,2,
 M4,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Bloqueado,10/11,10/11,09/11,,,,-,2,
@@ -1284,11 +1284,11 @@ M4,U2,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Concluído,09/11,09
 M4,U2,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Bloqueado,10/11,10/11,09/11,,,,-,1,
 M4,U2,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,06/11,05/11/2026,06/11/2026,-,1,
 M4,U2,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,06/11,05/11/2026,06/11/2026,-,1,
-M4,U2,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
+M4,U2,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
 M4,U2,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,10/11,10/11,09/11,,,,-,1,
-M4,U2,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
-M4,U2,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
-M4,U2,Revisão inicial,Revisão das atividades H5P base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",
+M4,U2,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U2,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U2,Revisão inicial,Revisão das atividades H5P base - Metodologia,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,"0,5",Vence hoje
 M4,U2,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Marcelo,Liberado,10/11,10/11,09/11,,06/11/2026,,-,"0,5",
 M4,U2,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",,Não se aplica,05/11,06/11,02/11,,,,-,"0,25",
 M4,U2,Revisão inicial,"Revisão do ""Para levar para a prática"" - PI",,Não se aplica,05/11,06/11,02/11,,,,-,"0,25",
@@ -1366,20 +1366,20 @@ M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplic
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,09/11,10/11,09/11,,,,Não se aplica,2,
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
 M4,U3,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
-M4,U3,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,
+M4,U3,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
 M4,U3,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,2,
 M4,U3,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2,
-M4,U3,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",
+M4,U3,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U3,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
-M4,U3,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
+M4,U3,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
 M4,U3,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U3,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
+M4,U3,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
 M4,U3,Base,HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
-M4,U3,Revisão inicial,Revisão do HTML base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,
+M4,U3,Revisão inicial,Revisão do HTML base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
 M4,U3,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U3,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,
+M4,U3,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
 M4,U3,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
-M4,U3,Revisão inicial,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",
+M4,U3,Revisão inicial,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U3,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
 M4,U3,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",,Não se aplica,10/11,11/11,09/11,,,,-,"0,25",
 M4,U3,Revisão inicial,"Revisão do ""Para levar para a prática"" - PI",,Não se aplica,10/11,11/11,09/11,,,,-,"0,25",
@@ -1457,20 +1457,20 @@ M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplic
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,10/11,11/11,09/11,,,,Não se aplica,2,
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,10/11,11/11,09/11,,,,Não se aplica,2,
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
-M4,U4,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,
+M4,U4,Pré-base,Mapear os H5P de referência - Metodologia,Alline,Liberado,09/11,09/11,09/11,,06/11/2026,,-,2,Vence hoje
 M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,2,
-M4,U4,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Em andamento,09/11,09/11,09/11,,06/11/2026,,Em andamento,2,
-M4,U4,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",
+M4,U4,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Em andamento,09/11,09/11,09/11,,06/11/2026,,Em andamento,2,Vence hoje
+M4,U4,Base,H5P base - trilha de Metodologia,Marquito,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
-M4,U4,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
+M4,U4,Base,HTML base - Metodologia Pedagógica,Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
 M4,U4,Base,HTML base ADM - Prática do Ensino Técnico,Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U4,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
-M4,U4,Base,HTML base - Residência Pedagógica (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,
-M4,U4,Revisão inicial,Revisão do HTML base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,
+M4,U4,Base,HTML base - Planejamento Integrado (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U4,Base,HTML base - Residência Pedagógica (se houver),Marcelo,Liberado,09/11,09/11,09/11,,06/11/2026,,-,1,Vence hoje
+M4,U4,Revisão inicial,Revisão do HTML base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
 M4,U4,Revisão inicial,Revisão do HTML base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,1,
-M4,U4,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,
-M4,U4,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,
-M4,U4,Revisão inicial,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",
+M4,U4,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M4,U4,Revisão inicial,Revisão do HTML base - Residência Pedagógica (se houver),Alline,Bloqueado,09/11,09/11,09/11,,,,-,1,Vence hoje
+M4,U4,Revisão inicial,Revisão das atividades H5P base - Metodologia,Alline,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Vence hoje
 M4,U4,Revisão inicial,Revisão das atividades H5P base - PET (ADM),Alline,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
 M4,U4,Revisão inicial,"Revisão do ""Para levar para a prática"" - MET",,Não se aplica,11/11,12/11,09/11,,,,-,"0,25",
 M4,U4,Revisão inicial,"Revisão do ""Para levar para a prática"" - PI",,Não se aplica,11/11,12/11,09/11,,,,-,"0,25",
@@ -1664,8 +1664,8 @@ M4,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Blo
 M4,U5,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,1,
 M4,U5,Liberação,Liberar a unidade,Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,"0,5",
 M4,U6,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Atrasado,02/11,02/11,02/11,,02/11/2026,,-,0,Atrasada
-M4,U6,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,
-M4,U6,Template,RP - Residência Pedagógica - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,
+M4,U6,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,Vence hoje
+M4,U6,Template,RP - Residência Pedagógica - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,Vence hoje
 M4,U6,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,
 M4,U6,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,
 M4,U6,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,
@@ -1754,8 +1754,8 @@ M4,U6,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloquead
 M4,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,23/11,23/11,23/11,,,,-,2,
 M4,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,1,
 M4,U6,Liberação,Liberar a unidade,Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,"0,5",
-M4,U7,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,
-M4,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,
+M4,U7,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,Vence hoje
+M4,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,Vence hoje
 M4,U7,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
 M4,U7,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0,
 M4,U7,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0,
@@ -1845,7 +1845,7 @@ M4,U7,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloquead
 M4,U7,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,25/11,25/11,23/11,,,,-,2,
 M4,U7,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,25/11,25/11,23/11,,,,-,1,
 M4,U7,Liberação,Liberar a unidade,Marcelo,Bloqueado,25/11,25/11,23/11,,,,-,"0,5",
-M4,U8,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,
+M4,U8,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Aguardando liberação,09/11,09/11,09/11,,09/11/2026,,-,0,Vence hoje
 M4,U8,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Atrasado,02/11,02/11,02/11,,02/11/2026,,-,0,Atrasada
 M4,U8,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
 M4,U8,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,17/11,17/11,16/11,,17/11/2026,,-,0,
