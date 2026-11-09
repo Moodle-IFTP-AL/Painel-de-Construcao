@@ -197,11 +197,11 @@ item,2026-11-09,M4 U4,2026-11-09,105,— Criar vídeos RP,,#F4F5F8,#8C97AD,#FFFF
 M4 U4 · M4!C357 · Não se aplica",b_vid_rp,M4|357
 item,2026-11-09,M4 U4,2026-11-09,106,— YouTube RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
 M4 U4 · M4!C361 · Não se aplica",b_vid_rp,M4|361
-item,2026-11-09,M4 U4,2026-11-09,107,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
-item,2026-11-09,M4 U4,2026-11-09,108,Mapear H5P ref. MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
-M4 U4 · M4!C367 · Liberado",b_h5p_met,M4|367
-item,2026-11-09,M4 U4,2026-11-09,109,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
-M4 U4 · M4!C370 · Bloqueado",b_h5p_met,M4|370
+item,2026-11-09,M4 U4,2026-11-09,107,▶ 02 H5P BASE MET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
+item,2026-11-09,M4 U4,2026-11-09,108,✔ Mapear H5P ref. MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear os H5P de referência - Metodologia
+M4 U4 · M4!C367 · Concluído",b_h5p_met,M4|367
+item,2026-11-09,M4 U4,2026-11-09,109,H5P base MET,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"H5P base - trilha de Metodologia
+M4 U4 · M4!C370 · Liberado",b_h5p_met,M4|370
 item,2026-11-09,M4 U4,2026-11-09,110,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-09,M4 U4,2026-11-09,111,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
 item,2026-11-09,M4 U4,2026-11-09,112,✔ 03 BASE HTML MET,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_met,
