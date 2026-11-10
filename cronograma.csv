@@ -17,15 +17,15 @@ entrega ter 17/11",,,,,,,,,,
 unidade,2026-11-09,M4 U4,,,"M4 · UNIDADE 4
 template seg 09/11
 entrega ter 17/11",,,,,,,,,,
-dia,2026-11-09,,2026-11-09,0,SEG 09/11,hoje,#FECB55,#14213A,,,,,,,
-dia,2026-11-09,,2026-11-10,1,TER 10/11,,#1B6E8C,#FFFFFF,,,,,,,
+dia,2026-11-09,,2026-11-09,0,SEG 09/11,,#3A4766,#FFFFFF,,,,,,,
+dia,2026-11-09,,2026-11-10,1,TER 10/11,hoje,#FECB55,#14213A,,,,,,,
 dia,2026-11-09,,2026-11-11,2,QUA 11/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-12,3,QUI 12/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-13,4,SEX 13/11,,#1B6E8C,#FFFFFF,,,,,,,
 bloco,2026-11-09,M3 U8,2026-11-09,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
-item,2026-11-09,M3 U8,2026-11-09,1,◐ 11 AJUSTES FINAIS,4/6 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:b_aj,
+item,2026-11-09,M3 U8,2026-11-09,1,⚠ 11 AJUSTES FINAIS,4/6 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:b_aj,
 item,2026-11-09,M3 U8,2026-11-09,2,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M3 U8 · M3!C947 · Concluído",b_aj,M3|947
 item,2026-11-09,M3 U8,2026-11-09,3,✔ Mapear certificáveis MET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de MET
@@ -36,12 +36,12 @@ item,2026-11-09,M3 U8,2026-11-09,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD
 M3 U8 · M3!C950 · Não se aplica",b_aj,M3|950
 item,2026-11-09,M3 U8,2026-11-09,6,✔ Mapear certificáveis PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear as atividades certificáveis de PET
 M3 U8 · M3!C951 · Concluído",b_aj,M3|951
-item,2026-11-09,M3 U8,2026-11-09,7,Requisitos da certificação,Marquito,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Inserir os requisitos de acesso à certificação
-M3 U8 · M3!C952 · Liberado",b_aj,M3|952
+item,2026-11-09,M3 U8,2026-11-09,7,⚠ Requisitos da certificação,Marquito,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Inserir os requisitos de acesso à certificação
+M3 U8 · M3!C952 · Liberado · ATRASADA",b_aj,M3|952
 item,2026-11-09,M3 U8,2026-11-09,8,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M3 U8 · M3!C953 · Bloqueado",b_aj,M3|953
-item,2026-11-09,M3 U8,2026-11-09,9,🔒︎ 12 LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:b_lib,
-item,2026-11-09,M3 U8,2026-11-09,10,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
+item,2026-11-09,M3 U8,2026-11-09,9,🔒︎ 12 LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:b_lib,
+item,2026-11-09,M3 U8,2026-11-09,10,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
 M3 U8 · M3!C954 · Bloqueado",b_lib,M3|954
 bloco,2026-11-09,M4 U1,2026-11-09,12,M4 · UNIDADE 1,entrega ter 10/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U1
 template qua 04/11
