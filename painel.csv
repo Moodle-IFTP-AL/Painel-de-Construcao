@@ -1117,9 +1117,9 @@ M3,U8,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluí
 M3,U8,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
 M3,U8,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,10/11,11/11,09/11,,,,-,2,
 M3,U8,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
-M3,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Marquito,Liberado,09/11,09/11,09/11,,09/11/2026,,-,2,Atrasada
-M3,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,1,Atrasada
-M3,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,09/11,09/11,09/11,,,,-,"0,5",Atrasada
+M3,U8,Ajustes finais,Inserir os requisitos de acesso à certificação,Marcelo,Concluído,09/11,09/11,09/11,,09/11/2026,10/11/2026,-,2,
+M3,U8,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Concluído,09/11,09/11,09/11,10/11,10/11/2026,10/11/2026,-,1,
+M3,U8,Liberação,Liberar a unidade,Marcelo,Concluído,09/11,09/11,09/11,10/11,10/11/2026,10/11/2026,-,"0,5",
 M4,U1,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,04/11,04/11,02/11,05/11,04/11/2026,04/11/2026,-,0,
 M4,U1,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,04/11,04/11,02/11,05/11,04/11/2026,04/11/2026,-,0,
 M4,U1,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
@@ -1458,10 +1458,10 @@ M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,10/11,11/11,09/11,,,,Não se aplica,2,
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
 M4,U4,Pré-base,Mapear os H5P de referência - Metodologia,Marcelo,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
-M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Liberado,12/11,12/11,09/11,,10/11/2026,,-,2,
+M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Concluído,12/11,12/11,09/11,10/11,10/11/2026,10/11/2026,-,2,
 M4,U4,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
 M4,U4,Base,H5P base - trilha de Metodologia,Maria Eduarda,Concluído,09/11,09/11,09/11,,09/11/2026,09/11/2026,-,"0,5",
-M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
+M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Liberado,12/11,12/11,09/11,,10/11/2026,,-,"0,5",
 M4,U4,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U4,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Concluído,12/11,12/11,09/11,10/11,10/11/2026,10/11/2026,-,1,
 M4,U4,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
