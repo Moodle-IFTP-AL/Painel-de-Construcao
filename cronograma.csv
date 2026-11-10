@@ -477,11 +477,11 @@ item,2026-11-09,M4 U3,2026-11-12,85,🔒︎ Criar vídeos PET,Lucas,#fde9ee,#f58
 M4 U3 · M4!C259 · Bloqueado",b_vid_pet,M4|259
 item,2026-11-09,M4 U3,2026-11-12,86,🔒︎ YouTube PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - PET
 M4 U3 · M4!C263 · Bloqueado",b_vid_pet,M4|263
-item,2026-11-09,M4 U3,2026-11-12,87,◐ 02 H5P BASE PET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_pet,
-item,2026-11-09,M4 U3,2026-11-12,88,Mapear H5P ref. PET ADM,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - PET (ADM)
-M4 U3 · M4!C269 · Liberado",b_h5p_pet,M4|269
-item,2026-11-09,M4 U3,2026-11-12,89,🔒︎ H5P base ADM PET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base ADM - trilha de Prática do Ensino Técnico
-M4 U3 · M4!C272 · Bloqueado",b_h5p_pet,M4|272
+item,2026-11-09,M4 U3,2026-11-12,87,02 H5P BASE PET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_pet,
+item,2026-11-09,M4 U3,2026-11-12,88,✔ Mapear H5P ref. PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - PET (ADM)
+M4 U3 · M4!C269 · Concluído",b_h5p_pet,M4|269
+item,2026-11-09,M4 U3,2026-11-12,89,H5P base ADM PET,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+M4 U3 · M4!C272 · Liberado",b_h5p_pet,M4|272
 item,2026-11-09,M4 U3,2026-11-12,90,✔ 03 BASE HTML ADM,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_adm,
 item,2026-11-09,M4 U3,2026-11-12,91,✔ HTML base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U3 · M4!C274 · Concluído",b_hb_adm,M4|274
