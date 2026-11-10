@@ -265,13 +265,13 @@ item,2026-11-09,M4 U2,2026-11-10,18,✔ Mapear H5P ref. PET ADM,Maria Eduarda,#E
 M4 U2 · M4!C170 · Concluído",b_h5p_pet,M4|170
 item,2026-11-09,M4 U2,2026-11-10,19,✔ H5P base ADM PET,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U2 · M4!C173 · Concluído",b_h5p_pet,M4|173
-item,2026-11-09,M4 U2,2026-11-10,20,▶ 03 BASE HTML ADM,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,atual,,cab:b_hb_adm,
-item,2026-11-09,M4 U2,2026-11-10,21,HTML base ADM PET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,atual,"HTML base ADM - Prática do Ensino Técnico
-M4 U2 · M4!C175 · Liberado",b_hb_adm,M4|175
-item,2026-11-09,M4 U2,2026-11-10,22,🔒︎ 04 REVISÃO BASE ADM,1/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_adm,
-item,2026-11-09,M4 U2,2026-11-10,23,🔒︎ Rev. HTML base PET ADM,Marcelo,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
-M4 U2 · M4!C179 · Bloqueado",b_rb_adm,M4|179
-item,2026-11-09,M4 U2,2026-11-10,24,✔ Rev. H5P base PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
+item,2026-11-09,M4 U2,2026-11-10,20,✔ 03 BASE HTML ADM,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_adm,
+item,2026-11-09,M4 U2,2026-11-10,21,✔ HTML base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
+M4 U2 · M4!C175 · Concluído",b_hb_adm,M4|175
+item,2026-11-09,M4 U2,2026-11-10,22,▶ 04 REVISÃO BASE ADM,1/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:b_rb_adm,
+item,2026-11-09,M4 U2,2026-11-10,23,Rev. HTML base PET ADM,Marcelo,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - PET (ADM)
+M4 U2 · M4!C179 · Liberado",b_rb_adm,M4|179
+item,2026-11-09,M4 U2,2026-11-10,24,✔ Rev. H5P base PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão das atividades H5P base - PET (ADM)
 M4 U2 · M4!C183 · Concluído",b_rb_adm,M4|183
 item,2026-11-09,M4 U2,2026-11-10,25,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 item,2026-11-09,M4 U2,2026-11-10,26,06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,,,cab:b_rep,
@@ -485,9 +485,9 @@ M4 U3 · M4!C272 · Bloqueado",b_h5p_pet,M4|272
 item,2026-11-09,M4 U3,2026-11-12,90,✔ 03 BASE HTML ADM,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_adm,
 item,2026-11-09,M4 U3,2026-11-12,91,✔ HTML base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
 M4 U3 · M4!C274 · Concluído",b_hb_adm,M4|274
-item,2026-11-09,M4 U3,2026-11-12,92,◐ 04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_adm,
-item,2026-11-09,M4 U3,2026-11-12,93,Rev. HTML base PET ADM,Maria Eduarda,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - PET (ADM)
-M4 U3 · M4!C278 · Liberado",b_rb_adm,M4|278
+item,2026-11-09,M4 U3,2026-11-12,92,🔒︎ 04 REVISÃO BASE ADM,1/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_adm,
+item,2026-11-09,M4 U3,2026-11-12,93,✔ Rev. HTML base PET ADM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
+M4 U3 · M4!C278 · Concluído",b_rb_adm,M4|278
 item,2026-11-09,M4 U3,2026-11-12,94,🔒︎ Rev. H5P base PET ADM,Maria Eduarda,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U3 · M4!C282 · Bloqueado",b_rb_adm,M4|282
 item,2026-11-09,M4 U3,2026-11-12,95,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
@@ -506,12 +506,12 @@ item,2026-11-09,M4 U4,2026-11-12,103,Mapear H5P ref. PET ADM,Marcelo,#c7e6f3,#25
 M4 U4 · M4!C368 · Liberado",b_h5p_pet,M4|368
 item,2026-11-09,M4 U4,2026-11-12,104,🔒︎ H5P base ADM PET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U4 · M4!C371 · Bloqueado",b_h5p_pet,M4|371
-item,2026-11-09,M4 U4,2026-11-12,105,03 BASE HTML ADM,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_adm,
-item,2026-11-09,M4 U4,2026-11-12,106,HTML base ADM PET,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base ADM - Prática do Ensino Técnico
-M4 U4 · M4!C373 · Liberado",b_hb_adm,M4|373
-item,2026-11-09,M4 U4,2026-11-12,107,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_adm,
-item,2026-11-09,M4 U4,2026-11-12,108,🔒︎ Rev. HTML base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - PET (ADM)
-M4 U4 · M4!C377 · Bloqueado",b_rb_adm,M4|377
+item,2026-11-09,M4 U4,2026-11-12,105,✔ 03 BASE HTML ADM,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_adm,
+item,2026-11-09,M4 U4,2026-11-12,106,✔ HTML base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base ADM - Prática do Ensino Técnico
+M4 U4 · M4!C373 · Concluído",b_hb_adm,M4|373
+item,2026-11-09,M4 U4,2026-11-12,107,◐ 04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_adm,
+item,2026-11-09,M4 U4,2026-11-12,108,Rev. HTML base PET ADM,Alline,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - PET (ADM)
+M4 U4 · M4!C377 · Liberado",b_rb_adm,M4|377
 item,2026-11-09,M4 U4,2026-11-12,109,🔒︎ Rev. H5P base PET ADM,Alline,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U4 · M4!C381 · Bloqueado",b_rb_adm,M4|381
 item,2026-11-09,M4 U4,2026-11-12,110,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
