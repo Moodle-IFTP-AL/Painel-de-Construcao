@@ -1230,7 +1230,7 @@ M4,U1,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Con
 M4,U1,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,"0,5",
 M4,U1,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,09/11,10/11,09/11,,,,-,"0,25",
 M4,U1,Ajustes finais,Aplicar os ajustes apontados na revisão final,Marcelo,Concluído,09/11,09/11,09/11,09/11,09/11/2026,09/11/2026,-,4,
-M4,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Liberado,10/11,10/11,09/11,,09/11/2026,,-,2,Vence hoje
+M4,U1,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Concluído,10/11,10/11,09/11,09/11,09/11/2026,09/11/2026,-,2,
 M4,U1,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluído,10/11,10/11,09/11,09/11,09/11/2026,09/11/2026,-,2,
 M4,U1,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Concluído,10/11,10/11,09/11,09/11,09/11/2026,09/11/2026,-,2,
 M4,U1,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,10/11,11/11,09/11,,,,-,2,
@@ -1340,7 +1340,7 @@ M4,U3,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Concluído
 M4,U3,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,09/11,10/11/2026,09/11/2026,-,0,
 M4,U3,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,09/11,10/11/2026,09/11/2026,-,0,
 M4,U3,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,09/11,10/11/2026,09/11/2026,-,0,
-M4,U3,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
+M4,U3,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,10/11,10/11/2026,10/11/2026,-,0,
 M4,U3,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33",
 M4,U3,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33",
 M4,U3,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,28/10,04/11,02/11,28/09,,28/09/2026,-,"0,33",
@@ -1423,9 +1423,9 @@ M4,U3,Liberação,Liberar a unidade,Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,"0,
 M4,U4,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,06/11,10/11/2026,06/11/2026,-,0,
 M4,U4,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,06/11,10/11/2026,06/11/2026,-,0,
 M4,U4,Template,RP - Residência Pedagógica - validado e revisado,Dani,Concluído,10/11,10/11,09/11,06/11,10/11/2026,06/11/2026,-,0,
-M4,U4,Template,PET - ADM (Administração) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
-M4,U4,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
-M4,U4,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
+M4,U4,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,10/11,10/11/2026,10/11/2026,-,0,
+M4,U4,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,10/11,10/11/2026,10/11/2026,-,0,
+M4,U4,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Concluído,10/11,10/11,09/11,10/11,10/11/2026,10/11/2026,-,0,
 M4,U4,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
 M4,U4,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
 M4,U4,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Aguardando liberação,10/11,10/11,09/11,,10/11/2026,,-,0,Vence hoje
@@ -1444,7 +1444,7 @@ M4,U4,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U4,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Concluído,09/11,09/11,09/11,05/11,06/11/2026,05/11/2026,-,"0,2",
 M4,U4,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,09/11,09/11,09/11,,,,Não se aplica,"0,2",
 M4,U4,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,09/11,09/11,09/11,,,,Não se aplica,"0,2",
-M4,U4,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Bloqueado,12/11,12/11,09/11,,,,-,"0,2",
+M4,U4,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,12/11,12/11,09/11,,10/11/2026,,-,"0,2",
 M4,U4,Pré-base,Criar os vídeos de MET,Lucas,Concluído,09/11,09/11,09/11,05/11,05/11/2026,05/11/2026,-,2,
 M4,U4,Pré-base,Criar os vídeos de PI,,Não se aplica,09/11,09/11,09/11,,,,-,4,
 M4,U4,Pré-base,Criar os vídeos de RP,,Não se aplica,09/11,09/11,09/11,,,,-,4,
@@ -1458,12 +1458,12 @@ M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,10/11,11/11,09/11,,,,Não se aplica,2,
 M4,U4,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
 M4,U4,Pré-base,Mapear os H5P de referência - Metodologia,Marcelo,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
-M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,2,
+M4,U4,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Liberado,12/11,12/11,09/11,,10/11/2026,,-,2,
 M4,U4,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,2,
 M4,U4,Base,H5P base - trilha de Metodologia,Maria Eduarda,Concluído,09/11,09/11,09/11,,09/11/2026,09/11/2026,-,"0,5",
 M4,U4,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,5",
 M4,U4,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
-M4,U4,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,1,
+M4,U4,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Liberado,12/11,12/11,09/11,,10/11/2026,,-,1,
 M4,U4,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U4,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Concluído,09/11,09/11,09/11,09/11,06/11/2026,09/11/2026,-,1,
 M4,U4,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Concluído,09/11,09/11,09/11,,09/11/2026,09/11/2026,-,1,
