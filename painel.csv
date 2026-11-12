@@ -1315,10 +1315,10 @@ M4,U2,Revisão final,Revisão final - AGS (Agro Sustentável),Alline,Bloqueado,1
 M4,U2,Revisão final,Revisão final - COM (Comunicação e Mercado),Alline,Bloqueado,13/11,13/11,09/11,,,,-,"0,5",
 M4,U2,Revisão final,Revisão final - CDC (Criação Digital e Cultural),Alline,Bloqueado,13/11,13/11,09/11,,,,-,"0,5",
 M4,U2,Revisão final,Revisão final - ECS (Economia Social),Alline,Bloqueado,13/11,13/11,09/11,,,,-,"0,5",
-M4,U2,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Liberado,13/11,13/11,09/11,,11/11/2026,,-,"0,5",
-M4,U2,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,13/11,13/11,09/11,,11/11/2026,,-,"0,5",
-M4,U2,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,13/11,13/11,09/11,,11/11/2026,,-,"0,5",
-M4,U2,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,13/11,13/11,09/11,,11/11/2026,,-,"0,5",
+M4,U2,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Concluído,13/11,13/11,09/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U2,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Concluído,13/11,13/11,09/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U2,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Concluído,13/11,13/11,09/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U2,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,13/11,13/11,09/11,12/11,11/11/2026,12/11/2026,-,"0,5",
 M4,U2,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,12/11,13/11,09/11,,,,-,"0,25",
 M4,U2,Ajustes finais,Aplicar os ajustes apontados na revisão final,Marcelo,Bloqueado,13/11,13/11,09/11,,,,-,4,
 M4,U2,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,13/11,13/11,09/11,,,,-,2,
@@ -1406,10 +1406,10 @@ M4,U3,Revisão final,Revisão final - AGS (Agro Sustentável),Alline,Bloqueado,1
 M4,U3,Revisão final,Revisão final - COM (Comunicação e Mercado),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
 M4,U3,Revisão final,Revisão final - CDC (Criação Digital e Cultural),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
 M4,U3,Revisão final,Revisão final - ECS (Economia Social),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
-M4,U3,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Liberado,17/11,17/11,16/11,,11/11/2026,,-,"0,5",
-M4,U3,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,17/11,17/11,16/11,,11/11/2026,,-,"0,5",
-M4,U3,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,17/11,17/11,16/11,,11/11/2026,,-,"0,5",
-M4,U3,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,17/11,17/11,16/11,,11/11/2026,,-,"0,5",
+M4,U3,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Concluído,17/11,17/11,16/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U3,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Concluído,17/11,17/11,16/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U3,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Concluído,17/11,17/11,16/11,12/11,11/11/2026,12/11/2026,-,"0,5",
+M4,U3,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Concluído,17/11,17/11,16/11,13/11,11/11/2026,13/11/2026,-,"0,5",
 M4,U3,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,13/11,16/11,16/11,,,,-,"0,25",
 M4,U3,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,4,
 M4,U3,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,2,
@@ -1491,16 +1491,16 @@ M4,U4,Criar HTML 8 eixos,HTML de PET - CDC (Criação Digital e Cultural),Maria 
 M4,U4,Criar HTML 8 eixos,HTML de PET - ECS (Economia Social),Maria Eduarda,Concluído,16/11,16/11,16/11,12/11,11/11/2026,12/11/2026,-,1,
 M4,U4,Criar HTML 8 eixos,HTML de PET - GOP (Gestão e Operações),Maria Eduarda,Concluído,16/11,16/11,16/11,12/11,11/11/2026,12/11/2026,-,1,
 M4,U4,Criar HTML 8 eixos,HTML de PET - GIM (Gestão Imobiliária),Maria Eduarda,Concluído,16/11,16/11,16/11,12/11,11/11/2026,12/11/2026,-,1,
-M4,U4,Criar HTML 8 eixos,HTML de PET - TI (Tecnologia da Informação),Maria Eduarda,Liberado,16/11,16/11,16/11,,11/11/2026,,-,1,
-M4,U4,Criar HTML 8 eixos,HTML de PET - TEV (Turismo e Eventos),Maria Eduarda,Liberado,16/11,16/11,16/11,,11/11/2026,,-,1,
+M4,U4,Criar HTML 8 eixos,HTML de PET - TI (Tecnologia da Informação),Maria Eduarda,Concluído,16/11,16/11,16/11,12/11,11/11/2026,12/11/2026,-,1,
+M4,U4,Criar HTML 8 eixos,HTML de PET - TEV (Turismo e Eventos),Maria Eduarda,Concluído,16/11,16/11,16/11,12/11,11/11/2026,12/11/2026,-,1,
 M4,U4,Revisão final,Revisão final - AGS (Agro Sustentável),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
 M4,U4,Revisão final,Revisão final - COM (Comunicação e Mercado),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
 M4,U4,Revisão final,Revisão final - CDC (Criação Digital e Cultural),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
 M4,U4,Revisão final,Revisão final - ECS (Economia Social),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
 M4,U4,Revisão final,Revisão final - GOP (Gestão e Operações),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
 M4,U4,Revisão final,Revisão final - GIM (Gestão Imobiliária),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
-M4,U4,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
-M4,U4,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
+M4,U4,Revisão final,Revisão final - TI (Tecnologia da Informação),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
+M4,U4,Revisão final,Revisão final - TEV (Turismo e Eventos),Alline,Liberado,17/11,17/11,16/11,,12/11/2026,,-,"0,5",
 M4,U4,Revisão final,"Revisão do ""Para levar para a prática"" - PET",,Não se aplica,13/11,16/11,16/11,,,,-,"0,25",
 M4,U4,Ajustes finais,Aplicar os ajustes apontados na revisão final,Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,4,
 M4,U4,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Bloqueado,17/11,17/11,16/11,,,,-,2,
@@ -1511,10 +1511,10 @@ M4,U4,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Bloquead
 M4,U4,Ajustes finais,Inserir os requisitos de acesso à certificação,Thony,Bloqueado,17/11,17/11,16/11,,,,-,2,
 M4,U4,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,1,
 M4,U4,Liberação,Liberar a unidade,Marcelo,Bloqueado,17/11,17/11,16/11,,,,-,"0,5",
-M4,7ª gravação,Gravações · Entrada (Dani),Vídeos das gravações no Drive,Dani,Aguardando liberação,12/11,12/11,09/11,,13/11/2026,,-,0,Vence hoje
+M4,7ª gravação,Gravações · Entrada (Dani),Vídeos das gravações no Drive,Dani,Concluído,12/11,12/11,09/11,,13/11/2026,11/11/2026,-,0,
 M4,7ª gravação,Gravações · Entrada (Dani),Perguntas do fórum (MET + PET),Dani,Concluído,12/11,12/11,09/11,,13/11/2026,11/11/2026,-,"0,167",
-M4,7ª gravação,Gravações · Entrada (Dani),Material das aulas dos 9 eixos (MET + PET),Dani,Aguardando liberação,12/11,12/11,09/11,,13/11/2026,,-,0,Vence hoje
-M4,7ª gravação,Gravações · Vídeos,Subir os 10 vídeos para o YouTube da SEDUC,Lucas,Bloqueado,12/11,12/11,09/11,,,,-,2,Vence hoje
+M4,7ª gravação,Gravações · Entrada (Dani),Material das aulas dos 9 eixos (MET + PET),Dani,Concluído,12/11,12/11,09/11,,13/11/2026,11/11/2026,-,0,
+M4,7ª gravação,Gravações · Vídeos,Subir os 10 vídeos para o YouTube da SEDUC,Lucas,Concluído,12/11,12/11,09/11,,11/11/2026,12/11/2026,-,2,
 M4,7ª gravação,Gravações · HTML 9 eixos,(ADM) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
 M4,7ª gravação,Gravações · HTML 9 eixos,(AGS) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
 M4,7ª gravação,Gravações · HTML 9 eixos,(COM) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
@@ -1524,15 +1524,15 @@ M4,7ª gravação,Gravações · HTML 9 eixos,(GOP) Construir os 2 HTML (PET + M
 M4,7ª gravação,Gravações · HTML 9 eixos,(GIM) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
 M4,7ª gravação,Gravações · HTML 9 eixos,(TI) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
 M4,7ª gravação,Gravações · HTML 9 eixos,(TEV) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,09/11,10/11,09/11,23/09,09/11/2026,23/09/2026,-,"0,333",
-M4,7ª gravação,Gravações · Iframe da gravação,(ADM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(AGS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(COM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(CDC) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(ECS) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(GOP) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(GIM) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(TI) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Iframe da gravação,(TEV) Iframe da gravação da aula no HTML,Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(ADM) Iframe da gravação da aula no HTML,Gustavo,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(AGS) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(COM) Iframe da gravação da aula no HTML,Gustavo,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(CDC) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(ECS) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(GOP) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(GIM) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(TI) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Iframe da gravação,(TEV) Iframe da gravação da aula no HTML,Maria Eduarda,Liberado,12/11,12/11,09/11,,12/11/2026,,-,"0,167",Vence hoje
 M4,7ª gravação,Gravações · Fórum,(ADM) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
 M4,7ª gravação,Gravações · Fórum,(AGS) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
 M4,7ª gravação,Gravações · Fórum,(COM) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
@@ -1542,15 +1542,15 @@ M4,7ª gravação,Gravações · Fórum,(GOP) Inserir as perguntas no fórum (ME
 M4,7ª gravação,Gravações · Fórum,(GIM) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
 M4,7ª gravação,Gravações · Fórum,(TI) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
 M4,7ª gravação,Gravações · Fórum,(TEV) Inserir as perguntas no fórum (MET + PET),Marcelo,Concluído,12/11,12/11,09/11,,11/11/2026,11/11/2026,-,"0,167",
-M4,7ª gravação,Gravações · Fórum,(ADM) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(AGS) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(COM) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(CDC) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(ECS) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(GOP) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(GIM) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(TI) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
-M4,7ª gravação,Gravações · Fórum,(TEV) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Bloqueado,12/11,12/11,09/11,,,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(ADM) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Concluído,12/11,12/11,09/11,12/11,11/11/2026,12/11/2026,-,"0,167",
+M4,7ª gravação,Gravações · Fórum,(AGS) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(COM) Material da aula no fórum da gravação (MET + PET),Gustavo,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(CDC) Material da aula no fórum da gravação (MET + PET),Gustavo,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(ECS) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(GOP) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(GIM) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(TI) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
+M4,7ª gravação,Gravações · Fórum,(TEV) Material da aula no fórum da gravação (MET + PET),Maria Eduarda,Liberado,12/11,12/11,09/11,,11/11/2026,,-,"0,167",Vence hoje
 M4,7ª gravação,Gravações · PopUp,"(ADM) Inserir o popUp, mas deixar oculto",Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,25",Vence hoje
 M4,7ª gravação,Gravações · PopUp,"(AGS) Inserir o popUp, mas deixar oculto",Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,25",Vence hoje
 M4,7ª gravação,Gravações · PopUp,"(COM) Inserir o popUp, mas deixar oculto",Marcelo,Bloqueado,12/11,12/11,09/11,,,,-,"0,25",Vence hoje
