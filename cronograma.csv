@@ -514,7 +514,7 @@ item,2026-11-09,M4 U4,2026-11-12,108,✔ Rev. HTML base PET ADM,Marcelo,#EEF9F3,
 M4 U4 · M4!C377 · Concluído",b_rb_adm,M4|377
 item,2026-11-09,M4 U4,2026-11-12,109,✔ Rev. H5P base PET ADM,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U4 · M4!C381 · Concluído",b_rb_adm,M4|381
-item,2026-11-09,M4 U4,2026-11-12,110,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
+item,2026-11-09,M4 U4,2026-11-12,110,✔ 05 CORREÇÃO BASE ADM,concluída: HTML de PET começou,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_adm,
 bloco,2026-11-09,M4 U2,2026-11-13,0,M4 · UNIDADE 2,entrega sex 13/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template seg 09/11
 entrega sex 13/11",,
@@ -643,15 +643,15 @@ M4 U3 · M4!C303 · Concluído",b_htmlpet,M4|303
 bloco,2026-11-16,M4 U4,2026-11-16,11,M4 · UNIDADE 4,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template seg 09/11
 entrega ter 17/11",,
-item,2026-11-16,M4 U4,2026-11-16,12,▶ 08 HTML PET,0/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-16,M4 U4,2026-11-16,12,▶ 08 HTML PET,2/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
 item,2026-11-16,M4 U4,2026-11-16,13,HTML de PET AGS,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
 M4 U4 · M4!C395 · Liberado",b_htmlpet,M4|395
 item,2026-11-16,M4 U4,2026-11-16,14,HTML de PET COM,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
 M4 U4 · M4!C396 · Liberado",b_htmlpet,M4|396
-item,2026-11-16,M4 U4,2026-11-16,15,HTML de PET CDC,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
-M4 U4 · M4!C397 · Liberado",b_htmlpet,M4|397
-item,2026-11-16,M4 U4,2026-11-16,16,HTML de PET ECS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
-M4 U4 · M4!C398 · Liberado",b_htmlpet,M4|398
+item,2026-11-16,M4 U4,2026-11-16,15,✔ HTML de PET CDC,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
+M4 U4 · M4!C397 · Concluído",b_htmlpet,M4|397
+item,2026-11-16,M4 U4,2026-11-16,16,✔ HTML de PET ECS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - ECS (Economia Social)
+M4 U4 · M4!C398 · Concluído",b_htmlpet,M4|398
 item,2026-11-16,M4 U4,2026-11-16,17,HTML de PET GOP,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GOP (Gestão e Operações)
 M4 U4 · M4!C399 · Liberado",b_htmlpet,M4|399
 item,2026-11-16,M4 U4,2026-11-16,18,HTML de PET GIM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - GIM (Gestão Imobiliária)
@@ -841,15 +841,15 @@ M4 U3 · M4!C321 · Bloqueado",b_lib,M4|321
 bloco,2026-11-16,M4 U4,2026-11-17,23,M4 · UNIDADE 4,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U4
 template seg 09/11
 entrega ter 17/11",,
-item,2026-11-16,M4 U4,2026-11-17,24,🔒︎ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:b_rpet,
+item,2026-11-16,M4 U4,2026-11-17,24,◐ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,,,cab:b_rpet,
 item,2026-11-16,M4 U4,2026-11-17,25,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
 M4 U4 · M4!C403 · Bloqueado",b_rpet,M4|403
 item,2026-11-16,M4 U4,2026-11-17,26,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
 M4 U4 · M4!C404 · Bloqueado",b_rpet,M4|404
-item,2026-11-16,M4 U4,2026-11-17,27,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M4 U4 · M4!C405 · Bloqueado",b_rpet,M4|405
-item,2026-11-16,M4 U4,2026-11-17,28,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
-M4 U4 · M4!C406 · Bloqueado",b_rpet,M4|406
+item,2026-11-16,M4 U4,2026-11-17,27,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - CDC (Criação Digital e Cultural)
+M4 U4 · M4!C405 · Liberado",b_rpet,M4|405
+item,2026-11-16,M4 U4,2026-11-17,28,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - ECS (Economia Social)
+M4 U4 · M4!C406 · Liberado",b_rpet,M4|406
 item,2026-11-16,M4 U4,2026-11-17,29,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
 M4 U4 · M4!C407 · Bloqueado",b_rpet,M4|407
 item,2026-11-16,M4 U4,2026-11-17,30,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
