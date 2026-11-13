@@ -20,8 +20,8 @@ entrega ter 17/11",,,,,,,,,,
 dia,2026-11-09,,2026-11-09,0,SEG 09/11,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-10,1,TER 10/11,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-11-09,,2026-11-11,2,QUA 11/11,,#3A4766,#FFFFFF,,,,,,,
-dia,2026-11-09,,2026-11-12,3,QUI 12/11,hoje,#FECB55,#14213A,,,,,,,
-dia,2026-11-09,,2026-11-13,4,SEX 13/11,,#1B6E8C,#FFFFFF,,,,,,,
+dia,2026-11-09,,2026-11-12,3,QUI 12/11,,#3A4766,#FFFFFF,,,,,,,
+dia,2026-11-09,,2026-11-13,4,SEX 13/11,hoje,#FECB55,#14213A,,,,,,,
 bloco,2026-11-09,M3 U8,2026-11-09,0,M3 · UNIDADE 8,entrega seg 09/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M3 U8
 template ter 03/11
 entrega seg 09/11",,
@@ -346,15 +346,15 @@ item,2026-11-09,M4 7ª gravação,2026-11-12,15,✔ (TI) Construir os 2 HTML (PE
 M4 7ª gravação · M4!C440 · Concluído",bg_htm,M4|440
 item,2026-11-09,M4 7ª gravação,2026-11-12,16,✔ (TEV) Construir os 2 HTML (PET …,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TEV) Construir os 2 HTML (PET + MET)
 M4 7ª gravação · M4!C441 · Concluído",bg_htm,M4|441
-item,2026-11-09,M4 7ª gravação,2026-11-12,17,▶ G4 IFRAME DA GRAVAÇÃO,6/9 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:bg_ifr,
-item,2026-11-09,M4 7ª gravação,2026-11-12,18,(ADM) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"(ADM) Iframe da gravação da aula no HTML
-M4 7ª gravação · M4!C442 · Liberado",bg_ifr,M4|442
+item,2026-11-09,M4 7ª gravação,2026-11-12,17,⚠ G4 IFRAME DA GRAVAÇÃO,6/9 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:bg_ifr,
+item,2026-11-09,M4 7ª gravação,2026-11-12,18,⚠ (ADM) Iframe da gravação da aul…,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"(ADM) Iframe da gravação da aula no HTML
+M4 7ª gravação · M4!C442 · Liberado · ATRASADA",bg_ifr,M4|442
 item,2026-11-09,M4 7ª gravação,2026-11-12,19,✔ (AGS) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(AGS) Iframe da gravação da aula no HTML
 M4 7ª gravação · M4!C443 · Concluído",bg_ifr,M4|443
-item,2026-11-09,M4 7ª gravação,2026-11-12,20,(COM) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"(COM) Iframe da gravação da aula no HTML
-M4 7ª gravação · M4!C444 · Liberado",bg_ifr,M4|444
-item,2026-11-09,M4 7ª gravação,2026-11-12,21,(CDC) Iframe da gravação da aul…,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"(CDC) Iframe da gravação da aula no HTML
-M4 7ª gravação · M4!C445 · Liberado",bg_ifr,M4|445
+item,2026-11-09,M4 7ª gravação,2026-11-12,20,⚠ (COM) Iframe da gravação da aul…,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"(COM) Iframe da gravação da aula no HTML
+M4 7ª gravação · M4!C444 · Liberado · ATRASADA",bg_ifr,M4|444
+item,2026-11-09,M4 7ª gravação,2026-11-12,21,⚠ (CDC) Iframe da gravação da aul…,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"(CDC) Iframe da gravação da aula no HTML
+M4 7ª gravação · M4!C445 · Liberado · ATRASADA",bg_ifr,M4|445
 item,2026-11-09,M4 7ª gravação,2026-11-12,22,✔ (ECS) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(ECS) Iframe da gravação da aula no HTML
 M4 7ª gravação · M4!C446 · Concluído",bg_ifr,M4|446
 item,2026-11-09,M4 7ª gravação,2026-11-12,23,✔ (GOP) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(GOP) Iframe da gravação da aula no HTML
@@ -365,7 +365,7 @@ item,2026-11-09,M4 7ª gravação,2026-11-12,25,✔ (TI) Iframe da gravação da
 M4 7ª gravação · M4!C449 · Concluído",bg_ifr,M4|449
 item,2026-11-09,M4 7ª gravação,2026-11-12,26,✔ (TEV) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(TEV) Iframe da gravação da aula no HTML
 M4 7ª gravação · M4!C450 · Concluído",bg_ifr,M4|450
-item,2026-11-09,M4 7ª gravação,2026-11-12,27,G5 FÓRUM,16/18 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:bg_for,
+item,2026-11-09,M4 7ª gravação,2026-11-12,27,⚠ G5 FÓRUM,16/18 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,,,cab:bg_for,
 item,2026-11-09,M4 7ª gravação,2026-11-12,28,✔ (ADM) Inserir as perguntas no f…,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(ADM) Inserir as perguntas no fórum (MET + PET)
 M4 7ª gravação · M4!C451 · Concluído",bg_for,M4|451
 item,2026-11-09,M4 7ª gravação,2026-11-12,29,✔ (AGS) Inserir as perguntas no f…,Marcelo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(AGS) Inserir as perguntas no fórum (MET + PET)
@@ -388,10 +388,10 @@ item,2026-11-09,M4 7ª gravação,2026-11-12,37,✔ (ADM) Material da aula no f�
 M4 7ª gravação · M4!C460 · Concluído",bg_for,M4|460
 item,2026-11-09,M4 7ª gravação,2026-11-12,38,✔ (AGS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(AGS) Material da aula no fórum da gravação (MET + PET)
 M4 7ª gravação · M4!C461 · Concluído",bg_for,M4|461
-item,2026-11-09,M4 7ª gravação,2026-11-12,39,(COM) Material da aula no fórum…,Gustavo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(COM) Material da aula no fórum da gravação (MET + PET)
-M4 7ª gravação · M4!C462 · Liberado",bg_for,M4|462
-item,2026-11-09,M4 7ª gravação,2026-11-12,40,(CDC) Material da aula no fórum…,Gustavo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(CDC) Material da aula no fórum da gravação (MET + PET)
-M4 7ª gravação · M4!C463 · Liberado",bg_for,M4|463
+item,2026-11-09,M4 7ª gravação,2026-11-12,39,⚠ (COM) Material da aula no fórum…,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(COM) Material da aula no fórum da gravação (MET + PET)
+M4 7ª gravação · M4!C462 · Liberado · ATRASADA",bg_for,M4|462
+item,2026-11-09,M4 7ª gravação,2026-11-12,40,⚠ (CDC) Material da aula no fórum…,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(CDC) Material da aula no fórum da gravação (MET + PET)
+M4 7ª gravação · M4!C463 · Liberado · ATRASADA",bg_for,M4|463
 item,2026-11-09,M4 7ª gravação,2026-11-12,41,✔ (ECS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(ECS) Material da aula no fórum da gravação (MET + PET)
 M4 7ª gravação · M4!C464 · Concluído",bg_for,M4|464
 item,2026-11-09,M4 7ª gravação,2026-11-12,42,✔ (GOP) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(GOP) Material da aula no fórum da gravação (MET + PET)
@@ -402,63 +402,63 @@ item,2026-11-09,M4 7ª gravação,2026-11-12,44,✔ (TI) Material da aula no fó
 M4 7ª gravação · M4!C467 · Concluído",bg_for,M4|467
 item,2026-11-09,M4 7ª gravação,2026-11-12,45,✔ (TEV) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TEV) Material da aula no fórum da gravação (MET + PET)
 M4 7ª gravação · M4!C468 · Concluído",bg_for,M4|468
-item,2026-11-09,M4 7ª gravação,2026-11-12,46,◐ G6 POPUP,0/9 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,,,cab:bg_pop,
+item,2026-11-09,M4 7ª gravação,2026-11-12,46,⚠ G6 POPUP,0/9 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,,,cab:bg_pop,
 item,2026-11-09,M4 7ª gravação,2026-11-12,47,"🔒︎ (ADM) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"(ADM) Inserir o popUp, mas deixar oculto
 M4 7ª gravação · M4!C469 · Bloqueado",bg_pop,M4|469
-item,2026-11-09,M4 7ª gravação,2026-11-12,48,"(AGS) Inserir o popUp, mas deix…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(AGS) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C470 · Liberado",bg_pop,M4|470
+item,2026-11-09,M4 7ª gravação,2026-11-12,48,"⚠ (AGS) Inserir o popUp, mas deix…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(AGS) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C470 · Liberado · ATRASADA",bg_pop,M4|470
 item,2026-11-09,M4 7ª gravação,2026-11-12,49,"🔒︎ (COM) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"(COM) Inserir o popUp, mas deixar oculto
 M4 7ª gravação · M4!C471 · Bloqueado",bg_pop,M4|471
 item,2026-11-09,M4 7ª gravação,2026-11-12,50,"🔒︎ (CDC) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"(CDC) Inserir o popUp, mas deixar oculto
 M4 7ª gravação · M4!C472 · Bloqueado",bg_pop,M4|472
-item,2026-11-09,M4 7ª gravação,2026-11-12,51,"(ECS) Inserir o popUp, mas deix…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(ECS) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C473 · Liberado",bg_pop,M4|473
-item,2026-11-09,M4 7ª gravação,2026-11-12,52,"(GOP) Inserir o popUp, mas deix…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(GOP) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C474 · Liberado",bg_pop,M4|474
-item,2026-11-09,M4 7ª gravação,2026-11-12,53,"(GIM) Inserir o popUp, mas deix…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(GIM) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C475 · Liberado",bg_pop,M4|475
-item,2026-11-09,M4 7ª gravação,2026-11-12,54,"(TI) Inserir o popUp, mas deixa…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(TI) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C476 · Liberado",bg_pop,M4|476
-item,2026-11-09,M4 7ª gravação,2026-11-12,55,"(TEV) Inserir o popUp, mas deix…",Marcelo,#caf5ea,#25314C,#FFFFFF,#25314C,,,"(TEV) Inserir o popUp, mas deixar oculto
-M4 7ª gravação · M4!C477 · Liberado",bg_pop,M4|477
-item,2026-11-09,M4 7ª gravação,2026-11-12,56,🔒︎ G7 REVISÃO DA GRAVAÇÃO,0/10 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:bg_rev,
-item,2026-11-09,M4 7ª gravação,2026-11-12,57,🔒︎ Revisão dos 9 popUps e liberar …,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão dos 9 popUps e liberar a visualização na página
+item,2026-11-09,M4 7ª gravação,2026-11-12,51,"⚠ (ECS) Inserir o popUp, mas deix…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(ECS) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C473 · Liberado · ATRASADA",bg_pop,M4|473
+item,2026-11-09,M4 7ª gravação,2026-11-12,52,"⚠ (GOP) Inserir o popUp, mas deix…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(GOP) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C474 · Liberado · ATRASADA",bg_pop,M4|474
+item,2026-11-09,M4 7ª gravação,2026-11-12,53,"⚠ (GIM) Inserir o popUp, mas deix…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(GIM) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C475 · Liberado · ATRASADA",bg_pop,M4|475
+item,2026-11-09,M4 7ª gravação,2026-11-12,54,"⚠ (TI) Inserir o popUp, mas deixa…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(TI) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C476 · Liberado · ATRASADA",bg_pop,M4|476
+item,2026-11-09,M4 7ª gravação,2026-11-12,55,"⚠ (TEV) Inserir o popUp, mas deix…",Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"(TEV) Inserir o popUp, mas deixar oculto
+M4 7ª gravação · M4!C477 · Liberado · ATRASADA",bg_pop,M4|477
+item,2026-11-09,M4 7ª gravação,2026-11-12,56,🔒︎ G7 REVISÃO DA GRAVAÇÃO,0/10 feitas · em alerta,#fce6c1,#f8c165,#fce6c1,#f8c165,1,alerta,,cab:bg_rev,
+item,2026-11-09,M4 7ª gravação,2026-11-12,57,🔒︎ Revisão dos 9 popUps e liberar …,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão dos 9 popUps e liberar a visualização na página
 M4 7ª gravação · M4!C478 · Bloqueado",bg_rev,M4|478
-item,2026-11-09,M4 7ª gravação,2026-11-12,58,"🔒︎ (ADM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,58,"🔒︎ (ADM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(ADM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C479 · Bloqueado",bg_rev,M4|479
-item,2026-11-09,M4 7ª gravação,2026-11-12,59,"🔒︎ (AGS) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(AGS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,59,"🔒︎ (AGS) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(AGS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C480 · Bloqueado",bg_rev,M4|480
-item,2026-11-09,M4 7ª gravação,2026-11-12,60,"🔒︎ (COM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(COM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,60,"🔒︎ (COM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(COM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C481 · Bloqueado",bg_rev,M4|481
-item,2026-11-09,M4 7ª gravação,2026-11-12,61,"🔒︎ (CDC) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(CDC) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,61,"🔒︎ (CDC) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(CDC) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C482 · Bloqueado",bg_rev,M4|482
-item,2026-11-09,M4 7ª gravação,2026-11-12,62,"🔒︎ (ECS) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(ECS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,62,"🔒︎ (ECS) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(ECS) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C483 · Bloqueado",bg_rev,M4|483
-item,2026-11-09,M4 7ª gravação,2026-11-12,63,"🔒︎ (GOP) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(GOP) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,63,"🔒︎ (GOP) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(GOP) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C484 · Bloqueado",bg_rev,M4|484
-item,2026-11-09,M4 7ª gravação,2026-11-12,64,"🔒︎ (GIM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(GIM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,64,"🔒︎ (GIM) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(GIM) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C485 · Bloqueado",bg_rev,M4|485
-item,2026-11-09,M4 7ª gravação,2026-11-12,65,"🔒︎ (TI) Revisão dos 2 HTMLs, mater…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(TI) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,65,"🔒︎ (TI) Revisão dos 2 HTMLs, mater…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(TI) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C486 · Bloqueado",bg_rev,M4|486
-item,2026-11-09,M4 7ª gravação,2026-11-12,66,"🔒︎ (TEV) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"(TEV) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
+item,2026-11-09,M4 7ª gravação,2026-11-12,66,"🔒︎ (TEV) Revisão dos 2 HTMLs, mate…",Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"(TEV) Revisão dos 2 HTMLs, materiais, vídeos e questões do fórum
 M4 7ª gravação · M4!C487 · Bloqueado",bg_rev,M4|487
-item,2026-11-09,M4 7ª gravação,2026-11-12,67,🔒︎ G8 FECHAMENTO,0/2 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:bg_fec,
-item,2026-11-09,M4 7ª gravação,2026-11-12,68,🔒︎ Inserir presença dos encontros …,Alline,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Inserir presença dos encontros síncronos dos cursistas nos 9 eixos
+item,2026-11-09,M4 7ª gravação,2026-11-12,67,🔒︎ G8 FECHAMENTO,0/2 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:bg_fec,
+item,2026-11-09,M4 7ª gravação,2026-11-12,68,🔒︎ Inserir presença dos encontros …,Alline,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Inserir presença dos encontros síncronos dos cursistas nos 9 eixos
 M4 7ª gravação · M4!C488 · Bloqueado",bg_fec,M4|488
-item,2026-11-09,M4 7ª gravação,2026-11-12,69,🔒︎ Análise final de configuração e…,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Análise final de configuração e liberação
+item,2026-11-09,M4 7ª gravação,2026-11-12,69,🔒︎ Análise final de configuração e…,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Análise final de configuração e liberação
 M4 7ª gravação · M4!C489 · Bloqueado",bg_fec,M4|489
 bloco,2026-11-09,M4 U2,2026-11-12,71,M4 · UNIDADE 2,entrega sex 13/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template seg 09/11
 entrega sex 13/11",,
-item,2026-11-09,M4 U2,2026-11-12,72,▶ 08 HTML PET,4/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
-item,2026-11-09,M4 U2,2026-11-12,73,HTML de PET AGS,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - AGS (Agro Sustentável)
-M4 U2 · M4!C197 · Liberado",b_htmlpet,M4|197
-item,2026-11-09,M4 U2,2026-11-12,74,HTML de PET COM,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - COM (Comunicação e Mercado)
-M4 U2 · M4!C198 · Liberado",b_htmlpet,M4|198
-item,2026-11-09,M4 U2,2026-11-12,75,HTML de PET CDC,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - CDC (Criação Digital e Cultural)
-M4 U2 · M4!C199 · Liberado",b_htmlpet,M4|199
-item,2026-11-09,M4 U2,2026-11-12,76,HTML de PET ECS,Gustavo,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - ECS (Economia Social)
-M4 U2 · M4!C200 · Liberado",b_htmlpet,M4|200
+item,2026-11-09,M4 U2,2026-11-12,72,⚠ 08 HTML PET,4/8 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,atual,,cab:b_htmlpet,
+item,2026-11-09,M4 U2,2026-11-12,73,⚠ HTML de PET AGS,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"HTML de PET - AGS (Agro Sustentável)
+M4 U2 · M4!C197 · Liberado · ATRASADA",b_htmlpet,M4|197
+item,2026-11-09,M4 U2,2026-11-12,74,⚠ HTML de PET COM,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"HTML de PET - COM (Comunicação e Mercado)
+M4 U2 · M4!C198 · Liberado · ATRASADA",b_htmlpet,M4|198
+item,2026-11-09,M4 U2,2026-11-12,75,⚠ HTML de PET CDC,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"HTML de PET - CDC (Criação Digital e Cultural)
+M4 U2 · M4!C199 · Liberado · ATRASADA",b_htmlpet,M4|199
+item,2026-11-09,M4 U2,2026-11-12,76,⚠ HTML de PET ECS,Gustavo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"HTML de PET - ECS (Economia Social)
+M4 U2 · M4!C200 · Liberado · ATRASADA",b_htmlpet,M4|200
 item,2026-11-09,M4 U2,2026-11-12,77,✔ HTML de PET GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GOP (Gestão e Operações)
 M4 U2 · M4!C201 · Concluído",b_htmlpet,M4|201
 item,2026-11-09,M4 U2,2026-11-12,78,✔ HTML de PET GIM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GIM (Gestão Imobiliária)
@@ -518,43 +518,43 @@ item,2026-11-09,M4 U4,2026-11-12,110,✔ 05 CORREÇÃO BASE ADM,concluída: HTML
 bloco,2026-11-09,M4 U2,2026-11-13,0,M4 · UNIDADE 2,entrega sex 13/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U2
 template seg 09/11
 entrega sex 13/11",,
-item,2026-11-09,M4 U2,2026-11-13,1,🔒︎ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),4/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:b_rpet,
-item,2026-11-09,M4 U2,2026-11-13,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
+item,2026-11-09,M4 U2,2026-11-13,1,🔒︎ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),4/8 feitas · em alerta,#fce6c1,#f8c165,#fce6c1,#f8c165,1,alerta,,cab:b_rpet,
+item,2026-11-09,M4 U2,2026-11-13,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão final - AGS (Agro Sustentável)
 M4 U2 · M4!C205 · Bloqueado",b_rpet,M4|205
-item,2026-11-09,M4 U2,2026-11-13,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
+item,2026-11-09,M4 U2,2026-11-13,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão final - COM (Comunicação e Mercado)
 M4 U2 · M4!C206 · Bloqueado",b_rpet,M4|206
-item,2026-11-09,M4 U2,2026-11-13,4,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
+item,2026-11-09,M4 U2,2026-11-13,4,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão final - CDC (Criação Digital e Cultural)
 M4 U2 · M4!C207 · Bloqueado",b_rpet,M4|207
-item,2026-11-09,M4 U2,2026-11-13,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
+item,2026-11-09,M4 U2,2026-11-13,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,alerta,"Revisão final - ECS (Economia Social)
 M4 U2 · M4!C208 · Bloqueado",b_rpet,M4|208
-item,2026-11-09,M4 U2,2026-11-13,6,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GOP (Gestão e Operações)
+item,2026-11-09,M4 U2,2026-11-13,6,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Revisão final - GOP (Gestão e Operações)
 M4 U2 · M4!C209 · Concluído",b_rpet,M4|209
-item,2026-11-09,M4 U2,2026-11-13,7,✔ Rev. final GIM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GIM (Gestão Imobiliária)
+item,2026-11-09,M4 U2,2026-11-13,7,✔ Rev. final GIM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Revisão final - GIM (Gestão Imobiliária)
 M4 U2 · M4!C210 · Concluído",b_rpet,M4|210
-item,2026-11-09,M4 U2,2026-11-13,8,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TI (Tecnologia da Informação)
+item,2026-11-09,M4 U2,2026-11-13,8,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Revisão final - TI (Tecnologia da Informação)
 M4 U2 · M4!C211 · Concluído",b_rpet,M4|211
-item,2026-11-09,M4 U2,2026-11-13,9,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
+item,2026-11-09,M4 U2,2026-11-13,9,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Revisão final - TEV (Turismo e Eventos)
 M4 U2 · M4!C212 · Concluído",b_rpet,M4|212
-item,2026-11-09,M4 U2,2026-11-13,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
-item,2026-11-09,M4 U2,2026-11-13,11,🔒︎ Ajustes da revisão final,Marcelo,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
+item,2026-11-09,M4 U2,2026-11-13,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas · em alerta,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,alerta,,cab:b_cpet,
+item,2026-11-09,M4 U2,2026-11-13,11,🔒︎ Ajustes da revisão final,Marcelo,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,alerta,"Aplicar os ajustes apontados na revisão final
 M4 U2 · M4!C214 · Bloqueado",b_cpet,M4|214
-item,2026-11-09,M4 U2,2026-11-13,12,🔒︎ 11 AJUSTES FINAIS,0/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
-item,2026-11-09,M4 U2,2026-11-13,13,🔒︎ Restrição de acesso,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar a restrição de acesso da unidade
+item,2026-11-09,M4 U2,2026-11-13,12,🔒︎ 11 AJUSTES FINAIS,0/7 feitas · em alerta,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,alerta,,cab:b_aj,
+item,2026-11-09,M4 U2,2026-11-13,13,🔒︎ Restrição de acesso,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Aplicar a restrição de acesso da unidade
 M4 U2 · M4!C215 · Bloqueado",b_aj,M4|215
-item,2026-11-09,M4 U2,2026-11-13,14,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+item,2026-11-09,M4 U2,2026-11-13,14,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Mapear as atividades certificáveis de MET
 M4 U2 · M4!C216 · Bloqueado",b_aj,M4|216
-item,2026-11-09,M4 U2,2026-11-13,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
+item,2026-11-09,M4 U2,2026-11-13,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Mapear as atividades certificáveis de PI
 M4 U2 · M4!C217 · Bloqueado",b_aj,M4|217
-item,2026-11-09,M4 U2,2026-11-13,16,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
+item,2026-11-09,M4 U2,2026-11-13,16,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Mapear as atividades certificáveis de RP
 M4 U2 · M4!C218 · Bloqueado",b_aj,M4|218
-item,2026-11-09,M4 U2,2026-11-13,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
+item,2026-11-09,M4 U2,2026-11-13,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Mapear as atividades certificáveis de PET
 M4 U2 · M4!C219 · Bloqueado",b_aj,M4|219
-item,2026-11-09,M4 U2,2026-11-13,18,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
+item,2026-11-09,M4 U2,2026-11-13,18,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Inserir os requisitos de acesso à certificação
 M4 U2 · M4!C220 · Bloqueado",b_aj,M4|220
-item,2026-11-09,M4 U2,2026-11-13,19,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-11-09,M4 U2,2026-11-13,19,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,alerta,"Revisar configurações: restrições, certificados, visibilidade
 M4 U2 · M4!C221 · Bloqueado",b_aj,M4|221
-item,2026-11-09,M4 U2,2026-11-13,20,🔒︎ 12 LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:b_lib,
-item,2026-11-09,M4 U2,2026-11-13,21,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
+item,2026-11-09,M4 U2,2026-11-13,20,🔒︎ 12 LIBERAÇÃO,0/1 feitas · em alerta,#c0c1ca,#626579,#c0c1ca,#626579,1,alerta,,cab:b_lib,
+item,2026-11-09,M4 U2,2026-11-13,21,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,alerta,"Liberar a unidade
 M4 U2 · M4!C222 · Bloqueado",b_lib,M4|222
 bloco,2026-11-09,M4 U3,2026-11-13,23,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
