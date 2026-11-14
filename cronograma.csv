@@ -27,7 +27,7 @@ item,2026-11-16,M4 U2,2026-11-16,1,⚠ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REP
 item,2026-11-16,M4 U2,2026-11-16,2,⚠ Ajustes da revisão final,Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,atual,"Aplicar os ajustes apontados na revisão final
 M4 U2 · M4!C214 · Liberado · ATRASADA",b_cpet,M4|214
 item,2026-11-16,M4 U2,2026-11-16,3,⚠ 11 AJUSTES FINAIS,0/7 feitas · atrasada · era 13/11,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,,Previsto para sex 13/11 e ainda não concluído: trazido para hoje.,cab:b_aj,
-item,2026-11-16,M4 U2,2026-11-16,4,⚠ Restrição de acesso,Maria Eduarda,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"Aplicar a restrição de acesso da unidade
+item,2026-11-16,M4 U2,2026-11-16,4,⚠ Restrição de acesso,Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"Aplicar a restrição de acesso da unidade
 M4 U2 · M4!C215 · Liberado · ATRASADA",b_aj,M4|215
 item,2026-11-16,M4 U2,2026-11-16,5,⚠ Mapear certificáveis MET,Marcelo,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"Mapear as atividades certificáveis de MET
 M4 U2 · M4!C216 · Liberado · ATRASADA",b_aj,M4|216
@@ -102,11 +102,11 @@ M4 U5 · M4!C524 · Bloqueado",b_vid_pi,M4|524
 item,2026-11-16,M4 U5,2026-11-16,44,🔒︎ YouTube PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - PI
 M4 U5 · M4!C528 · Bloqueado",b_vid_pi,M4|528
 item,2026-11-16,M4 U5,2026-11-16,45,— 01 VÍDEOS RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_rp,
-item,2026-11-16,M4 U5,2026-11-16,46,— Conferir vídeos RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de RP foram criados
+item,2026-11-16,M4 U5,2026-11-16,46,— Conferir vídeos RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de RP foram criados
 M4 U5 · M4!C521 · Não se aplica",b_vid_rp,M4|521
-item,2026-11-16,M4 U5,2026-11-16,47,— Criar vídeos RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de RP
+item,2026-11-16,M4 U5,2026-11-16,47,— Criar vídeos RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de RP
 M4 U5 · M4!C525 · Não se aplica",b_vid_rp,M4|525
-item,2026-11-16,M4 U5,2026-11-16,48,— YouTube RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
+item,2026-11-16,M4 U5,2026-11-16,48,— YouTube RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
 M4 U5 · M4!C529 · Não se aplica",b_vid_rp,M4|529
 item,2026-11-16,M4 U5,2026-11-16,49,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
 item,2026-11-16,M4 U5,2026-11-16,50,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
@@ -125,9 +125,9 @@ item,2026-11-16,M4 U5,2026-11-16,58,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#
 item,2026-11-16,M4 U5,2026-11-16,59,HTML base PI,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
 M4 U5 · M4!C542 · Liberado",b_hb_pi,M4|542
 item,2026-11-16,M4 U5,2026-11-16,60,— 03 BASE HTML RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_hb_rp,
-item,2026-11-16,M4 U5,2026-11-16,61,— Editar Rubrica RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Editar Rubrica - Residência Pedagógica (se houver)
+item,2026-11-16,M4 U5,2026-11-16,61,— Editar Rubrica RP,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Editar Rubrica - Residência Pedagógica (se houver)
 M4 U5 · M4!C537 · Não se aplica",b_hb_rp,M4|537
-item,2026-11-16,M4 U5,2026-11-16,62,— HTML base RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"HTML base - Residência Pedagógica (se houver)
+item,2026-11-16,M4 U5,2026-11-16,62,— HTML base RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"HTML base - Residência Pedagógica (se houver)
 M4 U5 · M4!C543 · Não se aplica",b_hb_rp,M4|543
 bloco,2026-11-16,M4 U6,2026-11-16,64,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
@@ -178,13 +178,13 @@ bloco,2026-11-16,M4 U3,2026-11-17,0,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#F
 template seg 09/11
 entrega ter 17/11",,
 item,2026-11-16,M4 U3,2026-11-17,1,▶ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),4/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:b_rpet,
-item,2026-11-16,M4 U3,2026-11-17,2,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
+item,2026-11-16,M4 U3,2026-11-17,2,Rev. final AGS,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
 M4 U3 · M4!C304 · Liberado",b_rpet,M4|304
-item,2026-11-16,M4 U3,2026-11-17,3,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
+item,2026-11-16,M4 U3,2026-11-17,3,Rev. final COM,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
 M4 U3 · M4!C305 · Liberado",b_rpet,M4|305
-item,2026-11-16,M4 U3,2026-11-17,4,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
+item,2026-11-16,M4 U3,2026-11-17,4,Rev. final CDC,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
 M4 U3 · M4!C306 · Liberado",b_rpet,M4|306
-item,2026-11-16,M4 U3,2026-11-17,5,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
+item,2026-11-16,M4 U3,2026-11-17,5,Rev. final ECS,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
 M4 U3 · M4!C307 · Liberado",b_rpet,M4|307
 item,2026-11-16,M4 U3,2026-11-17,6,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - GOP (Gestão e Operações)
 M4 U3 · M4!C308 · Concluído",b_rpet,M4|308
@@ -195,20 +195,20 @@ M4 U3 · M4!C310 · Concluído",b_rpet,M4|310
 item,2026-11-16,M4 U3,2026-11-17,9,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão final - TEV (Turismo e Eventos)
 M4 U3 · M4!C311 · Concluído",b_rpet,M4|311
 item,2026-11-16,M4 U3,2026-11-17,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
-item,2026-11-16,M4 U3,2026-11-17,11,🔒︎ Ajustes da revisão final,Maria Eduarda,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
+item,2026-11-16,M4 U3,2026-11-17,11,🔒︎ Ajustes da revisão final,Marcelo,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
 M4 U3 · M4!C313 · Bloqueado",b_cpet,M4|313
 item,2026-11-16,M4 U3,2026-11-17,12,🔒︎ 11 AJUSTES FINAIS,0/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
-item,2026-11-16,M4 U3,2026-11-17,13,🔒︎ Restrição de acesso,Maria Eduarda,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar a restrição de acesso da unidade
+item,2026-11-16,M4 U3,2026-11-17,13,🔒︎ Restrição de acesso,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Aplicar a restrição de acesso da unidade
 M4 U3 · M4!C314 · Bloqueado",b_aj,M4|314
 item,2026-11-16,M4 U3,2026-11-17,14,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
 M4 U3 · M4!C315 · Bloqueado",b_aj,M4|315
 item,2026-11-16,M4 U3,2026-11-17,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U3 · M4!C316 · Bloqueado",b_aj,M4|316
-item,2026-11-16,M4 U3,2026-11-17,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-16,M4 U3,2026-11-17,16,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U3 · M4!C317 · Não se aplica",b_aj,M4|317
 item,2026-11-16,M4 U3,2026-11-17,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U3 · M4!C318 · Bloqueado",b_aj,M4|318
-item,2026-11-16,M4 U3,2026-11-17,18,🔒︎ Requisitos da certificação,Thony,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
+item,2026-11-16,M4 U3,2026-11-17,18,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
 M4 U3 · M4!C319 · Bloqueado",b_aj,M4|319
 item,2026-11-16,M4 U3,2026-11-17,19,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
 M4 U3 · M4!C320 · Bloqueado",b_aj,M4|320
@@ -268,7 +268,7 @@ item,2026-11-16,M4 U5,2026-11-17,50,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0
 item,2026-11-16,M4 U5,2026-11-17,51,🔒︎ Rev. HTML base PI,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U5 · M4!C546 · Bloqueado",b_rb_pi,M4|546
 item,2026-11-16,M4 U5,2026-11-17,52,— 04 REVISÃO BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_rb_rp,
-item,2026-11-16,M4 U5,2026-11-17,53,— Rev. HTML base RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+item,2026-11-16,M4 U5,2026-11-17,53,— Rev. HTML base RP,Alline,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M4 U5 · M4!C547 · Não se aplica",b_rb_rp,M4|547
 item,2026-11-16,M4 U5,2026-11-17,54,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-16,M4 U5,2026-11-17,55,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
@@ -593,7 +593,7 @@ item,2026-11-23,M4 U5,2026-11-24,14,🔒︎ Mapear certificáveis MET,Thaís,#e9
 M4 U5 · M4!C582 · Bloqueado",b_aj,M4|582
 item,2026-11-23,M4 U5,2026-11-24,15,🔒︎ Mapear certificáveis PI,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U5 · M4!C583 · Bloqueado",b_aj,M4|583
-item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U5 · M4!C584 · Não se aplica",b_aj,M4|584
 item,2026-11-23,M4 U5,2026-11-24,17,🔒︎ Mapear certificáveis PET,Thaís,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U5 · M4!C585 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|585
@@ -807,7 +807,7 @@ item,2026-11-23,M4 U7,2026-11-26,3,🔒︎ Mapear certificáveis MET,Marcelo,#F5
 M4 U7 · M4!C780 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|780
 item,2026-11-23,M4 U7,2026-11-26,4,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
 M4 U7 · M4!C781 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|781
-item,2026-11-23,M4 U7,2026-11-26,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U7,2026-11-26,5,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U7 · M4!C782 · Não se aplica",b_aj,M4|782
 item,2026-11-23,M4 U7,2026-11-26,6,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U7 · M4!C783 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|783
@@ -828,7 +828,7 @@ item,2026-11-23,M4 U8,2026-11-26,15,🔒︎ Mapear certificáveis MET,Marcelo,#F
 M4 U8 · M4!C879 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|879
 item,2026-11-23,M4 U8,2026-11-26,16,🔒︎ Mapear certificáveis PI,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PI
 M4 U8 · M4!C880 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|880
-item,2026-11-23,M4 U8,2026-11-26,17,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U8,2026-11-26,17,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U8 · M4!C881 · Não se aplica",b_aj,M4|881
 item,2026-11-23,M4 U8,2026-11-26,18,🔒︎ Mapear certificáveis PET,Marcelo,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U8 · M4!C882 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|882
