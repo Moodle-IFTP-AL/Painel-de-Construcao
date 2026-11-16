@@ -232,11 +232,11 @@ M4 U4 · M4!C420 · Concluído",b_lib,M4|420
 bloco,2026-11-16,M4 U5,2026-11-17,46,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U5,2026-11-17,47,▶ 04 REVISÃO BASE MET,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:b_rb_met,
-item,2026-11-16,M4 U5,2026-11-17,48,Rev. HTML base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - Metodologia
-M4 U5 · M4!C544 · Liberado",b_rb_met,M4|544
-item,2026-11-16,M4 U5,2026-11-17,49,Rev. H5P base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - Metodologia
-M4 U5 · M4!C548 · Liberado",b_rb_met,M4|548
+item,2026-11-16,M4 U5,2026-11-17,47,✔ 04 REVISÃO BASE MET,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_met,
+item,2026-11-16,M4 U5,2026-11-17,48,✔ Rev. HTML base MET,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
+M4 U5 · M4!C544 · Concluído",b_rb_met,M4|544
+item,2026-11-16,M4 U5,2026-11-17,49,✔ Rev. H5P base MET,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - Metodologia
+M4 U5 · M4!C548 · Concluído",b_rb_met,M4|548
 item,2026-11-16,M4 U5,2026-11-17,50,✔ 04 REVISÃO BASE PI,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_pi,
 item,2026-11-16,M4 U5,2026-11-17,51,✔ Rev. HTML base PI,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U5 · M4!C546 · Concluído",b_rb_pi,M4|546
@@ -246,11 +246,11 @@ M4 U5 · M4!C547 · Não se aplica",b_rb_rp,M4|547
 item,2026-11-16,M4 U5,2026-11-17,54,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-16,M4 U5,2026-11-17,55,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
 item,2026-11-16,M4 U5,2026-11-17,56,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
-item,2026-11-16,M4 U5,2026-11-17,57,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
-item,2026-11-16,M4 U5,2026-11-17,58,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U5 · M4!C553 · Bloqueado",b_rep,M4|553
-item,2026-11-16,M4 U5,2026-11-17,59,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U5 · M4!C554 · Bloqueado",b_rep,M4|554
+item,2026-11-16,M4 U5,2026-11-17,57,▶ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,atual,,cab:b_rep,
+item,2026-11-16,M4 U5,2026-11-17,58,Replicar páginas MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U5 · M4!C553 · Liberado",b_rep,M4|553
+item,2026-11-16,M4 U5,2026-11-17,59,Replicar H5P MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U5 · M4!C554 · Liberado",b_rep,M4|554
 bloco,2026-11-16,M4 U6,2026-11-17,61,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
