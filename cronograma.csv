@@ -119,17 +119,17 @@ item,2026-11-16,M4 U6,2026-11-16,57,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFF
 M4 U6 · M4!C623 · Não se aplica",b_vid_pi,M4|623
 item,2026-11-16,M4 U6,2026-11-16,58,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
 M4 U6 · M4!C627 · Não se aplica",b_vid_pi,M4|627
-item,2026-11-16,M4 U6,2026-11-16,59,◐ 01 VÍDEOS RP,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_rp,
-item,2026-11-16,M4 U6,2026-11-16,60,Conferir vídeos RP,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de RP foram criados
-M4 U6 · M4!C620 · Liberado",b_vid_rp,M4|620
-item,2026-11-16,M4 U6,2026-11-16,61,🔒︎ Criar vídeos RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de RP
-M4 U6 · M4!C624 · Bloqueado",b_vid_rp,M4|624
-item,2026-11-16,M4 U6,2026-11-16,62,🔒︎ YouTube RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - RP
-M4 U6 · M4!C628 · Bloqueado",b_vid_rp,M4|628
-item,2026-11-16,M4 U6,2026-11-16,63,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
-item,2026-11-16,M4 U6,2026-11-16,64,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-16,M4 U6,2026-11-16,59,— 01 VÍDEOS RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_rp,
+item,2026-11-16,M4 U6,2026-11-16,60,— Conferir vídeos RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de RP foram criados
+M4 U6 · M4!C620 · Não se aplica",b_vid_rp,M4|620
+item,2026-11-16,M4 U6,2026-11-16,61,— Criar vídeos RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de RP
+M4 U6 · M4!C624 · Não se aplica",b_vid_rp,M4|624
+item,2026-11-16,M4 U6,2026-11-16,62,— YouTube RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
+M4 U6 · M4!C628 · Não se aplica",b_vid_rp,M4|628
+item,2026-11-16,M4 U6,2026-11-16,63,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
+item,2026-11-16,M4 U6,2026-11-16,64,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
 M4 U6 · M4!C634 · Liberado",b_h5p_met,M4|634
-item,2026-11-16,M4 U6,2026-11-16,65,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
+item,2026-11-16,M4 U6,2026-11-16,65,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
 M4 U6 · M4!C637 · Bloqueado",b_h5p_met,M4|637
 item,2026-11-16,M4 U6,2026-11-16,66,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-16,M4 U6,2026-11-16,67,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
