@@ -67,13 +67,13 @@ item,2026-11-16,M4 U5,2026-11-16,25,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3,
 M4 U5 · M4!C523 · Concluído",b_vid_met,M4|523
 item,2026-11-16,M4 U5,2026-11-16,26,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
 M4 U5 · M4!C527 · Concluído",b_vid_met,M4|527
-item,2026-11-16,M4 U5,2026-11-16,27,◐ 01 VÍDEOS PI,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_pi,
-item,2026-11-16,M4 U5,2026-11-16,28,Conferir vídeos PI,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de PI foram criados
-M4 U5 · M4!C520 · Liberado",b_vid_pi,M4|520
-item,2026-11-16,M4 U5,2026-11-16,29,🔒︎ Criar vídeos PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de PI
-M4 U5 · M4!C524 · Bloqueado",b_vid_pi,M4|524
-item,2026-11-16,M4 U5,2026-11-16,30,🔒︎ YouTube PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - PI
-M4 U5 · M4!C528 · Bloqueado",b_vid_pi,M4|528
+item,2026-11-16,M4 U5,2026-11-16,27,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
+item,2026-11-16,M4 U5,2026-11-16,28,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
+M4 U5 · M4!C520 · Não se aplica",b_vid_pi,M4|520
+item,2026-11-16,M4 U5,2026-11-16,29,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
+M4 U5 · M4!C524 · Não se aplica",b_vid_pi,M4|524
+item,2026-11-16,M4 U5,2026-11-16,30,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
+M4 U5 · M4!C528 · Não se aplica",b_vid_pi,M4|528
 item,2026-11-16,M4 U5,2026-11-16,31,— 01 VÍDEOS RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_rp,
 item,2026-11-16,M4 U5,2026-11-16,32,— Conferir vídeos RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de RP foram criados
 M4 U5 · M4!C521 · Não se aplica",b_vid_rp,M4|521
@@ -81,10 +81,10 @@ item,2026-11-16,M4 U5,2026-11-16,33,— Criar vídeos RP,,#F4F5F8,#8C97AD,#FFFFF
 M4 U5 · M4!C525 · Não se aplica",b_vid_rp,M4|525
 item,2026-11-16,M4 U5,2026-11-16,34,— YouTube RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - RP
 M4 U5 · M4!C529 · Não se aplica",b_vid_rp,M4|529
-item,2026-11-16,M4 U5,2026-11-16,35,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
-item,2026-11-16,M4 U5,2026-11-16,36,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
+item,2026-11-16,M4 U5,2026-11-16,35,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_met,
+item,2026-11-16,M4 U5,2026-11-16,36,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"Mapear os H5P de referência - Metodologia
 M4 U5 · M4!C535 · Liberado",b_h5p_met,M4|535
-item,2026-11-16,M4 U5,2026-11-16,37,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base - trilha de Metodologia
+item,2026-11-16,M4 U5,2026-11-16,37,🔒︎ H5P base MET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,atual,"H5P base - trilha de Metodologia
 M4 U5 · M4!C538 · Bloqueado",b_h5p_met,M4|538
 item,2026-11-16,M4 U5,2026-11-16,38,— 02 H5P BASE PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_pi,
 item,2026-11-16,M4 U5,2026-11-16,39,— 02 H5P BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_h5p_rp,
@@ -112,20 +112,20 @@ item,2026-11-16,M4 U6,2026-11-16,53,✔ Criar vídeos MET,Lucas,#EEF9F3,#8FB5A3,
 M4 U6 · M4!C622 · Concluído",b_vid_met,M4|622
 item,2026-11-16,M4 U6,2026-11-16,54,✔ YouTube MET,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Formatar nomes e subir no YouTube - MET
 M4 U6 · M4!C626 · Concluído",b_vid_met,M4|626
-item,2026-11-16,M4 U6,2026-11-16,55,◐ 01 VÍDEOS PI,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_pi,
-item,2026-11-16,M4 U6,2026-11-16,56,Conferir vídeos PI,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de PI foram criados
-M4 U6 · M4!C619 · Liberado",b_vid_pi,M4|619
-item,2026-11-16,M4 U6,2026-11-16,57,🔒︎ Criar vídeos PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de PI
-M4 U6 · M4!C623 · Bloqueado",b_vid_pi,M4|623
-item,2026-11-16,M4 U6,2026-11-16,58,🔒︎ YouTube PI,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - PI
-M4 U6 · M4!C627 · Bloqueado",b_vid_pi,M4|627
-item,2026-11-16,M4 U6,2026-11-16,59,🔒︎ 01 VÍDEOS RP,0/3 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_vid_rp,
-item,2026-11-16,M4 U6,2026-11-16,60,🔒︎ Conferir vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Conferir se os vídeos de RP foram criados
-M4 U6 · M4!C620 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|620
-item,2026-11-16,M4 U6,2026-11-16,61,🔒︎ Criar vídeos RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Criar os vídeos de RP
-M4 U6 · M4!C624 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|624
-item,2026-11-16,M4 U6,2026-11-16,62,🔒︎ YouTube RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Formatar nomes e subir no YouTube - RP
-M4 U6 · M4!C628 · Bloqueado · previsto: o template ainda não está no Moodle",b_vid_rp,M4|628
+item,2026-11-16,M4 U6,2026-11-16,55,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
+item,2026-11-16,M4 U6,2026-11-16,56,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
+M4 U6 · M4!C619 · Não se aplica",b_vid_pi,M4|619
+item,2026-11-16,M4 U6,2026-11-16,57,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
+M4 U6 · M4!C623 · Não se aplica",b_vid_pi,M4|623
+item,2026-11-16,M4 U6,2026-11-16,58,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
+M4 U6 · M4!C627 · Não se aplica",b_vid_pi,M4|627
+item,2026-11-16,M4 U6,2026-11-16,59,◐ 01 VÍDEOS RP,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_rp,
+item,2026-11-16,M4 U6,2026-11-16,60,Conferir vídeos RP,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de RP foram criados
+M4 U6 · M4!C620 · Liberado",b_vid_rp,M4|620
+item,2026-11-16,M4 U6,2026-11-16,61,🔒︎ Criar vídeos RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de RP
+M4 U6 · M4!C624 · Bloqueado",b_vid_rp,M4|624
+item,2026-11-16,M4 U6,2026-11-16,62,🔒︎ YouTube RP,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - RP
+M4 U6 · M4!C628 · Bloqueado",b_vid_rp,M4|628
 item,2026-11-16,M4 U6,2026-11-16,63,◐ 02 H5P BASE MET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_met,
 item,2026-11-16,M4 U6,2026-11-16,64,Mapear H5P ref. MET,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - Metodologia
 M4 U6 · M4!C634 · Liberado",b_h5p_met,M4|634
@@ -142,11 +142,11 @@ M4 U6 · M4!C640 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-16,M4 U6,2026-11-16,72,03 BASE HTML PI,0/1 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_pi,
 item,2026-11-16,M4 U6,2026-11-16,73,HTML base PI,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Planejamento Integrado (se houver)
 M4 U6 · M4!C641 · Liberado",b_hb_pi,M4|641
-item,2026-11-16,M4 U6,2026-11-16,74,🔒︎ 03 BASE HTML RP,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_hb_rp,
-item,2026-11-16,M4 U6,2026-11-16,75,🔒︎ Editar Rubrica RP,Lucas,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Editar Rubrica - Residência Pedagógica (se houver)
-M4 U6 · M4!C636 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_rp,M4|636
-item,2026-11-16,M4 U6,2026-11-16,76,🔒︎ HTML base RP,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"HTML base - Residência Pedagógica (se houver)
-M4 U6 · M4!C642 · Bloqueado · previsto: o template ainda não está no Moodle",b_hb_rp,M4|642
+item,2026-11-16,M4 U6,2026-11-16,74,03 BASE HTML RP,0/2 feitas,#79D3F2,#14213A,#79D3F2,#14213A,1,,,cab:b_hb_rp,
+item,2026-11-16,M4 U6,2026-11-16,75,Editar Rubrica RP,Lucas,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"Editar Rubrica - Residência Pedagógica (se houver)
+M4 U6 · M4!C636 · Liberado",b_hb_rp,M4|636
+item,2026-11-16,M4 U6,2026-11-16,76,HTML base RP,Maria Eduarda,#e2f5fc,#25314C,#FFFFFF,#25314C,,,"HTML base - Residência Pedagógica (se houver)
+M4 U6 · M4!C642 · Liberado",b_hb_rp,M4|642
 bloco,2026-11-16,M4 U3,2026-11-17,0,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega ter 17/11",,
@@ -262,27 +262,27 @@ M4 U6 · M4!C647 · Bloqueado",b_rb_met,M4|647
 item,2026-11-16,M4 U6,2026-11-17,65,🔒︎ 04 REVISÃO BASE PI,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_pi,
 item,2026-11-16,M4 U6,2026-11-17,66,🔒︎ Rev. HTML base PI,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U6 · M4!C645 · Bloqueado",b_rb_pi,M4|645
-item,2026-11-16,M4 U6,2026-11-17,67,🔒︎ 04 REVISÃO BASE RP,0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rb_rp,
-item,2026-11-16,M4 U6,2026-11-17,68,🔒︎ Rev. HTML base RP,Thaís,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Revisão do HTML base - Residência Pedagógica (se houver)
-M4 U6 · M4!C646 · Bloqueado · previsto: o template ainda não está no Moodle",b_rb_rp,M4|646
+item,2026-11-16,M4 U6,2026-11-17,67,🔒︎ 04 REVISÃO BASE RP,0/1 feitas,#fff0cf,#fedb88,#fff0cf,#fedb88,1,,,cab:b_rb_rp,
+item,2026-11-16,M4 U6,2026-11-17,68,🔒︎ Rev. HTML base RP,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão do HTML base - Residência Pedagógica (se houver)
+M4 U6 · M4!C646 · Bloqueado",b_rb_rp,M4|646
 item,2026-11-16,M4 U6,2026-11-17,69,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-16,M4 U6,2026-11-17,70,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
 item,2026-11-16,M4 U6,2026-11-17,71,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
-item,2026-11-16,M4 U6,2026-11-17,72,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,2 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_rep,
-item,2026-11-16,M4 U6,2026-11-17,73,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U6 · M4!C652 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|652
-item,2026-11-16,M4 U6,2026-11-17,74,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U6 · M4!C653 · Bloqueado · previsto: o template ainda não está no Moodle",b_rep,M4|653
+item,2026-11-16,M4 U6,2026-11-17,72,🔒︎ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:b_rep,
+item,2026-11-16,M4 U6,2026-11-17,73,🔒︎ Replicar páginas MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U6 · M4!C652 · Bloqueado",b_rep,M4|652
+item,2026-11-16,M4 U6,2026-11-17,74,🔒︎ Replicar H5P MET/PI/RP,Maria Eduarda,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U6 · M4!C653 · Bloqueado",b_rep,M4|653
 bloco,2026-11-16,M4 U5,2026-11-18,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U5,2026-11-18,1,◐ 01 VÍDEOS PET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_pet,
-item,2026-11-16,M4 U5,2026-11-18,2,Conferir vídeos PET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de PET foram criados
-M4 U5 · M4!C522 · Liberado",b_vid_pet,M4|522
-item,2026-11-16,M4 U5,2026-11-18,3,🔒︎ Criar vídeos PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de PET
-M4 U5 · M4!C526 · Bloqueado",b_vid_pet,M4|526
-item,2026-11-16,M4 U5,2026-11-18,4,🔒︎ YouTube PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - PET
-M4 U5 · M4!C530 · Bloqueado",b_vid_pet,M4|530
+item,2026-11-16,M4 U5,2026-11-18,1,— 01 VÍDEOS PET,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pet,
+item,2026-11-16,M4 U5,2026-11-18,2,— Conferir vídeos PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PET foram criados
+M4 U5 · M4!C522 · Não se aplica",b_vid_pet,M4|522
+item,2026-11-16,M4 U5,2026-11-18,3,— Criar vídeos PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PET
+M4 U5 · M4!C526 · Não se aplica",b_vid_pet,M4|526
+item,2026-11-16,M4 U5,2026-11-18,4,— YouTube PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PET
+M4 U5 · M4!C530 · Não se aplica",b_vid_pet,M4|530
 item,2026-11-16,M4 U5,2026-11-18,5,◐ 02 H5P BASE PET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_pet,
 item,2026-11-16,M4 U5,2026-11-18,6,Mapear H5P ref. PET ADM,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - PET (ADM)
 M4 U5 · M4!C536 · Liberado",b_h5p_pet,M4|536
@@ -600,15 +600,15 @@ M4 U6 · M4!C677 · Bloqueado · previsto: o template ainda não está no Moodle
 item,2026-11-23,M4 U6,2026-11-24,33,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas · previsto,#ECEEF1,#A0A7B4,#ECEEF1,#A0A7B4,1,,1 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_cpet,
 item,2026-11-23,M4 U6,2026-11-24,34,🔒︎ Ajustes da revisão final,Maria Eduarda,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Aplicar os ajustes apontados na revisão final
 M4 U6 · M4!C679 · Bloqueado · previsto: o template ainda não está no Moodle",b_cpet,M4|679
-item,2026-11-23,M4 U6,2026-11-24,35,🔒︎ 11 AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
+item,2026-11-23,M4 U6,2026-11-24,35,🔒︎ 11 AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,3 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_aj,
 item,2026-11-23,M4 U6,2026-11-24,36,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M4 U6 · M4!C680 · Concluído",b_aj,M4|680
 item,2026-11-23,M4 U6,2026-11-24,37,🔒︎ Mapear certificáveis MET,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
 M4 U6 · M4!C681 · Bloqueado",b_aj,M4|681
 item,2026-11-23,M4 U6,2026-11-24,38,🔒︎ Mapear certificáveis PI,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U6 · M4!C682 · Bloqueado",b_aj,M4|682
-item,2026-11-23,M4 U6,2026-11-24,39,🔒︎ Mapear certificáveis RP,Thaís,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de RP
-M4 U6 · M4!C683 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|683
+item,2026-11-23,M4 U6,2026-11-24,39,🔒︎ Mapear certificáveis RP,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
+M4 U6 · M4!C683 · Bloqueado",b_aj,M4|683
 item,2026-11-23,M4 U6,2026-11-24,40,🔒︎ Mapear certificáveis PET,Thaís,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Mapear as atividades certificáveis de PET
 M4 U6 · M4!C684 · Bloqueado · previsto: o template ainda não está no Moodle",b_aj,M4|684
 item,2026-11-23,M4 U6,2026-11-24,41,🔒︎ Requisitos da certificação,Thaís,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"Inserir os requisitos de acesso à certificação
