@@ -1594,17 +1594,17 @@ M4,U5,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U5,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33",
 M4,U5,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33",
 M4,U5,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Concluído,16/11,16/11,16/11,16/11,13/11/2026,16/11/2026,-,"0,2",
-M4,U5,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,16/11,16/11,16/11,,13/11/2026,,-,"0,2",Vence hoje
+M4,U5,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,16/11,16/11,16/11,,,,Não se aplica,"0,2",
 M4,U5,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,,,,,,,-,"0,2",
-M4,U5,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,18/11,18/11,16/11,,16/11/2026,,-,"0,2",
+M4,U5,Pré-base,Conferir se os vídeos de PET foram criados,,Não se aplica,18/11,18/11,16/11,,,,Não se aplica,"0,2",
 M4,U5,Pré-base,Criar os vídeos de MET,Lucas,Concluído,16/11,16/11,16/11,16/11,16/11/2026,16/11/2026,-,2,
-M4,U5,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,4,Vence hoje
+M4,U5,Pré-base,Criar os vídeos de PI,,Não se aplica,16/11,16/11,16/11,,,,-,4,
 M4,U5,Pré-base,Criar os vídeos de RP,,Não se aplica,,,,,,,-,4,
-M4,U5,Pré-base,Criar os vídeos de PET,Lucas,Bloqueado,18/11,18/11,16/11,,,,-,8,
+M4,U5,Pré-base,Criar os vídeos de PET,,Não se aplica,18/11,18/11,16/11,,,,-,8,
 M4,U5,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Concluído,16/11,16/11,16/11,16/11,16/11/2026,16/11/2026,-,1,
-M4,U5,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,1,Vence hoje
+M4,U5,Pré-base,Formatar nomes e subir no YouTube - PI,,Não se aplica,16/11,16/11,16/11,,,,-,1,
 M4,U5,Pré-base,Formatar nomes e subir no YouTube - RP,,Não se aplica,,,,,,,-,1,
-M4,U5,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,18/11,18/11,16/11,,,,-,4,
+M4,U5,Pré-base,Formatar nomes e subir no YouTube - PET,,Não se aplica,18/11,18/11,16/11,,,,-,4,
 M4,U5,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplica,03/11,04/11,02/11,,,,Não se aplica,2,
 M4,U5,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,03/11,04/11,02/11,,,,Não se aplica,2,
 M4,U5,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
@@ -1665,7 +1665,7 @@ M4,U5,Ajustes finais,"Revisar configurações: restrições, certificados, visib
 M4,U5,Liberação,Liberar a unidade,Thaís,Bloqueado,24/11,24/11,23/11,,,,-,"0,5",
 M4,U6,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,02/11,02/11,02/11,13/11,02/11/2026,13/11/2026,-,0,
 M4,U6,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,09/11,09/11,09/11,16/11,09/11/2026,16/11/2026,-,0,
-M4,U6,Template,RP - Residência Pedagógica - validado e revisado,Dani,Atrasado,09/11,09/11,09/11,,09/11/2026,,-,0,Atrasada
+M4,U6,Template,RP - Residência Pedagógica - validado e revisado,Dani,Concluído,09/11,09/11,09/11,16/11,09/11/2026,16/11/2026,-,0,
 M4,U6,Template,PET - ADM (Administração) - validado e revisado,Dani,Atrasado,10/11,10/11,09/11,,10/11/2026,,-,0,Atrasada
 M4,U6,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Atrasado,10/11,10/11,09/11,,10/11/2026,,-,0,Atrasada
 M4,U6,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Atrasado,10/11,10/11,09/11,,10/11/2026,,-,0,Atrasada
@@ -1685,15 +1685,15 @@ M4,U6,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U6,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33",
 M4,U6,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,21/10,28/10,26/10,28/09,,28/09/2026,-,"0,33",
 M4,U6,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Concluído,16/11,16/11,16/11,16/11,13/11/2026,16/11/2026,-,"0,2",
-M4,U6,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,16/11,16/11,16/11,,16/11/2026,,-,"0,2",Vence hoje
-M4,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,"0,2",Vence hoje
+M4,U6,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,16/11,16/11,16/11,,,,Não se aplica,"0,2",
+M4,U6,Pré-base,Conferir se os vídeos de RP foram criados,Lucas,Liberado,16/11,16/11,16/11,,16/11/2026,,-,"0,2",Vence hoje
 M4,U6,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Bloqueado,18/11,18/11,16/11,,,,-,"0,2",
 M4,U6,Pré-base,Criar os vídeos de MET,Lucas,Concluído,16/11,16/11,16/11,16/11,16/11/2026,16/11/2026,-,2,
-M4,U6,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,4,Vence hoje
+M4,U6,Pré-base,Criar os vídeos de PI,,Não se aplica,16/11,16/11,16/11,,,,-,4,
 M4,U6,Pré-base,Criar os vídeos de RP,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,4,Vence hoje
 M4,U6,Pré-base,Criar os vídeos de PET,Lucas,Bloqueado,18/11,18/11,16/11,,,,-,8,
 M4,U6,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Concluído,16/11,16/11,16/11,16/11,16/11/2026,16/11/2026,-,1,
-M4,U6,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,1,Vence hoje
+M4,U6,Pré-base,Formatar nomes e subir no YouTube - PI,,Não se aplica,16/11,16/11,16/11,,,,-,1,
 M4,U6,Pré-base,Formatar nomes e subir no YouTube - RP,Lucas,Bloqueado,16/11,16/11,16/11,,,,-,1,Vence hoje
 M4,U6,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,18/11,18/11,16/11,,,,-,4,
 M4,U6,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplica,03/11,04/11,02/11,,,,Não se aplica,2,
@@ -1702,13 +1702,13 @@ M4,U6,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica
 M4,U6,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,10/11,13/11,09/11,,,,Não se aplica,6,
 M4,U6,Pré-base,Mapear os H5P de referência - Metodologia,Thaís,Liberado,16/11,16/11,16/11,,13/11/2026,,-,2,Vence hoje
 M4,U6,Pré-base,Mapear os H5P de referência - PET (ADM),Thaís,Bloqueado,18/11,18/11,16/11,,,,-,2,
-M4,U6,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Bloqueado,16/11,16/11,16/11,,,,-,2,Vence hoje
+M4,U6,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),Lucas,Liberado,16/11,16/11,16/11,,16/11/2026,,-,2,Vence hoje
 M4,U6,Base,H5P base - trilha de Metodologia,Maria Eduarda,Bloqueado,16/11,16/11,16/11,,,,-,"0,5",Vence hoje
 M4,U6,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Bloqueado,18/11,18/11,16/11,,,,-,"0,5",
 M4,U6,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Liberado,16/11,16/11,16/11,,13/11/2026,,-,1,Vence hoje
 M4,U6,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Bloqueado,16/11,16/11,16/11,,,,-,1,Vence hoje
 M4,U6,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Liberado,16/11,16/11,16/11,,16/11/2026,,-,1,Vence hoje
-M4,U6,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Bloqueado,16/11,16/11,16/11,,,,-,1,Vence hoje
+M4,U6,Base,HTML base - Residência Pedagógica (se houver),Maria Eduarda,Liberado,16/11,16/11,16/11,,16/11/2026,,-,1,Vence hoje
 M4,U6,Revisão inicial,Revisão do HTML base - Metodologia,Thaís,Bloqueado,17/11,17/11,16/11,,,,-,1,
 M4,U6,Revisão inicial,Revisão do HTML base - PET (ADM),Thaís,Bloqueado,18/11,18/11,16/11,,,,-,1,
 M4,U6,Revisão inicial,Revisão do HTML base - Planejamento Integrado (se houver),Thaís,Bloqueado,17/11,17/11,16/11,,,,-,1,
