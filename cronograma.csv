@@ -254,10 +254,10 @@ M4 U5 · M4!C554 · Liberado",b_rep,M4|554
 bloco,2026-11-16,M4 U6,2026-11-17,61,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U6,2026-11-17,62,04 REVISÃO BASE MET,1/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_met,
-item,2026-11-16,M4 U6,2026-11-17,63,✔ Rev. HTML base MET,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Metodologia
+item,2026-11-16,M4 U6,2026-11-17,62,▶ 04 REVISÃO BASE MET,1/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:b_rb_met,
+item,2026-11-16,M4 U6,2026-11-17,63,✔ Rev. HTML base MET,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Revisão do HTML base - Metodologia
 M4 U6 · M4!C643 · Concluído",b_rb_met,M4|643
-item,2026-11-16,M4 U6,2026-11-17,64,Rev. H5P base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - Metodologia
+item,2026-11-16,M4 U6,2026-11-17,64,Rev. H5P base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - Metodologia
 M4 U6 · M4!C647 · Liberado",b_rb_met,M4|647
 item,2026-11-16,M4 U6,2026-11-17,65,✔ 04 REVISÃO BASE PI,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_pi,
 item,2026-11-16,M4 U6,2026-11-17,66,✔ Rev. HTML base PI,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Planejamento Integrado (se houver)
@@ -293,7 +293,7 @@ item,2026-11-16,M4 U5,2026-11-18,9,✔ Rev. HTML base PET ADM,Thaís,#EEF9F3,#8F
 M4 U5 · M4!C545 · Concluído",b_rb_adm,M4|545
 item,2026-11-16,M4 U5,2026-11-18,10,✔ Rev. H5P base PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
 M4 U5 · M4!C549 · Concluído",b_rb_adm,M4|549
-item,2026-11-16,M4 U5,2026-11-18,11,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
+item,2026-11-16,M4 U5,2026-11-18,11,✔ 05 CORREÇÃO BASE ADM,concluída: HTML de PET começou,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_adm,
 bloco,2026-11-16,M4 U6,2026-11-18,13,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
@@ -304,16 +304,16 @@ item,2026-11-16,M4 U6,2026-11-18,16,— Criar vídeos PET,,#F4F5F8,#8C97AD,#FFFF
 M4 U6 · M4!C625 · Não se aplica",b_vid_pet,M4|625
 item,2026-11-16,M4 U6,2026-11-18,17,— YouTube PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PET
 M4 U6 · M4!C629 · Não se aplica",b_vid_pet,M4|629
-item,2026-11-16,M4 U6,2026-11-18,18,▶ 02 H5P BASE PET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_pet,
-item,2026-11-16,M4 U6,2026-11-18,19,✔ Mapear H5P ref. PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear os H5P de referência - PET (ADM)
+item,2026-11-16,M4 U6,2026-11-18,18,✔ 02 H5P BASE PET,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_h5p_pet,
+item,2026-11-16,M4 U6,2026-11-18,19,✔ Mapear H5P ref. PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Mapear os H5P de referência - PET (ADM)
 M4 U6 · M4!C635 · Concluído",b_h5p_pet,M4|635
-item,2026-11-16,M4 U6,2026-11-18,20,H5P base ADM PET,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"H5P base ADM - trilha de Prática do Ensino Técnico
-M4 U6 · M4!C638 · Liberado",b_h5p_pet,M4|638
-item,2026-11-16,M4 U6,2026-11-18,21,◐ 04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_adm,
+item,2026-11-16,M4 U6,2026-11-18,20,✔ H5P base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base ADM - trilha de Prática do Ensino Técnico
+M4 U6 · M4!C638 · Concluído",b_h5p_pet,M4|638
+item,2026-11-16,M4 U6,2026-11-18,21,04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,,,cab:b_rb_adm,
 item,2026-11-16,M4 U6,2026-11-18,22,Rev. HTML base PET ADM,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão do HTML base - PET (ADM)
 M4 U6 · M4!C644 · Liberado",b_rb_adm,M4|644
-item,2026-11-16,M4 U6,2026-11-18,23,🔒︎ Rev. H5P base PET ADM,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,,"Revisão das atividades H5P base - PET (ADM)
-M4 U6 · M4!C648 · Bloqueado",b_rb_adm,M4|648
+item,2026-11-16,M4 U6,2026-11-18,23,Rev. H5P base PET ADM,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,,"Revisão das atividades H5P base - PET (ADM)
+M4 U6 · M4!C648 · Liberado",b_rb_adm,M4|648
 item,2026-11-16,M4 U6,2026-11-18,24,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 bloco,2026-11-16,M4 U5,2026-11-19,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
@@ -379,7 +379,7 @@ dia,2026-11-23,,2026-11-27,4,SEX 27/11,,#1B6E8C,#FFFFFF,,,,,,,
 bloco,2026-11-23,M4 U5,2026-11-23,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U5,2026-11-23,1,🔒︎ 08 HTML PET,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
+item,2026-11-23,M4 U5,2026-11-23,1,🔒︎ 08 HTML PET,1/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
 item,2026-11-23,M4 U5,2026-11-23,2,🔒︎ HTML de PET AGS,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
 M4 U5 · M4!C563 · Bloqueado",b_htmlpet,M4|563
 item,2026-11-23,M4 U5,2026-11-23,3,🔒︎ HTML de PET COM,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
@@ -388,8 +388,8 @@ item,2026-11-23,M4 U5,2026-11-23,4,🔒︎ HTML de PET CDC,Anna Paula,#e8f5fb,#8
 M4 U5 · M4!C565 · Bloqueado",b_htmlpet,M4|565
 item,2026-11-23,M4 U5,2026-11-23,5,🔒︎ HTML de PET ECS,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
 M4 U5 · M4!C566 · Bloqueado",b_htmlpet,M4|566
-item,2026-11-23,M4 U5,2026-11-23,6,🔒︎ HTML de PET GOP,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GOP (Gestão e Operações)
-M4 U5 · M4!C567 · Bloqueado",b_htmlpet,M4|567
+item,2026-11-23,M4 U5,2026-11-23,6,✔ HTML de PET GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - GOP (Gestão e Operações)
+M4 U5 · M4!C567 · Concluído",b_htmlpet,M4|567
 item,2026-11-23,M4 U5,2026-11-23,7,🔒︎ HTML de PET GIM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GIM (Gestão Imobiliária)
 M4 U5 · M4!C568 · Bloqueado",b_htmlpet,M4|568
 item,2026-11-23,M4 U5,2026-11-23,8,🔒︎ HTML de PET TI,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TI (Tecnologia da Informação)
