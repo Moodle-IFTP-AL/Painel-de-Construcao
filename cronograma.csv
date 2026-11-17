@@ -379,7 +379,7 @@ dia,2026-11-23,,2026-11-27,4,SEX 27/11,,#1B6E8C,#FFFFFF,,,,,,,
 bloco,2026-11-23,M4 U5,2026-11-23,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U5,2026-11-23,1,🔒︎ 08 HTML PET,1/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
+item,2026-11-23,M4 U5,2026-11-23,1,🔒︎ 08 HTML PET,4/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
 item,2026-11-23,M4 U5,2026-11-23,2,🔒︎ HTML de PET AGS,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
 M4 U5 · M4!C563 · Bloqueado",b_htmlpet,M4|563
 item,2026-11-23,M4 U5,2026-11-23,3,🔒︎ HTML de PET COM,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
@@ -390,12 +390,12 @@ item,2026-11-23,M4 U5,2026-11-23,5,🔒︎ HTML de PET ECS,Anna Paula,#e8f5fb,#8
 M4 U5 · M4!C566 · Bloqueado",b_htmlpet,M4|566
 item,2026-11-23,M4 U5,2026-11-23,6,✔ HTML de PET GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - GOP (Gestão e Operações)
 M4 U5 · M4!C567 · Concluído",b_htmlpet,M4|567
-item,2026-11-23,M4 U5,2026-11-23,7,🔒︎ HTML de PET GIM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - GIM (Gestão Imobiliária)
-M4 U5 · M4!C568 · Bloqueado",b_htmlpet,M4|568
-item,2026-11-23,M4 U5,2026-11-23,8,🔒︎ HTML de PET TI,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TI (Tecnologia da Informação)
-M4 U5 · M4!C569 · Bloqueado",b_htmlpet,M4|569
-item,2026-11-23,M4 U5,2026-11-23,9,🔒︎ HTML de PET TEV,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - TEV (Turismo e Eventos)
-M4 U5 · M4!C570 · Bloqueado",b_htmlpet,M4|570
+item,2026-11-23,M4 U5,2026-11-23,7,✔ HTML de PET GIM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - GIM (Gestão Imobiliária)
+M4 U5 · M4!C568 · Concluído",b_htmlpet,M4|568
+item,2026-11-23,M4 U5,2026-11-23,8,✔ HTML de PET TI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - TI (Tecnologia da Informação)
+M4 U5 · M4!C569 · Concluído",b_htmlpet,M4|569
+item,2026-11-23,M4 U5,2026-11-23,9,✔ HTML de PET TEV,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - TEV (Turismo e Eventos)
+M4 U5 · M4!C570 · Concluído",b_htmlpet,M4|570
 bloco,2026-11-23,M4 U6,2026-11-23,11,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
