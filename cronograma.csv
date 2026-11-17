@@ -142,11 +142,11 @@ M4 U6 · M4!C640 · Liberado · ATRASADA",b_hb_adm,M4|640
 item,2026-11-16,M4 U6,2026-11-16,72,✔ 03 BASE HTML PI,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_pi,
 item,2026-11-16,M4 U6,2026-11-16,73,✔ HTML base PI,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Planejamento Integrado (se houver)
 M4 U6 · M4!C641 · Concluído",b_hb_pi,M4|641
-item,2026-11-16,M4 U6,2026-11-16,74,⚠ 03 BASE HTML RP,1/2 feitas · atrasada,#B0203F,#FFFFFF,#B0203F,#FFFFFF,1,,,cab:b_hb_rp,
+item,2026-11-16,M4 U6,2026-11-16,74,✔ 03 BASE HTML RP,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_hb_rp,
 item,2026-11-16,M4 U6,2026-11-16,75,✔ Editar Rubrica RP,Lucas,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Editar Rubrica - Residência Pedagógica (se houver)
 M4 U6 · M4!C636 · Concluído",b_hb_rp,M4|636
-item,2026-11-16,M4 U6,2026-11-16,76,⚠ HTML base RP,Maria Eduarda,#F9D6DD,#8A1830,#FDEFF2,#8A1830,1,,"HTML base - Residência Pedagógica (se houver)
-M4 U6 · M4!C642 · Liberado · ATRASADA",b_hb_rp,M4|642
+item,2026-11-16,M4 U6,2026-11-16,76,✔ HTML base RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML base - Residência Pedagógica (se houver)
+M4 U6 · M4!C642 · Concluído",b_hb_rp,M4|642
 bloco,2026-11-16,M4 U3,2026-11-17,0,M4 · UNIDADE 3,entrega ter 17/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U3
 template seg 09/11
 entrega ter 17/11",,
@@ -254,17 +254,17 @@ M4 U5 · M4!C554 · Liberado",b_rep,M4|554
 bloco,2026-11-16,M4 U6,2026-11-17,61,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U6,2026-11-17,62,04 REVISÃO BASE MET,0/2 feitas · em alerta,#FECB55,#14213A,#FECB55,#14213A,1,alerta,,cab:b_rb_met,
-item,2026-11-16,M4 U6,2026-11-17,63,Rev. HTML base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,alerta,"Revisão do HTML base - Metodologia
-M4 U6 · M4!C643 · Liberado",b_rb_met,M4|643
+item,2026-11-16,M4 U6,2026-11-17,62,04 REVISÃO BASE MET,1/2 feitas · em alerta,#FECB55,#14213A,#FECB55,#14213A,1,alerta,,cab:b_rb_met,
+item,2026-11-16,M4 U6,2026-11-17,63,✔ Rev. HTML base MET,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,alerta,"Revisão do HTML base - Metodologia
+M4 U6 · M4!C643 · Concluído",b_rb_met,M4|643
 item,2026-11-16,M4 U6,2026-11-17,64,Rev. H5P base MET,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,alerta,"Revisão das atividades H5P base - Metodologia
 M4 U6 · M4!C647 · Liberado",b_rb_met,M4|647
 item,2026-11-16,M4 U6,2026-11-17,65,04 REVISÃO BASE PI,0/1 feitas · em alerta,#FECB55,#14213A,#FECB55,#14213A,1,alerta,,cab:b_rb_pi,
 item,2026-11-16,M4 U6,2026-11-17,66,Rev. HTML base PI,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,alerta,"Revisão do HTML base - Planejamento Integrado (se houver)
 M4 U6 · M4!C645 · Liberado",b_rb_pi,M4|645
-item,2026-11-16,M4 U6,2026-11-17,67,🔒︎ 04 REVISÃO BASE RP,0/1 feitas · em alerta,#fff0cf,#fedb88,#fff0cf,#fedb88,1,alerta,,cab:b_rb_rp,
-item,2026-11-16,M4 U6,2026-11-17,68,🔒︎ Rev. HTML base RP,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,alerta,"Revisão do HTML base - Residência Pedagógica (se houver)
-M4 U6 · M4!C646 · Bloqueado",b_rb_rp,M4|646
+item,2026-11-16,M4 U6,2026-11-17,67,04 REVISÃO BASE RP,0/1 feitas · em alerta,#FECB55,#14213A,#FECB55,#14213A,1,alerta,,cab:b_rb_rp,
+item,2026-11-16,M4 U6,2026-11-17,68,Rev. HTML base RP,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,alerta,"Revisão do HTML base - Residência Pedagógica (se houver)
+M4 U6 · M4!C646 · Liberado",b_rb_rp,M4|646
 item,2026-11-16,M4 U6,2026-11-17,69,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
 item,2026-11-16,M4 U6,2026-11-17,70,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
 item,2026-11-16,M4 U6,2026-11-17,71,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
@@ -297,18 +297,18 @@ item,2026-11-16,M4 U5,2026-11-18,11,05 CORREÇÃO BASE ADM,corrigir o que a revi
 bloco,2026-11-16,M4 U6,2026-11-18,13,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U6,2026-11-18,14,◐ 01 VÍDEOS PET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_pet,
-item,2026-11-16,M4 U6,2026-11-18,15,Conferir vídeos PET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de PET foram criados
-M4 U6 · M4!C621 · Liberado",b_vid_pet,M4|621
-item,2026-11-16,M4 U6,2026-11-18,16,🔒︎ Criar vídeos PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de PET
-M4 U6 · M4!C625 · Bloqueado",b_vid_pet,M4|625
-item,2026-11-16,M4 U6,2026-11-18,17,🔒︎ YouTube PET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - PET
-M4 U6 · M4!C629 · Bloqueado",b_vid_pet,M4|629
-item,2026-11-16,M4 U6,2026-11-18,18,◐ 02 H5P BASE PET,0/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:b_h5p_pet,
-item,2026-11-16,M4 U6,2026-11-18,19,Mapear H5P ref. PET ADM,Thaís,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"Mapear os H5P de referência - PET (ADM)
-M4 U6 · M4!C635 · Liberado",b_h5p_pet,M4|635
-item,2026-11-16,M4 U6,2026-11-18,20,🔒︎ H5P base ADM PET,Maria Eduarda,#e0f1f8,#59b4db,#FFFFFF,#59b4db,,,"H5P base ADM - trilha de Prática do Ensino Técnico
-M4 U6 · M4!C638 · Bloqueado",b_h5p_pet,M4|638
+item,2026-11-16,M4 U6,2026-11-18,14,— 01 VÍDEOS PET,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pet,
+item,2026-11-16,M4 U6,2026-11-18,15,— Conferir vídeos PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PET foram criados
+M4 U6 · M4!C621 · Não se aplica",b_vid_pet,M4|621
+item,2026-11-16,M4 U6,2026-11-18,16,— Criar vídeos PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PET
+M4 U6 · M4!C625 · Não se aplica",b_vid_pet,M4|625
+item,2026-11-16,M4 U6,2026-11-18,17,— YouTube PET,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PET
+M4 U6 · M4!C629 · Não se aplica",b_vid_pet,M4|629
+item,2026-11-16,M4 U6,2026-11-18,18,▶ 02 H5P BASE PET,1/2 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:b_h5p_pet,
+item,2026-11-16,M4 U6,2026-11-18,19,✔ Mapear H5P ref. PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Mapear os H5P de referência - PET (ADM)
+M4 U6 · M4!C635 · Concluído",b_h5p_pet,M4|635
+item,2026-11-16,M4 U6,2026-11-18,20,H5P base ADM PET,Maria Eduarda,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"H5P base ADM - trilha de Prática do Ensino Técnico
+M4 U6 · M4!C638 · Liberado",b_h5p_pet,M4|638
 item,2026-11-16,M4 U6,2026-11-18,21,🔒︎ 04 REVISÃO BASE ADM,0/2 feitas · em alerta,#fff0cf,#fedb88,#fff0cf,#fedb88,1,alerta,,cab:b_rb_adm,
 item,2026-11-16,M4 U6,2026-11-18,22,🔒︎ Rev. HTML base PET ADM,Thaís,#fff9eb,#fedd91,#FFFFFF,#fedd91,,alerta,"Revisão do HTML base - PET (ADM)
 M4 U6 · M4!C644 · Bloqueado",b_rb_adm,M4|644
