@@ -243,14 +243,14 @@ M4 U5 · M4!C546 · Concluído",b_rb_pi,M4|546
 item,2026-11-16,M4 U5,2026-11-17,52,— 04 REVISÃO BASE RP,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_rb_rp,
 item,2026-11-16,M4 U5,2026-11-17,53,— Rev. HTML base RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M4 U5 · M4!C547 · Não se aplica",b_rb_rp,M4|547
-item,2026-11-16,M4 U5,2026-11-17,54,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
-item,2026-11-16,M4 U5,2026-11-17,55,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
-item,2026-11-16,M4 U5,2026-11-17,56,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
-item,2026-11-16,M4 U5,2026-11-17,57,▶ 06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,atual,,cab:b_rep,
-item,2026-11-16,M4 U5,2026-11-17,58,Replicar páginas MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,atual,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U5 · M4!C553 · Liberado",b_rep,M4|553
-item,2026-11-16,M4 U5,2026-11-17,59,Replicar H5P MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,atual,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U5 · M4!C554 · Liberado",b_rep,M4|554
+item,2026-11-16,M4 U5,2026-11-17,54,✔ 05 CORREÇÃO BASE MET,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_met,
+item,2026-11-16,M4 U5,2026-11-17,55,✔ 05 CORREÇÃO BASE PI,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_pi,
+item,2026-11-16,M4 U5,2026-11-17,56,✔ 05 CORREÇÃO BASE RP,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_rp,
+item,2026-11-16,M4 U5,2026-11-17,57,✔ 06 REPLICAR BASE MET_PI_RP HTML_H5P,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rep,
+item,2026-11-16,M4 U5,2026-11-17,58,✔ Replicar páginas MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U5 · M4!C553 · Concluído",b_rep,M4|553
+item,2026-11-16,M4 U5,2026-11-17,59,✔ Replicar H5P MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U5 · M4!C554 · Concluído",b_rep,M4|554
 bloco,2026-11-16,M4 U6,2026-11-17,61,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
@@ -318,23 +318,23 @@ item,2026-11-16,M4 U6,2026-11-18,24,05 CORREÇÃO BASE ADM,corrigir o que a revi
 bloco,2026-11-16,M4 U5,2026-11-19,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U5,2026-11-19,1,07 H5P PET 8 EIXOS,0/8 feitas,#1C7FB0,#FFFFFF,#1C7FB0,#FFFFFF,1,,,cab:b_h5p8,
-item,2026-11-16,M4 U5,2026-11-19,2,H5P de PET AGS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - AGS (Agro Sustentável)
-M4 U5 · M4!C555 · Liberado",b_h5p8,M4|555
-item,2026-11-16,M4 U5,2026-11-19,3,H5P de PET COM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - COM (Comunicação e Mercado)
-M4 U5 · M4!C556 · Liberado",b_h5p8,M4|556
-item,2026-11-16,M4 U5,2026-11-19,4,H5P de PET CDC,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - CDC (Criação Digital e Cultural)
-M4 U5 · M4!C557 · Liberado",b_h5p8,M4|557
-item,2026-11-16,M4 U5,2026-11-19,5,H5P de PET ECS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - ECS (Economia Social)
-M4 U5 · M4!C558 · Liberado",b_h5p8,M4|558
-item,2026-11-16,M4 U5,2026-11-19,6,H5P de PET GOP,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - GOP (Gestão e Operações)
-M4 U5 · M4!C559 · Liberado",b_h5p8,M4|559
-item,2026-11-16,M4 U5,2026-11-19,7,H5P de PET GIM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - GIM (Gestão Imobiliária)
-M4 U5 · M4!C560 · Liberado",b_h5p8,M4|560
-item,2026-11-16,M4 U5,2026-11-19,8,H5P de PET TI,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - TI (Tecnologia da Informação)
-M4 U5 · M4!C561 · Liberado",b_h5p8,M4|561
-item,2026-11-16,M4 U5,2026-11-19,9,H5P de PET TEV,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,,"H5P de PET - TEV (Turismo e Eventos)
-M4 U5 · M4!C562 · Liberado",b_h5p8,M4|562
+item,2026-11-16,M4 U5,2026-11-19,1,✔ 07 H5P PET 8 EIXOS,8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_h5p8,
+item,2026-11-16,M4 U5,2026-11-19,2,✔ H5P de PET AGS,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - AGS (Agro Sustentável)
+M4 U5 · M4!C555 · Concluído",b_h5p8,M4|555
+item,2026-11-16,M4 U5,2026-11-19,3,✔ H5P de PET COM,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - COM (Comunicação e Mercado)
+M4 U5 · M4!C556 · Concluído",b_h5p8,M4|556
+item,2026-11-16,M4 U5,2026-11-19,4,✔ H5P de PET CDC,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - CDC (Criação Digital e Cultural)
+M4 U5 · M4!C557 · Concluído",b_h5p8,M4|557
+item,2026-11-16,M4 U5,2026-11-19,5,✔ H5P de PET ECS,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - ECS (Economia Social)
+M4 U5 · M4!C558 · Concluído",b_h5p8,M4|558
+item,2026-11-16,M4 U5,2026-11-19,6,✔ H5P de PET GOP,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - GOP (Gestão e Operações)
+M4 U5 · M4!C559 · Concluído",b_h5p8,M4|559
+item,2026-11-16,M4 U5,2026-11-19,7,✔ H5P de PET GIM,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - GIM (Gestão Imobiliária)
+M4 U5 · M4!C560 · Concluído",b_h5p8,M4|560
+item,2026-11-16,M4 U5,2026-11-19,8,✔ H5P de PET TI,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - TI (Tecnologia da Informação)
+M4 U5 · M4!C561 · Concluído",b_h5p8,M4|561
+item,2026-11-16,M4 U5,2026-11-19,9,✔ H5P de PET TEV,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P de PET - TEV (Turismo e Eventos)
+M4 U5 · M4!C562 · Concluído",b_h5p8,M4|562
 bloco,2026-11-16,M4 U6,2026-11-19,11,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
@@ -379,15 +379,15 @@ dia,2026-11-23,,2026-11-27,4,SEX 27/11,,#1B6E8C,#FFFFFF,,,,,,,
 bloco,2026-11-23,M4 U5,2026-11-23,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U5,2026-11-23,1,🔒︎ 08 HTML PET,4/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
-item,2026-11-23,M4 U5,2026-11-23,2,🔒︎ HTML de PET AGS,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
-M4 U5 · M4!C563 · Bloqueado",b_htmlpet,M4|563
-item,2026-11-23,M4 U5,2026-11-23,3,🔒︎ HTML de PET COM,Gustavo,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
-M4 U5 · M4!C564 · Bloqueado",b_htmlpet,M4|564
-item,2026-11-23,M4 U5,2026-11-23,4,🔒︎ HTML de PET CDC,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
-M4 U5 · M4!C565 · Bloqueado",b_htmlpet,M4|565
-item,2026-11-23,M4 U5,2026-11-23,5,🔒︎ HTML de PET ECS,Anna Paula,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
-M4 U5 · M4!C566 · Bloqueado",b_htmlpet,M4|566
+item,2026-11-23,M4 U5,2026-11-23,1,✔ 08 HTML PET,8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_htmlpet,
+item,2026-11-23,M4 U5,2026-11-23,2,✔ HTML de PET AGS,Gustavo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - AGS (Agro Sustentável)
+M4 U5 · M4!C563 · Concluído",b_htmlpet,M4|563
+item,2026-11-23,M4 U5,2026-11-23,3,✔ HTML de PET COM,Gustavo,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - COM (Comunicação e Mercado)
+M4 U5 · M4!C564 · Concluído",b_htmlpet,M4|564
+item,2026-11-23,M4 U5,2026-11-23,4,✔ HTML de PET CDC,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - CDC (Criação Digital e Cultural)
+M4 U5 · M4!C565 · Concluído",b_htmlpet,M4|565
+item,2026-11-23,M4 U5,2026-11-23,5,✔ HTML de PET ECS,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - ECS (Economia Social)
+M4 U5 · M4!C566 · Concluído",b_htmlpet,M4|566
 item,2026-11-23,M4 U5,2026-11-23,6,✔ HTML de PET GOP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - GOP (Gestão e Operações)
 M4 U5 · M4!C567 · Concluído",b_htmlpet,M4|567
 item,2026-11-23,M4 U5,2026-11-23,7,✔ HTML de PET GIM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"HTML de PET - GIM (Gestão Imobiliária)
@@ -539,26 +539,26 @@ item,2026-11-23,M4 U8,2026-11-23,96,05 CORREÇÃO BASE PI,corrigir o que a revis
 bloco,2026-11-23,M4 U5,2026-11-24,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U5,2026-11-24,1,🔒︎ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#fce6c1,#f8c165,#fce6c1,#f8c165,1,,,cab:b_rpet,
-item,2026-11-23,M4 U5,2026-11-24,2,🔒︎ Rev. final AGS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - AGS (Agro Sustentável)
-M4 U5 · M4!C571 · Bloqueado",b_rpet,M4|571
-item,2026-11-23,M4 U5,2026-11-24,3,🔒︎ Rev. final COM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - COM (Comunicação e Mercado)
-M4 U5 · M4!C572 · Bloqueado",b_rpet,M4|572
-item,2026-11-23,M4 U5,2026-11-24,4,🔒︎ Rev. final CDC,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - CDC (Criação Digital e Cultural)
-M4 U5 · M4!C573 · Bloqueado",b_rpet,M4|573
-item,2026-11-23,M4 U5,2026-11-24,5,🔒︎ Rev. final ECS,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - ECS (Economia Social)
-M4 U5 · M4!C574 · Bloqueado",b_rpet,M4|574
-item,2026-11-23,M4 U5,2026-11-24,6,🔒︎ Rev. final GOP,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GOP (Gestão e Operações)
-M4 U5 · M4!C575 · Bloqueado",b_rpet,M4|575
-item,2026-11-23,M4 U5,2026-11-24,7,🔒︎ Rev. final GIM,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - GIM (Gestão Imobiliária)
-M4 U5 · M4!C576 · Bloqueado",b_rpet,M4|576
-item,2026-11-23,M4 U5,2026-11-24,8,🔒︎ Rev. final TI,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M4 U5 · M4!C577 · Bloqueado",b_rpet,M4|577
-item,2026-11-23,M4 U5,2026-11-24,9,🔒︎ Rev. final TEV,Alline,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M4 U5 · M4!C578 · Bloqueado",b_rpet,M4|578
-item,2026-11-23,M4 U5,2026-11-24,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
-item,2026-11-23,M4 U5,2026-11-24,11,🔒︎ Ajustes da revisão final,Maria Eduarda,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
-M4 U5 · M4!C580 · Bloqueado",b_cpet,M4|580
+item,2026-11-23,M4 U5,2026-11-24,1,▶ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:b_rpet,
+item,2026-11-23,M4 U5,2026-11-24,2,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
+M4 U5 · M4!C571 · Liberado",b_rpet,M4|571
+item,2026-11-23,M4 U5,2026-11-24,3,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
+M4 U5 · M4!C572 · Liberado",b_rpet,M4|572
+item,2026-11-23,M4 U5,2026-11-24,4,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
+M4 U5 · M4!C573 · Liberado",b_rpet,M4|573
+item,2026-11-23,M4 U5,2026-11-24,5,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
+M4 U5 · M4!C574 · Liberado",b_rpet,M4|574
+item,2026-11-23,M4 U5,2026-11-24,6,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GOP (Gestão e Operações)
+M4 U5 · M4!C575 · Liberado",b_rpet,M4|575
+item,2026-11-23,M4 U5,2026-11-24,7,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GIM (Gestão Imobiliária)
+M4 U5 · M4!C576 · Liberado",b_rpet,M4|576
+item,2026-11-23,M4 U5,2026-11-24,8,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TI (Tecnologia da Informação)
+M4 U5 · M4!C577 · Liberado",b_rpet,M4|577
+item,2026-11-23,M4 U5,2026-11-24,9,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TEV (Turismo e Eventos)
+M4 U5 · M4!C578 · Liberado",b_rpet,M4|578
+item,2026-11-23,M4 U5,2026-11-24,10,✔ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cpet,
+item,2026-11-23,M4 U5,2026-11-24,11,✔ Ajustes da revisão final,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar os ajustes apontados na revisão final
+M4 U5 · M4!C580 · Concluído",b_cpet,M4|580
 item,2026-11-23,M4 U5,2026-11-24,12,🔒︎ 11 AJUSTES FINAIS,1/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
 item,2026-11-23,M4 U5,2026-11-24,13,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M4 U5 · M4!C581 · Concluído",b_aj,M4|581
