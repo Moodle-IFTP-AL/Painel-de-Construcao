@@ -265,14 +265,14 @@ M4 U6 · M4!C645 · Concluído",b_rb_pi,M4|645
 item,2026-11-16,M4 U6,2026-11-17,67,✔ 04 REVISÃO BASE RP,1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_rp,
 item,2026-11-16,M4 U6,2026-11-17,68,✔ Rev. HTML base RP,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - Residência Pedagógica (se houver)
 M4 U6 · M4!C646 · Concluído",b_rb_rp,M4|646
-item,2026-11-16,M4 U6,2026-11-17,69,05 CORREÇÃO BASE MET,corrigir o que a revisão de MET apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_met,
-item,2026-11-16,M4 U6,2026-11-17,70,05 CORREÇÃO BASE PI,corrigir o que a revisão de PI apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_pi,
-item,2026-11-16,M4 U6,2026-11-17,71,05 CORREÇÃO BASE RP,corrigir o que a revisão de RP apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_rp,
-item,2026-11-16,M4 U6,2026-11-17,72,06 REPLICAR BASE MET_PI_RP HTML_H5P,0/2 feitas,#0DD29E,#14213A,#0DD29E,#14213A,1,,,cab:b_rep,
-item,2026-11-16,M4 U6,2026-11-17,73,Replicar páginas MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
-M4 U6 · M4!C652 · Liberado",b_rep,M4|652
-item,2026-11-16,M4 U6,2026-11-17,74,Replicar H5P MET/PI/RP,Maria Eduarda,#caf5ea,#25314C,#FFFFFF,#25314C,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
-M4 U6 · M4!C653 · Liberado",b_rep,M4|653
+item,2026-11-16,M4 U6,2026-11-17,69,✔ 05 CORREÇÃO BASE MET,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_met,
+item,2026-11-16,M4 U6,2026-11-17,70,✔ 05 CORREÇÃO BASE PI,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_pi,
+item,2026-11-16,M4 U6,2026-11-17,71,✔ 05 CORREÇÃO BASE RP,concluída: replicação feita,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cb_rp,
+item,2026-11-16,M4 U6,2026-11-17,72,✔ 06 REPLICAR BASE MET_PI_RP HTML_H5P,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rep,
+item,2026-11-16,M4 U6,2026-11-17,73,✔ Replicar páginas MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação das páginas de MET, PI e RP nos 8 eixos
+M4 U6 · M4!C652 · Concluído",b_rep,M4|652
+item,2026-11-16,M4 U6,2026-11-17,74,✔ Replicar H5P MET/PI/RP,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Replicação dos H5P de MET, PI e RP nos 8 eixos
+M4 U6 · M4!C653 · Concluído",b_rep,M4|653
 bloco,2026-11-16,M4 U5,2026-11-18,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
