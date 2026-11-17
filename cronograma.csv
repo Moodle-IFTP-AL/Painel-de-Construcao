@@ -309,11 +309,11 @@ item,2026-11-16,M4 U6,2026-11-18,19,✔ Mapear H5P ref. PET ADM,Thaís,#EEF9F3,#
 M4 U6 · M4!C635 · Concluído",b_h5p_pet,M4|635
 item,2026-11-16,M4 U6,2026-11-18,20,✔ H5P base ADM PET,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"H5P base ADM - trilha de Prática do Ensino Técnico
 M4 U6 · M4!C638 · Concluído",b_h5p_pet,M4|638
-item,2026-11-16,M4 U6,2026-11-18,21,▶ 04 REVISÃO BASE ADM,0/2 feitas,#FECB55,#14213A,#FECB55,#14213A,1,atual,,cab:b_rb_adm,
-item,2026-11-16,M4 U6,2026-11-18,22,Rev. HTML base PET ADM,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão do HTML base - PET (ADM)
-M4 U6 · M4!C644 · Liberado",b_rb_adm,M4|644
-item,2026-11-16,M4 U6,2026-11-18,23,Rev. H5P base PET ADM,Thaís,#fff4da,#25314C,#FFFFFF,#25314C,,atual,"Revisão das atividades H5P base - PET (ADM)
-M4 U6 · M4!C648 · Liberado",b_rb_adm,M4|648
+item,2026-11-16,M4 U6,2026-11-18,21,✔ 04 REVISÃO BASE ADM,2/2 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rb_adm,
+item,2026-11-16,M4 U6,2026-11-18,22,✔ Rev. HTML base PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão do HTML base - PET (ADM)
+M4 U6 · M4!C644 · Concluído",b_rb_adm,M4|644
+item,2026-11-16,M4 U6,2026-11-18,23,✔ Rev. H5P base PET ADM,Thaís,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão das atividades H5P base - PET (ADM)
+M4 U6 · M4!C648 · Concluído",b_rb_adm,M4|648
 item,2026-11-16,M4 U6,2026-11-18,24,05 CORREÇÃO BASE ADM,corrigir o que a revisão de ADM apontou,#FFE7A8,#14213A,#FFE7A8,#14213A,1,,,cab:b_cb_adm,
 bloco,2026-11-16,M4 U5,2026-11-19,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
@@ -338,22 +338,22 @@ M4 U5 · M4!C562 · Concluído",b_h5p8,M4|562
 bloco,2026-11-16,M4 U6,2026-11-19,11,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U6,2026-11-19,12,🔒︎ 07 H5P PET 8 EIXOS,0/8 feitas,#bfdbe9,#60a5c8,#bfdbe9,#60a5c8,1,,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p8,
-item,2026-11-16,M4 U6,2026-11-19,13,🔒︎ H5P de PET AGS,Marquito,#e4f0f6,#6baccc,#FFFFFF,#6baccc,,,"H5P de PET - AGS (Agro Sustentável)
-M4 U6 · M4!C654 · Bloqueado",b_h5p8,M4|654
-item,2026-11-16,M4 U6,2026-11-19,14,🔒︎ H5P de PET COM,Marquito,#e4f0f6,#6baccc,#FFFFFF,#6baccc,,,"H5P de PET - COM (Comunicação e Mercado)
-M4 U6 · M4!C655 · Bloqueado",b_h5p8,M4|655
-item,2026-11-16,M4 U6,2026-11-19,15,🔒︎ H5P de PET CDC,Marquito,#e4f0f6,#6baccc,#FFFFFF,#6baccc,,,"H5P de PET - CDC (Criação Digital e Cultural)
-M4 U6 · M4!C656 · Bloqueado",b_h5p8,M4|656
-item,2026-11-16,M4 U6,2026-11-19,16,🔒︎ H5P de PET ECS,Marquito,#e4f0f6,#6baccc,#FFFFFF,#6baccc,,,"H5P de PET - ECS (Economia Social)
-M4 U6 · M4!C657 · Bloqueado",b_h5p8,M4|657
-item,2026-11-16,M4 U6,2026-11-19,17,🔒︎ H5P de PET GOP,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - GOP (Gestão e Operações)
+item,2026-11-16,M4 U6,2026-11-19,12,◐ 07 H5P PET 8 EIXOS,0/8 feitas,#1C7FB0,#FFFFFF,#1C7FB0,#FFFFFF,1,atual,4 tarefa(s) só previstas: o template ainda não está no Moodle.,cab:b_h5p8,
+item,2026-11-16,M4 U6,2026-11-19,13,H5P de PET AGS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - AGS (Agro Sustentável)
+M4 U6 · M4!C654 · Liberado",b_h5p8,M4|654
+item,2026-11-16,M4 U6,2026-11-19,14,H5P de PET COM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - COM (Comunicação e Mercado)
+M4 U6 · M4!C655 · Liberado",b_h5p8,M4|655
+item,2026-11-16,M4 U6,2026-11-19,15,H5P de PET CDC,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - CDC (Criação Digital e Cultural)
+M4 U6 · M4!C656 · Liberado",b_h5p8,M4|656
+item,2026-11-16,M4 U6,2026-11-19,16,H5P de PET ECS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - ECS (Economia Social)
+M4 U6 · M4!C657 · Liberado",b_h5p8,M4|657
+item,2026-11-16,M4 U6,2026-11-19,17,🔒︎ H5P de PET GOP,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,atual,"H5P de PET - GOP (Gestão e Operações)
 M4 U6 · M4!C658 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|658
-item,2026-11-16,M4 U6,2026-11-19,18,🔒︎ H5P de PET GIM,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - GIM (Gestão Imobiliária)
+item,2026-11-16,M4 U6,2026-11-19,18,🔒︎ H5P de PET GIM,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,atual,"H5P de PET - GIM (Gestão Imobiliária)
 M4 U6 · M4!C659 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|659
-item,2026-11-16,M4 U6,2026-11-19,19,🔒︎ H5P de PET TI,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - TI (Tecnologia da Informação)
+item,2026-11-16,M4 U6,2026-11-19,19,🔒︎ H5P de PET TI,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,atual,"H5P de PET - TI (Tecnologia da Informação)
 M4 U6 · M4!C660 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|660
-item,2026-11-16,M4 U6,2026-11-19,20,🔒︎ H5P de PET TEV,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,,"H5P de PET - TEV (Turismo e Eventos)
+item,2026-11-16,M4 U6,2026-11-19,20,🔒︎ H5P de PET TEV,Marquito,#F5F6F8,#A0A7B4,#FFFFFF,#A0A7B4,,atual,"H5P de PET - TEV (Turismo e Eventos)
 M4 U6 · M4!C661 · Bloqueado · previsto: o template ainda não está no Moodle",b_h5p8,M4|661
 item,2026-11-16,,2026-11-20,0,feriado,,#E7EBF1,#8C97AD,#E7EBF1,#8C97AD,,,,,
 semana,2026-11-23,,,,"SEMANA DE 23/11 A 27/11   ·   em construção: M4 U5, M4 U6, M4 U7, M4 U8, M4 8ª gravação   ·   entregas: M4 U5 (ter 24/11), M4 U6 (ter 24/11), M4 U7 (qui 26/11), M4 U8 (qui 26/11), M4 8ª gravação (qui 26/11)",,,,,,,,,,
