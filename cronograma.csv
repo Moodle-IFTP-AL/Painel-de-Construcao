@@ -338,11 +338,11 @@ M4 U5 · M4!C562 · Concluído",b_h5p8,M4|562
 bloco,2026-11-16,M4 U6,2026-11-19,11,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-16,M4 U6,2026-11-19,12,▶ 07 H5P PET 8 EIXOS,0/8 feitas,#1C7FB0,#FFFFFF,#1C7FB0,#FFFFFF,1,atual,,cab:b_h5p8,
-item,2026-11-16,M4 U6,2026-11-19,13,H5P de PET AGS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - AGS (Agro Sustentável)
-M4 U6 · M4!C654 · Liberado",b_h5p8,M4|654
-item,2026-11-16,M4 U6,2026-11-19,14,H5P de PET COM,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - COM (Comunicação e Mercado)
-M4 U6 · M4!C655 · Liberado",b_h5p8,M4|655
+item,2026-11-16,M4 U6,2026-11-19,12,▶ 07 H5P PET 8 EIXOS,2/8 feitas,#1C7FB0,#FFFFFF,#1C7FB0,#FFFFFF,1,atual,,cab:b_h5p8,
+item,2026-11-16,M4 U6,2026-11-19,13,✔ H5P de PET AGS,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"H5P de PET - AGS (Agro Sustentável)
+M4 U6 · M4!C654 · Concluído",b_h5p8,M4|654
+item,2026-11-16,M4 U6,2026-11-19,14,✔ H5P de PET COM,Marquito,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"H5P de PET - COM (Comunicação e Mercado)
+M4 U6 · M4!C655 · Concluído",b_h5p8,M4|655
 item,2026-11-16,M4 U6,2026-11-19,15,H5P de PET CDC,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - CDC (Criação Digital e Cultural)
 M4 U6 · M4!C656 · Liberado",b_h5p8,M4|656
 item,2026-11-16,M4 U6,2026-11-19,16,H5P de PET ECS,Marquito,#cde3ee,#25314C,#FFFFFF,#25314C,,atual,"H5P de PET - ECS (Economia Social)
@@ -399,11 +399,11 @@ M4 U5 · M4!C570 · Concluído",b_htmlpet,M4|570
 bloco,2026-11-23,M4 U6,2026-11-23,11,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U6,2026-11-23,12,🔒︎ 08 HTML PET,0/8 feitas,#c9e9f5,#79c7e7,#c9e9f5,#79c7e7,1,,,cab:b_htmlpet,
-item,2026-11-23,M4 U6,2026-11-23,13,🔒︎ HTML de PET AGS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - AGS (Agro Sustentável)
-M4 U6 · M4!C662 · Bloqueado",b_htmlpet,M4|662
-item,2026-11-23,M4 U6,2026-11-23,14,🔒︎ HTML de PET COM,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - COM (Comunicação e Mercado)
-M4 U6 · M4!C663 · Bloqueado",b_htmlpet,M4|663
+item,2026-11-23,M4 U6,2026-11-23,12,◐ 08 HTML PET,0/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,,,cab:b_htmlpet,
+item,2026-11-23,M4 U6,2026-11-23,13,HTML de PET AGS,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,,"HTML de PET - AGS (Agro Sustentável)
+M4 U6 · M4!C662 · Liberado",b_htmlpet,M4|662
+item,2026-11-23,M4 U6,2026-11-23,14,HTML de PET COM,Maria Eduarda,#d5edf8,#25314C,#FFFFFF,#25314C,,,"HTML de PET - COM (Comunicação e Mercado)
+M4 U6 · M4!C663 · Liberado",b_htmlpet,M4|663
 item,2026-11-23,M4 U6,2026-11-23,15,🔒︎ HTML de PET CDC,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - CDC (Criação Digital e Cultural)
 M4 U6 · M4!C664 · Bloqueado",b_htmlpet,M4|664
 item,2026-11-23,M4 U6,2026-11-23,16,🔒︎ HTML de PET ECS,Maria Eduarda,#e8f5fb,#82cbe9,#FFFFFF,#82cbe9,,,"HTML de PET - ECS (Economia Social)
