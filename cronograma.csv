@@ -539,40 +539,40 @@ item,2026-11-23,M4 U8,2026-11-23,96,05 CORREÇÃO BASE PI,corrigir o que a revis
 bloco,2026-11-23,M4 U5,2026-11-24,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
 entrega ter 24/11",,
-item,2026-11-23,M4 U5,2026-11-24,1,▶ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/8 feitas,#F5A623,#14213A,#F5A623,#14213A,1,atual,,cab:b_rpet,
-item,2026-11-23,M4 U5,2026-11-24,2,Rev. final AGS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - AGS (Agro Sustentável)
-M4 U5 · M4!C571 · Liberado",b_rpet,M4|571
-item,2026-11-23,M4 U5,2026-11-24,3,Rev. final COM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - COM (Comunicação e Mercado)
-M4 U5 · M4!C572 · Liberado",b_rpet,M4|572
-item,2026-11-23,M4 U5,2026-11-24,4,Rev. final CDC,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - CDC (Criação Digital e Cultural)
-M4 U5 · M4!C573 · Liberado",b_rpet,M4|573
-item,2026-11-23,M4 U5,2026-11-24,5,Rev. final ECS,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - ECS (Economia Social)
-M4 U5 · M4!C574 · Liberado",b_rpet,M4|574
-item,2026-11-23,M4 U5,2026-11-24,6,Rev. final GOP,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GOP (Gestão e Operações)
-M4 U5 · M4!C575 · Liberado",b_rpet,M4|575
-item,2026-11-23,M4 U5,2026-11-24,7,Rev. final GIM,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - GIM (Gestão Imobiliária)
-M4 U5 · M4!C576 · Liberado",b_rpet,M4|576
-item,2026-11-23,M4 U5,2026-11-24,8,Rev. final TI,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TI (Tecnologia da Informação)
-M4 U5 · M4!C577 · Liberado",b_rpet,M4|577
-item,2026-11-23,M4 U5,2026-11-24,9,Rev. final TEV,Alline,#fdebcf,#25314C,#FFFFFF,#25314C,,atual,"Revisão final - TEV (Turismo e Eventos)
-M4 U5 · M4!C578 · Liberado",b_rpet,M4|578
+item,2026-11-23,M4 U5,2026-11-24,1,✔ 09 REVISÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),8/8 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_rpet,
+item,2026-11-23,M4 U5,2026-11-24,2,✔ Rev. final AGS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - AGS (Agro Sustentável)
+M4 U5 · M4!C571 · Concluído",b_rpet,M4|571
+item,2026-11-23,M4 U5,2026-11-24,3,✔ Rev. final COM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - COM (Comunicação e Mercado)
+M4 U5 · M4!C572 · Concluído",b_rpet,M4|572
+item,2026-11-23,M4 U5,2026-11-24,4,✔ Rev. final CDC,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - CDC (Criação Digital e Cultural)
+M4 U5 · M4!C573 · Concluído",b_rpet,M4|573
+item,2026-11-23,M4 U5,2026-11-24,5,✔ Rev. final ECS,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - ECS (Economia Social)
+M4 U5 · M4!C574 · Concluído",b_rpet,M4|574
+item,2026-11-23,M4 U5,2026-11-24,6,✔ Rev. final GOP,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GOP (Gestão e Operações)
+M4 U5 · M4!C575 · Concluído",b_rpet,M4|575
+item,2026-11-23,M4 U5,2026-11-24,7,✔ Rev. final GIM,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - GIM (Gestão Imobiliária)
+M4 U5 · M4!C576 · Concluído",b_rpet,M4|576
+item,2026-11-23,M4 U5,2026-11-24,8,✔ Rev. final TI,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TI (Tecnologia da Informação)
+M4 U5 · M4!C577 · Concluído",b_rpet,M4|577
+item,2026-11-23,M4 U5,2026-11-24,9,✔ Rev. final TEV,Alline,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Revisão final - TEV (Turismo e Eventos)
+M4 U5 · M4!C578 · Concluído",b_rpet,M4|578
 item,2026-11-23,M4 U5,2026-11-24,10,✔ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),1/1 feitas,#E3F5EC,#8FB5A3,#E3F5EC,#8FB5A3,1,,,cab:b_cpet,
 item,2026-11-23,M4 U5,2026-11-24,11,✔ Ajustes da revisão final,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar os ajustes apontados na revisão final
 M4 U5 · M4!C580 · Concluído",b_cpet,M4|580
-item,2026-11-23,M4 U5,2026-11-24,12,🔒︎ 11 AJUSTES FINAIS,1/6 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
-item,2026-11-23,M4 U5,2026-11-24,13,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
+item,2026-11-23,M4 U5,2026-11-24,12,◐ 11 AJUSTES FINAIS,1/6 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:b_aj,
+item,2026-11-23,M4 U5,2026-11-24,13,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M4 U5 · M4!C581 · Concluído",b_aj,M4|581
-item,2026-11-23,M4 U5,2026-11-24,14,🔒︎ Mapear certificáveis MET,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
-M4 U5 · M4!C582 · Bloqueado",b_aj,M4|582
-item,2026-11-23,M4 U5,2026-11-24,15,🔒︎ Mapear certificáveis PI,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
-M4 U5 · M4!C583 · Bloqueado",b_aj,M4|583
-item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U5,2026-11-24,14,Mapear certificáveis MET,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de MET
+M4 U5 · M4!C582 · Liberado",b_aj,M4|582
+item,2026-11-23,M4 U5,2026-11-24,15,Mapear certificáveis PI,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PI
+M4 U5 · M4!C583 · Liberado",b_aj,M4|583
+item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,atual,"Mapear as atividades certificáveis de RP
 M4 U5 · M4!C584 · Não se aplica",b_aj,M4|584
-item,2026-11-23,M4 U5,2026-11-24,17,🔒︎ Mapear certificáveis PET,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
-M4 U5 · M4!C585 · Bloqueado",b_aj,M4|585
-item,2026-11-23,M4 U5,2026-11-24,18,🔒︎ Requisitos da certificação,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
+item,2026-11-23,M4 U5,2026-11-24,17,Mapear certificáveis PET,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PET
+M4 U5 · M4!C585 · Liberado",b_aj,M4|585
+item,2026-11-23,M4 U5,2026-11-24,18,🔒︎ Requisitos da certificação,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Inserir os requisitos de acesso à certificação
 M4 U5 · M4!C586 · Bloqueado",b_aj,M4|586
-item,2026-11-23,M4 U5,2026-11-24,19,🔒︎ Revisar configurações,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-11-23,M4 U5,2026-11-24,19,🔒︎ Revisar configurações,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M4 U5 · M4!C587 · Bloqueado",b_aj,M4|587
 item,2026-11-23,M4 U5,2026-11-24,20,🔒︎ 12 LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:b_lib,
 item,2026-11-23,M4 U5,2026-11-24,21,🔒︎ Liberar a unidade,Thaís,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
