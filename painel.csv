@@ -1757,8 +1757,8 @@ M4,U6,Liberação,Liberar a unidade,Thaís,Bloqueado,24/11,24/11,23/11,,,,-,"0,5
 M4,U7,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,19/11,19/11,16/11,19/11,19/11/2026,19/11/2026,-,0,
 M4,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,19/11,19/11,16/11,19/11,19/11/2026,19/11/2026,-,0,
 M4,U7,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
-M4,U7,Template,PET - ADM (Administração) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
+M4,U7,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
 M4,U7,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
 M4,U7,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
 M4,U7,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
@@ -1778,7 +1778,7 @@ M4,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Em andamento,23/11,23/11,23/11,,19/11/2026,,Em andamento,"0,2",Vence hoje
 M4,U7,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,23/11,23/11,23/11,,,,Não se aplica,"0,2",
 M4,U7,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,,,,,,,-,"0,2",
-M4,U7,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,"0,2",Vence hoje
+M4,U7,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,23/11,23/11,23/11,,23/11/2026,,-,"0,2",Vence hoje
 M4,U7,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,2,Vence hoje
 M4,U7,Pré-base,Criar os vídeos de PI,,Não se aplica,23/11,23/11,23/11,,,,-,4,
 M4,U7,Pré-base,Criar os vídeos de RP,,Não se aplica,,,,,,,-,4,
@@ -1792,12 +1792,12 @@ M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PET",,Não se aplica,17/11,24/11,23/11,,,,Não se aplica,6,
 M4,U7,Pré-base,Mapear os H5P de referência - Metodologia,Marcelo,Liberado,23/11,23/11,23/11,,19/11/2026,,-,2,Vence hoje
-M4,U7,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,2,Vence hoje
+M4,U7,Pré-base,Mapear os H5P de referência - PET (ADM),Marcelo,Liberado,23/11,23/11,23/11,,23/11/2026,,-,2,Vence hoje
 M4,U7,Pré-base,Editar Rubrica - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,2,
 M4,U7,Base,H5P base - trilha de Metodologia,Maria Eduarda,Bloqueado,23/11,23/11,23/11,,,,-,"0,5",Vence hoje
 M4,U7,Base,H5P base ADM - trilha de Prática do Ensino Técnico,Maria Eduarda,Bloqueado,23/11,23/11,23/11,,,,-,"0,5",Vence hoje
 M4,U7,Base,HTML base - Metodologia Pedagógica,Maria Eduarda,Liberado,23/11,23/11,23/11,,19/11/2026,,-,1,Vence hoje
-M4,U7,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Bloqueado,23/11,23/11,23/11,,,,-,1,Vence hoje
+M4,U7,Base,HTML base ADM - Prática do Ensino Técnico,Maria Eduarda,Liberado,23/11,23/11,23/11,,23/11/2026,,-,1,Vence hoje
 M4,U7,Base,HTML base - Planejamento Integrado (se houver),Maria Eduarda,Liberado,23/11,23/11,23/11,,19/11/2026,,-,1,Vence hoje
 M4,U7,Base,HTML base - Residência Pedagógica (se houver),,Não se aplica,,,,,,,-,1,
 M4,U7,Revisão inicial,Revisão do HTML base - Metodologia,Marcelo,Bloqueado,23/11,23/11,23/11,,,,-,1,Vence hoje
