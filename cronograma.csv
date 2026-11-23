@@ -70,11 +70,11 @@ M4 U7 · M4!C721 · Bloqueado",b_vid_met,M4|721
 item,2026-11-23,M4 U7,2026-11-23,26,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - MET
 M4 U7 · M4!C725 · Bloqueado",b_vid_met,M4|725
 item,2026-11-23,M4 U7,2026-11-23,27,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
-item,2026-11-23,M4 U7,2026-11-23,28,— Conferir vídeos PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
+item,2026-11-23,M4 U7,2026-11-23,28,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
 M4 U7 · M4!C718 · Não se aplica",b_vid_pi,M4|718
-item,2026-11-23,M4 U7,2026-11-23,29,— Criar vídeos PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
+item,2026-11-23,M4 U7,2026-11-23,29,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
 M4 U7 · M4!C722 · Não se aplica",b_vid_pi,M4|722
-item,2026-11-23,M4 U7,2026-11-23,30,— YouTube PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
+item,2026-11-23,M4 U7,2026-11-23,30,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
 M4 U7 · M4!C726 · Não se aplica",b_vid_pi,M4|726
 item,2026-11-23,M4 U7,2026-11-23,31,◐ 01 VÍDEOS PET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_pet,
 item,2026-11-23,M4 U7,2026-11-23,32,Conferir vídeos PET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de PET foram criados
@@ -209,7 +209,7 @@ item,2026-11-23,M4 U5,2026-11-24,14,Mapear certificáveis MET,Marcelo,#d6d6e6,#2
 M4 U5 · M4!C582 · Liberado",b_aj,M4|582
 item,2026-11-23,M4 U5,2026-11-24,15,Mapear certificáveis PI,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PI
 M4 U5 · M4!C583 · Liberado",b_aj,M4|583
-item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,atual,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,atual,"Mapear as atividades certificáveis de RP
 M4 U5 · M4!C584 · Não se aplica",b_aj,M4|584
 item,2026-11-23,M4 U5,2026-11-24,17,Mapear certificáveis PET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PET
 M4 U5 · M4!C585 · Liberado",b_aj,M4|585
@@ -519,7 +519,7 @@ item,2026-11-23,M4 U7,2026-11-27,14,🔒︎ Mapear certificáveis MET,Marcelo,#e
 M4 U7 · M4!C780 · Bloqueado",b_aj,M4|780
 item,2026-11-23,M4 U7,2026-11-27,15,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U7 · M4!C781 · Bloqueado",b_aj,M4|781
-item,2026-11-23,M4 U7,2026-11-27,16,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U7,2026-11-27,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U7 · M4!C782 · Não se aplica",b_aj,M4|782
 item,2026-11-23,M4 U7,2026-11-27,17,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U7 · M4!C783 · Bloqueado",b_aj,M4|783
@@ -560,7 +560,7 @@ item,2026-11-23,M4 U8,2026-11-27,37,🔒︎ Mapear certificáveis MET,Marcelo,#e
 M4 U8 · M4!C879 · Bloqueado",b_aj,M4|879
 item,2026-11-23,M4 U8,2026-11-27,38,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U8 · M4!C880 · Bloqueado",b_aj,M4|880
-item,2026-11-23,M4 U8,2026-11-27,39,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U8,2026-11-27,39,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U8 · M4!C881 · Não se aplica",b_aj,M4|881
 item,2026-11-23,M4 U8,2026-11-27,40,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U8 · M4!C882 · Bloqueado",b_aj,M4|882
