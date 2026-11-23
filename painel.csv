@@ -1759,13 +1759,13 @@ M4,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluí
 M4,U7,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
 M4,U7,Template,PET - ADM (Administração) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
 M4,U7,Template,PET - AGS (Agro Sustentável) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
-M4,U7,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U7,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
+M4,U7,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U7,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
 M4,U7,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U7,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U7,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
@@ -1854,9 +1854,9 @@ M4,U8,Template,PET - COM (Comunicação e Mercado) - validado e revisado,Dani,Co
 M4,U8,Template,PET - CDC (Criação Digital e Cultural) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,19/11,17/11/2026,19/11/2026,-,0,
 M4,U8,Template,PET - ECS (Economia Social) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,19/11,17/11/2026,19/11/2026,-,0,
 M4,U8,Template,PET - GOP (Gestão e Operações) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,19/11,17/11/2026,19/11/2026,-,0,
-M4,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
-M4,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Atrasado,17/11,17/11,16/11,,17/11/2026,,-,0,Atrasada
+M4,U8,Template,PET - GIM (Gestão Imobiliária) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U8,Template,PET - TI (Tecnologia da Informação) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
+M4,U8,Template,PET - TEV (Turismo e Eventos) - validado e revisado,Dani,Concluído,17/11,17/11,16/11,23/11,17/11/2026,23/11/2026,-,0,
 M4,U8,Pré-base,(ADM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U8,Pré-base,(AGS) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U8,Pré-base,(COM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
