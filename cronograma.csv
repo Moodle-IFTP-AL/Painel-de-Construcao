@@ -14,7 +14,7 @@ template seg 23/11
 entrega qui 26/11",,,,,,,,,,
 unidade,2026-11-23,M4 8ª gravação,,,"M4 · 8ª GRAVAÇÃO
 entrega qui 26/11",,,,,,,,,,
-dia,2026-11-23,,2026-11-23,0,SEG 23/11,,#1B6E8C,#FFFFFF,,,,,,,
+dia,2026-11-23,,2026-11-23,0,SEG 23/11,hoje,#FECB55,#14213A,,,,,,,
 dia,2026-11-23,,2026-11-24,1,TER 24/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-23,,2026-11-25,2,QUA 25/11,,#1B6E8C,#FFFFFF,,,,,,,
 dia,2026-11-23,,2026-11-26,3,QUI 26/11,,#1B6E8C,#FFFFFF,,,,,,,
@@ -62,12 +62,12 @@ M4 U6 · M4!C669 · Concluído",b_htmlpet,M4|669
 bloco,2026-11-23,M4 U7,2026-11-23,22,M4 · UNIDADE 7,entrega qui 26/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U7
 template seg 23/11
 entrega qui 26/11",,
-item,2026-11-23,M4 U7,2026-11-23,23,◐ 01 VÍDEOS MET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_met,
-item,2026-11-23,M4 U7,2026-11-23,24,Conferir vídeos MET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de MET foram criados
+item,2026-11-23,M4 U7,2026-11-23,23,◐ 01 VÍDEOS MET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_met,
+item,2026-11-23,M4 U7,2026-11-23,24,Conferir vídeos MET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de MET foram criados
 M4 U7 · M4!C717 · Em andamento",b_vid_met,M4|717
-item,2026-11-23,M4 U7,2026-11-23,25,🔒︎ Criar vídeos MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de MET
+item,2026-11-23,M4 U7,2026-11-23,25,🔒︎ Criar vídeos MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de MET
 M4 U7 · M4!C721 · Bloqueado",b_vid_met,M4|721
-item,2026-11-23,M4 U7,2026-11-23,26,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - MET
+item,2026-11-23,M4 U7,2026-11-23,26,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - MET
 M4 U7 · M4!C725 · Bloqueado",b_vid_met,M4|725
 item,2026-11-23,M4 U7,2026-11-23,27,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
 item,2026-11-23,M4 U7,2026-11-23,28,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
@@ -122,12 +122,12 @@ item,2026-11-23,M4 U7,2026-11-23,58,05 CORREÇÃO BASE PI,corrigir o que a revis
 bloco,2026-11-23,M4 U8,2026-11-23,60,M4 · UNIDADE 8,entrega qui 26/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U8
 template seg 23/11
 entrega qui 26/11",,
-item,2026-11-23,M4 U8,2026-11-23,61,◐ 01 VÍDEOS MET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_met,
-item,2026-11-23,M4 U8,2026-11-23,62,Conferir vídeos MET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de MET foram criados
+item,2026-11-23,M4 U8,2026-11-23,61,◐ 01 VÍDEOS MET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,atual,,cab:b_vid_met,
+item,2026-11-23,M4 U8,2026-11-23,62,Conferir vídeos MET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,atual,"Conferir se os vídeos de MET foram criados
 M4 U8 · M4!C816 · Liberado",b_vid_met,M4|816
-item,2026-11-23,M4 U8,2026-11-23,63,🔒︎ Criar vídeos MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Criar os vídeos de MET
+item,2026-11-23,M4 U8,2026-11-23,63,🔒︎ Criar vídeos MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Criar os vídeos de MET
 M4 U8 · M4!C820 · Bloqueado",b_vid_met,M4|820
-item,2026-11-23,M4 U8,2026-11-23,64,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,,"Formatar nomes e subir no YouTube - MET
+item,2026-11-23,M4 U8,2026-11-23,64,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - MET
 M4 U8 · M4!C824 · Bloqueado",b_vid_met,M4|824
 item,2026-11-23,M4 U8,2026-11-23,65,◐ 01 VÍDEOS PI,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_pi,
 item,2026-11-23,M4 U8,2026-11-23,66,Conferir vídeos PI,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de PI foram criados
