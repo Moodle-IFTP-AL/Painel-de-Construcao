@@ -1778,15 +1778,15 @@ M4,U7,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U7,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Em andamento,23/11,23/11,23/11,,19/11/2026,,Em andamento,"0,2",Vence hoje
 M4,U7,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,23/11,23/11,23/11,,,,Não se aplica,"0,2",
 M4,U7,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,,,,,,,-,"0,2",
-M4,U7,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,23/11,23/11,23/11,,23/11/2026,,-,"0,2",Vence hoje
+M4,U7,Pré-base,Conferir se os vídeos de PET foram criados,,Não se aplica,23/11,23/11,23/11,,,,Não se aplica,"0,2",
 M4,U7,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,2,Vence hoje
 M4,U7,Pré-base,Criar os vídeos de PI,,Não se aplica,23/11,23/11,23/11,,,,-,4,
 M4,U7,Pré-base,Criar os vídeos de RP,,Não se aplica,,,,,,,-,4,
-M4,U7,Pré-base,Criar os vídeos de PET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,8,Vence hoje
+M4,U7,Pré-base,Criar os vídeos de PET,,Não se aplica,23/11,23/11,23/11,,,,-,8,
 M4,U7,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,1,Vence hoje
 M4,U7,Pré-base,Formatar nomes e subir no YouTube - PI,,Não se aplica,23/11,23/11,23/11,,,,-,1,
 M4,U7,Pré-base,Formatar nomes e subir no YouTube - RP,,Não se aplica,,,,,,,-,1,
-M4,U7,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,4,Vence hoje
+M4,U7,Pré-base,Formatar nomes e subir no YouTube - PET,,Não se aplica,23/11,23/11,23/11,,,,-,4,
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplica,19/11,19/11,16/11,,,,Não se aplica,2,
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,19/11,19/11,16/11,,,,Não se aplica,2,
 M4,U7,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
@@ -1866,18 +1866,18 @@ M4,U8,Pré-base,(GOP) Montar a infraestrutura da unidade no Moodle,Maria Eduarda
 M4,U8,Pré-base,(GIM) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U8,Pré-base,(TI) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
 M4,U8,Pré-base,(TEV) Montar a infraestrutura da unidade no Moodle,Maria Eduarda,Concluído,05/11,12/11,09/11,28/09,,28/09/2026,-,"0,33",
-M4,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Liberado,23/11,23/11,23/11,,19/11/2026,,-,"0,2",Vence hoje
-M4,U8,Pré-base,Conferir se os vídeos de PI foram criados,Lucas,Liberado,23/11,23/11,23/11,,19/11/2026,,-,"0,2",Vence hoje
+M4,U8,Pré-base,Conferir se os vídeos de MET foram criados,Lucas,Concluído,23/11,23/11,23/11,23/11,19/11/2026,23/11/2026,-,"0,2",
+M4,U8,Pré-base,Conferir se os vídeos de PI foram criados,,Não se aplica,23/11,23/11,23/11,,,,Não se aplica,"0,2",
 M4,U8,Pré-base,Conferir se os vídeos de RP foram criados,,Não se aplica,,,,,,,-,"0,2",
-M4,U8,Pré-base,Conferir se os vídeos de PET foram criados,Lucas,Liberado,23/11,23/11,23/11,,19/11/2026,,-,"0,2",Vence hoje
-M4,U8,Pré-base,Criar os vídeos de MET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,2,Vence hoje
-M4,U8,Pré-base,Criar os vídeos de PI,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,4,Vence hoje
+M4,U8,Pré-base,Conferir se os vídeos de PET foram criados,,Não se aplica,23/11,23/11,23/11,,,,Não se aplica,"0,2",
+M4,U8,Pré-base,Criar os vídeos de MET,Lucas,Concluído,23/11,23/11,23/11,23/11,23/11/2026,23/11/2026,-,2,
+M4,U8,Pré-base,Criar os vídeos de PI,,Não se aplica,23/11,23/11,23/11,,,,-,4,
 M4,U8,Pré-base,Criar os vídeos de RP,,Não se aplica,,,,,,,-,4,
-M4,U8,Pré-base,Criar os vídeos de PET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,8,Vence hoje
-M4,U8,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,1,Vence hoje
-M4,U8,Pré-base,Formatar nomes e subir no YouTube - PI,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,1,Vence hoje
+M4,U8,Pré-base,Criar os vídeos de PET,,Não se aplica,23/11,23/11,23/11,,,,-,8,
+M4,U8,Pré-base,Formatar nomes e subir no YouTube - MET,Lucas,Concluído,23/11,23/11,23/11,23/11,23/11/2026,23/11/2026,-,1,
+M4,U8,Pré-base,Formatar nomes e subir no YouTube - PI,,Não se aplica,23/11,23/11,23/11,,,,-,1,
 M4,U8,Pré-base,Formatar nomes e subir no YouTube - RP,,Não se aplica,,,,,,,-,1,
-M4,U8,Pré-base,Formatar nomes e subir no YouTube - PET,Lucas,Bloqueado,23/11,23/11,23/11,,,,-,4,Vence hoje
+M4,U8,Pré-base,Formatar nomes e subir no YouTube - PET,,Não se aplica,23/11,23/11,23/11,,,,-,4,
 M4,U8,Pré-base,"Formatar o ""Para levar para a prática"" - MET",,Não se aplica,19/11,19/11,16/11,,,,Não se aplica,2,
 M4,U8,Pré-base,"Formatar o ""Para levar para a prática"" - PI",,Não se aplica,19/11,19/11,16/11,,,,Não se aplica,2,
 M4,U8,Pré-base,"Formatar o ""Para levar para a prática"" - RP",,Não se aplica,,,,,,,Não se aplica,2,
@@ -1939,7 +1939,7 @@ M4,U8,Liberação,Liberar a unidade,Marcelo,Bloqueado,27/11,27/11,23/11,,,,-,"0,
 M4,8ª gravação,Gravações · Entrada (Dani),Vídeos das gravações no Drive,Dani,Aguardando liberação,26/11,26/11,23/11,,25/11/2026,,-,0,
 M4,8ª gravação,Gravações · Entrada (Dani),Perguntas do fórum (MET + PET),Dani,Aguardando liberação,26/11,26/11,23/11,,25/11/2026,,-,"0,167",
 M4,8ª gravação,Gravações · Entrada (Dani),Material das aulas dos 9 eixos (MET + PET),Dani,Aguardando liberação,26/11,26/11,23/11,,25/11/2026,,-,0,
-M4,8ª gravação,Gravações · Vídeos,Subir os 10 vídeos para o YouTube da SEDUC,Lucas,Bloqueado,26/11,25/11,23/11,,,,-,2,
+M4,8ª gravação,Gravações · Vídeos,Subir os 10 vídeos para o YouTube da SEDUC,Lucas,Bloqueado,26/11,26/11,23/11,,,,-,2,
 M4,8ª gravação,Gravações · HTML 9 eixos,(ADM) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,23/11,23/11,23/11,23/09,23/11/2026,23/09/2026,-,"0,333",
 M4,8ª gravação,Gravações · HTML 9 eixos,(AGS) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,23/11,23/11,23/11,23/09,23/11/2026,23/09/2026,-,"0,333",
 M4,8ª gravação,Gravações · HTML 9 eixos,(COM) Construir os 2 HTML (PET + MET),Maria Eduarda,Concluído,23/11,23/11,23/11,23/09,23/11/2026,23/09/2026,-,"0,333",
