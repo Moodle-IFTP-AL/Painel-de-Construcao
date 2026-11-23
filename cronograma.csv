@@ -70,11 +70,11 @@ M4 U7 · M4!C721 · Bloqueado",b_vid_met,M4|721
 item,2026-11-23,M4 U7,2026-11-23,26,🔒︎ YouTube MET,Lucas,#fde9ee,#f587a2,#FFFFFF,#f587a2,,atual,"Formatar nomes e subir no YouTube - MET
 M4 U7 · M4!C725 · Bloqueado",b_vid_met,M4|725
 item,2026-11-23,M4 U7,2026-11-23,27,— 01 VÍDEOS PI,não se aplica,#E9ECF1,#8C97AD,#E9ECF1,#8C97AD,1,,,cab:b_vid_pi,
-item,2026-11-23,M4 U7,2026-11-23,28,— Conferir vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
+item,2026-11-23,M4 U7,2026-11-23,28,— Conferir vídeos PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Conferir se os vídeos de PI foram criados
 M4 U7 · M4!C718 · Não se aplica",b_vid_pi,M4|718
-item,2026-11-23,M4 U7,2026-11-23,29,— Criar vídeos PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
+item,2026-11-23,M4 U7,2026-11-23,29,— Criar vídeos PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Criar os vídeos de PI
 M4 U7 · M4!C722 · Não se aplica",b_vid_pi,M4|722
-item,2026-11-23,M4 U7,2026-11-23,30,— YouTube PI,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
+item,2026-11-23,M4 U7,2026-11-23,30,— YouTube PI,Lucas,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Formatar nomes e subir no YouTube - PI
 M4 U7 · M4!C726 · Não se aplica",b_vid_pi,M4|726
 item,2026-11-23,M4 U7,2026-11-23,31,◐ 01 VÍDEOS PET,0/3 feitas,#F04770,#FFFFFF,#F04770,#FFFFFF,1,,,cab:b_vid_pet,
 item,2026-11-23,M4 U7,2026-11-23,32,Conferir vídeos PET,Lucas,#fcd7e0,#25314C,#FFFFFF,#25314C,,,"Conferir se os vídeos de PET foram criados
@@ -205,20 +205,20 @@ M4 U5 · M4!C580 · Concluído",b_cpet,M4|580
 item,2026-11-23,M4 U5,2026-11-24,12,◐ 11 AJUSTES FINAIS,1/6 feitas,#46468F,#FFFFFF,#46468F,#FFFFFF,1,atual,,cab:b_aj,
 item,2026-11-23,M4 U5,2026-11-24,13,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"Aplicar a restrição de acesso da unidade
 M4 U5 · M4!C581 · Concluído",b_aj,M4|581
-item,2026-11-23,M4 U5,2026-11-24,14,Mapear certificáveis MET,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de MET
+item,2026-11-23,M4 U5,2026-11-24,14,Mapear certificáveis MET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de MET
 M4 U5 · M4!C582 · Liberado",b_aj,M4|582
-item,2026-11-23,M4 U5,2026-11-24,15,Mapear certificáveis PI,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PI
+item,2026-11-23,M4 U5,2026-11-24,15,Mapear certificáveis PI,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PI
 M4 U5 · M4!C583 · Liberado",b_aj,M4|583
-item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,atual,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U5,2026-11-24,16,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,atual,"Mapear as atividades certificáveis de RP
 M4 U5 · M4!C584 · Não se aplica",b_aj,M4|584
-item,2026-11-23,M4 U5,2026-11-24,17,Mapear certificáveis PET,Thaís,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PET
+item,2026-11-23,M4 U5,2026-11-24,17,Mapear certificáveis PET,Marcelo,#d6d6e6,#25314C,#FFFFFF,#25314C,,atual,"Mapear as atividades certificáveis de PET
 M4 U5 · M4!C585 · Liberado",b_aj,M4|585
-item,2026-11-23,M4 U5,2026-11-24,18,🔒︎ Requisitos da certificação,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Inserir os requisitos de acesso à certificação
+item,2026-11-23,M4 U5,2026-11-24,18,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Inserir os requisitos de acesso à certificação
 M4 U5 · M4!C586 · Bloqueado",b_aj,M4|586
-item,2026-11-23,M4 U5,2026-11-24,19,🔒︎ Revisar configurações,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-11-23,M4 U5,2026-11-24,19,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,atual,"Revisar configurações: restrições, certificados, visibilidade
 M4 U5 · M4!C587 · Bloqueado",b_aj,M4|587
 item,2026-11-23,M4 U5,2026-11-24,20,🔒︎ 12 LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:b_lib,
-item,2026-11-23,M4 U5,2026-11-24,21,🔒︎ Liberar a unidade,Thaís,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
+item,2026-11-23,M4 U5,2026-11-24,21,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
 M4 U5 · M4!C588 · Bloqueado",b_lib,M4|588
 bloco,2026-11-23,M4 U6,2026-11-24,23,M4 · UNIDADE 6,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U6
 template seg 16/11
@@ -246,20 +246,20 @@ M4 U6 · M4!C679 · Bloqueado",b_cpet,M4|679
 item,2026-11-23,M4 U6,2026-11-24,35,🔒︎ 11 AJUSTES FINAIS,1/7 feitas,#cbcbe0,#7e7eb1,#cbcbe0,#7e7eb1,1,,,cab:b_aj,
 item,2026-11-23,M4 U6,2026-11-24,36,✔ Restrição de acesso,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"Aplicar a restrição de acesso da unidade
 M4 U6 · M4!C680 · Concluído",b_aj,M4|680
-item,2026-11-23,M4 U6,2026-11-24,37,🔒︎ Mapear certificáveis MET,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
+item,2026-11-23,M4 U6,2026-11-24,37,🔒︎ Mapear certificáveis MET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de MET
 M4 U6 · M4!C681 · Bloqueado",b_aj,M4|681
-item,2026-11-23,M4 U6,2026-11-24,38,🔒︎ Mapear certificáveis PI,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
+item,2026-11-23,M4 U6,2026-11-24,38,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U6 · M4!C682 · Bloqueado",b_aj,M4|682
-item,2026-11-23,M4 U6,2026-11-24,39,🔒︎ Mapear certificáveis RP,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U6,2026-11-24,39,🔒︎ Mapear certificáveis RP,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de RP
 M4 U6 · M4!C683 · Bloqueado",b_aj,M4|683
-item,2026-11-23,M4 U6,2026-11-24,40,🔒︎ Mapear certificáveis PET,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
+item,2026-11-23,M4 U6,2026-11-24,40,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U6 · M4!C684 · Bloqueado",b_aj,M4|684
-item,2026-11-23,M4 U6,2026-11-24,41,🔒︎ Requisitos da certificação,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
+item,2026-11-23,M4 U6,2026-11-24,41,🔒︎ Requisitos da certificação,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Inserir os requisitos de acesso à certificação
 M4 U6 · M4!C685 · Bloqueado",b_aj,M4|685
-item,2026-11-23,M4 U6,2026-11-24,42,🔒︎ Revisar configurações,Thaís,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
+item,2026-11-23,M4 U6,2026-11-24,42,🔒︎ Revisar configurações,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Revisar configurações: restrições, certificados, visibilidade
 M4 U6 · M4!C686 · Bloqueado",b_aj,M4|686
 item,2026-11-23,M4 U6,2026-11-24,43,🔒︎ 12 LIBERAÇÃO,0/1 feitas,#c0c1ca,#626579,#c0c1ca,#626579,1,,,cab:b_lib,
-item,2026-11-23,M4 U6,2026-11-24,44,🔒︎ Liberar a unidade,Thaís,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
+item,2026-11-23,M4 U6,2026-11-24,44,🔒︎ Liberar a unidade,Marcelo,#e4e5e8,#6d7083,#FFFFFF,#6d7083,,,"Liberar a unidade
 M4 U6 · M4!C687 · Bloqueado",b_lib,M4|687
 bloco,2026-11-23,M4 U7,2026-11-24,46,M4 · UNIDADE 7,entrega qui 26/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U7
 template seg 23/11
@@ -507,7 +507,7 @@ item,2026-11-23,M4 U7,2026-11-26,3,🔒︎ Mapear certificáveis MET,Marcelo,#e9
 M4 U7 · M4!C780 · Bloqueado",b_aj,M4|780
 item,2026-11-23,M4 U7,2026-11-26,4,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U7 · M4!C781 · Bloqueado",b_aj,M4|781
-item,2026-11-23,M4 U7,2026-11-26,5,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U7,2026-11-26,5,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U7 · M4!C782 · Não se aplica",b_aj,M4|782
 item,2026-11-23,M4 U7,2026-11-26,6,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U7 · M4!C783 · Bloqueado",b_aj,M4|783
@@ -528,7 +528,7 @@ item,2026-11-23,M4 U8,2026-11-26,15,🔒︎ Mapear certificáveis MET,Marcelo,#e
 M4 U8 · M4!C879 · Bloqueado",b_aj,M4|879
 item,2026-11-23,M4 U8,2026-11-26,16,🔒︎ Mapear certificáveis PI,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PI
 M4 U8 · M4!C880 · Bloqueado",b_aj,M4|880
-item,2026-11-23,M4 U8,2026-11-26,17,— Mapear certificáveis RP,,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
+item,2026-11-23,M4 U8,2026-11-26,17,— Mapear certificáveis RP,Marcelo,#F4F5F8,#8C97AD,#FFFFFF,#8C97AD,,,"Mapear as atividades certificáveis de RP
 M4 U8 · M4!C881 · Não se aplica",b_aj,M4|881
 item,2026-11-23,M4 U8,2026-11-26,18,🔒︎ Mapear certificáveis PET,Marcelo,#e9e9f2,#8787b6,#FFFFFF,#8787b6,,,"Mapear as atividades certificáveis de PET
 M4 U8 · M4!C882 · Bloqueado",b_aj,M4|882
