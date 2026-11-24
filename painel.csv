@@ -1659,10 +1659,10 @@ M4,U5,Ajustes finais,Aplicar a restrição de acesso da unidade,Maria Eduarda,Co
 M4,U5,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluído,24/11,24/11,23/11,23/11,19/11/2026,23/11/2026,-,2,
 M4,U5,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Concluído,24/11,24/11,23/11,23/11,19/11/2026,23/11/2026,-,2,
 M4,U5,Ajustes finais,Mapear as atividades certificáveis de RP,,Não se aplica,24/11,25/11,23/11,,,,-,2,
-M4,U5,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Liberado,24/11,24/11,23/11,,19/11/2026,,-,2,Vence hoje
-M4,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,2,Vence hoje
-M4,U5,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,1,Vence hoje
-M4,U5,Liberação,Liberar a unidade,Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,"0,5",Vence hoje
+M4,U5,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Concluído,24/11,24/11,23/11,,19/11/2026,24/11/2026,-,2,
+M4,U5,Ajustes finais,Inserir os requisitos de acesso à certificação,Marcelo,Concluído,24/11,24/11,23/11,,24/11/2026,24/11/2026,-,2,
+M4,U5,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Concluído,24/11,24/11,23/11,,24/11/2026,24/11/2026,-,1,
+M4,U5,Liberação,Liberar a unidade,Marcelo,Concluído,24/11,24/11,23/11,,24/11/2026,24/11/2026,-,"0,5",
 M4,U6,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,02/11,02/11,02/11,13/11,02/11/2026,13/11/2026,-,0,
 M4,U6,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,09/11,09/11,09/11,16/11,09/11/2026,16/11/2026,-,0,
 M4,U6,Template,RP - Residência Pedagógica - validado e revisado,Dani,Concluído,09/11,09/11,09/11,16/11,09/11/2026,16/11/2026,-,0,
@@ -1751,9 +1751,9 @@ M4,U6,Ajustes finais,Mapear as atividades certificáveis de MET,Marcelo,Concluí
 M4,U6,Ajustes finais,Mapear as atividades certificáveis de PI,Marcelo,Concluído,24/11,24/11,23/11,,23/11/2026,23/11/2026,-,2,
 M4,U6,Ajustes finais,Mapear as atividades certificáveis de RP,Marcelo,Concluído,24/11,24/11,23/11,,23/11/2026,23/11/2026,-,2,
 M4,U6,Ajustes finais,Mapear as atividades certificáveis de PET,Marcelo,Concluído,24/11,24/11,23/11,,23/11/2026,23/11/2026,-,2,
-M4,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Marcelo,Liberado,24/11,24/11,23/11,,23/11/2026,,-,2,Vence hoje
-M4,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,1,Vence hoje
-M4,U6,Liberação,Liberar a unidade,Marcelo,Bloqueado,24/11,24/11,23/11,,,,-,"0,5",Vence hoje
+M4,U6,Ajustes finais,Inserir os requisitos de acesso à certificação,Marcelo,Concluído,24/11,24/11,23/11,,23/11/2026,24/11/2026,-,2,
+M4,U6,Ajustes finais,"Revisar configurações: restrições, certificados, visibilidade",Marcelo,Concluído,24/11,24/11,23/11,,24/11/2026,24/11/2026,-,1,
+M4,U6,Liberação,Liberar a unidade,Marcelo,Concluído,24/11,24/11,23/11,,24/11/2026,24/11/2026,-,"0,5",
 M4,U7,Template,MET - (Metodologia Ensino Técnico) - validado e revisado,Dani,Concluído,19/11,19/11,16/11,19/11,19/11/2026,19/11/2026,-,0,
 M4,U7,Template,PI - (Planejamento Integrado) - validado e revisado,Dani,Concluído,19/11,19/11,16/11,19/11,19/11/2026,19/11/2026,-,0,
 M4,U7,Template,RP - Residência Pedagógica - validado e revisado,,Não se aplica,,,,,,,-,0,
