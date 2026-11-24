@@ -452,7 +452,7 @@ M4 8ª gravação · M4!C954 · Bloqueado",bg_fec,M4|954
 bloco,2026-11-23,M4 U7,2026-11-26,71,M4 · UNIDADE 7,entrega sex 27/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U7
 template seg 23/11
 entrega sex 27/11",,
-item,2026-11-23,M4 U7,2026-11-26,72,▶ 08 HTML PET,3/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
+item,2026-11-23,M4 U7,2026-11-26,72,▶ 08 HTML PET,5/8 feitas,#3FAFDD,#14213A,#3FAFDD,#14213A,1,atual,,cab:b_htmlpet,
 item,2026-11-23,M4 U7,2026-11-26,73,✔ HTML de PET AGS,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - AGS (Agro Sustentável)
 M4 U7 · M4!C761 · Concluído",b_htmlpet,M4|761
 item,2026-11-23,M4 U7,2026-11-26,74,✔ HTML de PET COM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - COM (Comunicação e Mercado)
@@ -465,10 +465,10 @@ item,2026-11-23,M4 U7,2026-11-26,77,HTML de PET GOP,Gustavo,#d5edf8,#25314C,#FFF
 M4 U7 · M4!C765 · Liberado",b_htmlpet,M4|765
 item,2026-11-23,M4 U7,2026-11-26,78,✔ HTML de PET GIM,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - GIM (Gestão Imobiliária)
 M4 U7 · M4!C766 · Concluído",b_htmlpet,M4|766
-item,2026-11-23,M4 U7,2026-11-26,79,HTML de PET TI,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TI (Tecnologia da Informação)
-M4 U7 · M4!C767 · Liberado",b_htmlpet,M4|767
-item,2026-11-23,M4 U7,2026-11-26,80,HTML de PET TEV,Anna Paula,#d5edf8,#25314C,#FFFFFF,#25314C,,atual,"HTML de PET - TEV (Turismo e Eventos)
-M4 U7 · M4!C768 · Liberado",b_htmlpet,M4|768
+item,2026-11-23,M4 U7,2026-11-26,79,✔ HTML de PET TI,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TI (Tecnologia da Informação)
+M4 U7 · M4!C767 · Concluído",b_htmlpet,M4|767
+item,2026-11-23,M4 U7,2026-11-26,80,✔ HTML de PET TEV,Anna Paula,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"HTML de PET - TEV (Turismo e Eventos)
+M4 U7 · M4!C768 · Concluído",b_htmlpet,M4|768
 bloco,2026-11-23,M4 U8,2026-11-26,82,M4 · UNIDADE 8,entrega sex 27/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U8
 template seg 23/11
 entrega sex 27/11",,
@@ -505,10 +505,10 @@ item,2026-11-23,M4 U7,2026-11-27,6,🔒︎ Rev. final GOP,Thaís,#fef4e5,#f9c570
 M4 U7 · M4!C773 · Bloqueado",b_rpet,M4|773
 item,2026-11-23,M4 U7,2026-11-27,7,Rev. final GIM,Marcelo,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - GIM (Gestão Imobiliária)
 M4 U7 · M4!C774 · Liberado",b_rpet,M4|774
-item,2026-11-23,M4 U7,2026-11-27,8,🔒︎ Rev. final TI,Thaís,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TI (Tecnologia da Informação)
-M4 U7 · M4!C775 · Bloqueado",b_rpet,M4|775
-item,2026-11-23,M4 U7,2026-11-27,9,🔒︎ Rev. final TEV,Thaís,#fef4e5,#f9c570,#FFFFFF,#f9c570,,,"Revisão final - TEV (Turismo e Eventos)
-M4 U7 · M4!C776 · Bloqueado",b_rpet,M4|776
+item,2026-11-23,M4 U7,2026-11-27,8,Rev. final TI,Thaís,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TI (Tecnologia da Informação)
+M4 U7 · M4!C775 · Liberado",b_rpet,M4|775
+item,2026-11-23,M4 U7,2026-11-27,9,Rev. final TEV,Thaís,#fdebcf,#25314C,#FFFFFF,#25314C,,,"Revisão final - TEV (Turismo e Eventos)
+M4 U7 · M4!C776 · Liberado",b_rpet,M4|776
 item,2026-11-23,M4 U7,2026-11-27,10,🔒︎ 10 CORREÇÃO HTML_H5P PET_(MET_PI_RP REPLICADOS),0/1 feitas,#fef2e0,#fce0b1,#fef2e0,#fce0b1,1,,,cab:b_cpet,
 item,2026-11-23,M4 U7,2026-11-27,11,🔒︎ Ajustes da revisão final,Maria Eduarda,#fefaf2,#fce2b6,#FFFFFF,#fce2b6,,,"Aplicar os ajustes apontados na revisão final
 M4 U7 · M4!C778 · Bloqueado",b_cpet,M4|778
