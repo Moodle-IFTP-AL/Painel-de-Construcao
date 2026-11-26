@@ -16,8 +16,8 @@ template seg 23/11
 entrega sex 27/11",,,,,,,,,,
 dia,2026-11-23,,2026-11-23,0,SEG 23/11,,#3A4766,#FFFFFF,,,,,,,
 dia,2026-11-23,,2026-11-24,1,TER 24/11,,#3A4766,#FFFFFF,,,,,,,
-dia,2026-11-23,,2026-11-25,2,QUA 25/11,hoje,#FECB55,#14213A,,,,,,,
-dia,2026-11-23,,2026-11-26,3,QUI 26/11,,#1B6E8C,#FFFFFF,,,,,,,
+dia,2026-11-23,,2026-11-25,2,QUA 25/11,,#3A4766,#FFFFFF,,,,,,,
+dia,2026-11-23,,2026-11-26,3,QUI 26/11,hoje,#FECB55,#14213A,,,,,,,
 dia,2026-11-23,,2026-11-27,4,SEX 27/11,,#1B6E8C,#FFFFFF,,,,,,,
 bloco,2026-11-23,M4 U5,2026-11-23,0,M4 · UNIDADE 5,entrega ter 24/11,#25314C,#FFFFFF,#25314C,#FFFFFF,1,,"M4 U5
 template seg 16/11
@@ -367,42 +367,42 @@ item,2026-11-23,M4 8ª gravação,2026-11-26,25,✔ (TI) Iframe da gravação da
 M4 8ª gravação · M4!C914 · Concluído",bg_ifr,M4|914
 item,2026-11-23,M4 8ª gravação,2026-11-26,26,✔ (TEV) Iframe da gravação da aul…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TEV) Iframe da gravação da aula no HTML
 M4 8ª gravação · M4!C915 · Concluído",bg_ifr,M4|915
-item,2026-11-23,M4 8ª gravação,2026-11-26,27,G5 FÓRUM,9/18 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,,,cab:bg_for,
-item,2026-11-23,M4 8ª gravação,2026-11-26,28,(ADM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(ADM) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,27,▶ G5 FÓRUM,9/18 feitas,#008CC7,#FFFFFF,#008CC7,#FFFFFF,1,atual,,cab:bg_for,
+item,2026-11-23,M4 8ª gravação,2026-11-26,28,(ADM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(ADM) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C916 · Liberado",bg_for,M4|916
-item,2026-11-23,M4 8ª gravação,2026-11-26,29,(AGS) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(AGS) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,29,(AGS) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(AGS) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C917 · Liberado",bg_for,M4|917
-item,2026-11-23,M4 8ª gravação,2026-11-26,30,(COM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(COM) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,30,(COM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(COM) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C918 · Liberado",bg_for,M4|918
-item,2026-11-23,M4 8ª gravação,2026-11-26,31,(CDC) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(CDC) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,31,(CDC) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(CDC) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C919 · Liberado",bg_for,M4|919
-item,2026-11-23,M4 8ª gravação,2026-11-26,32,(ECS) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(ECS) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,32,(ECS) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(ECS) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C920 · Liberado",bg_for,M4|920
-item,2026-11-23,M4 8ª gravação,2026-11-26,33,(GOP) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(GOP) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,33,(GOP) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(GOP) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C921 · Liberado",bg_for,M4|921
-item,2026-11-23,M4 8ª gravação,2026-11-26,34,(GIM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(GIM) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,34,(GIM) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(GIM) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C922 · Liberado",bg_for,M4|922
-item,2026-11-23,M4 8ª gravação,2026-11-26,35,(TI) Inserir as perguntas no fó…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(TI) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,35,(TI) Inserir as perguntas no fó…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(TI) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C923 · Liberado",bg_for,M4|923
-item,2026-11-23,M4 8ª gravação,2026-11-26,36,(TEV) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,,"(TEV) Inserir as perguntas no fórum (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,36,(TEV) Inserir as perguntas no f…,Marcelo,#c7e6f3,#25314C,#FFFFFF,#25314C,,atual,"(TEV) Inserir as perguntas no fórum (MET + PET)
 M4 8ª gravação · M4!C924 · Liberado",bg_for,M4|924
-item,2026-11-23,M4 8ª gravação,2026-11-26,37,✔ (ADM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(ADM) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,37,✔ (ADM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(ADM) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C925 · Concluído",bg_for,M4|925
-item,2026-11-23,M4 8ª gravação,2026-11-26,38,✔ (AGS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(AGS) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,38,✔ (AGS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(AGS) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C926 · Concluído",bg_for,M4|926
-item,2026-11-23,M4 8ª gravação,2026-11-26,39,✔ (COM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(COM) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,39,✔ (COM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(COM) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C927 · Concluído",bg_for,M4|927
-item,2026-11-23,M4 8ª gravação,2026-11-26,40,✔ (CDC) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(CDC) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,40,✔ (CDC) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(CDC) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C928 · Concluído",bg_for,M4|928
-item,2026-11-23,M4 8ª gravação,2026-11-26,41,✔ (ECS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(ECS) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,41,✔ (ECS) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(ECS) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C929 · Concluído",bg_for,M4|929
-item,2026-11-23,M4 8ª gravação,2026-11-26,42,✔ (GOP) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(GOP) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,42,✔ (GOP) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(GOP) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C930 · Concluído",bg_for,M4|930
-item,2026-11-23,M4 8ª gravação,2026-11-26,43,✔ (GIM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(GIM) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,43,✔ (GIM) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(GIM) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C931 · Concluído",bg_for,M4|931
-item,2026-11-23,M4 8ª gravação,2026-11-26,44,✔ (TI) Material da aula no fórum …,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TI) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,44,✔ (TI) Material da aula no fórum …,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(TI) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C932 · Concluído",bg_for,M4|932
-item,2026-11-23,M4 8ª gravação,2026-11-26,45,✔ (TEV) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,,"(TEV) Material da aula no fórum da gravação (MET + PET)
+item,2026-11-23,M4 8ª gravação,2026-11-26,45,✔ (TEV) Material da aula no fórum…,Maria Eduarda,#EEF9F3,#8FB5A3,#FFFFFF,#8FB5A3,,atual,"(TEV) Material da aula no fórum da gravação (MET + PET)
 M4 8ª gravação · M4!C933 · Concluído",bg_for,M4|933
 item,2026-11-23,M4 8ª gravação,2026-11-26,46,🔒︎ G6 POPUP,0/9 feitas,#bbf2e4,#56e0bb,#bbf2e4,#56e0bb,1,,,cab:bg_pop,
 item,2026-11-23,M4 8ª gravação,2026-11-26,47,"🔒︎ (ADM) Inserir o popUp, mas deix…",Marcelo,#e2faf3,#62e2c0,#FFFFFF,#62e2c0,,,"(ADM) Inserir o popUp, mas deixar oculto
